@@ -171,7 +171,7 @@
                 ThisItem.TargetScreen,
                 ScreenTransition.None
             )
-        TemplateFill: =If(ThisItem.Title=Navigation(C).CurrentScreen,Color.Aquamarine,Color.White)
+        TemplateFill: =If(ThisItem.Title='Navigation(C)'.CurrentScreen,Color.Aquamarine,Color.White)
         TemplateSize: =115
         Visible: =Showchampdropdown
         X: =726

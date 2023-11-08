@@ -1,0 +1,6 @@
+"'MyProfile(Approver2)' As screen":
+
+    Approver2_4 As Approver2:
+        CurrentScreen: ="MyProfile"
+        Height: =768
+
