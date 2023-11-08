@@ -148,6 +148,7 @@
     "Configuration",
     "Upload Result",
     "HACT Configuration",
+    "MyProfile(Admin)",
     "Dashboard(C)",
     "Inbox(C)",
     "All Initiatives(C)",
@@ -165,7 +166,6 @@
     "Dashboard 4",
     "Inbox 4",
     "For Approval 4",
-    "MyProfile(Admin)",
     "MyProfile(Champion)",
     "MyProfile(Approver1)",
     "MyProfile(Approver2)"
