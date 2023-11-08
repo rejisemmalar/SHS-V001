@@ -133,3 +133,21 @@ Component1 As CanvasComponent:
             Width: =280
             ZIndex: =2
 
+    Gallery7 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =732
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        X: =726
+        Y: =123
+        ZIndex: =3
+
+        Label17 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.SampleHeading
+            X: =132
+            Y: =38
+            ZIndex: =1
+
