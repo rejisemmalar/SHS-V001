@@ -1,2 +1,5 @@
 "'MyProfile(Approver2)' As screen":
 
+    Approver2_4 As Approver2:
+        Height: =768
+
