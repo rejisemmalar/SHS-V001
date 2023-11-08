@@ -1,4 +1,18 @@
 Approver1 As CanvasComponent:
+    approv1dropdown: |-
+        =able(
+            {
+                Title: "Dashboard 3",
+                TargetScreen: 'Dashboard 3'
+                
+            },
+            {
+                Title: "Inbox 3",
+                TargetScreen: 'Inbox 3'     
+                
+            }
+           
+        )
     Approver1menu: |-
         =Table(
             {
@@ -93,7 +107,7 @@ Approver1 As CanvasComponent:
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Height: =52
-            OnSelect: =
+            OnSelect: =Set(Showapprov1dropdown,!Showapprov1dropdown)
             Size: =25
             Text: ="A"
             Width: =34
@@ -138,7 +152,7 @@ Approver1 As CanvasComponent:
     Gallery7_2 As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =732
-        Items: ='Navigation(C)'.dropdownchampion
+        Items: ='Approver1'.
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: |-
