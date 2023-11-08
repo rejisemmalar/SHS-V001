@@ -116,7 +116,7 @@
         BorderThickness: =1
         DelayItemLoading: =true
         Height: =777
-        Items: ='Navigation(C)'.Menu
+        Items: ='Navigation(C)'.navmenuC
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: |-
