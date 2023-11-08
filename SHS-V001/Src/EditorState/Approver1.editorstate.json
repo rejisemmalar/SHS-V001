@@ -54,7 +54,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "Table({SampleStringField: \"SampleText\", SampleNumberField: 10, SampleBooleanField: true})",
+          "AutoRuleBindingString": "Table(\r\n    {\r\n        Title: \"Dashboard 3\",\r\n        TargetScreen: 'Dashboard 3'\r\n        \r\n    },\r\n    {\r\n        Title: \"Inbox 3\",\r\n        TargetScreen: 'Inbox 3'     \r\n        \r\n    }\r\n   \r\n)",
           "InvariantPropertyName": "approv1dropdown",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
