@@ -9,7 +9,7 @@ Component1 As CanvasComponent:
             },
             {
                 Title: "Logout",
-                TargetScreen: Inbox      
+                TargetScreen:'Login Page'     
                 
             },
             {
