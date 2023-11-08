@@ -513,7 +513,7 @@
               },
               {
                 "Category": "Data",
-                "InvariantScript": "\"A\"",
+                "InvariantScript": "\"C\"",
                 "Property": "Text",
                 "RuleProviderType": "Unknown"
               },
@@ -2457,7 +2457,7 @@
       "submenu_inbox",
       "navmenuC"
     ],
-    "LastModifiedTimestamp": "638350231757396762",
+    "LastModifiedTimestamp": "638350240290304402",
     "Name": "Navigation(C)",
     "Rules": [
       {
@@ -2622,7 +2622,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638350231757396762",
+  "LastModifiedTimestamp": "638350240290304402",
   "Name": "6d20878c806f4d8eb2bd5c34b44c6c3c",
   "OverridableProperties": {},
   "TemplateOriginalName": "415e1786c3c94354acf26afaf63ccb82",
