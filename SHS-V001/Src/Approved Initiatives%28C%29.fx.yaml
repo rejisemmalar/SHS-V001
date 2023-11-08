@@ -1,2 +1,6 @@
 "'Approved Initiatives(C)' As screen":
 
+    "'Navigation(C)_5' As 'Navigation(C)'":
+        CurrentScreen: ="Inbox"
+        Height: =768
+
