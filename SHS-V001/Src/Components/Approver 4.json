@@ -3073,7 +3073,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638350390621702236",
+    "LastModifiedTimestamp": "638350390728782165",
     "Name": "Approver 4",
     "Rules": [
       {
@@ -3114,7 +3114,7 @@
       },
       {
         "Category": "Data",
-        "InvariantScript": "Table(\r\n    {\r\n        Title: \"MyProfile\",\r\n        TargetScreen: 'MyProfile(Approver4)'\r\n        \r\n    },\r\n    {\r\n        Title: \"Logout\",\r\n        TargetScreen: 'Inbox 4'     \r\n        \r\n    }\r\n   \r\n)",
+        "InvariantScript": "Table(\r\n    {\r\n        Title: \"MyProfile\",\r\n        TargetScreen: 'MyProfile(Approver4)'\r\n        \r\n    },\r\n    {\r\n        Title: \"Logout\",\r\n        TargetScreen: 'Login P'     \r\n        \r\n    }\r\n   \r\n)",
         "Property": "Approv4dropdown",
         "RuleProviderType": "System"
       },
@@ -3238,7 +3238,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638350390621702236",
+  "LastModifiedTimestamp": "638350390728782165",
   "Name": "e781273332364142b05b2e917ec27a03",
   "OverridableProperties": {},
   "TemplateOriginalName": "af755d95fccf4fa69a76a6ff4545bf2f",
