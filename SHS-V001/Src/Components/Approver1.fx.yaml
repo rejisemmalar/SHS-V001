@@ -2,7 +2,7 @@ Approver1 As CanvasComponent:
     Approver1menu: |-
         =Table(
             {
-                Title: "Dashboard 3",
+                Title: "Dashboard(Approver1)",
                 TargetScreen: 'Dashboard 3'
                 
             },
