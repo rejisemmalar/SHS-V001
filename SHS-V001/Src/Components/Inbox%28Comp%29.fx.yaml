@@ -40,7 +40,7 @@
     Gallery1_3 As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =481
-        Items: ='Inbox(Comp)'.inbox_menu
+        Items: ='Inbox(Comp)'.inboxcompmenu
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: =true;Navigate(ThisItem.TargetScreen,ScreenTransition.None)
