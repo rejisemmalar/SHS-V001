@@ -1357,7 +1357,7 @@
               },
               {
                 "Category": "Behavior",
-                "InvariantScript": "",
+                "InvariantScript": "Set(Showapprov2dropdown,!Showapprov2dropdown)",
                 "Property": "OnSelect",
                 "RuleProviderType": "Unknown"
               }
@@ -3080,7 +3080,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638350380405309454",
+    "LastModifiedTimestamp": "638350380590181445",
     "Name": "Approver2",
     "Rules": [
       {
@@ -3245,7 +3245,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638350380405309454",
+  "LastModifiedTimestamp": "638350380590181445",
   "Name": "4b05125e82124efc9f80232f9cae9f37",
   "OverridableProperties": {},
   "TemplateOriginalName": "7649ffa0ad5748738db673db9c4d304f",
