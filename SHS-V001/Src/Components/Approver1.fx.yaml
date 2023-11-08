@@ -83,7 +83,7 @@ Approver1 As CanvasComponent:
         Circle1_5 As circle:
             Fill: =RGBA(221, 79, 14, 1)
             Height: =62
-            OnSelect: =
+            OnSelect: =Set(Showapprov1dropdown,!Showapprov1dropdown)
             Width: =60
             X: =1228
             Y: =28
