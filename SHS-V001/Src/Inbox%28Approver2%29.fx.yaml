@@ -1,6 +1,7 @@
 "'Inbox(Approver2)' As screen":
 
     Approver2_1 As Approver2:
+        CurrentScreen: ="Inbox"
         Height: =768
 
     "'Inbox 2(comp)_1' As 'Inbox 2(comp)'":
