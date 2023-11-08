@@ -8,7 +8,7 @@ Approver1 As CanvasComponent:
             },
             {
                 Title: "Logout",
-                TargetScreen: 'Login Pa'     
+                TargetScreen: 'Login Page'     
                 
             }
            
@@ -152,7 +152,7 @@ Approver1 As CanvasComponent:
     Gallery7_2 As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =732
-        Items: ='Approver1'.
+        Items: ='Approver1'.approv1dropdown
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: |-
@@ -163,7 +163,7 @@ Approver1 As CanvasComponent:
             )
         TemplateFill: =If(ThisItem.Title='Navigation(C)'.CurrentScreen,Color.Aquamarine,Color.White)
         TemplateSize: =115
-        Visible: =Showchampdropdown
+        Visible: =Showapprov1dropdown
         X: =726
         Y: =143
         ZIndex: =3
