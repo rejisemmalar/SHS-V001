@@ -33,7 +33,7 @@
         =Table(
             {
                 Title: "Dashboard",
-                TargetScreen: Dashboard'
+                TargetScreen: 'Dashboard(C)'
                 
             },
             {
@@ -41,6 +41,7 @@
                 TargetScreen: 'Inbox(C)'      
                 
             }
+        )
     NavType: |-
         =1//1:Left, 2:Top, 3:Bottom
     submenu_inbox: |-
