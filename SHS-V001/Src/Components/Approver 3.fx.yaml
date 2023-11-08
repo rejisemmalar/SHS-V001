@@ -149,7 +149,7 @@
             )
         TemplateFill: =If(ThisItem.Title='Approver1'.CurrentScreen,Color.Aquamarine,Color.White)
         TemplateSize: =115
-        Visible: =Showapprov1dropdown
+        Visible: =Showapprov3dropdown
         X: =726
         Y: =123
         ZIndex: =3

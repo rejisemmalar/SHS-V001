@@ -54,46 +54,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Approver 3'.Gallery7_4.Visible"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Approver 3'.Gallery7_4.Visible",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Showapprov1dropdown"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Visible",
-                "module": "Approver 3",
-                "type": "'Approver 3'.Gallery7_4"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Showapprov1dropdown"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Approver 3'.Gallery7_4.galleryTemplate7_4.TemplateFill"
                 }
               ],
