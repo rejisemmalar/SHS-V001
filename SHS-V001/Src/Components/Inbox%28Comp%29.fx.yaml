@@ -21,7 +21,7 @@
         =Table(
             {
                 Title: "All Initiatives",
-                TargetScreen: 'All Study'
+                TargetScreen: 'All Initiatives(C)'
             },
             {
                 Title: "All Initiatives",
