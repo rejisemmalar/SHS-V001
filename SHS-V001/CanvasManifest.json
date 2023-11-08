@@ -96,7 +96,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 0,
+    "BindingErrorCount": 7,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -114,7 +114,7 @@
     "ManualOfflineProfileId": "",
     "Name": "SHS-V001",
     "OriginatingVersion": "1.334",
-    "ParserErrorCount": 0,
+    "ParserErrorCount": 15,
     "ShowStatusBar": false
   },
   "PublishInfo": {
@@ -153,6 +153,8 @@
     "For Approval 3",
     "Dashboard 4",
     "Inbox 4",
-    "For Approval 4"
+    "For Approval 4",
+    "Dashboard(C)",
+    "Inbox(C)"
   ]
 }
