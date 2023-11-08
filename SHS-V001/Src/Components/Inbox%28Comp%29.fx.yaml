@@ -29,7 +29,7 @@
             },
             {
                 Title: "Approved Initiatives",
-                TargetScreen:'Approved initiatives(C)'
+                TargetScreen:'Approved Initiatives(C)'
             }
         )
     Width: =276
