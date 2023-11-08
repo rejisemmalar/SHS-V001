@@ -1,5 +1,30 @@
 Component1 As CanvasComponent:
     CurrentScreen: ="Text"
+    dropdownmenuAdmin: |-
+        =Table(
+            {
+                Title: "MyProfile",
+                TargetScreen: 'MyProfile(Admin)'
+                
+            },
+            {
+                Title: "Inbox",
+                TargetScreen: Inbox      
+                
+            },
+            {
+                Title: "Administration",
+                TargetScreen: Administration
+            },
+            {
+                Title: "Settings",
+                TargetScreen: Settings
+            },
+            {
+                Title: "Configuration",
+                TargetScreen: Configuration
+            }
+        )
     Fill: =RGBA(0, 0, 0, 0)
     Height: =900
     IsSubMenuVisible: =true
@@ -80,7 +105,7 @@ Component1 As CanvasComponent:
         Circle1_1 As circle:
             Fill: =RGBA(237, 5, 136, 1)
             Height: =62
-            OnSelect: =
+            OnSelect: =Set(Showdropdown, !Showdropdown)
             Width: =60
             X: =1228
             Y: =28
@@ -132,4 +157,22 @@ Component1 As CanvasComponent:
             Text: =ThisItem.Title
             Width: =280
             ZIndex: =2
+
+    Gallery7 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =732
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        X: =726
+        Y: =123
+        ZIndex: =3
+
+        Label17 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.SampleHeading
+            X: =132
+            Y: =38
+            ZIndex: =1
 
