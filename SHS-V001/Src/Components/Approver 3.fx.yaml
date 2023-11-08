@@ -1,4 +1,6 @@
 "'Approver 3' As CanvasComponent":
+    Approv3dropdown: |-
+        =Table({SampleStringField: "SampleText", SampleNumberField: 10, SampleBooleanField: true})
     CurrentScreen: ="Text"
     Fill: =RGBA(0, 0, 0, 0)
     Height: =900
@@ -79,7 +81,7 @@
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Height: =52
-            OnSelect: =
+            OnSelect: =Set(Showapprov3dropdown,!Showapprov3dropdown)
             Size: =25
             Text: ="A"
             Width: =34

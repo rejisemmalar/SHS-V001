@@ -741,7 +741,7 @@
               },
               {
                 "Category": "Behavior",
-                "InvariantScript": "",
+                "InvariantScript": "Set(Showapprov3dropdown,!Showapprov3dropdown)",
                 "Property": "OnSelect",
                 "RuleProviderType": "Unknown"
               }
@@ -2450,7 +2450,7 @@
             "Name": "galleryTemplate7_4",
             "Parent": "Gallery7_4",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 308,
+            "PublishOrderIndex": 288,
             "Rules": [
               {
                 "Category": "Design",
@@ -2539,7 +2539,7 @@
             "Name": "Label17_4",
             "Parent": "Gallery7_4",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 309,
+            "PublishOrderIndex": 289,
             "Rules": [
               {
                 "Category": "Data",
@@ -2854,7 +2854,7 @@
         "Name": "Gallery7_4",
         "Parent": "Approver 3",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 307,
+        "PublishOrderIndex": 287,
         "Rules": [
           {
             "Category": "Data",
@@ -3070,9 +3070,10 @@
       },
       "IsSubMenuVisible",
       "MaxSubMenu",
-      "submenu_inbox"
+      "submenu_inbox",
+      "Approv3dropdown"
     ],
-    "LastModifiedTimestamp": "638350385372354484",
+    "LastModifiedTimestamp": "638350385819957232",
     "Name": "Approver 3",
     "Rules": [
       {
@@ -3109,6 +3110,12 @@
         "Category": "Data",
         "InvariantScript": "Table(\n    {\n        Title: \"Dashboard\",\n        TargetScreen: 'Dashboard 3'\n        \n    },\n    {\n        Title: \"Inbox\",\n        TargetScreen: 'Inbox 3'     \n        \n    }\n   \n)",
         "Property": "Menu",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Data",
+        "InvariantScript": "Table({SampleStringField: \"SampleText\", SampleNumberField: 10, SampleBooleanField: true})",
+        "Property": "Approv3dropdown",
         "RuleProviderType": "System"
       },
       {
@@ -3212,6 +3219,15 @@
       "PropertyDataTypeKey": "Table",
       "Tooltip": "A custom property",
       "Type": "{\"Version\":\"1.335\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"SampleBooleanField\",\"Kind\":\"Boolean\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SampleNumberField\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SampleStringField\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Approv3dropdown",
+      "Hidden": false,
+      "Name": "Approv3dropdown",
+      "PropertyDataTypeKey": "Table",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.335\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"SampleBooleanField\",\"Kind\":\"Boolean\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SampleNumberField\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SampleStringField\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}}"
     }
   ],
   "FirstParty": true,
@@ -3222,7 +3238,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638350385372354484",
+  "LastModifiedTimestamp": "638350385819957232",
   "Name": "af755d95fccf4fa69a76a6ff4545bf2f",
   "OverridableProperties": {},
   "TemplateOriginalName": "415e1786c3c94354acf26afaf63ccb82",
