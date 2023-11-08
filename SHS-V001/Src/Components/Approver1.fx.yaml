@@ -151,7 +151,7 @@ Approver1 As CanvasComponent:
 
     Gallery7_2 As gallery.galleryVertical:
         DelayItemLoading: =true
-        Height: =732
+        Height: =752
         Items: ='Approver1'.approv1dropdown
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -165,7 +165,7 @@ Approver1 As CanvasComponent:
         TemplateSize: =115
         Visible: =Showapprov1dropdown
         X: =726
-        Y: =143
+        Y: =123
         ZIndex: =3
 
         Label17_2 As label:
