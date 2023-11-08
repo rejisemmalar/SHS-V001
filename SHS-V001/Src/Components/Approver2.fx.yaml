@@ -1,6 +1,6 @@
 Approver2 As CanvasComponent:
     Approver2menu: |-
-        =able(
+        =Table(
             {
                 Title: "Dashboard 3",
                 TargetScreen: 'Dashboard 3'
