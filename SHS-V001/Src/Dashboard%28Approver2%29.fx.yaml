@@ -1,2 +1,5 @@
 "'Dashboard(Approver2)' As screen":
 
+    Approver2_2 As Approver2:
+        Height: =768
+
