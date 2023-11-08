@@ -11,18 +11,6 @@
                 Title: "Logout",
                 TargetScreen: 'Login Page'     
                 
-            },
-            {
-                Title: "Administration",
-                TargetScreen: Administration
-            },
-            {
-                Title: "Settings",
-                TargetScreen: Settings
-            },
-            {
-                Title: "Configuration",
-                TargetScreen: Configuration
             }
         )
     Fill: =RGBA(0, 0, 0, 0)
