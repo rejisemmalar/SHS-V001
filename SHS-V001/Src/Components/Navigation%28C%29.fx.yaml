@@ -162,7 +162,7 @@
     Gallery7_1 As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =732
-        Items: =Component1.dropdownmenuAdmin
+        Items: ='Navigation(C)'.dropdownchampion
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: |-
@@ -173,7 +173,7 @@
             )
         TemplateFill: =If(ThisItem.Title=Component1.CurrentScreen,Color.Aquamarine,Color.White)
         TemplateSize: =115
-        Visible: =Showdropdown
+        Visible: =Showchampdropdown
         X: =726
         Y: =123
         ZIndex: =3
