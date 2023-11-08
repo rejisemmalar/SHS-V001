@@ -7,8 +7,8 @@ Approver1 As CanvasComponent:
                 
             },
             {
-                Title: "Inbox 3",
-                TargetScreen: 'Inbox 3'     
+                Title: "Inbox",
+                TargetScreen: 'Inbox(Approver1)'     
                 
             }
            
