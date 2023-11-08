@@ -152,6 +152,7 @@ Component1 As CanvasComponent:
         Items: =Component1.dropdownmenuAdmin
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
+        TemplateFill: =If(ThisItem.Title=Component1.CurrentScreen,Color.Aquamarine,Color.White)
         TemplateSize: =115
         Visible: =Showdropdown
         X: =726
