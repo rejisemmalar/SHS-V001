@@ -7,8 +7,8 @@ Approver2 As CanvasComponent:
                 
             },
             {
-                Title: "Log",
-                TargetScreen: 'Inbox 3'     
+                Title: "Logout",
+                TargetScreen: 'Login Pa'     
                 
             }
            
