@@ -152,7 +152,7 @@ Approver1 As CanvasComponent:
     Gallery7_2 As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =752
-        Items: ='Approver1'.approv1dropdown
+        Items: =Approver1.approv1dropdown
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: |-
@@ -161,7 +161,7 @@ Approver1 As CanvasComponent:
                 ThisItem.TargetScreen,
                 ScreenTransition.None
             )
-        TemplateFill: =If(ThisItem.Title='Approver1'.CurrentScreen,Color.Aquamarine,Color.White)
+        TemplateFill: =If(ThisItem.Title=Approver1.CurrentScreen,Color.Aquamarine,Color.White)
         TemplateSize: =115
         Visible: =Showapprov1dropdown
         X: =726
