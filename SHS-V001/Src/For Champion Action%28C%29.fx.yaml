@@ -40,3 +40,8 @@
         Y: =208
         ZIndex: =4
 
+    Search_16 As Search:
+        X: =891
+        Y: =195
+        ZIndex: =5
+
