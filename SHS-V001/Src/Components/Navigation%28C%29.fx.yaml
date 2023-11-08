@@ -8,8 +8,8 @@
                 
             },
             {
-                Title: "Logo",
-                TargetScreen: Inbox      
+                Title: "Logout",
+                TargetScreen: 'Login Page'     
                 
             },
             {
