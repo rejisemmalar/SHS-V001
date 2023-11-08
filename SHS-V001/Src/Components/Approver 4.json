@@ -1357,7 +1357,7 @@
               },
               {
                 "Category": "Behavior",
-                "InvariantScript": "",
+                "InvariantScript": "Set(Showapprov4dropdown,!Showapprov4dropdown)",
                 "Property": "OnSelect",
                 "RuleProviderType": "Unknown"
               }
@@ -3063,9 +3063,10 @@
       },
       "IsSubMenuVisible",
       "MaxSubMenu",
-      "submenu_inbox"
+      "submenu_inbox",
+      "Approv4dropdown"
     ],
-    "LastModifiedTimestamp": "638350389512065456",
+    "LastModifiedTimestamp": "638350389819932728",
     "Name": "Approver 4",
     "Rules": [
       {
@@ -3102,6 +3103,12 @@
         "Category": "Data",
         "InvariantScript": "Table({SampleStringField: \"SampleText\", SampleNumberField: 10, SampleBooleanField: true})",
         "Property": "submenu_inbox",
+        "RuleProviderType": "System"
+      },
+      {
+        "Category": "Data",
+        "InvariantScript": "Table({SampleStringField: \"SampleText\", SampleNumberField: 10, SampleBooleanField: true})",
+        "Property": "Approv4dropdown",
         "RuleProviderType": "System"
       },
       {
@@ -3205,6 +3212,15 @@
       "PropertyDataTypeKey": "Table",
       "Tooltip": "A custom property",
       "Type": "{\"Version\":\"1.335\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"SampleBooleanField\",\"Kind\":\"Boolean\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SampleNumberField\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SampleStringField\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Approv4dropdown",
+      "Hidden": false,
+      "Name": "Approv4dropdown",
+      "PropertyDataTypeKey": "Table",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.335\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"SampleBooleanField\",\"Kind\":\"Boolean\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SampleNumberField\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"SampleStringField\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}}"
     }
   ],
   "FirstParty": true,
@@ -3215,7 +3231,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638350389512065456",
+  "LastModifiedTimestamp": "638350389819932728",
   "Name": "e781273332364142b05b2e917ec27a03",
   "OverridableProperties": {},
   "TemplateOriginalName": "af755d95fccf4fa69a76a6ff4545bf2f",
