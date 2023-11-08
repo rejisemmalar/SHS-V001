@@ -1,0 +1,6 @@
+"'MyProfile(Champion)' As screen":
+
+    "'Navigation(C)_7' As 'Navigation(C)'":
+        CurrentScreen: ="MyProfile"
+        Height: =768
+
