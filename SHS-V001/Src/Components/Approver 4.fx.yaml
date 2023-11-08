@@ -148,7 +148,7 @@
                 ThisItem.TargetScreen,
                 ScreenTransition.None
             )
-        TemplateFill: =If(ThisItem.Title='Approver 3'.CurrentScreen,Color.Aquamarine,Color.White)
+        TemplateFill: =If(ThisItem.Title='Approver 4'.CurrentScreen,Color.Aquamarine,Color.White)
         TemplateSize: =115
         Visible: =Showapprov4dropdown
         X: =726
