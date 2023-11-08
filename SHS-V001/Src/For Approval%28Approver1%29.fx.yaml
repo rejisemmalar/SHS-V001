@@ -29,3 +29,13 @@
         Y: =167
         ZIndex: =3
 
+    Label8_9 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =50
+        Size: =17
+        Text: ="Study List"
+        Width: =258
+        X: =311
+        Y: =212
+        ZIndex: =4
+
