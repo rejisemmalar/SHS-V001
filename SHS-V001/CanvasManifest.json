@@ -154,6 +154,7 @@
     "All Initiatives(C)",
     "For Champion Action(C)",
     "Approved Initiatives(C)",
+    "MyProfile(Champion)",
     "Dashboard(Approver1)",
     "Inbox(Approver1)",
     "For Approval(Approver1)",
@@ -166,7 +167,6 @@
     "Dashboard 4",
     "Inbox 4",
     "For Approval 4",
-    "MyProfile(Champion)",
     "MyProfile(Approver1)",
     "MyProfile(Approver2)"
   ]
