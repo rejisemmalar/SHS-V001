@@ -8,7 +8,7 @@
             },
             {
                 Title: "Logout",
-                TargetScreen: 'Login P'     
+                TargetScreen: 'Login Page'     
                 
             }
            
@@ -139,7 +139,7 @@
     Gallery7_5 As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =772
-        Items: ='Approver 3'.Approv3dropdown
+        Items: ='Approver 4'.Approv4dropdown
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: |-
@@ -150,7 +150,7 @@
             )
         TemplateFill: =If(ThisItem.Title='Approver 3'.CurrentScreen,Color.Aquamarine,Color.White)
         TemplateSize: =115
-        Visible: =Showapprov3dropdown
+        Visible: =Showapprov4dropdown
         X: =726
         Y: =128
         ZIndex: =3

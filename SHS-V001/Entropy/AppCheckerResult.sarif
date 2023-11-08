@@ -14,166 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Approver 4'.Approv4dropdown"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Approver 4'.Approv4dropdown",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 163,
-                  "snippet": {
-                    "text": "'Login P'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Approv4dropdown",
-                "module": "Approver 4",
-                "type": "'Approver 4'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Login P"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Dashboard 4'.'Approver 4_1'.Approv4dropdown"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Dashboard 4'.'Approver 4_1'.Approv4dropdown",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 163,
-                  "snippet": {
-                    "text": "'Login P'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Approv4dropdown",
-                "module": "Dashboard 4",
-                "type": "'Dashboard 4'.'Approver 4_1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Login P"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Approval 4'.'Approver 4_3'.Approv4dropdown"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Approval 4'.'Approver 4_3'.Approv4dropdown",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 163,
-                  "snippet": {
-                    "text": "'Login P'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Approv4dropdown",
-                "module": "For Approval 4",
-                "type": "'For Approval 4'.'Approver 4_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Login P"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Inbox 4'.'Approver 4_2'.Approv4dropdown"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Inbox 4'.'Approver 4_2'.Approv4dropdown",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 163,
-                  "snippet": {
-                    "text": "'Login P'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Approv4dropdown",
-                "module": "Inbox 4",
-                "type": "'Inbox 4'.'Approver 4_2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Login P"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Login Page'.Button1.OnSelect"
                 }
               ],
@@ -207,201 +47,7 @@
             "level": "Medium"
           },
           "ruleId": "app-SuggestRemoteExecutionHint-OpNotSupportedByService",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "'Approver 3'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Approver 4",
-                "type": "'Approver 4'.Gallery7_5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Approver 3"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 12,
-                  "snippet": {
-                    "text": ".Approv3dropdown"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Approver 4",
-                "type": "'Approver 4'.Gallery7_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.Visible"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.Visible",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Showapprov3dropdown"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Visible",
-                "module": "Approver 4",
-                "type": "'Approver 4'.Gallery7_5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Showapprov3dropdown"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.galleryTemplate7_5.TemplateFill"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.galleryTemplate7_5.TemplateFill",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 3,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "TemplateFill",
-                "module": "Approver 4",
-                "type": "'Approver 4'.Gallery7_5.galleryTemplate7_5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.galleryTemplate7_5.TemplateFill"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.galleryTemplate7_5.TemplateFill",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 11,
-                  "snippet": {
-                    "text": ".Title"
-                  }
-                }
-              },
-              "properties": {
-                "member": "TemplateFill",
-                "module": "Approver 4",
-                "type": "'Approver 4'.Gallery7_5.galleryTemplate7_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
         },
         {
           "locations": [
@@ -441,7 +87,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -510,7 +156,7 @@
           ],
           "message": {
             "arguments": [
-              "Error",
+              "Text",
               "Error"
             ],
             "id": "issue"
@@ -520,160 +166,6 @@
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
           "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.galleryTemplate7_5.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.galleryTemplate7_5.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 20,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Approver 4",
-                "type": "'Approver 4'.Gallery7_5.galleryTemplate7_5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.galleryTemplate7_5.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.galleryTemplate7_5.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 28,
-                  "snippet": {
-                    "text": ".TargetScreen"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Approver 4",
-                "type": "'Approver 4'.Gallery7_5.galleryTemplate7_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.Label17_5.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.Label17_5.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Approver 4",
-                "type": "'Approver 4'.Gallery7_5.Label17_5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.Label17_5.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Approver 4'.Gallery7_5.Label17_5.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Title"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Approver 4",
-                "type": "'Approver 4'.Gallery7_5.Label17_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4432,23 +3924,6 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "app-ErrInvalidName",
-              "messageStrings": {
-                "issue": {
-                  "text": "Name isn't valid. '{0}' isn't recognized."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or correct the reference to the name that isn't valid."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-SuggestRemoteExecutionHint-OpNotSupportedByService",
               "messageStrings": {
                 "issue": {
@@ -4463,6 +3938,23 @@
                   "Try moving your data to a different data source."
                 ],
                 "level": "Medium",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
               }
