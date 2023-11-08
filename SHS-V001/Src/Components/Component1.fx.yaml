@@ -152,6 +152,12 @@ Component1 As CanvasComponent:
         Items: =Component1.dropdownmenuAdmin
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: |-
+            =true;
+            Navigate(
+                ThisItem.TargetScreen,
+                ScreenTransition.None
+            )
         TemplateFill: =If(ThisItem.Title=Component1.CurrentScreen,Color.Aquamarine,Color.White)
         TemplateSize: =115
         Visible: =Showdropdown
