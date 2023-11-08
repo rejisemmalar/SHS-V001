@@ -20,3 +20,12 @@
         Y: =273
         ZIndex: =2
 
+    Arrow1_17 As arrow.backArrow:
+        Fill: =RGBA(0, 18, 107, 1)
+        Height: =34
+        OnSelect: =Navigate(Inbox)
+        Width: =32
+        X: =311
+        Y: =167
+        ZIndex: =3
+
