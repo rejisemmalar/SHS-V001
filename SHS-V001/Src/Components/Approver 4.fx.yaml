@@ -9,7 +9,7 @@
     Menu: |-
         =Table(
             {
-                Title: "Dashboard 4",
+                Title: "Dashboard",
                 TargetScreen: 'Dashboard 4'
                 
             },
