@@ -121,3 +121,31 @@
             Width: =268
             ZIndex: =2
 
+    Gallery7_4 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =772
+        Items: ='Approver1'.approv1dropdown
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: |-
+            =true;
+            Navigate(
+                ThisItem.TargetScreen,
+                ScreenTransition.None
+            )
+        TemplateFill: =If(ThisItem.Title='Approver1'.CurrentScreen,Color.Aquamarine,Color.White)
+        TemplateSize: =115
+        Visible: =Showapprov1dropdown
+        X: =726
+        Y: =123
+        ZIndex: =3
+
+        Label17_4 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Bold
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Title
+            X: =132
+            Y: =38
+            ZIndex: =1
+
