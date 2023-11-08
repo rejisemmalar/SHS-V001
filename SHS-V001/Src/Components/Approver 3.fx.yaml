@@ -1,6 +1,18 @@
 "'Approver 3' As CanvasComponent":
     Approv3dropdown: |-
-        =Table({SampleStringField: "SampleText", SampleNumberField: 10, SampleBooleanField: true})
+        =Table(
+            {
+                Title: "MyProfile",
+                TargetScreen: 'Dashboard 3'
+                
+            },
+            {
+                Title: "Inbox",
+                TargetScreen: 'Inbox 3'     
+                
+            }
+           
+        )
     CurrentScreen: ="Text"
     Fill: =RGBA(0, 0, 0, 0)
     Height: =900
