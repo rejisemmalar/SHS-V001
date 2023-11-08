@@ -161,7 +161,7 @@ Approver2 As CanvasComponent:
                 ThisItem.TargetScreen,
                 ScreenTransition.None
             )
-        TemplateFill: =If(ThisItem.Title='Navigation(C)'.CurrentScreen,Color.Aquamarine,Color.White)
+        TemplateFill: =If(ThisItem.Title='Approver2'.CurrentScreen,Color.Aquamarine,Color.White)
         TemplateSize: =115
         Visible: =Showapprov2dropdown
         X: =726
