@@ -1,2 +1,5 @@
 "'MyProfile(Admin)' As screen":
 
+    "'Navigation(C)_6' As 'Navigation(C)'":
+        Height: =768
+
