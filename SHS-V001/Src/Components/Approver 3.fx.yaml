@@ -3,11 +3,11 @@
         =Table(
             {
                 Title: "MyProfile",
-                TargetScreen: 'MyProfile(Approver3'
+                TargetScreen: 'MyProfile(Approver3)'
                 
             },
             {
-                Title: "Inbox",
+                Title: "Log Ou",
                 TargetScreen: 'Inbox 3'     
                 
             }
