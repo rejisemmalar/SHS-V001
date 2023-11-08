@@ -8,7 +8,7 @@ Component1 As CanvasComponent:
                 
             },
             {
-                Title: "Inbox",
+                Title: "Logout",
                 TargetScreen: Inbox      
                 
             },
