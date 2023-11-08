@@ -106,7 +106,7 @@ Approver1 As CanvasComponent:
         BorderThickness: =1
         DelayItemLoading: =true
         Height: =777
-        Items: =Approver1.Menu
+        Items: =Approver1.Approver1menu
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: |-
