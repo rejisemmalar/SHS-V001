@@ -29,7 +29,7 @@
             },
             {
                 Title: "Approved Initiatives",
-                TargetScreen:'For Admin Action'
+                TargetScreen:'Approved initiatives(C)'
             }
         )
     Width: =276
