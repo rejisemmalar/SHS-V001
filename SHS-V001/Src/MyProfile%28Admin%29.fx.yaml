@@ -3,3 +3,8 @@
     "'Navigation(C)_6' As 'Navigation(C)'":
         Height: =768
 
+    Component1_19 As Component1:
+        CurrentScreen: ="MyProfile"
+        Height: =768
+        ZIndex: =2
+
