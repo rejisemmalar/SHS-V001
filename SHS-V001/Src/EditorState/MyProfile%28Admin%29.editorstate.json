@@ -74,7 +74,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Component1_19",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -274,7 +274,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Navigation(C)_6",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
