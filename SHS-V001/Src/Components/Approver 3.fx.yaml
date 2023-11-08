@@ -138,7 +138,7 @@
     Gallery7_4 As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =772
-        Items: ='Approver1'.approv1dropdown
+        Items: ='Approver 3'.Approv3dropdown
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: |-
