@@ -1,6 +1,7 @@
 "'For Approval(Approver1)' As screen":
 
     Approver1_3 As Approver1:
+        CurrentScreen: ="Inbox"
         Height: =768
 
     Icon5_17 As icon.HorizontalLine:
