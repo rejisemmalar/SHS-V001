@@ -2454,7 +2454,7 @@
             "Rules": [
               {
                 "Category": "Design",
-                "InvariantScript": "If(ThisItem.Title='Approver1'.CurrentScreen,Color.Aquamarine,Color.White)",
+                "InvariantScript": "If(ThisItem.Title='Approver 3'.CurrentScreen,Color.Aquamarine,Color.White)",
                 "Property": "TemplateFill",
                 "RuleProviderType": "Unknown"
               },
@@ -3080,7 +3080,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638350387150207910",
+    "LastModifiedTimestamp": "638350388071673228",
     "Name": "Approver 3",
     "Rules": [
       {
@@ -3245,7 +3245,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638350387150207910",
+  "LastModifiedTimestamp": "638350388071673228",
   "Name": "af755d95fccf4fa69a76a6ff4545bf2f",
   "OverridableProperties": {},
   "TemplateOriginalName": "415e1786c3c94354acf26afaf63ccb82",
