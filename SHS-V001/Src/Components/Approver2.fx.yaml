@@ -3,7 +3,7 @@ Approver2 As CanvasComponent:
         =Table(
             {
                 Title: "Dashboard",
-                TargetScreen: 'Dashboard(Approver2)
+                TargetScreen: 'Dashboard(Approver2)'
                 
             },
             {
