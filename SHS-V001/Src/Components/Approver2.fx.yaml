@@ -2,8 +2,8 @@ Approver2 As CanvasComponent:
     Approver2menu: |-
         =Table(
             {
-                Title: "Dashboard 3",
-                TargetScreen: 'Dashboard 3'
+                Title: "Dashboard",
+                TargetScreen: dashboard(Approver2)
                 
             },
             {
