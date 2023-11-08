@@ -7,7 +7,7 @@
                 
             },
             {
-                Title: "Log Ou",
+                Title: "Logout",
                 TargetScreen: 'Inbox 3'     
                 
             }
