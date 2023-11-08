@@ -963,7 +963,7 @@
               },
               {
                 "Category": "Behavior",
-                "InvariantScript": "",
+                "InvariantScript": "Set(Showdropdown, !Showdropdown)",
                 "Property": "OnSelect",
                 "RuleProviderType": "Unknown"
               }
@@ -3030,7 +3030,7 @@
       "MaxSubMenu",
       "submenu_inbox"
     ],
-    "LastModifiedTimestamp": "638350335656025257",
+    "LastModifiedTimestamp": "638350336078409143",
     "Name": "Component1",
     "Rules": [
       {
@@ -3180,7 +3180,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638350335656025257",
+  "LastModifiedTimestamp": "638350336078409143",
   "Name": "415e1786c3c94354acf26afaf63ccb82",
   "OverridableProperties": {},
   "Version": "638327128456687156"
