@@ -30,3 +30,13 @@
         Y: =160
         ZIndex: =3
 
+    Label8_8 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =46
+        Size: =17
+        Text: ="Initiatives"
+        Width: =206
+        X: =329
+        Y: =210
+        ZIndex: =4
+
