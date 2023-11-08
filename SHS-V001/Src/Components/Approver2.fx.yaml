@@ -1,4 +1,18 @@
 Approver2 As CanvasComponent:
+    Approv2dropdown: |-
+        =Table(
+            {
+                Title: "MyProfile",
+                TargetScreen: 'Dashboard 3'
+                
+            },
+            {
+                Title: "Inbox 3",
+                TargetScreen: 'Inbox 3'     
+                
+            }
+           
+        )
     Approver2menu: |-
         =Table(
             {
