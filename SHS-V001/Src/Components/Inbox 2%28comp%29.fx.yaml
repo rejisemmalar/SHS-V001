@@ -9,6 +9,13 @@
                 TargetScreen: 'For Approval 3'
             }
         )
+    inbox2_menu: |-
+        =Table(
+            {
+                Title: "For Approval",
+                TargetScreen: 'For Approval(Approver2)'
+            }
+        )
     Width: =350
     X: =0
     Y: =0
