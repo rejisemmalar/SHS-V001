@@ -135,3 +135,31 @@ Approver1 As CanvasComponent:
             Width: =268
             ZIndex: =2
 
+    Gallery7_2 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =732
+        Items: ='Navigation(C)'.dropdownchampion
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: |-
+            =true;
+            Navigate(
+                ThisItem.TargetScreen,
+                ScreenTransition.None
+            )
+        TemplateFill: =If(ThisItem.Title='Navigation(C)'.CurrentScreen,Color.Aquamarine,Color.White)
+        TemplateSize: =115
+        Visible: =Showchampdropdown
+        X: =726
+        Y: =143
+        ZIndex: =3
+
+        Label17_2 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Bold
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Title
+            X: =132
+            Y: =38
+            ZIndex: =1
+
