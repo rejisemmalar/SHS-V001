@@ -124,7 +124,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Inbox(Comp)_1",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -243,7 +243,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Navigation(C)_2",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
