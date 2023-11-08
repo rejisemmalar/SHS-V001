@@ -26,7 +26,7 @@
                   "charLength": 20,
                   "charOffset": 66,
                   "snippet": {
-                    "text": "dashboard(Approver1)"
+                    "text": "Dashboard(Approver1)"
                   }
                 }
               },
@@ -39,7 +39,7 @@
           ],
           "message": {
             "arguments": [
-              "dashboard"
+              "Dashboard"
             ],
             "id": "issue"
           },
@@ -66,7 +66,7 @@
                   "charLength": 201,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "Table(\r\n    {\r\n        Title: \"Dashboard\",\r\n        TargetScreen: dashboard(Approver1)\r\n        \r\n    },\r\n    {\r\n        Title: \"Inbox 3\",\r\n        TargetScreen: 'Inbox 3'     \r\n        \r\n    }\r\n   \r\n)"
+                    "text": "Table(\r\n    {\r\n        Title: \"Dashboard\",\r\n        TargetScreen: Dashboard(Approver1)\r\n        \r\n    },\r\n    {\r\n        Title: \"Inbox 3\",\r\n        TargetScreen: 'Inbox 3'     \r\n        \r\n    }\r\n   \r\n)"
                   }
                 }
               },
