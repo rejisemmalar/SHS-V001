@@ -17,6 +17,21 @@
                 TargetScreen:'For Admin Action'
             }
         )
+    inboxcompmenu: |-
+        =Table(
+            {
+                Title: "All Initiatives",
+                TargetScreen: 'All Study'
+            },
+            {
+                Title: "All Initiatives",
+                TargetScreen: 'All Initiatives'
+            },
+            {
+                Title: "For Admin Action",
+                TargetScreen:'For Admin Action'
+            }
+        )
     Width: =276
     X: =0
     Y: =0
