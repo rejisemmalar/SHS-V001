@@ -1,2 +1,6 @@
 "'All Initiatives(C)' As screen":
 
+    "'Navigation(C)_3' As 'Navigation(C)'":
+        CurrentScreen: ="Inbox"
+        Height: =768
+
