@@ -2,8 +2,8 @@ Approver1 As CanvasComponent:
     approv1dropdown: |-
         =Table(
             {
-                Title: "MyProfi",
-                TargetScreen: 'Dashboard 3'
+                Title: "MyProfile",
+                TargetScreen: 'MyProfile(Approver1'
                 
             },
             {
