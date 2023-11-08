@@ -69,7 +69,7 @@
         Circle1_2 As circle:
             Fill: =RGBA(0, 18, 107, 1)
             Height: =62
-            OnSelect: =
+            OnSelect: =Set(Showapprov3dropdown,!Showapprov3dropdown
             Width: =60
             X: =1228
             Y: =28

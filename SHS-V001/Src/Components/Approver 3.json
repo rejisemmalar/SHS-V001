@@ -389,7 +389,7 @@
               },
               {
                 "Category": "Behavior",
-                "InvariantScript": "",
+                "InvariantScript": "Set(Showapprov3dropdown,!Showapprov3dropdown",
                 "Property": "OnSelect",
                 "RuleProviderType": "Unknown"
               }
@@ -3072,7 +3072,7 @@
       "MaxSubMenu",
       "submenu_inbox"
     ],
-    "LastModifiedTimestamp": "638350385000052737",
+    "LastModifiedTimestamp": "638350385331841817",
     "Name": "Approver 3",
     "Rules": [
       {
@@ -3222,7 +3222,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638350385000052737",
+  "LastModifiedTimestamp": "638350385331841817",
   "Name": "af755d95fccf4fa69a76a6ff4545bf2f",
   "OverridableProperties": {},
   "TemplateOriginalName": "415e1786c3c94354acf26afaf63ccb82",
