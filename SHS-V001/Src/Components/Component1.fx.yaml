@@ -1,5 +1,30 @@
 Component1 As CanvasComponent:
     CurrentScreen: ="Text"
+    dropdownmenuAdmin: |-
+        =Table(
+            {
+                Title: "Dashboard",
+                TargetScreen: Dashboard
+                
+            },
+            {
+                Title: "Inbox",
+                TargetScreen: Inbox      
+                
+            },
+            {
+                Title: "Administration",
+                TargetScreen: Administration
+            },
+            {
+                Title: "Settings",
+                TargetScreen: Settings
+            },
+            {
+                Title: "Configuration",
+                TargetScreen: Configuration
+            }
+        )
     Fill: =RGBA(0, 0, 0, 0)
     Height: =900
     IsSubMenuVisible: =true
