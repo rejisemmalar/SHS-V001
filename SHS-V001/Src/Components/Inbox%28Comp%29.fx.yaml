@@ -28,7 +28,7 @@
                 TargetScreen: 'For Champion Action(C)'
             },
             {
-                Title: "Approved Initiative",
+                Title: "Approved Initiatives",
                 TargetScreen:'For Admin Action'
             }
         )
