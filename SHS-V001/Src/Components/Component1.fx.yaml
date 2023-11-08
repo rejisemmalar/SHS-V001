@@ -152,12 +152,15 @@ Component1 As CanvasComponent:
         Items: =Component1.dropdownmenuAdmin
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        TemplateSize: =115
+        Visible: =Showdropdown
         X: =726
         Y: =123
         ZIndex: =3
 
         Label17 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Bold
             OnSelect: =Select(Parent)
             Text: =ThisItem.Title
             X: =132
