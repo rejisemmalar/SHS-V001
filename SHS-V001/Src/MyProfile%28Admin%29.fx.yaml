@@ -142,6 +142,7 @@
             ZIndex: =14
 
         Label31 As label:
+            Color: =RGBA(99, 139, 44, 1)
             FontWeight: =FontWeight.Bold
             Size: =18
             Text: ="ACTIVE"
