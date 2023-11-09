@@ -39,7 +39,7 @@
             ZIndex: =2
 
         Label21 As label:
-            Text: ="Text"
+            Text: ="Designation"
             Y: =99
             ZIndex: =3
 
