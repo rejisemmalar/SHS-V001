@@ -43,7 +43,7 @@
 
         Label22_2 As label:
             Size: =18
-            Text: ="champion"
+            Text: ="approver1"
             X: =192
             Y: =99
             ZIndex: =4
