@@ -125,3 +125,11 @@
             Y: =400
             ZIndex: =12
 
+        Image5 As image:
+            Height: =76
+            Image: =supplierlogo
+            Width: =82
+            X: =15
+            Y: =456
+            ZIndex: =13
+

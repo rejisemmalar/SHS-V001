@@ -257,6 +257,7 @@
     "Image1": 276,
     "Image2": 277,
     "Image3": 278,
+    "Image5": 408,
     "Image7": 51,
     "Image7_1": 23,
     "Image7_2": 65,
@@ -428,7 +429,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/09/2023 07:30:03",
+  "HeaderLastSavedDateTimeUTC": "11/09/2023 07:31:57",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "d5d288d0-8556-4a38-a03d-f5517ce3059c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6b09e5d9e40c401a9964269a06a6ff10\""
@@ -443,6 +444,7 @@
     "Logo1": "0005.jpeg",
     "logo2": "0006.jpeg",
     "logo3": "0007.jpeg",
+    "supplierlogo": "91359480-6fd6-428e-8496-ec0315f6cf73.png",
     "the-emirates-new-logo": "0009.png",
     "the-emirates-new-logo_1": "0010.png"
   },
@@ -455,6 +457,7 @@
     "Logo1": "https://docserverpwaprodeas.blob.core.windows.net/abaa1b19-d844-4c31-be19-42059db19ac5-1/resource/Assets0Images00005.jpeg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-09T07%3A26%3A14Z&ske=2023-11-10T07%3A41%3A14Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-10T07%3A41%3A14Z&sr=b&sp=r&sig=GX3gZuhr2bLOrB7GIT7evFN9hAZJ9%2BkIOViKslK3A9w%3D",
     "logo2": "https://docserverpwaprodeas.blob.core.windows.net/abaa1b19-d844-4c31-be19-42059db19ac5-1/resource/Assets0Images00006.jpeg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-09T07%3A26%3A14Z&ske=2023-11-10T07%3A41%3A14Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-10T07%3A41%3A14Z&sr=b&sp=r&sig=j%2Biia9e3QqSKkycFsnvW2LXJ%2F3Z7vwBeQX1NP3uoKaY%3D",
     "logo3": "https://docserverpwaprodeas.blob.core.windows.net/abaa1b19-d844-4c31-be19-42059db19ac5-1/resource/Assets0Images00007.jpeg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-09T07%3A26%3A14Z&ske=2023-11-10T07%3A41%3A14Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-10T07%3A41%3A14Z&sr=b&sp=r&sig=DnLjeYpX8GWMmdlTqpybKDHidVMbo86YOK%2F147NSJGA%3D",
+    "supplierlogo": "https://docserverpwaprodeas.blob.core.windows.net/abaa1b19-d844-4c31-be19-42059db19ac5-1/resource/cbb3eaeb-0318-4a34-bb1f-49616d28696e.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-09T07%3A31%3A54Z&ske=2023-11-10T07%3A46%3A54Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-10T07%3A46%3A54Z&sr=b&sp=r&sig=iun5n%2FEDYIul05Q8yWX2GE7slamnu5ccYXhnG1xDFmg%3D",
     "the-emirates-new-logo": "https://docserverpwaprodeas.blob.core.windows.net/abaa1b19-d844-4c31-be19-42059db19ac5-1/resource/Assets0Images00009.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-09T07%3A26%3A14Z&ske=2023-11-10T07%3A41%3A14Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-10T07%3A41%3A14Z&sr=b&sp=r&sig=MouzZqMJBQmku7vanRL0xmV%2FJvn6szDVgF6d8PfCdKU%3D",
     "the-emirates-new-logo_1": "https://docserverpwaprodeas.blob.core.windows.net/abaa1b19-d844-4c31-be19-42059db19ac5-1/resource/Assets0Images00010.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-09T07%3A26%3A14Z&ske=2023-11-10T07%3A41%3A14Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-10T07%3A41%3A14Z&sr=b&sp=r&sig=EQNEhnUK4O%2Ba2VilgGcgoQ1q%2FPP3C8GEn98XZ8tZRec%3D"
   },
@@ -797,6 +800,7 @@
     "Image1": {},
     "Image2": {},
     "Image3": {},
+    "Image5": {},
     "Image7": {},
     "Image7_1": {},
     "Image7_2": {},
@@ -1206,6 +1210,7 @@
     "Image1": 1,
     "Image2": 2,
     "Image3": 3,
+    "Image5": 0,
     "Image7": 229,
     "Image7_1": 296,
     "Image7_2": 309,
@@ -1385,6 +1390,7 @@
     "Image-logo2": 6,
     "Image-logo3": 7,
     "Image-SampleImage": 0,
+    "Image-supplierlogo": 11,
     "Image-the-emirates-new-logo": 9,
     "Image-the-emirates-new-logo_1": 10
   },
