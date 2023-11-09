@@ -91,8 +91,10 @@
             ZIndex: =9
 
         Label28 As label:
+            Height: =48
             Text: |-
-                ="[Year]:2025[Quarter"
+                ="[Year]:2025[Quarter:Q1"
+            Width: =222
             X: =220
             Y: =311
             ZIndex: =10
