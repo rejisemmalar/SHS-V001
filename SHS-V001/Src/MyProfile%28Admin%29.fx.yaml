@@ -74,7 +74,7 @@
             ZIndex: =7
 
         Label26 As label:
-            Text: ="Text"
+            Text: ="2530"
             X: =192
             Y: =214
             ZIndex: =8
