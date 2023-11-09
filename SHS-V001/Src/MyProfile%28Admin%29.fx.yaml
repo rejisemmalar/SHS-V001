@@ -142,6 +142,8 @@
             ZIndex: =14
 
         Label31 As label:
+            FontWeight: =FontWeight.Bold
+            Size: =18
             Text: ="ACTIVE"
             X: =342
             Y: =474
