@@ -40,7 +40,14 @@
 
         Label21 As label:
             Size: =18
-            Text: ="Designation"
+            Text: |-
+                ="Designation:"
             Y: =99
             ZIndex: =3
+
+        Label22 As label:
+            Text: ="Text"
+            X: =192
+            Y: =99
+            ZIndex: =4
 
