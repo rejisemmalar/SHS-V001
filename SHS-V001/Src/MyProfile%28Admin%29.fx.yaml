@@ -134,7 +134,7 @@
             ZIndex: =13
 
         Label30 As label:
-            Text: ="Text"
+            Text: ="Supplier"
             X: =128
             Y: =474
             ZIndex: =14
