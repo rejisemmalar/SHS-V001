@@ -46,6 +46,7 @@
             ZIndex: =3
 
         Label22 As label:
+            Size: =18
             Text: ="admin"
             X: =192
             Y: =99
