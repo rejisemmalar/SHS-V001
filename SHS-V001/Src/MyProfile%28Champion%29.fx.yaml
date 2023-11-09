@@ -13,7 +13,7 @@
         Label20_1 As label:
             FontWeight: =FontWeight.Bold
             Size: =20
-            Text: ="admin"
+            Text: ="champion"
             X: =15
             Y: =15
             ZIndex: =1
