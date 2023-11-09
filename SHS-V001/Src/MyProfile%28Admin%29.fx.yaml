@@ -134,8 +134,16 @@
             ZIndex: =13
 
         Label30 As label:
+            FontWeight: =FontWeight.Bold
+            Size: =18
             Text: ="Supplier"
             X: =128
             Y: =474
             ZIndex: =14
+
+        Label31 As label:
+            Text: ="Text"
+            X: =342
+            Y: =474
+            ZIndex: =15
 
