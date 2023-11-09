@@ -9,7 +9,7 @@
         ZIndex: =2
 
     Container5 As groupContainer.manualLayoutContainer:
-        Height: =530
+        Height: =618
         X: =291
         Y: =132
         ZIndex: =3
@@ -74,6 +74,7 @@
             ZIndex: =7
 
         Label26 As label:
+            Size: =18
             Text: ="25305"
             X: =192
             Y: =214
