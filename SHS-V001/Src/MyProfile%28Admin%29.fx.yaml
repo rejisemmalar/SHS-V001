@@ -46,7 +46,7 @@
             ZIndex: =3
 
         Label22 As label:
-            Text: ="Text"
+            Text: ="admin"
             X: =192
             Y: =99
             ZIndex: =4
