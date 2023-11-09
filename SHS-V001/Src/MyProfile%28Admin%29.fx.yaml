@@ -67,8 +67,15 @@
             ZIndex: =6
 
         Label25 As label:
+            Size: =18
             Text: |-
                 ="PR:"
             Y: =214
             ZIndex: =7
+
+        Label26 As label:
+            Text: ="Text"
+            X: =192
+            Y: =214
+            ZIndex: =8
 
