@@ -53,7 +53,8 @@
             ZIndex: =4
 
         Label23 As label:
-            Text: ="Text"
+            Text: |-
+                ="Role:"
             Y: =150
             ZIndex: =5
 
