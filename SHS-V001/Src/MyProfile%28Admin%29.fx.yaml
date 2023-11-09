@@ -52,3 +52,8 @@
             Y: =99
             ZIndex: =4
 
+        Label23 As label:
+            Text: ="Text"
+            Y: =150
+            ZIndex: =5
+
