@@ -10,12 +10,16 @@
         "dataSources": {
           "Login Details": {
             "tableName": "329e5a5f-1293-4368-a3f2-67d91be2f1bb"
+          },
+          "Profile information(admin)": {
+            "tableName": "e2bd1582-5049-4706-98f6-9bf8ca6d1790"
           }
         }
       }
     },
     "dataSources": [
-      "Login Details"
+      "Login Details",
+      "Profile information(admin)"
     ],
     "dependencies": {},
     "dependents": [],
