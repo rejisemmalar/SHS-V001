@@ -80,3 +80,9 @@
             Y: =214
             ZIndex: =8
 
+        Label27 As label:
+            Text: ="Text"
+            X: =15
+            Y: =318
+            ZIndex: =9
+
