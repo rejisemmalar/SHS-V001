@@ -43,7 +43,7 @@
 
         Label22_1 As label:
             Size: =18
-            Text: ="admin"
+            Text: ="champion"
             X: =192
             Y: =99
             ZIndex: =4
