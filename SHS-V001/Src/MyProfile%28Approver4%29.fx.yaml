@@ -57,7 +57,7 @@
 
         Label24_5 As label:
             Size: =18
-            Text: ="approver3"
+            Text: ="approver"
             X: =208
             Y: =150
             ZIndex: =6
