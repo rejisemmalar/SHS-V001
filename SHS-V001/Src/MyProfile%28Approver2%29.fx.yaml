@@ -43,7 +43,7 @@
 
         Label22_3 As label:
             Size: =18
-            Text: ="approver1"
+            Text: ="approver2"
             X: =192
             Y: =99
             ZIndex: =4
