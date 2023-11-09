@@ -173,3 +173,9 @@
         Y: =132
         ZIndex: =4
 
+        Label32 As label:
+            Text: ="Text"
+            X: =30
+            Y: =21
+            ZIndex: =1
+
