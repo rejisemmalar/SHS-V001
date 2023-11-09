@@ -57,7 +57,7 @@
 
         Label24_2 As label:
             Size: =18
-            Text: ="champion"
+            Text: ="approver1"
             X: =208
             Y: =150
             ZIndex: =6
