@@ -142,7 +142,7 @@
             ZIndex: =14
 
         Label31 As label:
-            Text: ="Text"
+            Text: ="ACTIVE"
             X: =342
             Y: =474
             ZIndex: =15
