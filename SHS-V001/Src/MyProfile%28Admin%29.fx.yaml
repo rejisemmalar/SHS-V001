@@ -81,8 +81,19 @@
             ZIndex: =8
 
         Label27 As label:
-            Text: ="Text"
+            FontWeight: =FontWeight.Bold
+            Height: =56
+            Text: |-
+                ="Performance Period:"
+            Width: =244
             X: =15
-            Y: =318
+            Y: =303
             ZIndex: =9
+
+        Label28 As label:
+            Text: |-
+                ="[Year]:2025[Quarter"
+            X: =220
+            Y: =311
+            ZIndex: =10
 
