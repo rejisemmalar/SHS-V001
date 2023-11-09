@@ -148,7 +148,7 @@ Component1 As CanvasComponent:
 
     Gallery7 As gallery.galleryVertical:
         DelayItemLoading: =true
-        Height: =732
+        Height: =230
         Items: =Component1.dropdownmenuAdmin
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
