@@ -148,7 +148,7 @@ Component1 As CanvasComponent:
 
     Gallery7 As gallery.galleryVertical:
         DelayItemLoading: =true
-        Height: =732
+        Height: =228
         Items: =Component1.dropdownmenuAdmin
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -161,7 +161,8 @@ Component1 As CanvasComponent:
         TemplateFill: =If(ThisItem.Title=Component1.CurrentScreen,Color.Aquamarine,Color.White)
         TemplateSize: =115
         Visible: =Showdropdown
-        X: =726
+        Width: =542
+        X: =824
         Y: =123
         ZIndex: =3
 
