@@ -60,8 +60,14 @@
             ZIndex: =5
 
         Label24 As label:
+            Size: =18
             Text: ="sadmin"
             X: =208
             Y: =150
             ZIndex: =6
+
+        Label25 As label:
+            Text: ="Text"
+            Y: =214
+            ZIndex: =7
 
