@@ -15,6 +15,8 @@
         ZIndex: =3
 
         Label20 As label:
+            FontWeight: =FontWeight.Bold
+            Size: =20
             Text: ="admin"
             X: =15
             Y: =15
