@@ -117,7 +117,7 @@
 
         Label29 As label:
             Height: =36
-            Text: ="Text"
+            Text: ="Stakeholder Access"
             Width: =304
             X: =15
             Y: =400
