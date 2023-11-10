@@ -18,8 +18,8 @@
       }
     },
     "dataSources": [
-      "Login Details",
-      "Profile information(admin)"
+      "Profile information(admin)",
+      "Login Details"
     ],
     "dependencies": {},
     "dependents": [],
