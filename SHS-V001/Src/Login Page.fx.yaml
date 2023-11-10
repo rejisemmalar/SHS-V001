@@ -78,15 +78,41 @@
         Y: =134
         ZIndex: =9
 
+    Button1 As button:
+        OnSelect: |
+            =If(
+                CountRows(
+                    Filter(
+                        'Login Details',
+                        And(
+                            DataCardValue1.Text = Username,
+                            DataCardValue2.Text = Password
+                        )
+                    )
+                ) = 1,
+                Navigate(
+                    Dashboard,
+                   ScreenTransition.None
+                ),
+                Notify(
+                    "Invalid Login Details",
+                    NotificationType.Error
+                )
+            );
+        Text: ="Login"
+        X: =976
+        Y: =558
+        ZIndex: =11
+
     Form1 As form:
         DataSource: ='Login Details'
         DefaultMode: =FormMode.New
-        Height: =332
+        Height: =382
         NumberOfColumns: =1
-        Width: =498
-        X: =847
-        Y: =182
-        ZIndex: =10
+        Width: =538
+        X: =827
+        Y: =150
+        ZIndex: =12
 
         Username_DataCard1 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
@@ -99,10 +125,10 @@
             MaxLength: =DataSourceInfo([@'Login Details'], DataSourceInfo.MaxLength, "Title")
             Required: =true
             Update: =DataCardValue1.Text
-            Width: =498
+            Width: =538
             X: =0
             Y: =0
-            ZIndex: =11
+            ZIndex: =13
 
             DataCardKey1 As label:
                 AutoHeight: =true
@@ -167,10 +193,10 @@
             MaxLength: =DataSourceInfo([@'Login Details'], DataSourceInfo.MaxLength, "Password")
             Required: =true
             Update: =DataCardValue2.Text
-            Width: =498
+            Width: =538
             X: =0
             Y: =1
-            ZIndex: =11
+            ZIndex: =13
 
             DataCardKey2 As label:
                 AutoHeight: =true
@@ -223,30 +249,4 @@
                 Wrap: =false
                 Y: =DataCardKey2.Y
                 ZIndex: =4
-
-    Button1 As button:
-        OnSelect: |
-            =If(
-                CountRows(
-                    Filter(
-                        'Login Details',
-                        And(
-                            DataCardValue1.Text = Username,
-                            DataCardValue2.Text = Password
-                        )
-                    )
-                ) = 1,
-                Navigate(
-                    Dashboard,
-                   ScreenTransition.None
-                ),
-                Notify(
-                    "Invalid Login Details",
-                    NotificationType.Error
-                )
-            );
-        Text: ="Login"
-        X: =998
-        Y: =492
-        ZIndex: =11
 
