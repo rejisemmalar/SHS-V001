@@ -225,7 +225,27 @@
                 ZIndex: =4
 
     Button1 As button:
-        Text: ="Button"
+        OnSelect: |-
+            =If(
+                CountRows(
+                    Filter(
+                        'Login Details',
+                        And(
+                            DataCardValue1.Text = Username,
+                            DataCardValue2.Text = Password
+                        )
+                    )
+                ) = 1,
+                Navigate(
+                    Dashboard,
+                   ScreenTransition.None
+                ),
+                Notify(
+                    "Invalid Login Details",
+                    NotificationType.Error
+                )
+            );
+        Text: ="Login"
         X: =938
         Y: =592
         ZIndex: =13
