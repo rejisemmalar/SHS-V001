@@ -102,7 +102,7 @@
             Width: =532
             X: =0
             Y: =0
-            ZIndex: =13
+            ZIndex: =1
 
             DataCardKey1 As label:
                 AutoHeight: =true
@@ -170,7 +170,7 @@
             Width: =532
             X: =0
             Y: =1
-            ZIndex: =13
+            ZIndex: =1
 
             DataCardKey2 As label:
                 AutoHeight: =true
@@ -245,8 +245,8 @@
                     NotificationType.Error
                 )
             );
-        Text: ="Login"
-        X: =938
-        Y: =592
+        Text: ="login"
+        X: =998
+        Y: =506
         ZIndex: =13
 
