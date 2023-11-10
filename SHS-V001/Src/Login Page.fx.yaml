@@ -225,7 +225,7 @@
                 ZIndex: =4
 
     Button1 As button:
-        OnSelect: |+
+        OnSelect: |
             =If(
                 CountRows(
                     Filter(
@@ -238,14 +238,13 @@
                 ) = 1,
                 Navigate(
                     Dashboard,
-                    ScreenTransition.None
+                   ScreenTransition.None
                 ),
                 Notify(
                     "Invalid Login Details",
                     NotificationType.Error
                 )
             );
-            
         Text: ="Login"
         X: =998
         Y: =577
