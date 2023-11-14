@@ -226,56 +226,26 @@
                 ZIndex: =4
 
     Button3 As button:
-        OnSelect: |+
-            =
-                 If(DataCardValue12.Text="admin",
-                DataCardValue13.Text="admin",
-            
+        OnSelect: |
+            =If(
+                CountRows(
+                    Filter(
+                        'Login Details',
+                        And(
+                            DataCardValue1.Text = Username,
+                            DataCardValue2.Text = Password
+                        )
+                    )
+                ) = 1,
                 Navigate(
                     Dashboard,
                    ScreenTransition.None
                 ),
-                Notify("Invalid Username & Password !!! Please Enter a Valid Password",
-                NotificationType.Error
+                Notify(
+                    "Invalid Login Details",
+                    NotificationType.Error
                 )
-                 );
-            
-                If(DataCardValue12.Text="champion",
-                DataCardValue13.Text="champion",
-            
-                Navigate(
-                    'Dashboard(C)',
-                   ScreenTransition.None
-                ),
-                Notify("Invalid Username & Password !!! Please Enter a Valid Password",
-                NotificationType.Error
-                )
-                );
-            
-                 If(DataCardValue12.Text="approver1",
-                DataCardValue13.Text="approver1",
-            
-                Navigate(
-                    'Dashboard(Approver1)',
-                   ScreenTransition.None
-                ),
-                Notify("Invalid Username & Password !!! Please Enter a Valid Password",
-                NotificationType.Error
-                )
-                );
-            
-                 If(DataCardValue12.Text="approver2",
-                DataCardValue13.Text="approver2",
-            
-                Navigate(
-                    'Dashboard(Approver2)',
-                   ScreenTransition.None
-                ),
-                Notify("Invalid Username & Password !!! Please Enter a Valid Password",
-                NotificationType.Error
-                )
-                );
-            
+            );
         Text: ="Login"
         X: =998
         Y: =531
