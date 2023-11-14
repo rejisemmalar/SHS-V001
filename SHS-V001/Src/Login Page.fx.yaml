@@ -226,19 +226,19 @@
                 ZIndex: =4
 
     Button3 As button:
-        OnSelect: |
+        OnSelect: |-
             =If(
                 CountRows(
                     Filter(
-                        'Login Details',
+                        'Login Details_1',
                         And(
-                            DataCardValue1.Text = Username,
-                            DataCardValue2.Text = Password
+                            DataCardValue12.Text = "admin",
+                            DataCardValue13.Text = "admin"
                         )
                     )
                 ) = 1,
                 Navigate(
-                    Dashboard,
+                    'Dashboard',
                    ScreenTransition.None
                 ),
                 Notify(
@@ -246,6 +246,8 @@
                     NotificationType.Error
                 )
             );
+            Reset(DataCardValue12);
+            Reset(DataCardValue13);
         Text: ="Login"
         X: =998
         Y: =531
