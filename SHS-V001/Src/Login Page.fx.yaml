@@ -226,7 +226,7 @@
                 ZIndex: =4
 
     Button3 As button:
-        OnSelect: |
+        OnSelect: |+
             =
                  If(DataCardValue12.Text="admin",
                 DataCardValue13.Text="admin",
@@ -234,6 +234,9 @@
                 Navigate(
                     Dashboard,
                    ScreenTransition.None
+                ),
+                Notify("Invalid Username & Password !!! Please Enter a Valid Password",
+                NotificationType.Error
                 )
                  );
             
@@ -243,8 +246,36 @@
                 Navigate(
                     'Dashboard(C)',
                    ScreenTransition.None
+                ),
+                Notify("Invalid Username & Password !!! Please Enter a Valid Password",
+                NotificationType.Error
                 )
                 );
+            
+                 If(DataCardValue12.Text="approver1",
+                DataCardValue13.Text="approver1",
+            
+                Navigate(
+                    'Dashboard(Approver1)',
+                   ScreenTransition.None
+                ),
+                Notify("Invalid Username & Password !!! Please Enter a Valid Password",
+                NotificationType.Error
+                )
+                );
+            
+                 If(DataCardValue12.Text="approver2",
+                DataCardValue13.Text="approver2",
+            
+                Navigate(
+                    'Dashboard(Approver2)',
+                   ScreenTransition.None
+                ),
+                Notify("Invalid Username & Password !!! Please Enter a Valid Password",
+                NotificationType.Error
+                )
+                );
+            
         Text: ="Login"
         X: =998
         Y: =531
