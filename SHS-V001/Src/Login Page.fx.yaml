@@ -232,7 +232,7 @@
                 DataCardValue13.Text="admin",
             
                 Navigate(
-                    'Dashboard',
+                    Dashboard,
                    ScreenTransition.None
                 )
                  );
