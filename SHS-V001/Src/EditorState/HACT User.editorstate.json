@@ -46,6 +46,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Add doc_Button_12",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -128,6 +129,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Arrow1_11",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -280,6 +282,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Component1_16",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -373,6 +376,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "HACT User",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -546,6 +550,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon5_11",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -767,6 +772,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label12_7",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1008,6 +1014,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Search_12",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [

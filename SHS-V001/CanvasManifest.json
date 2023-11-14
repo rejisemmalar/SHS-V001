@@ -41,6 +41,7 @@
       "enableexcelonlinebusinessv2connector": true,
       "enableexperimentaldataverseoffline": true,
       "enableideaspanel": true,
+      "enablelargefilesindataverseoffline": false,
       "enablelegacybarcodescanner": false,
       "enableonstart": true,
       "enableonstartnavigate": false,
