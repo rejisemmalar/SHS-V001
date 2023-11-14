@@ -226,7 +226,7 @@
                 ZIndex: =4
 
     Button3 As button:
-        OnSelect: |+
+        OnSelect: |
             =
                  If(DataCardValue12.Text="admin",
                 DataCardValue13.Text="admin",
@@ -234,11 +234,8 @@
                 Navigate(
                     'Dashboard',
                    ScreenTransition.None
-                ),
-                Notify(
-                    "Invalid Login Details",
-                    NotificationType.Error
-                ),
+                )
+                 );
             
                 If(DataCardValue12.Text="champion",
                 DataCardValue13.Text="champion",
@@ -246,14 +243,8 @@
                 Navigate(
                     'Dashboard(C)',
                    ScreenTransition.None
-                ),
-                Notify(
-                    "Invalid Login Details",
-                    NotificationType.Error
                 )
-                )
-                 );
-            
+                );
         Text: ="Login"
         X: =998
         Y: =531
