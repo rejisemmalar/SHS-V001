@@ -233,9 +233,6 @@
                 Navigate(
                     Dashboard,
                    ScreenTransition.None
-                ),
-                Notify("Invalid Username & Password !!! Please Enter a Valid Password",
-                NotificationType.Error
                 )
                  );
             
@@ -245,9 +242,6 @@
                 Navigate(
                     'Dashboard(C)',
                    ScreenTransition.None
-                ),
-                Notify("Invalid Username & Password !!! Please Enter a Valid Password",
-                NotificationType.Error
                 )
                 );
             
@@ -257,9 +251,6 @@
                 Navigate(
                     'Dashboard(Approver1)',
                    ScreenTransition.None
-                ),
-                Notify("Invalid Username & Password !!! Please Enter a Valid Password",
-                NotificationType.Error
                 )
                 );
             
@@ -269,9 +260,6 @@
                 Navigate(
                     'Dashboard(Approver2)',
                    ScreenTransition.None
-                ),
-                Notify("Invalid Username & Password !!! Please Enter a Valid Password",
-                NotificationType.Error
                 )
                 );
         Text: ="Login"
