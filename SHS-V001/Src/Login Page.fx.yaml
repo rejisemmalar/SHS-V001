@@ -227,43 +227,28 @@
 
     Button3 As button:
         OnSelect: |
-            = If(DataCardValue12.Text="admin",
-                DataCardValue13.Text="admin",
-            
+            =If(
+                CountRows(
+                    Filter(
+                        'Login Details_1',
+                        And(
+                            DataCardValue12.Text =Username,
+                            DataCardValue13.Text = Password
+                        )
+                    )
+                ) = 1,
+                If(Username_DataCard3="admin",
+                    Password_DataCard2="admin",
                 Navigate(
                     Dashboard,
                    ScreenTransition.None
                 ),
-                
-                 
-            
-                If(DataCardValue12.Text="champion",
-                DataCardValue13.Text="champion",
-            
-                Navigate(
-                    'Dashboard(C)',
-                   ScreenTransition.None
-                ),
-               
-                
-            
-                 If(DataCardValue12.Text="approver1",
-                DataCardValue13.Text="approver1",
-            
-                Navigate(
-                    'Dashboard(Approver1)',
-                   ScreenTransition.None
-                ),
-                
-            
-                 If(DataCardValue12.Text="approver2",
-                DataCardValue13.Text="approver2",
-            
-                Navigate(
-                    'Dashboard(Approver2)',
-                   ScreenTransition.None
-                
-                );
+                Notify(
+                    "Invalid Login Details",
+                    NotificationType.Error
+                )
+                )
+            );
         Text: ="Login"
         X: =998
         Y: =531
