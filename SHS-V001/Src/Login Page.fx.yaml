@@ -230,9 +230,8 @@
             =If(
                 DataCardValue13.Text="admin",
                 Navigate(Dashboard,
-                ScreenTransition.None),
-                Notify("Invalid Password",
-                NotificationType.Error)
+                ScreenTransition.None)
+               
             );
             
             If(
