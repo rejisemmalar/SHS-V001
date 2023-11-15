@@ -53,7 +53,6 @@
       },
       "MetaDataIDKey": "",
       "Name": "Component1_4",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -147,7 +146,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Settings",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -243,7 +241,6 @@
       },
       "MetaDataIDKey": "",
       "Name": "Settings(com)_1",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [

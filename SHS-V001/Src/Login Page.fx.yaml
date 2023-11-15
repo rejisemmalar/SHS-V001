@@ -240,7 +240,7 @@
                 If(Username_DataCard3="admin",
                     Password_DataCard2="admin",
                 Navigate(
-                    'Dashboard',
+                    Dashboard,
                    ScreenTransition.None
                 ),
                 Notify(
