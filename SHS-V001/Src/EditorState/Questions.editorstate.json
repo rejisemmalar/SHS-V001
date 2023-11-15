@@ -46,7 +46,6 @@
       },
       "MetaDataIDKey": "",
       "Name": "Add doc_Button_9",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -129,7 +128,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Arrow1_9",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -282,7 +280,6 @@
       },
       "MetaDataIDKey": "",
       "Name": "Component1_14",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -488,7 +485,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon5_8",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -710,7 +706,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label12_5",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -934,7 +929,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Questions",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1021,7 +1015,6 @@
       },
       "MetaDataIDKey": "",
       "Name": "Search_9",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [

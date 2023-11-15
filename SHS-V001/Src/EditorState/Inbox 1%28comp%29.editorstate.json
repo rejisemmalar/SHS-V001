@@ -54,7 +54,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Gallery1_4",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -217,7 +216,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "galleryTemplate1_4",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -308,7 +306,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon12_2",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -486,7 +483,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Inbox 1(comp)",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -642,7 +638,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label11_4",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [

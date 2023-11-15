@@ -21,7 +21,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Administration",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -117,7 +116,6 @@
       },
       "MetaDataIDKey": "",
       "Name": "Administration(com)_1",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -218,7 +216,6 @@
       },
       "MetaDataIDKey": "",
       "Name": "Component1_3",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
