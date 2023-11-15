@@ -237,41 +237,32 @@
             If(
                 DataCardValue13.Text="champion",
                 Navigate('Dashboard(C)',
-                ScreenTransition.None),
-                Notify("Invalid Password",
-                NotificationType.Error)
+                ScreenTransition.None)
             );
             
             If(
                 DataCardValue13.Text="approver1",
                 Navigate('Dashboard(Approver1)',
-                ScreenTransition.None),
-                Notify("Invalid Password",
-                NotificationType.Error)
+                ScreenTransition.None)
             );
             
             If(
                 DataCardValue13.Text="approver2",
                 Navigate('Dashboard(Approver2)',
-                ScreenTransition.None),
-                Notify("Invalid Password",
-                NotificationType.Error)
+                ScreenTransition.None)
+                
             );
             
             If(
                 DataCardValue13.Text="approver3",
                 Navigate('Dashboard 3',
-                ScreenTransition.None),
-                Notify("Invalid Password",
-                NotificationType.Error)
+                ScreenTransition.None)
             );
             
             If(
                 DataCardValue13.Text="approver4",
                 Navigate('Dashboard 4',
-                ScreenTransition.None),
-                Notify("Invalid Password",
-                NotificationType.Error)
+                ScreenTransition.None)
             );
             
         Text: ="Login"
