@@ -22,7 +22,7 @@ Segment As screen:
         ZIndex: =3
 
     Search_5 As Search:
-        X: =891
+        X: =783
         Y: =195
         ZIndex: =4
 
@@ -44,7 +44,7 @@ Segment As screen:
         ZIndex: =5
 
     "'Add doc_Button_5' As 'Add doc_Button'":
-        X: =1170
+        X: =1020
         Y: =195
         ZIndex: =6
 
