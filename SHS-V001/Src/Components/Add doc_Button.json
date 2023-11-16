@@ -49,10 +49,38 @@
           "FontWeight",
           "Align",
           "VerticalAlign",
-          "X",
-          "Y",
-          "Width",
-          "Height",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "X",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "Y",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "Width",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "Height",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
           "ZIndex",
           {
             "AFDDataSourceName": "",
@@ -238,25 +266,25 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "0",
+            "InvariantScript": "24",
             "Property": "X",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "3",
+            "InvariantScript": "5",
             "Property": "Y",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "160",
+            "InvariantScript": "122",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "40",
+            "InvariantScript": "33",
             "Property": "Height",
             "RuleProviderType": "Unknown"
           },
@@ -372,8 +400,22 @@
           "DisplayMode",
           "X",
           "Y",
-          "Width",
-          "Height",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "Width",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "Height",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
           "BorderStyle",
           "BorderColor",
           "DisabledBorderColor",
@@ -461,7 +503,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "24",
+            "InvariantScript": "36",
             "Property": "X",
             "RuleProviderType": "Unknown"
           },
@@ -473,13 +515,13 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "35",
+            "InvariantScript": "30",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "40",
+            "InvariantScript": "35",
             "Property": "Height",
             "RuleProviderType": "Unknown"
           },
@@ -584,7 +626,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638357153202659641",
+    "LastModifiedTimestamp": "638357157762037582",
     "Name": "Add doc_Button",
     "Rules": [
       {
@@ -643,7 +685,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638357153202659641",
+  "LastModifiedTimestamp": "638357157762037582",
   "Name": "2af266b150a14e0db8f342db4b79e80e",
   "OverridableProperties": {},
   "Version": "638333195104792096"

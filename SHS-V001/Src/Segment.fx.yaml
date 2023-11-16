@@ -42,7 +42,7 @@ Segment As screen:
         Rotation: =1
         Width: =1050
         X: =291
-        Y: =273
+        Y: =260
         ZIndex: =5
 
     "'Add doc_Button_5' As 'Add doc_Button'":
