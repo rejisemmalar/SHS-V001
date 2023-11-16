@@ -22,6 +22,8 @@ Segment As screen:
         ZIndex: =3
 
     Search_5 As Search:
+        Height: =47
+        Width: =198
         X: =783
         Y: =195
         ZIndex: =4

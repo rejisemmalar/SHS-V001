@@ -11,16 +11,16 @@ Search As CanvasComponent:
         BorderColor: =RGBA(102, 102, 102, 1)
         Color: =RGBA(102, 102, 102, 1)
         Default: =""
-        Height: =31
+        Height: =33
         HintText: ="search"
         HoverFill: =RGBA(255, 255, 255, 1)
         RadiusBottomLeft: =10
         RadiusBottomRight: =10
         RadiusTopLeft: =10
         RadiusTopRight: =10
-        Width: =168
-        X: =15
-        Y: =7
+        Width: =185
+        X: =5
+        Y: =5
         ZIndex: =1
 
     Icon9 As icon.VerticalLine:
@@ -31,14 +31,14 @@ Search As CanvasComponent:
         PaddingTop: =2
         Width: =26
         X: =122
-        Y: =11
+        Y: =10
         ZIndex: =2
 
     Icon11 As icon.Search:
         Color: =RGBA(128, 128, 128, 1)
         Height: =31
         Icon: =Icon.Search
-        Width: =17
+        Width: =23
         X: =148
         Y: =7
         ZIndex: =3
