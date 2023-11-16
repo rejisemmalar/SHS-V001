@@ -22,7 +22,9 @@ Segment As screen:
         ZIndex: =3
 
     Search_5 As Search:
-        X: =891
+        Height: =47
+        Width: =198
+        X: =869
         Y: =195
         ZIndex: =4
 
@@ -40,11 +42,19 @@ Segment As screen:
         Rotation: =1
         Width: =1050
         X: =291
-        Y: =273
+        Y: =260
         ZIndex: =5
 
     "'Add doc_Button_5' As 'Add doc_Button'":
-        X: =1170
+        Height: =47
+        Width: =161
+        X: =1056
         Y: =195
         ZIndex: =6
+
+    Add_1 As Add:
+        Height: =47
+        X: =1217
+        Y: =195
+        ZIndex: =7
 
