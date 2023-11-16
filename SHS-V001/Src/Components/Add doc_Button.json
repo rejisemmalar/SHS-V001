@@ -515,25 +515,25 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "15",
+            "InvariantScript": "10",
             "Property": "RadiusTopLeft",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "15",
+            "InvariantScript": "10",
             "Property": "RadiusTopRight",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "15",
+            "InvariantScript": "10",
             "Property": "RadiusBottomLeft",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "15",
+            "InvariantScript": "10",
             "Property": "RadiusBottomRight",
             "RuleProviderType": "Unknown"
           },
@@ -626,7 +626,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638357157762037582",
+    "LastModifiedTimestamp": "638357167700556423",
     "Name": "Add doc_Button",
     "Rules": [
       {
@@ -685,7 +685,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638357157762037582",
+  "LastModifiedTimestamp": "638357167700556423",
   "Name": "2af266b150a14e0db8f342db4b79e80e",
   "OverridableProperties": {},
   "Version": "638333195104792096"
