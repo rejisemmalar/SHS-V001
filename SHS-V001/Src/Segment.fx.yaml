@@ -46,7 +46,9 @@ Segment As screen:
         ZIndex: =5
 
     "'Add doc_Button_5' As 'Add doc_Button'":
-        X: =1020
+        Height: =47
+        Width: =161
+        X: =981
         Y: =195
         ZIndex: =6
 
