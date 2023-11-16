@@ -52,3 +52,9 @@ Division As screen:
         Y: =195
         ZIndex: =7
 
+    Add_2 As Add:
+        Height: =47
+        X: =1217
+        Y: =195
+        ZIndex: =8
+
