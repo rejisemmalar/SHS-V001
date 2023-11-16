@@ -81,11 +81,11 @@
     Form2 As form:
         DataSource: ='Login Details_1'
         DefaultMode: =FormMode.New
-        Height: =255
+        Height: =271
         NumberOfColumns: =1
-        Width: =393
-        X: =899
-        Y: =188
+        Width: =457
+        X: =869
+        Y: =225
         ZIndex: =10
 
         Username_DataCard3 As typedDataCard.textualEditCard:
@@ -99,26 +99,33 @@
             MaxLength: =DataSourceInfo([@'Login Details_1'], DataSourceInfo.MaxLength, "Title")
             Required: =true
             Update: =DataCardValue12.Text
-            Width: =393
+            Width: =457
             X: =0
             Y: =0
             ZIndex: =11
 
             DataCardKey12 As label:
                 AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Bold
                 Height: =34
+                Size: =20
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10
                 ZIndex: =1
 
             DataCardValue12 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =Color.White
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
+                DisabledBorderColor: =RGBA(255, 255, 255, 1)
                 DisplayMode: =Parent.DisplayMode
+                Height: =50
+                HoverBorderColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -128,7 +135,8 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey12.Y + DataCardKey12.Height + 5
+                Y: |
+                    =DataCardKey12.Y + DataCardKey12.Height + 15
                 ZIndex: =2
 
             ErrorMessage4 As label:
@@ -163,30 +171,37 @@
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Login Details_1'],DataSourceInfo.DisplayName,"Password")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =83
             MaxLength: =DataSourceInfo([@'Login Details_1'], DataSourceInfo.MaxLength, "Password")
             Required: =true
             Update: =DataCardValue13.Text
-            Width: =393
+            Width: =457
             X: =0
-            Y: =1
+            Y: =120
             ZIndex: =11
 
             DataCardKey13 As label:
                 AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Bold
                 Height: =34
+                Size: =20
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10
                 ZIndex: =1
 
             DataCardValue13 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =Color.White
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
+                DisabledBorderColor: =RGBA(255, 255, 255, 1)
                 DisplayMode: =Parent.DisplayMode
+                Height: =50
+                HoverBorderColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
                 Mode: =TextMode.Password
                 PaddingLeft: =5
@@ -197,7 +212,7 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey13.Y + DataCardKey13.Height + 5
+                Y: =DataCardKey13.Y + DataCardKey13.Height + 15
                 ZIndex: =2
 
             ErrorMessage5 As label:
@@ -266,7 +281,7 @@
             );
             
         Text: ="Login"
-        X: =998
-        Y: =531
+        X: =1029
+        Y: =614
         ZIndex: =11
 
