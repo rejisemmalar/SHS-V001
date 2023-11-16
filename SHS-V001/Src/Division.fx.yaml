@@ -21,11 +21,6 @@ Division As screen:
         Y: =202
         ZIndex: =3
 
-    Search_4 As Search:
-        X: =891
-        Y: =195
-        ZIndex: =4
-
     Icon5_3 As icon.HorizontalLine:
         BorderColor: =RGBA(166, 166, 166, 1)
         BorderThickness: =1
@@ -43,8 +38,23 @@ Division As screen:
         Y: =273
         ZIndex: =5
 
-    "'Add doc_Button_4' As 'Add doc_Button'":
-        X: =1170
+    Search_20 As Search:
+        Height: =47
+        Width: =198
+        X: =869
         Y: =195
         ZIndex: =6
+
+    "'Add doc_Button_20' As 'Add doc_Button'":
+        Height: =47
+        Width: =161
+        X: =1056
+        Y: =195
+        ZIndex: =7
+
+    Add_2 As Add:
+        Height: =47
+        X: =1217
+        Y: =195
+        ZIndex: =8
 
