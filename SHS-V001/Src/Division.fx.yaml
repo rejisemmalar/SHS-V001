@@ -48,13 +48,13 @@ Division As screen:
     "'Add doc_Button_20' As 'Add doc_Button'":
         Height: =47
         Width: =161
-        X: =1056
+        X: =1044
         Y: =195
         ZIndex: =7
 
     Add_2 As Add:
         Height: =47
-        X: =1217
+        X: =1205
         Y: =195
         ZIndex: =8
 
