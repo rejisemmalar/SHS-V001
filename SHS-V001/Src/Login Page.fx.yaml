@@ -81,11 +81,11 @@
     Form2 As form:
         DataSource: ='Login Details_1'
         DefaultMode: =FormMode.New
-        Height: =271
+        Height: =275
         NumberOfColumns: =1
         Width: =457
         X: =869
-        Y: =225
+        Y: =271
         ZIndex: =10
 
         Username_DataCard3 As typedDataCard.textualEditCard:
@@ -241,6 +241,10 @@
                 ZIndex: =4
 
     Button3 As button:
+        Fill: =RGBA(23, 145, 131, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =66
+        HoverFill: =Color.HotPink
         OnSelect: |+
             =If(
                 DataCardValue13.Text="admin",
@@ -280,8 +284,10 @@
                 ScreenTransition.None)
             );
             
+        Size: =20
         Text: ="Login"
-        X: =1029
-        Y: =614
+        Width: =196
+        X: =999
+        Y: =602
         ZIndex: =11
 
