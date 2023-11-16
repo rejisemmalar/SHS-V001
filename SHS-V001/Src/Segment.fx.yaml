@@ -52,3 +52,9 @@ Segment As screen:
         Y: =195
         ZIndex: =6
 
+    Add_1 As Add:
+        Height: =47
+        X: =1154
+        Y: =197
+        ZIndex: =7
+
