@@ -45,3 +45,10 @@ Division As screen:
         Y: =195
         ZIndex: =6
 
+    "'Add doc_Button_20' As 'Add doc_Button'":
+        Height: =47
+        Width: =161
+        X: =1056
+        Y: =195
+        ZIndex: =7
+
