@@ -24,7 +24,7 @@ Segment As screen:
     Search_5 As Search:
         Height: =47
         Width: =198
-        X: =783
+        X: =869
         Y: =195
         ZIndex: =4
 
@@ -48,13 +48,13 @@ Segment As screen:
     "'Add doc_Button_5' As 'Add doc_Button'":
         Height: =47
         Width: =161
-        X: =981
+        X: =1056
         Y: =195
         ZIndex: =6
 
     Add_1 As Add:
         Height: =47
-        X: =1154
-        Y: =197
+        X: =1217
+        Y: =195
         ZIndex: =7
 
