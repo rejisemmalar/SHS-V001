@@ -114,7 +114,7 @@
         "Name": "Button2",
         "Parent": "Add doc_Button",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 385,
+        "PublishOrderIndex": 2,
         "Rules": [
           {
             "Category": "Data",
@@ -238,25 +238,25 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "0",
+            "InvariantScript": "24",
             "Property": "X",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "3",
+            "InvariantScript": "5",
             "Property": "Y",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "160",
+            "InvariantScript": "122",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "40",
+            "InvariantScript": "33",
             "Property": "Height",
             "RuleProviderType": "Unknown"
           },
@@ -268,25 +268,25 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "15",
+            "InvariantScript": "10",
             "Property": "RadiusTopLeft",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "15",
+            "InvariantScript": "10",
             "Property": "RadiusTopRight",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "15",
+            "InvariantScript": "10",
             "Property": "RadiusBottomLeft",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "15",
+            "InvariantScript": "10",
             "Property": "RadiusBottomRight",
             "RuleProviderType": "Unknown"
           },
@@ -397,7 +397,7 @@
         "Name": "Icon8",
         "Parent": "Add doc_Button",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 386,
+        "PublishOrderIndex": 3,
         "Rules": [
           {
             "Category": "Design",
@@ -461,7 +461,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "24",
+            "InvariantScript": "36",
             "Property": "X",
             "RuleProviderType": "Unknown"
           },
@@ -473,13 +473,13 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "35",
+            "InvariantScript": "30",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "40",
+            "InvariantScript": "35",
             "Property": "Height",
             "RuleProviderType": "Unknown"
           },
@@ -584,7 +584,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638356192979235655",
+    "LastModifiedTimestamp": "638357169628392228",
     "Name": "Add doc_Button",
     "Rules": [
       {
@@ -643,7 +643,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638356192979235655",
+  "LastModifiedTimestamp": "638357169628392228",
   "Name": "2af266b150a14e0db8f342db4b79e80e",
   "OverridableProperties": {},
   "Version": "638333195104792096"

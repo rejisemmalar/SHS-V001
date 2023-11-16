@@ -122,7 +122,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Add_1",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -561,7 +561,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon5_4",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1044,7 +1044,7 @@
         {
           "Category": "Design",
           "PropertyName": "Width",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
