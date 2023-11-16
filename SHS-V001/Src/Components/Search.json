@@ -280,25 +280,25 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "15",
+            "InvariantScript": "0",
             "Property": "X",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "7",
+            "InvariantScript": "0",
             "Property": "Y",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "168",
+            "InvariantScript": "200",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "31",
+            "InvariantScript": "42",
             "Property": "Height",
             "RuleProviderType": "Unknown"
           },
@@ -553,7 +553,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "11",
+            "InvariantScript": "3",
             "Property": "Y",
             "RuleProviderType": "Unknown"
           },
@@ -565,7 +565,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "24",
+            "InvariantScript": "39",
             "Property": "Height",
             "RuleProviderType": "Unknown"
           },
@@ -776,7 +776,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "17",
+            "InvariantScript": "35",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
@@ -880,7 +880,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638357152998224083",
+    "LastModifiedTimestamp": "638357090801723401",
     "Name": "Search",
     "Rules": [
       {
@@ -939,7 +939,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638357152998224083",
+  "LastModifiedTimestamp": "638357090801723401",
   "Name": "2bfbd06b732b460eb2f6cf51a5729b1d",
   "OverridableProperties": {},
   "Version": "638333186300143141"
