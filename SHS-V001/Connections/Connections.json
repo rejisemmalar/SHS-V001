@@ -23,6 +23,12 @@
           },
           "Profile information(admin)": {
             "tableName": "e2bd1582-5049-4706-98f6-9bf8ca6d1790"
+          },
+          "Segment_1": {
+            "tableName": "cb41dfdc-4f53-481c-a28c-447c0a602d55"
+          },
+          "Segment_2": {
+            "tableName": "cb41dfdc-4f53-481c-a28c-447c0a602d55"
           }
         }
       }
@@ -31,7 +37,9 @@
       "Profile information(admin)",
       "Login Details",
       "Login Details_1",
-      "Division_3"
+      "Division_3",
+      "Segment_2",
+      "Segment_1"
     ],
     "dependencies": {},
     "dependents": [],
