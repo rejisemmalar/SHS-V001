@@ -52,12 +52,6 @@ Segment As screen:
         Y: =195
         ZIndex: =6
 
-    Add_1 As Add:
-        Height: =47
-        X: =1217
-        Y: =195
-        ZIndex: =7
-
     DataTable1 As dataTable.datatable:
         BorderStyle: =BorderStyle.Solid
         DisplayMode: =DisplayMode.Edit
@@ -131,4 +125,13 @@ Segment As screen:
         X: =291
         Y: =306
         ZIndex: =9
+
+    Button4 As button:
+        Height: =33
+        PaddingLeft: =35
+        Text: ="Add"
+        Width: =85
+        X: =1233
+        Y: =202
+        ZIndex: =10
 
