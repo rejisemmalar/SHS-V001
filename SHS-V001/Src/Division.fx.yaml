@@ -360,7 +360,7 @@ Division As screen:
                         ZIndex: =4
 
             Button6 As button:
-                Text: ="Button"
+                Text: ="Save"
                 X: =318
                 Y: =354
                 ZIndex: =2
