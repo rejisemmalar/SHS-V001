@@ -61,7 +61,7 @@
             "Name": "Image7",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 72,
+            "PublishOrderIndex": 377,
             "Rules": [
               {
                 "Category": "Data",
@@ -301,7 +301,7 @@
             "Name": "Circle1_1",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 73,
+            "PublishOrderIndex": 378,
             "Rules": [
               {
                 "Category": "Design",
@@ -503,7 +503,7 @@
             "Name": "Label6",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 74,
+            "PublishOrderIndex": 379,
             "Rules": [
               {
                 "Category": "Data",
@@ -818,7 +818,7 @@
             "Name": "Icon1",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 75,
+            "PublishOrderIndex": 380,
             "Rules": [
               {
                 "Category": "Design",
@@ -1059,7 +1059,7 @@
             "Name": "Label4",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 76,
+            "PublishOrderIndex": 381,
             "Rules": [
               {
                 "Category": "Data",
@@ -1353,7 +1353,7 @@
             "Name": "Icon2",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 77,
+            "PublishOrderIndex": 382,
             "Rules": [
               {
                 "Category": "Design",
@@ -1555,7 +1555,7 @@
         "Name": "Container1",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 69,
+        "PublishOrderIndex": 376,
         "Rules": [
           {
             "Category": "Design",
@@ -1743,7 +1743,7 @@
             "Name": "galleryTemplate3",
             "Parent": "Gallery3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 78,
+            "PublishOrderIndex": 384,
             "Rules": [
               {
                 "Category": "Design",
@@ -1881,7 +1881,7 @@
             "Name": "Title_Parent",
             "Parent": "Gallery3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 79,
+            "PublishOrderIndex": 385,
             "Rules": [
               {
                 "Category": "Data",
@@ -2232,7 +2232,7 @@
         "Name": "Gallery3",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 70,
+        "PublishOrderIndex": 383,
         "Rules": [
           {
             "Category": "Data",
@@ -2450,7 +2450,7 @@
             "Name": "galleryTemplate7",
             "Parent": "Gallery7",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 80,
+            "PublishOrderIndex": 387,
             "Rules": [
               {
                 "Category": "Design",
@@ -2539,7 +2539,7 @@
             "Name": "Label17",
             "Parent": "Gallery7",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 81,
+            "PublishOrderIndex": 388,
             "Rules": [
               {
                 "Category": "Data",
@@ -2847,7 +2847,7 @@
         "Name": "Gallery7",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 71,
+        "PublishOrderIndex": 386,
         "Rules": [
           {
             "Category": "Data",
@@ -3073,7 +3073,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638358151459081508",
+    "LastModifiedTimestamp": "638358137988035136",
     "Name": "Component1",
     "Rules": [
       {
@@ -3238,7 +3238,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638358151459081508",
+  "LastModifiedTimestamp": "638358137988035136",
   "Name": "415e1786c3c94354acf26afaf63ccb82",
   "OverridableProperties": {},
   "Version": "638327128456687156"
