@@ -58,13 +58,13 @@ Segment As screen:
         Fill: =RGBA(0, 0, 0, 0)
         HeadingFill: =RGBA(4, 91, 102, 1)
         Height: =405
-        Items: =Segment_2
+        Items: =Segment_3
         Width: =1050
         X: =291
         Y: =348
         ZIndex: =8
 
-        "'Segment Code_Column2' As dataTableColumn.textualColumn":
+        "'Segment Code_Column1' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Segment Code"
             FieldName: ="Title"
@@ -78,7 +78,7 @@ Segment As screen:
             Y: =0
             ZIndex: =5
 
-        "'Segment Name_Column2' As dataTableColumn.textualColumn":
+        "'Segment Name_Column1' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Segment Name"
             FieldName: ="SegmentName"
@@ -92,7 +92,7 @@ Segment As screen:
             Y: =0
             ZIndex: =6
 
-        Action_Column4 As dataTableColumn.textualColumn:
+        Action_Column1 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Action"
             FieldName: ="Action"
@@ -252,10 +252,10 @@ Segment As screen:
                 DataField: ="SegmentName"
                 Default: =ThisItem.'Segment Name'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Segment_1],DataSourceInfo.DisplayName,"SegmentName")
+                DisplayName: =DataSourceInfo([@Segment_2],DataSourceInfo.DisplayName,"SegmentName")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@Segment_1], DataSourceInfo.MaxLength, "SegmentName")
+                MaxLength: =DataSourceInfo([@Segment_3], DataSourceInfo.MaxLength, "SegmentName")
                 Required: =true
                 Update: =DataCardValue19.Text
                 Width: =908
