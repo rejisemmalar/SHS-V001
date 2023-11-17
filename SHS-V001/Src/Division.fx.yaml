@@ -146,6 +146,7 @@ Division As screen:
     Container8 As groupContainer.manualLayoutContainer:
         Fill: =Color.LightBlue
         Height: =428
+        Visible: =ShowPopup
         Width: =971
         X: =262
         Y: =273
