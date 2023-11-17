@@ -15,9 +15,6 @@
       },
       "https://y00q1.sharepoint.com/sites/SHS-V07": {
         "dataSources": {
-          "Division_1": {
-            "tableName": "31c2a3e9-f68d-48d7-8542-64b5ae49d126"
-          },
           "Login Details": {
             "tableName": "329e5a5f-1293-4368-a3f2-67d91be2f1bb"
           },
@@ -30,8 +27,7 @@
     "dataSources": [
       "Profile information(admin)",
       "Login Details",
-      "Login Details_1",
-      "Division_1"
+      "Login Details_1"
     ],
     "dependencies": {},
     "dependents": [],
