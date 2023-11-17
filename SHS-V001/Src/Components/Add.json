@@ -106,6 +106,14 @@
             "InvariantPropertyName": "PaddingLeft",
             "IsLockable": false,
             "NameMapSourceSchema": "?"
+          },
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "false",
+            "InvariantPropertyName": "OnSelect",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
           }
         ],
         "ControlUniqueId": "94",
@@ -121,7 +129,7 @@
         "Name": "Button1",
         "Parent": "Add",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 389,
+        "PublishOrderIndex": 5,
         "Rules": [
           {
             "Category": "Data",
@@ -338,6 +346,12 @@
             "InvariantScript": "35",
             "Property": "PaddingLeft",
             "RuleProviderType": "Unknown"
+          },
+          {
+            "Category": "Behavior",
+            "InvariantScript": "",
+            "Property": "OnSelect",
+            "RuleProviderType": "Unknown"
           }
         ],
         "StyleName": "defaultButtonStyle",
@@ -404,7 +418,7 @@
         "Name": "Icon16",
         "Parent": "Add",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 390,
+        "PublishOrderIndex": 6,
         "Rules": [
           {
             "Category": "Design",
@@ -584,7 +598,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638357172639178631",
+    "LastModifiedTimestamp": "638358026235822848",
     "Name": "Add",
     "Rules": [
       {
@@ -643,7 +657,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638357172639178631",
+  "LastModifiedTimestamp": "638358026235822848",
   "Name": "94148f6d4bcc4633a89d637cdfc41b1b",
   "OverridableProperties": {},
   "Version": "1.0"

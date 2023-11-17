@@ -13,6 +13,7 @@ Add As CanvasComponent:
         Fill: =RGBA(7, 99, 33, 1)
         Height: =33
         HoverFill: =RGBA(2, 48, 2, 1)
+        OnSelect: =
         PaddingLeft: =35
         Size: =13
         Text: ="Add"
