@@ -41,7 +41,7 @@
             "Name": "galleryTemplate1_5",
             "Parent": "Gallery1_5",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 94,
+            "PublishOrderIndex": 398,
             "Rules": [
               {
                 "Category": "Design",
@@ -179,7 +179,7 @@
             "Name": "Label11_5",
             "Parent": "Gallery1_5",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 95,
+            "PublishOrderIndex": 399,
             "Rules": [
               {
                 "Category": "Data",
@@ -515,7 +515,7 @@
             "Name": "Icon12_3",
             "Parent": "Gallery1_5",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 96,
+            "PublishOrderIndex": 400,
             "Rules": [
               {
                 "Category": "Design",
@@ -733,7 +733,7 @@
         "Name": "Gallery1_5",
         "Parent": "Inbox 2(comp)",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 93,
+        "PublishOrderIndex": 397,
         "Rules": [
           {
             "Category": "Data",

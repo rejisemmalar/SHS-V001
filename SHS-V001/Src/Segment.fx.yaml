@@ -170,13 +170,12 @@ Segment As screen:
             ZIndex: =2
 
         Form3 As form:
-            DataSource: =Segment_1
+            DataSource: =Segment_5
             DefaultMode: =FormMode.New
-            Height: =341
+            Height: =310
             NumberOfColumns: =1
-            Width: =908
-            X: =24
-            Y: =9
+            X: =40
+            Y: =60
             ZIndex: =3
 
             "'Segment Code_DataCard2' As typedDataCard.textualEditCard":
@@ -184,13 +183,13 @@ Segment As screen:
                 DataField: ="Title"
                 Default: =ThisItem.'Segment Code'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Segment_1],DataSourceInfo.DisplayName,"Title")
+                DisplayName: =DataSourceInfo([@Segment_4],DataSourceInfo.DisplayName,"Title")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@Segment_1], DataSourceInfo.MaxLength, "Title")
+                MaxLength: =DataSourceInfo([@Segment_4], DataSourceInfo.MaxLength, "Title")
                 Required: =true
                 Update: =DataCardValue18.Text
-                Width: =908
+                Width: =800
                 X: =0
                 Y: =0
                 ZIndex: =4
@@ -252,13 +251,13 @@ Segment As screen:
                 DataField: ="SegmentName"
                 Default: =ThisItem.'Segment Name'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Segment_2],DataSourceInfo.DisplayName,"SegmentName")
+                DisplayName: =DataSourceInfo([@Segment_4],DataSourceInfo.DisplayName,"SegmentName")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@Segment_3], DataSourceInfo.MaxLength, "SegmentName")
+                MaxLength: =DataSourceInfo([@Segment_4], DataSourceInfo.MaxLength, "SegmentName")
                 Required: =true
                 Update: =DataCardValue19.Text
-                Width: =908
+                Width: =800
                 X: =0
                 Y: =1
                 ZIndex: =4
@@ -320,13 +319,13 @@ Segment As screen:
                 DataField: ="Action"
                 Default: =ThisItem.Action
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Segment_1],DataSourceInfo.DisplayName,"Action")
+                DisplayName: =DataSourceInfo([@Segment_4],DataSourceInfo.DisplayName,"Action")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@Segment_1], DataSourceInfo.MaxLength, "Action")
+                MaxLength: =DataSourceInfo([@Segment_4], DataSourceInfo.MaxLength, "Action")
                 Required: =false
                 Update: =DataCardValue20.Text
-                Width: =908
+                Width: =800
                 X: =0
                 Y: =2
                 ZIndex: =4

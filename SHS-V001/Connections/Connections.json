@@ -26,6 +26,12 @@
           },
           "Segment_3": {
             "tableName": "cb41dfdc-4f53-481c-a28c-447c0a602d55"
+          },
+          "Segment_4": {
+            "tableName": "cb41dfdc-4f53-481c-a28c-447c0a602d55"
+          },
+          "Segment_5": {
+            "tableName": "cb41dfdc-4f53-481c-a28c-447c0a602d55"
           }
         }
       }
@@ -35,7 +41,9 @@
       "Login Details",
       "Login Details_1",
       "Segment_1",
-      "Segment_3"
+      "Segment_3",
+      "Segment_4",
+      "Segment_5"
     ],
     "dependencies": {},
     "dependents": [],
