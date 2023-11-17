@@ -364,7 +364,8 @@ Division As screen:
                     ZIndex: =4
 
         Button6 As button:
-            OnSelect: =SubmitForm(Form1);NewForm(Form1)
+            OnSelect: |-
+                =SubmitForm(Form1);NewForm(Form1);UpdateContext({ShowPopup: false});
             Text: ="Save"
             X: =192
             Y: =321
