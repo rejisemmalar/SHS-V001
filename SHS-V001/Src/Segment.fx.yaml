@@ -58,33 +58,30 @@ Segment As screen:
         Fill: =RGBA(0, 0, 0, 0)
         HeadingFill: =RGBA(4, 91, 102, 1)
         Height: =405
-        Items: =Segment_1
+        Items: =Segment_2
         Width: =1050
         X: =291
         Y: =348
         ZIndex: =8
 
-        "'Segment Code_Column1' As dataTableColumn.textualColumn":
-            AutoWidth: =true
+        "'Segment Code_Column2' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Segment Code"
             FieldName: ="Title"
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
-            IsHyperlink: =true
             LayoutHeight: =Parent.Height
             Order: =1
             Text: =ThisItem.'Segment Code'
-            Visible: =true
             Width: =100
             X: =0
             Y: =0
-            ZIndex: =1
+            ZIndex: =5
 
-        "'Segment Name_Column1' As dataTableColumn.textualColumn":
+        "'Segment Name_Column2' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Segment Name"
-            FieldName: ="Segment_x0020_Name"
+            FieldName: ="SegmentName"
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
@@ -93,9 +90,9 @@ Segment As screen:
             Width: =100
             X: =0
             Y: =0
-            ZIndex: =2
+            ZIndex: =6
 
-        Action_Column1 As dataTableColumn.textualColumn:
+        Action_Column4 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Action"
             FieldName: ="Action"
@@ -107,7 +104,7 @@ Segment As screen:
             Width: =100
             X: =0
             Y: =0
-            ZIndex: =3
+            ZIndex: =7
 
     Icon5_27 As icon.HorizontalLine:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -164,16 +161,25 @@ Segment As screen:
         Y: =181
         ZIndex: =13
 
+        Button5 As button:
+            OnSelect: |-
+                =SubmitForm(Form3);NewForm(Form3);UpdateContext({ShowPopup: false});
+            Text: ="Save"
+            X: =360
+            Y: =427
+            ZIndex: =2
+
         Form3 As form:
             DataSource: =Segment_1
             DefaultMode: =FormMode.New
-            Height: =334
+            Height: =341
             NumberOfColumns: =1
-            X: =40
-            Y: =37
-            ZIndex: =1
+            Width: =908
+            X: =24
+            Y: =9
+            ZIndex: =3
 
-            "'Segment Code_DataCard1' As typedDataCard.textualEditCard":
+            "'Segment Code_DataCard2' As typedDataCard.textualEditCard":
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="Title"
                 Default: =ThisItem.'Segment Code'
@@ -182,14 +188,14 @@ Segment As screen:
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 MaxLength: =DataSourceInfo([@Segment_1], DataSourceInfo.MaxLength, "Title")
-                Required: =false
-                Update: =DataCardValue14.Text
-                Width: =800
+                Required: =true
+                Update: =DataCardValue18.Text
+                Width: =908
                 X: =0
                 Y: =0
-                ZIndex: =2
+                ZIndex: =4
 
-                DataCardKey14 As label:
+                DataCardKey18 As label:
                     AutoHeight: =true
                     Height: =34
                     Text: =Parent.DisplayName
@@ -199,7 +205,7 @@ Segment As screen:
                     Y: =10
                     ZIndex: =1
 
-                DataCardValue14 As text:
+                DataCardValue18 As text:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                     Default: =Parent.Default
                     DelayOutput: =true
@@ -213,10 +219,10 @@ Segment As screen:
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     X: =30
-                    Y: =DataCardKey14.Y + DataCardKey14.Height + 5
+                    Y: =DataCardKey18.Y + DataCardKey18.Height + 5
                     ZIndex: =2
 
-                ErrorMessage6 As label:
+                ErrorMessage10 As label:
                     AutoHeight: =true
                     Height: =10
                     Live: =Live.Assertive
@@ -228,36 +234,36 @@ Segment As screen:
                     Visible: =Parent.DisplayMode=DisplayMode.Edit
                     Width: =Parent.Width - 60
                     X: =30
-                    Y: =DataCardValue14.Y + DataCardValue14.Height
+                    Y: =DataCardValue18.Y + DataCardValue18.Height
                     ZIndex: =3
 
-                StarVisible6 As label:
+                StarVisible10 As label:
                     Align: =Align.Center
-                    Height: =DataCardKey14.Height
+                    Height: =DataCardKey18.Height
                     Text: ="*"
                     Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                     Width: =30
                     Wrap: =false
-                    Y: =DataCardKey14.Y
+                    Y: =DataCardKey18.Y
                     ZIndex: =4
 
-            "'Segment Name_DataCard1' As typedDataCard.textualEditCard":
+            "'Segment Name_DataCard2' As typedDataCard.textualEditCard":
                 BorderStyle: =BorderStyle.Solid
-                DataField: ="Segment_x0020_Name"
+                DataField: ="SegmentName"
                 Default: =ThisItem.'Segment Name'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Segment_1],DataSourceInfo.DisplayName,"Segment_x0020_Name")
+                DisplayName: =DataSourceInfo([@Segment_1],DataSourceInfo.DisplayName,"SegmentName")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@Segment_1], DataSourceInfo.MaxLength, "Segment_x0020_Name")
-                Required: =false
-                Update: =DataCardValue15.Text
-                Width: =800
+                MaxLength: =DataSourceInfo([@Segment_1], DataSourceInfo.MaxLength, "SegmentName")
+                Required: =true
+                Update: =DataCardValue19.Text
+                Width: =908
                 X: =0
                 Y: =1
-                ZIndex: =2
+                ZIndex: =4
 
-                DataCardKey15 As label:
+                DataCardKey19 As label:
                     AutoHeight: =true
                     Height: =34
                     Text: =Parent.DisplayName
@@ -267,7 +273,7 @@ Segment As screen:
                     Y: =10
                     ZIndex: =1
 
-                DataCardValue15 As text:
+                DataCardValue19 As text:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                     Default: =Parent.Default
                     DelayOutput: =true
@@ -281,10 +287,10 @@ Segment As screen:
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     X: =30
-                    Y: =DataCardKey15.Y + DataCardKey15.Height + 5
+                    Y: =DataCardKey19.Y + DataCardKey19.Height + 5
                     ZIndex: =2
 
-                ErrorMessage7 As label:
+                ErrorMessage11 As label:
                     AutoHeight: =true
                     Height: =10
                     Live: =Live.Assertive
@@ -296,20 +302,20 @@ Segment As screen:
                     Visible: =Parent.DisplayMode=DisplayMode.Edit
                     Width: =Parent.Width - 60
                     X: =30
-                    Y: =DataCardValue15.Y + DataCardValue15.Height
+                    Y: =DataCardValue19.Y + DataCardValue19.Height
                     ZIndex: =3
 
-                StarVisible7 As label:
+                StarVisible11 As label:
                     Align: =Align.Center
-                    Height: =DataCardKey15.Height
+                    Height: =DataCardKey19.Height
                     Text: ="*"
                     Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                     Width: =30
                     Wrap: =false
-                    Y: =DataCardKey15.Y
+                    Y: =DataCardKey19.Y
                     ZIndex: =4
 
-            Action_DataCard2 As typedDataCard.textualEditCard:
+            Action_DataCard3 As typedDataCard.textualEditCard:
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="Action"
                 Default: =ThisItem.Action
@@ -319,13 +325,13 @@ Segment As screen:
                 Height: =50
                 MaxLength: =DataSourceInfo([@Segment_1], DataSourceInfo.MaxLength, "Action")
                 Required: =false
-                Update: =DataCardValue16.Text
-                Width: =800
+                Update: =DataCardValue20.Text
+                Width: =908
                 X: =0
                 Y: =2
-                ZIndex: =2
+                ZIndex: =4
 
-                DataCardKey16 As label:
+                DataCardKey20 As label:
                     AutoHeight: =true
                     Height: =34
                     Text: =Parent.DisplayName
@@ -335,7 +341,7 @@ Segment As screen:
                     Y: =10
                     ZIndex: =1
 
-                DataCardValue16 As text:
+                DataCardValue20 As text:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                     Default: =Parent.Default
                     DelayOutput: =true
@@ -349,10 +355,10 @@ Segment As screen:
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     X: =30
-                    Y: =DataCardKey16.Y + DataCardKey16.Height + 5
+                    Y: =DataCardKey20.Y + DataCardKey20.Height + 5
                     ZIndex: =2
 
-                ErrorMessage8 As label:
+                ErrorMessage12 As label:
                     AutoHeight: =true
                     Height: =10
                     Live: =Live.Assertive
@@ -364,24 +370,16 @@ Segment As screen:
                     Visible: =Parent.DisplayMode=DisplayMode.Edit
                     Width: =Parent.Width - 60
                     X: =30
-                    Y: =DataCardValue16.Y + DataCardValue16.Height
+                    Y: =DataCardValue20.Y + DataCardValue20.Height
                     ZIndex: =3
 
-                StarVisible8 As label:
+                StarVisible12 As label:
                     Align: =Align.Center
-                    Height: =DataCardKey16.Height
+                    Height: =DataCardKey20.Height
                     Text: ="*"
                     Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                     Width: =30
                     Wrap: =false
-                    Y: =DataCardKey16.Y
+                    Y: =DataCardKey20.Y
                     ZIndex: =4
-
-        Button5 As button:
-            OnSelect: |-
-                =SubmitForm(Form3);NewForm(Form3);UpdateContext({ShowPopup: false});
-            Text: ="Save"
-            X: =360
-            Y: =427
-            ZIndex: =2
 
