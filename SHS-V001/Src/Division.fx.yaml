@@ -143,6 +143,7 @@ Division As screen:
         ZIndex: =14
 
     Container8 As groupContainer.manualLayoutContainer:
+        Fill: =Color.LightBlue
         Height: =428
         Width: =971
         X: =262
@@ -361,7 +362,7 @@ Division As screen:
                     ZIndex: =4
 
         Button6 As button:
-            Text: ="Button"
+            Text: ="Save"
             X: =192
             Y: =321
             ZIndex: =2
