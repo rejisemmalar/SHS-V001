@@ -102,29 +102,31 @@ Division As screen:
         ZIndex: =11
 
         "'Division Name_Column1' As dataTableColumn.textualColumn":
+            AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Division Name"
             FieldName: ="Title"
             FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
+            Height: =395
             LayoutHeight: =Parent.Height
             Order: =1
             Text: =ThisItem.'Division Name'
-            Width: =100
+            Width: =231
             X: =0
             Y: =0
             ZIndex: =5
 
         "'Division Code_Column1' As dataTableColumn.textualColumn":
+            AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Division Code"
             FieldName: ="DivisionCode"
             FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
+            Height: =395
             LayoutHeight: =Parent.Height
             Order: =2
             Text: =ThisItem.'Division Code'
-            Width: =100
+            Width: =270
             X: =0
             Y: =0
             ZIndex: =6
