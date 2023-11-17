@@ -41,7 +41,7 @@
             "Name": "galleryTemplate1_5",
             "Parent": "Gallery1_5",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 348,
+            "PublishOrderIndex": 94,
             "Rules": [
               {
                 "Category": "Design",
@@ -179,7 +179,7 @@
             "Name": "Label11_5",
             "Parent": "Gallery1_5",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 349,
+            "PublishOrderIndex": 95,
             "Rules": [
               {
                 "Category": "Data",
@@ -515,7 +515,7 @@
             "Name": "Icon12_3",
             "Parent": "Gallery1_5",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 350,
+            "PublishOrderIndex": 96,
             "Rules": [
               {
                 "Category": "Design",
@@ -733,7 +733,7 @@
         "Name": "Gallery1_5",
         "Parent": "Inbox 2(comp)",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 347,
+        "PublishOrderIndex": 93,
         "Rules": [
           {
             "Category": "Data",
@@ -942,7 +942,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638357172639345693",
+    "LastModifiedTimestamp": "638358070287777717",
     "Name": "Inbox 2(comp)",
     "Rules": [
       {
@@ -1047,7 +1047,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638357172639345693",
+  "LastModifiedTimestamp": "638358070287777717",
   "Name": "28f9441a6a9c47c588fffa0419dcc4d0",
   "OverridableProperties": {},
   "TemplateOriginalName": "77cddce64a2a4e5c8f79a0102c5d366a",
