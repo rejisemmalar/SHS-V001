@@ -782,7 +782,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataTable1",
-      "ParentIndex": 8,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -997,7 +997,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon15",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1252,7 +1252,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon5_27",
-      "ParentIndex": 9,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1532,7 +1532,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon5_4",
-      "ParentIndex": 6,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
