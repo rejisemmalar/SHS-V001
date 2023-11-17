@@ -153,6 +153,7 @@ Division As screen:
 
         Form1 As form:
             DataSource: =Division_3
+            DefaultMode: =FormMode.New
             Height: =428
             NumberOfColumns: =1
             Width: =971
@@ -363,7 +364,7 @@ Division As screen:
                     ZIndex: =4
 
         Button6 As button:
-            OnSelect: =SubmitForm(Form1);NewForm(For
+            OnSelect: =SubmitForm(Form1);NewForm(Form1)
             Text: ="Save"
             X: =192
             Y: =321
