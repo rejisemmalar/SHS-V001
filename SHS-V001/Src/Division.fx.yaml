@@ -114,3 +114,23 @@ Division As screen:
         Y: =206
         ZIndex: =11
 
+    Button4_1 As button:
+        Color: =Color.White
+        Fill: =RGBA(7, 99, 33, 1)
+        Height: =33
+        PaddingLeft: =35
+        Text: ="Add"
+        Width: =85
+        X: =1233
+        Y: =202
+        ZIndex: =12
+
+    Icon15_2 As icon.Add:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =25
+        Icon: =Icon.Add
+        Width: =35
+        X: =1233
+        Y: =206
+        ZIndex: =13
+
