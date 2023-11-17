@@ -36,74 +36,21 @@ Division As screen:
         Width: =1050
         X: =291
         Y: =273
-        ZIndex: =5
+        ZIndex: =4
 
     Search_20 As Search:
         Height: =47
         Width: =198
         X: =869
         Y: =195
-        ZIndex: =6
+        ZIndex: =5
 
     "'Add doc_Button_20' As 'Add doc_Button'":
         Height: =47
         Width: =161
         X: =1044
         Y: =195
-        ZIndex: =7
-
-    DataTable3 As dataTable.datatable:
-        BorderStyle: =BorderStyle.Solid
-        DisplayMode: =DisplayMode.Edit
-        Fill: =RGBA(0, 0, 0, 0)
-        Height: =374
-        Items: =Division_1
-        Width: =1075
-        X: =291
-        Y: =394
-        ZIndex: =9
-
-        "'Division Name_Column3' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Division Name"
-            FieldName: ="Title"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =1
-            Text: =ThisItem.'Division Name'
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =1
-
-        "'Division Code_Column3' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Division Code"
-            FieldName: ="DivisionCode"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =2
-            Text: =ThisItem.'Division Code'
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =2
-
-        Action_Column3 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Action"
-            FieldName: ="Action"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =3
-            Text: =ThisItem.Action
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =3
+        ZIndex: =6
 
     Icon15_1 As icon.Add:
         Color: =RGBA(255, 255, 255, 1)
@@ -112,7 +59,7 @@ Division As screen:
         Width: =35
         X: =1221
         Y: =206
-        ZIndex: =11
+        ZIndex: =7
 
     Button4_1 As button:
         Color: =Color.White
@@ -125,7 +72,7 @@ Division As screen:
         Width: =85
         X: =1233
         Y: =202
-        ZIndex: =12
+        ZIndex: =8
 
     Icon15_2 As icon.Add:
         Color: =RGBA(255, 255, 255, 1)
@@ -134,14 +81,67 @@ Division As screen:
         Width: =35
         X: =1233
         Y: =206
-        ZIndex: =13
+        ZIndex: =9
 
     Container7 As groupContainer.manualLayoutContainer:
         Fill: = RGBA(169, 169, 169, .75)
         Height: =768
         Visible: =ShowPopup
         Width: =1366
-        ZIndex: =14
+        ZIndex: =10
+
+    DataTable2 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =395
+        Items: =Division_3
+        Width: =1066
+        X: =300
+        Y: =373
+        ZIndex: =11
+
+        "'Division Name_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Division Name"
+            FieldName: ="Title"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.'Division Name'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =5
+
+        "'Division Code_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Division Code"
+            FieldName: ="DivisionCode"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.'Division Code'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =6
+
+        Action_Column2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Action"
+            FieldName: ="Action"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: =ThisItem.Action
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =7
 
     Container8 As groupContainer.manualLayoutContainer:
         Fill: =Color.LightBlue
@@ -150,13 +150,14 @@ Division As screen:
         Width: =971
         X: =262
         Y: =273
-        ZIndex: =15
+        ZIndex: =12
 
         Form1 As form:
             DataSource: =Division_3
             DefaultMode: =FormMode.New
             Height: =428
             NumberOfColumns: =1
+            Visible: =ShowPopup
             Width: =971
             ZIndex: =1
 
