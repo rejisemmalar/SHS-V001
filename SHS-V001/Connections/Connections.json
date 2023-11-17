@@ -10,6 +10,9 @@
         "dataSources": {
           "Login Details_1": {
             "tableName": "774fed77-2c07-4f89-a681-ef74c183c89d"
+          },
+          "Segment_1": {
+            "tableName": "44419051-52d3-447c-bec5-8cc10da55c78"
           }
         }
       },
@@ -27,7 +30,8 @@
     "dataSources": [
       "Profile information(admin)",
       "Login Details",
-      "Login Details_1"
+      "Login Details_1",
+      "Segment_1"
     ],
     "dependencies": {},
     "dependents": [],
