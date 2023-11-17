@@ -789,7 +789,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataTable3",
-      "ParentIndex": 6,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1513,7 +1513,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon5_3",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1734,7 +1734,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label12",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
