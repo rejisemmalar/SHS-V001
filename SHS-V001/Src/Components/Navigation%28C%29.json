@@ -61,7 +61,7 @@
             "Name": "Image7_3",
             "Parent": "Container1_3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 380,
+            "PublishOrderIndex": 378,
             "Rules": [
               {
                 "Category": "Data",
@@ -301,7 +301,7 @@
             "Name": "Circle1_4",
             "Parent": "Container1_3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 381,
+            "PublishOrderIndex": 379,
             "Rules": [
               {
                 "Category": "Design",
@@ -503,7 +503,7 @@
             "Name": "Label6_3",
             "Parent": "Container1_3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 382,
+            "PublishOrderIndex": 380,
             "Rules": [
               {
                 "Category": "Data",
@@ -818,7 +818,7 @@
             "Name": "Icon1_3",
             "Parent": "Container1_3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 383,
+            "PublishOrderIndex": 381,
             "Rules": [
               {
                 "Category": "Design",
@@ -1059,7 +1059,7 @@
             "Name": "Label4_3",
             "Parent": "Container1_3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 384,
+            "PublishOrderIndex": 382,
             "Rules": [
               {
                 "Category": "Data",
@@ -1353,7 +1353,7 @@
             "Name": "Icon2_3",
             "Parent": "Container1_3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 385,
+            "PublishOrderIndex": 383,
             "Rules": [
               {
                 "Category": "Design",
@@ -1555,7 +1555,7 @@
         "Name": "Container1_3",
         "Parent": "Navigation(C)",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 379,
+        "PublishOrderIndex": 377,
         "Rules": [
           {
             "Category": "Design",
@@ -1743,7 +1743,7 @@
             "Name": "galleryTemplate3_3",
             "Parent": "Gallery3_3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 387,
+            "PublishOrderIndex": 385,
             "Rules": [
               {
                 "Category": "Design",
@@ -1881,7 +1881,7 @@
             "Name": "Title_Parent_3",
             "Parent": "Gallery3_3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 388,
+            "PublishOrderIndex": 386,
             "Rules": [
               {
                 "Category": "Data",
@@ -2232,7 +2232,7 @@
         "Name": "Gallery3_3",
         "Parent": "Navigation(C)",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 386,
+        "PublishOrderIndex": 384,
         "Rules": [
           {
             "Category": "Data",
@@ -2450,7 +2450,7 @@
             "Name": "galleryTemplate7_1",
             "Parent": "Gallery7_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 390,
+            "PublishOrderIndex": 388,
             "Rules": [
               {
                 "Category": "Design",
@@ -2539,7 +2539,7 @@
             "Name": "Label17_1",
             "Parent": "Gallery7_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 391,
+            "PublishOrderIndex": 389,
             "Rules": [
               {
                 "Category": "Data",
@@ -2854,7 +2854,7 @@
         "Name": "Gallery7_1",
         "Parent": "Navigation(C)",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 389,
+        "PublishOrderIndex": 387,
         "Rules": [
           {
             "Category": "Data",
@@ -3081,7 +3081,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638358077496151528",
+    "LastModifiedTimestamp": "638358017825717728",
     "Name": "Navigation(C)",
     "Rules": [
       {
@@ -3261,7 +3261,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638358077496151528",
+  "LastModifiedTimestamp": "638358017825717728",
   "Name": "6d20878c806f4d8eb2bd5c34b44c6c3c",
   "OverridableProperties": {},
   "TemplateOriginalName": "415e1786c3c94354acf26afaf63ccb82",
