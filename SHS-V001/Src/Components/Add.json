@@ -121,7 +121,7 @@
         "Name": "Button1",
         "Parent": "Add",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 398,
+        "PublishOrderIndex": 399,
         "Rules": [
           {
             "Category": "Data",
@@ -404,7 +404,7 @@
         "Name": "Icon16",
         "Parent": "Add",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 399,
+        "PublishOrderIndex": 400,
         "Rules": [
           {
             "Category": "Design",

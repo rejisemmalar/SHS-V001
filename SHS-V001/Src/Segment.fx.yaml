@@ -127,6 +127,8 @@ Segment As screen:
         ZIndex: =9
 
     Button4 As button:
+        Color: =Color.White
+        Fill: =RGBA(7, 99, 33, 1)
         Height: =33
         PaddingLeft: =35
         Text: ="Add"
@@ -134,4 +136,13 @@ Segment As screen:
         X: =1233
         Y: =202
         ZIndex: =10
+
+    Icon15 As icon.Add:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =25
+        Icon: =Icon.Add
+        Width: =35
+        X: =1233
+        Y: =206
+        ZIndex: =11
 
