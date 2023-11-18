@@ -157,11 +157,13 @@ Segment As screen:
         Height: =534
         Visible: =ShowPopup
         Width: =939
-        X: =230
-        Y: =181
+        X: =226
+        Y: =117
         ZIndex: =13
 
         Button5 As button:
+            Fill: =RGBA(4, 71, 10, 1)
+            HoverFill: =Self.Fill
             OnSelect: |-
                 =SubmitForm(Form3);NewForm(Form3);UpdateContext({ShowPopup: false});
             Text: ="Save"
@@ -172,11 +174,11 @@ Segment As screen:
         Form3 As form:
             DataSource: =Segment_5
             DefaultMode: =FormMode.New
-            Height: =298
+            Height: =284
             NumberOfColumns: =1
             Width: =740
             X: =93
-            Y: =132
+            Y: =114
             ZIndex: =3
 
             "'Segment Code_DataCard2' As typedDataCard.textualEditCard":
@@ -208,17 +210,23 @@ Segment As screen:
                     ZIndex: =1
 
                 DataCardValue18 As text:
-                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    BorderColor: =Color.White
+                    BorderThickness: =0
                     Default: =Parent.Default
                     DelayOutput: =true
                     DisplayMode: =Parent.DisplayMode
                     Height: =50
+                    HoverBorderColor: =RGBA(255, 255, 255, 1)
+                    HoverFill: =RGBA(255, 255, 255, 1)
                     MaxLength: =Parent.MaxLength
                     PaddingLeft: =5
+                    PressedBorderColor: |
+                        =Color.White
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
+                    Size: =15
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     X: =30
