@@ -18,7 +18,7 @@ Segment As screen:
         Size: =17
         Text: ="Segment"
         X: =291
-        Y: =202
+        Y: =191
         ZIndex: =3
 
     Search_5 As Search:
