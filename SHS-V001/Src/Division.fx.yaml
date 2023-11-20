@@ -760,6 +760,7 @@ Division As screen:
             ZIndex: =2
 
         Button8 As button:
+            OnSelect: =ResetForm(Form1)
             Text: ="Cancel"
             X: =496
             Y: =321
