@@ -480,7 +480,7 @@
                 DataField: ="Stakeholder"
                 Default: =ThisItem.Stakeholder
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_1'],DataSourceInfo.DisplayName,"Stakeholder")
+                DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"Stakeholder")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 MaxLength: =DataSourceInfo([@'SHS-Users_1'], DataSourceInfo.MaxLength, "Stakeholder")
