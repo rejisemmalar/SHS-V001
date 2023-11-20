@@ -53,6 +53,9 @@
           },
           "SHS-Users_1": {
             "tableName": "991d0732-9a71-4950-acc8-5bd703252f59"
+          },
+          "Subfactors_1": {
+            "tableName": "7da5b8f9-b3f5-4d8c-a9cb-1bfcd3707ba1"
           }
         }
       }
@@ -71,7 +74,8 @@
       "Segment Member_1",
       "Factor",
       "Factor_1",
-      "Factor_2"
+      "Factor_2",
+      "Subfactors_1"
     ],
     "dependencies": {},
     "dependents": [],
