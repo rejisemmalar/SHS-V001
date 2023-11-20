@@ -143,3 +143,10 @@
         Y: =195
         ZIndex: =9
 
+    "'Add doc_Button_21' As 'Add doc_Button'":
+        Height: =47
+        Width: =161
+        X: =1044
+        Y: =195
+        ZIndex: =10
+
