@@ -228,7 +228,7 @@
     "DataCardValue9": 452,
     "DataTable1": 582,
     "DataTable2": 234,
-    "DataTable3": 365,
+    "DataTable3": 675,
     "Designation_DataCard1": 444,
     "Designation_DataCard2": 331,
     "Display name_DataCard1": 438,
@@ -653,7 +653,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/20/2023 08:38:31",
+  "HeaderLastSavedDateTimeUTC": "11/20/2023 08:39:59",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "d5d288d0-8556-4a38-a03d-f5517ce3059c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6b09e5d9e40c401a9964269a06a6ff10\""
@@ -1601,7 +1601,7 @@
     "DataCardValue9": 323,
     "DataTable1": 145,
     "DataTable2": 113,
-    "DataTable3": 255,
+    "DataTable3": 0,
     "Designation_DataCard1": 315,
     "Designation_DataCard2": 221,
     "Display name_DataCard1": 309,
