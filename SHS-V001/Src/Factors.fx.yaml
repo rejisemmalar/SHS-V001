@@ -75,7 +75,7 @@ Factors As screen:
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
         Height: =379
-        Items: =Factor
+        Items: =Factor_2
         Width: =1032
         X: =309
         Y: =360
@@ -93,7 +93,7 @@ Factors As screen:
             Width: =100
             X: =0
             Y: =0
-            ZIndex: =1
+            ZIndex: =7
 
         "'Factor Name_Column1' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
@@ -107,7 +107,7 @@ Factors As screen:
             Width: =100
             X: =0
             Y: =0
-            ZIndex: =2
+            ZIndex: =8
 
         Action_Column5 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
@@ -121,7 +121,7 @@ Factors As screen:
             Width: =100
             X: =0
             Y: =0
-            ZIndex: =3
+            ZIndex: =9
 
         "'Map Division_Column1' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
@@ -135,7 +135,7 @@ Factors As screen:
             Width: =100
             X: =0
             Y: =0
-            ZIndex: =4
+            ZIndex: =10
 
     Container15 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(153, 207, 236, 0.67)
