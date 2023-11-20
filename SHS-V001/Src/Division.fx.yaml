@@ -305,7 +305,7 @@ Division As screen:
                 DisplayName: =DataSourceInfo([@Division_1],DataSourceInfo.DisplayName,"Action")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@Division_3], DataSourceInfo.MaxLength, "Action")
+                MaxLength: =DataSourceInfo([@Division_1], DataSourceInfo.MaxLength, "Action")
                 Required: =false
                 Update: =DataCardValue11.Text
                 Width: =971
