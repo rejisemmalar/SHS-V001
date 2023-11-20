@@ -56,15 +56,6 @@
           },
           "Subfactors_1": {
             "tableName": "7da5b8f9-b3f5-4d8c-a9cb-1bfcd3707ba1"
-          },
-          "Subfactors_2": {
-            "tableName": "7da5b8f9-b3f5-4d8c-a9cb-1bfcd3707ba1"
-          },
-          "Subfactors_3": {
-            "tableName": "7da5b8f9-b3f5-4d8c-a9cb-1bfcd3707ba1"
-          },
-          "Subfactors_4": {
-            "tableName": "7da5b8f9-b3f5-4d8c-a9cb-1bfcd3707ba1"
           }
         }
       }
@@ -84,10 +75,7 @@
       "Factor",
       "Factor_1",
       "Factor_2",
-      "Subfactors_1",
-      "Subfactors_2",
-      "Subfactors_3",
-      "Subfactors_4"
+      "Subfactors_1"
     ],
     "dependencies": {},
     "dependents": [],
