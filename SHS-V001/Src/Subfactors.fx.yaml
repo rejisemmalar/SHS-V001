@@ -44,7 +44,125 @@ Subfactors As screen:
         ZIndex: =5
 
     "'Add doc_Button_8' As 'Add doc_Button'":
-        X: =1170
+        X: =1071
         Y: =195
         ZIndex: =6
+
+    Button4_5 As button:
+        Color: =Color.White
+        Fill: =RGBA(7, 99, 33, 1)
+        Height: =33
+        OnSelect: |-
+            =UpdateContext({ShowPopup : true});
+        PaddingLeft: =35
+        Text: ="Add"
+        Width: =85
+        X: =1242
+        Y: =201
+        ZIndex: =7
+
+    Icon18_1 As icon.Add:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =32
+        Icon: =Icon.Add
+        Width: =20
+        X: =1255
+        Y: =202
+        ZIndex: =8
+
+    DataTable6 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =418
+        Items: =Subfactors_1
+        Width: =1040
+        X: =300
+        Y: =324
+        ZIndex: =9
+
+        Factors_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Factors"
+            FieldName: ="Title"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.Factors
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        Code_Column2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Code"
+            FieldName: ="Code"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.Code
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =2
+
+        Subfactors_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Subfactors"
+            FieldName: ="Subfactors"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: =ThisItem.Subfactors
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =3
+
+        Action_Column6 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Action"
+            FieldName: ="Action"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =4
+            Text: =ThisItem.Action
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =4
+
+        Mapdivision_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Mapdivision"
+            FieldName: ="Mapdivision"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =5
+            Text: =ThisItem.Mapdivision
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =5
+
+    Container17 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(0, 121, 187, 0.33)
+        Height: =768
+        Visible: =ShowPopup
+        Width: =1366
+        ZIndex: =10
+
+    Container18 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(0, 121, 187, 1)
+        Height: =560
+        Width: =1093
+        X: =206
+        Y: =147
+        ZIndex: =11
 
