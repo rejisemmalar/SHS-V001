@@ -56,12 +56,15 @@ Segment As screen:
         BorderStyle: =BorderStyle.Solid
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
-        HeadingFill: =RGBA(4, 91, 102, 1)
-        Height: =405
+        HeadingFill: =RGBA(77, 77, 77, 1)
+        HeadingFontWeight: =FontWeight.Bold
+        HeadingSize: =15
+        Height: =455
         Items: =Segment_3
+        SelectedFill: =RGBA(255, 255, 255, 1)
         Width: =1050
         X: =291
-        Y: =348
+        Y: =298
         ZIndex: =8
 
         "'Segment Code_Column1' As dataTableColumn.textualColumn":
@@ -106,30 +109,16 @@ Segment As screen:
             Y: =0
             ZIndex: =7
 
-    Icon5_27 As icon.HorizontalLine:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        BorderThickness: =1
-        Color: =RGBA(214, 223, 238, 1)
-        FocusedBorderThickness: =1
-        Height: =0.1
-        Icon: =Icon.HorizontalLine
-        PaddingBottom: =10
-        PaddingLeft: =10
-        PaddingRight: =10
-        PaddingTop: =10
-        Rotation: =1
-        Width: =1050
-        X: =291
-        Y: =306
-        ZIndex: =9
-
     Button4 As button:
         Color: =Color.White
         Fill: =RGBA(7, 99, 33, 1)
         Height: =33
+        HoverFill: =Color.Green
         OnSelect: |-
             =UpdateContext({ShowPopup : true});
         PaddingLeft: =35
+        PressedColor: =Color.White
+        PressedFill: =Color.Green
         Text: ="Add"
         Width: =85
         X: =1233
@@ -153,12 +142,12 @@ Segment As screen:
         ZIndex: =12
 
     Container10 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(61, 213, 227, 1)
-        Height: =534
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =536
         Visible: =ShowPopup
-        Width: =939
-        X: =226
-        Y: =117
+        Width: =1258
+        X: =60
+        Y: =30
         ZIndex: =13
 
         Button5 As button:
@@ -166,17 +155,19 @@ Segment As screen:
             HoverFill: =Self.Fill
             OnSelect: |-
                 =SubmitForm(Form3);NewForm(Form3);UpdateContext({ShowPopup: false});
+            PressedColor: =Color.White
+            PressedFill: =Color.Green
             Text: ="Save"
-            X: =510
-            Y: =456
+            X: =800
+            Y: =441
             ZIndex: =2
 
         Form3 As form:
             DataSource: =Segment_5
             DefaultMode: =FormMode.New
-            Height: =302
+            Height: =306
             NumberOfColumns: =1
-            Width: =740
+            Width: =1123
             X: =93
             Y: =114
             ZIndex: =3
@@ -192,7 +183,7 @@ Segment As screen:
                 MaxLength: =DataSourceInfo([@Segment_4], DataSourceInfo.MaxLength, "Title")
                 Required: =true
                 Update: =DataCardValue18.Text
-                Width: =740
+                Width: =1123
                 X: =0
                 Y: =0
                 ZIndex: =4
@@ -201,7 +192,7 @@ Segment As screen:
                     AutoHeight: =true
                     FontWeight: =FontWeight.Semibold
                     Height: =34
-                    Size: =20
+                    Size: =15
                     Text: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     Wrap: =false
@@ -210,8 +201,8 @@ Segment As screen:
                     ZIndex: =1
 
                 DataCardValue18 As text:
-                    BorderColor: =Color.White
-                    BorderThickness: =0
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderThickness: =1
                     Default: =Parent.Default
                     DelayOutput: =true
                     DisplayMode: =Parent.DisplayMode
@@ -250,6 +241,7 @@ Segment As screen:
 
                 StarVisible10 As label:
                     Align: =Align.Center
+                    Color: =RGBA(255, 0, 0, 1)
                     Height: =DataCardKey18.Height
                     Text: ="*"
                     Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -269,7 +261,7 @@ Segment As screen:
                 MaxLength: =DataSourceInfo([@Segment_4], DataSourceInfo.MaxLength, "SegmentName")
                 Required: =true
                 Update: =DataCardValue19.Text
-                Width: =740
+                Width: =1123
                 X: =0
                 Y: =1
                 ZIndex: =4
@@ -278,7 +270,7 @@ Segment As screen:
                     AutoHeight: =true
                     FontWeight: =FontWeight.Semibold
                     Height: =34
-                    Size: =20
+                    Size: =15
                     Text: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     Wrap: =false
@@ -287,7 +279,8 @@ Segment As screen:
                     ZIndex: =1
 
                 DataCardValue19 As text:
-                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    BorderColor: =Color.Black
+                    BorderThickness: =1
                     Default: =Parent.Default
                     DelayOutput: =true
                     DisplayMode: =Parent.DisplayMode
@@ -321,6 +314,7 @@ Segment As screen:
 
                 StarVisible11 As label:
                     Align: =Align.Center
+                    Color: =RGBA(255, 0, 0, 1)
                     Height: =DataCardKey19.Height
                     Text: ="*"
                     Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -343,7 +337,7 @@ Segment As screen:
             OnSelect: |-
                 =UpdateContext({ShowPopup:false})
             Text: ="Cancel"
-            X: =728
-            Y: =456
+            X: =1023
+            Y: =441
             ZIndex: =5
 

@@ -88,6 +88,7 @@ Division As screen:
         ZIndex: =9
 
     Container7 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Regular
         Fill: =RGBA(219, 219, 219, 0.64)
         Height: =768
         Visible: =ShowPopup
@@ -98,8 +99,11 @@ Division As screen:
         BorderStyle: =BorderStyle.Solid
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
+        HeadingFill: =RGBA(102, 102, 102, 1)
+        HeadingSize: =15
         Height: =423
         Items: =Division_1
+        SelectedFill: =RGBA(255, 255, 255, 1)
         Width: =1041
         X: =300
         Y: =325
@@ -791,16 +795,23 @@ Division As screen:
 
         Button6 As button:
             Fill: =RGBA(5, 120, 24, 1)
+            HoverFill: =Color.Green
             OnSelect: |-
                 =SubmitForm(Form1);NewForm(Form1);UpdateContext({ShowPopup: false});
+            PressedColor: =Color.White
+            PressedFill: =Color.Green
             Text: ="Save"
             X: =822
             Y: =456
             ZIndex: =2
 
         Button8 As button:
+            Fill: =RGBA(77, 77, 77, 1)
+            HoverFill: =RGBA(77, 77, 77, 1)
             OnSelect: |-
                 =UpdateContext({ShowPopup:false})
+            PressedColor: =Color.White
+            PressedFill: =RGBA(77, 77, 77, 1)
             Text: ="Cancel"
             X: =1035
             Y: =456
