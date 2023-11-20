@@ -150,3 +150,16 @@
         Y: =195
         ZIndex: =10
 
+    Button4_2 As button:
+        Color: =Color.White
+        Fill: =RGBA(7, 99, 33, 1)
+        Height: =33
+        OnSelect: |-
+            = UpdateContext({ShowPopup : true});
+        PaddingLeft: =35
+        Text: ="Add"
+        Width: =85
+        X: =1205
+        Y: =200
+        ZIndex: =11
+
