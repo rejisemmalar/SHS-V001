@@ -35,6 +35,9 @@
           },
           "Segment_5": {
             "tableName": "cb41dfdc-4f53-481c-a28c-447c0a602d55"
+          },
+          "SHS-Users_2": {
+            "tableName": "991d0732-9a71-4950-acc8-5bd703252f59"
           }
         }
       }
@@ -47,7 +50,8 @@
       "Segment_3",
       "Segment_4",
       "Segment_5",
-      "Division_1"
+      "Division_1",
+      "SHS-Users_2"
     ],
     "dependencies": {},
     "dependents": [],
