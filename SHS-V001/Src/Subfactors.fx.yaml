@@ -75,13 +75,13 @@ Subfactors As screen:
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
         Height: =418
-        Items: =Subfactors_4
+        Items: =Subfactors_5
         Width: =1040
         X: =300
         Y: =324
         ZIndex: =9
 
-        Factors_Column3 As dataTableColumn.textualColumn:
+        Factors_Column1 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Factors"
             FieldName: ="Title"
@@ -95,7 +95,7 @@ Subfactors As screen:
             Y: =0
             ZIndex: =5
 
-        Code_Column4 As dataTableColumn.textualColumn:
+        Code_Column2 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Code"
             FieldName: ="Code"
@@ -109,7 +109,7 @@ Subfactors As screen:
             Y: =0
             ZIndex: =6
 
-        Subfactors_Column3 As dataTableColumn.textualColumn:
+        Subfactors_Column1 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Subfactors"
             FieldName: ="Subfactors"
@@ -123,7 +123,7 @@ Subfactors As screen:
             Y: =0
             ZIndex: =7
 
-        Action_Column8 As dataTableColumn.textualColumn:
+        Action_Column6 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Action"
             FieldName: ="Action"
@@ -137,7 +137,7 @@ Subfactors As screen:
             Y: =0
             ZIndex: =8
 
-        Mapdivision_Column3 As dataTableColumn.textualColumn:
+        Mapdivision_Column1 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Mapdivision"
             FieldName: ="Mapdivision"
@@ -168,7 +168,7 @@ Subfactors As screen:
         ZIndex: =11
 
         Form7 As form:
-            DataSource: =Subfactors_4
+            DataSource: =Subfactors_5
             DefaultMode: =FormMode.New
             Height: =354
             NumberOfColumns: =1
@@ -177,23 +177,23 @@ Subfactors As screen:
             Y: =86
             ZIndex: =1
 
-            Factors_DataCard3 As typedDataCard.textualEditCard:
+            Factors_DataCard1 As typedDataCard.textualEditCard:
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="Title"
                 Default: =ThisItem.Factors
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Subfactors_4],DataSourceInfo.DisplayName,"Title")
+                DisplayName: =DataSourceInfo([@Subfactors_5],DataSourceInfo.DisplayName,"Title")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@Subfactors_4], DataSourceInfo.MaxLength, "Title")
+                MaxLength: =DataSourceInfo([@Subfactors_5], DataSourceInfo.MaxLength, "Title")
                 Required: =true
-                Update: =DataCardValue47.Text
+                Update: =DataCardValue25.Text
                 Width: =851
                 X: =0
                 Y: =0
                 ZIndex: =2
 
-                DataCardKey47 As label:
+                DataCardKey25 As label:
                     AutoHeight: =true
                     Height: =34
                     Text: =Parent.DisplayName
@@ -203,7 +203,7 @@ Subfactors As screen:
                     Y: =10
                     ZIndex: =1
 
-                DataCardValue47 As text:
+                DataCardValue25 As text:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                     Default: =Parent.Default
                     DelayOutput: =true
@@ -217,10 +217,10 @@ Subfactors As screen:
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     X: =30
-                    Y: =DataCardKey47.Y + DataCardKey47.Height + 5
+                    Y: =DataCardKey25.Y + DataCardKey25.Height + 5
                     ZIndex: =2
 
-                ErrorMessage39 As label:
+                ErrorMessage17 As label:
                     AutoHeight: =true
                     Height: =10
                     Live: =Live.Assertive
@@ -232,36 +232,36 @@ Subfactors As screen:
                     Visible: =Parent.DisplayMode=DisplayMode.Edit
                     Width: =Parent.Width - 60
                     X: =30
-                    Y: =DataCardValue47.Y + DataCardValue47.Height
+                    Y: =DataCardValue25.Y + DataCardValue25.Height
                     ZIndex: =3
 
-                StarVisible39 As label:
+                StarVisible17 As label:
                     Align: =Align.Center
-                    Height: =DataCardKey47.Height
+                    Height: =DataCardKey25.Height
                     Text: ="*"
                     Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                     Width: =30
                     Wrap: =false
-                    Y: =DataCardKey47.Y
+                    Y: =DataCardKey25.Y
                     ZIndex: =4
 
-            Code_DataCard4 As typedDataCard.textualEditCard:
+            Code_DataCard2 As typedDataCard.textualEditCard:
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="Code"
                 Default: =ThisItem.Code
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Subfactors_4],DataSourceInfo.DisplayName,"Code")
+                DisplayName: =DataSourceInfo([@Subfactors_5],DataSourceInfo.DisplayName,"Code")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@Subfactors_4], DataSourceInfo.MaxLength, "Code")
+                MaxLength: =DataSourceInfo([@Subfactors_5], DataSourceInfo.MaxLength, "Code")
                 Required: =true
-                Update: =DataCardValue48.Text
+                Update: =DataCardValue26.Text
                 Width: =851
                 X: =0
                 Y: =1
                 ZIndex: =2
 
-                DataCardKey48 As label:
+                DataCardKey26 As label:
                     AutoHeight: =true
                     Height: =34
                     Text: =Parent.DisplayName
@@ -271,7 +271,7 @@ Subfactors As screen:
                     Y: =10
                     ZIndex: =1
 
-                DataCardValue48 As text:
+                DataCardValue26 As text:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                     Default: =Parent.Default
                     DelayOutput: =true
@@ -285,10 +285,10 @@ Subfactors As screen:
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     X: =30
-                    Y: =DataCardKey48.Y + DataCardKey48.Height + 5
+                    Y: =DataCardKey26.Y + DataCardKey26.Height + 5
                     ZIndex: =2
 
-                ErrorMessage40 As label:
+                ErrorMessage18 As label:
                     AutoHeight: =true
                     Height: =10
                     Live: =Live.Assertive
@@ -300,36 +300,36 @@ Subfactors As screen:
                     Visible: =Parent.DisplayMode=DisplayMode.Edit
                     Width: =Parent.Width - 60
                     X: =30
-                    Y: =DataCardValue48.Y + DataCardValue48.Height
+                    Y: =DataCardValue26.Y + DataCardValue26.Height
                     ZIndex: =3
 
-                StarVisible40 As label:
+                StarVisible18 As label:
                     Align: =Align.Center
-                    Height: =DataCardKey48.Height
+                    Height: =DataCardKey26.Height
                     Text: ="*"
                     Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                     Width: =30
                     Wrap: =false
-                    Y: =DataCardKey48.Y
+                    Y: =DataCardKey26.Y
                     ZIndex: =4
 
-            Subfactors_DataCard3 As typedDataCard.textualEditCard:
+            Subfactors_DataCard1 As typedDataCard.textualEditCard:
                 BorderStyle: =BorderStyle.Solid
                 DataField: ="Subfactors"
                 Default: =ThisItem.Subfactors
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Subfactors_4],DataSourceInfo.DisplayName,"Subfactors")
+                DisplayName: =DataSourceInfo([@Subfactors_5],DataSourceInfo.DisplayName,"Subfactors")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@Subfactors_4], DataSourceInfo.MaxLength, "Subfactors")
+                MaxLength: =DataSourceInfo([@Subfactors_5], DataSourceInfo.MaxLength, "Subfactors")
                 Required: =true
-                Update: =DataCardValue49.Text
+                Update: =DataCardValue35.Text
                 Width: =851
                 X: =0
                 Y: =2
                 ZIndex: =2
 
-                DataCardKey49 As label:
+                DataCardKey35 As label:
                     AutoHeight: =true
                     Height: =34
                     Text: =Parent.DisplayName
@@ -339,7 +339,7 @@ Subfactors As screen:
                     Y: =10
                     ZIndex: =1
 
-                DataCardValue49 As text:
+                DataCardValue35 As text:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                     Default: =Parent.Default
                     DelayOutput: =true
@@ -353,10 +353,10 @@ Subfactors As screen:
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     X: =30
-                    Y: =DataCardKey49.Y + DataCardKey49.Height + 5
+                    Y: =DataCardKey35.Y + DataCardKey35.Height + 5
                     ZIndex: =2
 
-                ErrorMessage41 As label:
+                ErrorMessage27 As label:
                     AutoHeight: =true
                     Height: =10
                     Live: =Live.Assertive
@@ -368,17 +368,17 @@ Subfactors As screen:
                     Visible: =Parent.DisplayMode=DisplayMode.Edit
                     Width: =Parent.Width - 60
                     X: =30
-                    Y: =DataCardValue49.Y + DataCardValue49.Height
+                    Y: =DataCardValue35.Y + DataCardValue35.Height
                     ZIndex: =3
 
-                StarVisible41 As label:
+                StarVisible27 As label:
                     Align: =Align.Center
-                    Height: =DataCardKey49.Height
+                    Height: =DataCardKey35.Height
                     Text: ="*"
                     Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                     Width: =30
                     Wrap: =false
-                    Y: =DataCardKey49.Y
+                    Y: =DataCardKey35.Y
                     ZIndex: =4
 
         Label35 As label:
