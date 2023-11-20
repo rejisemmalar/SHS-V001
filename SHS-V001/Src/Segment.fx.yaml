@@ -142,6 +142,7 @@ Segment As screen:
         ZIndex: =12
 
     Container10 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Bold
         Fill: =RGBA(255, 255, 255, 1)
         Height: =536
         Visible: =ShowPopup
@@ -334,8 +335,13 @@ Segment As screen:
             ZIndex: =4
 
         Button7 As button:
+            Fill: =RGBA(102, 102, 102, 1)
+            HoverFill: |
+                =RGBA(77, 77, 77, 1)
             OnSelect: |-
                 =UpdateContext({ShowPopup:false})
+            PressedColor: =Color.White
+            PressedFill: =RGBA(77, 77, 77, 1)
             Text: ="Cancel"
             X: =1023
             Y: =441
