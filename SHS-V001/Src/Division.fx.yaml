@@ -169,7 +169,7 @@ Division As screen:
                 DisplayName: =DataSourceInfo([@Division_1],DataSourceInfo.DisplayName,"Title")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@Division_3], DataSourceInfo.MaxLength, "Title")
+                MaxLength: =DataSourceInfo([@Division_1], DataSourceInfo.MaxLength, "Title")
                 Required: =false
                 Update: =DataCardValue1.Text
                 Width: =971
