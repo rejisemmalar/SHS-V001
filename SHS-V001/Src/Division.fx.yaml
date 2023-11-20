@@ -237,7 +237,7 @@ Division As screen:
                 DisplayName: =DataSourceInfo([@Division_1],DataSourceInfo.DisplayName,"DivisionCode")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@Division_3], DataSourceInfo.MaxLength, "DivisionCode")
+                MaxLength: =DataSourceInfo([@Division_1], DataSourceInfo.MaxLength, "DivisionCode")
                 Required: =false
                 Update: =DataCardValue2.Text
                 Width: =971
