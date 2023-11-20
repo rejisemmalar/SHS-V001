@@ -128,7 +128,7 @@
                 Height: =50
                 MaxLength: =DataSourceInfo([@'SHS-Users_2'], DataSourceInfo.MaxLength, "Title")
                 Required: =true
-                Update: =DataCardValue11.Text
+                Update: =
                 Width: =522
                 X: =0
                 Y: =0
@@ -504,7 +504,6 @@
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
                     IsSearchable: =false
-                    Items: =Choices([@'SHS-Users_2'].Division)
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Value"]
                     SearchItems: =[]
@@ -571,7 +570,6 @@
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
                     IsSearchable: =false
-                    Items: =Choices([@'SHS-Users_2'].User_x0020_Role)
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Value"]
                     SearchItems: =[]
@@ -607,6 +605,16 @@
                     Y: =DataCardKey29.Y
                     ZIndex: =4
 
+                DataTable3 As dataTable.datatable:
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =500
+                    Width: =800
+                    X: =0
+                    Y: =0
+                    ZIndex: =5
+
         Button9 As button:
             OnSelect: |-
                 =SubmitForm(Form4);NewForm(Form4);UpdateContext({ShowPopup: false});
@@ -622,4 +630,14 @@
             X: =541
             Y: =426
             ZIndex: =3
+
+    DataTable5 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =435
+        Width: =1034
+        X: =332
+        Y: =333
+        ZIndex: =15
 
