@@ -615,7 +615,7 @@
                 DataField: ="User_x0020_Role"
                 Default: =ThisItem.'User Role'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_1'],DataSourceInfo.DisplayName,"User_x0020_Role")
+                DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"User_x0020_Role")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 Required: =true
