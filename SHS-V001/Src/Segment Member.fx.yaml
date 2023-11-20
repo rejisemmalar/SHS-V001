@@ -76,7 +76,7 @@
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
         Height: =402
-        Items: ='Segment Member_3'
+        Items: ='Segment Member_1'
         Width: =1029
         X: =302
         Y: =336
