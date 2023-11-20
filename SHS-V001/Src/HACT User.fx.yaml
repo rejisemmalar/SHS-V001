@@ -741,7 +741,7 @@
             ZIndex: =2
 
         Button10 As button:
-            Text: ="Button"
+            Text: ="ButtonCancel"
             X: =541
             Y: =426
             ZIndex: =3
