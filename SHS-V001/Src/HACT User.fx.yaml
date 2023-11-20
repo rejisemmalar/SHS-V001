@@ -583,10 +583,11 @@
                     DefaultSelectedItems: =Parent.Default
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
+                    IsSearchable: =false
                     Items: =Choices([@'SHS-Users_1'].Division)
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Value"]
-                    SearchItems: =Choices('SHS-Users_1'.Division,DataCardValue28.SearchText)
+                    SearchItems: =[]
                     SelectMultiple: =false
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
@@ -649,10 +650,11 @@
                     DefaultSelectedItems: =Parent.Default
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
+                    IsSearchable: =false
                     Items: =Choices([@'SHS-Users_1'].User_x0020_Role)
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Value"]
-                    SearchItems: =Choices('SHS-Users_1'.User_x0020_Role,DataCardValue29.SearchText)
+                    SearchItems: =[]
                     SelectMultiple: =false
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
