@@ -18,6 +18,9 @@
       },
       "https://y00q1.sharepoint.com/sites/SHS-V07": {
         "dataSources": {
+          "Division_1": {
+            "tableName": "31c2a3e9-f68d-48d7-8542-64b5ae49d126"
+          },
           "Login Details": {
             "tableName": "329e5a5f-1293-4368-a3f2-67d91be2f1bb"
           },
@@ -43,7 +46,8 @@
       "Segment_1",
       "Segment_3",
       "Segment_4",
-      "Segment_5"
+      "Segment_5",
+      "Division_1"
     ],
     "dependencies": {},
     "dependents": [],
