@@ -412,7 +412,7 @@
                 DataField: ="NT_x0020_Login"
                 Default: =ThisItem.'NT Login'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_1'],DataSourceInfo.DisplayName,"NT_x0020_Login")
+                DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"NT_x0020_Login")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 MaxLength: =DataSourceInfo([@'SHS-Users_1'], DataSourceInfo.MaxLength, "NT_x0020_Login")
