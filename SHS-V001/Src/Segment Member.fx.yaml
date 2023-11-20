@@ -76,7 +76,7 @@
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
         Height: =402
-        Items: ='Segment Member_1'
+        Items: ='Segment Member_2'
         Width: =1029
         X: =302
         Y: =336
@@ -94,7 +94,7 @@
             Width: =100
             X: =0
             Y: =0
-            ZIndex: =7
+            ZIndex: =1
 
         Code_Column1 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
@@ -108,7 +108,7 @@
             Width: =100
             X: =0
             Y: =0
-            ZIndex: =8
+            ZIndex: =2
 
         "'Segment Member_Column1' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
@@ -122,7 +122,7 @@
             Width: =100
             X: =0
             Y: =0
-            ZIndex: =9
+            ZIndex: =3
 
         Action_Column3 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
@@ -136,5 +136,5 @@
             Width: =100
             X: =0
             Y: =0
-            ZIndex: =10
+            ZIndex: =4
 
