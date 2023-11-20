@@ -106,7 +106,7 @@
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
         Height: =431
-        Items: ='SHS-Users'
+        Items: ='SHS-Users_1'
         Width: =1083
         X: =283
         Y: =337
@@ -722,7 +722,7 @@
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
                     IsSearchable: =false
-                    Items: =Choices([@'SHS-Users'].User_x0020_Role)
+                    Items: =Choices([@'SHS-Users_1'].User_x0020_Role)
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Value"]
                     SearchItems: =[]
