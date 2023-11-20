@@ -374,7 +374,7 @@ Division As screen:
             ZIndex: =2
 
         Button8 As button:
-            Text: ="cancel"
+            Text: ="Cancel"
             X: =496
             Y: =321
             ZIndex: =3
