@@ -184,6 +184,7 @@
 
     Container12 As groupContainer.manualLayoutContainer:
         Height: =525
+        Visible: =ShowPopup
         Width: =1044
         X: =213
         Y: =161
@@ -191,6 +192,7 @@
 
         Form4 As form:
             DataSource: ='SHS-Users_1'
+            DefaultMode: =FormMode.New
             Height: =525
             NumberOfColumns: =2
             Width: =1044
