@@ -746,6 +746,8 @@
             ZIndex: =2
 
         Button10 As button:
+            OnSelect: |-
+                =UpdateContext({ShowPopup:false})
             Text: ="Cancel"
             X: =541
             Y: =426
