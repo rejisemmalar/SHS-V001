@@ -7176,8 +7176,8 @@
         },
         {
           "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": true,
-          "AutoRuleBindingString": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "DataSourceInfo([@'SHS-Users_1'],DataSourceInfo.DisplayName,\"Division\")",
           "InvariantPropertyName": "DisplayName",
           "IsLockable": true,
           "NameMapSourceSchema": "?"

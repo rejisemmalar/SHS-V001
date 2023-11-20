@@ -548,7 +548,7 @@
                 DataField: ="Division"
                 Default: =ThisItem.Division
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_1'],DataSourceInfo.DisplayName,"Division")
+                DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"Division")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 Required: =true
