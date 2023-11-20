@@ -209,7 +209,7 @@
                 DataField: ="PR_x0020_Number"
                 Default: =ThisItem.'PR Number'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_1'],DataSourceInfo.DisplayName,"PR_x0020_Number")
+                DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"PR_x0020_Number")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 Required: =true
