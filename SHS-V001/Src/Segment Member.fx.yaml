@@ -154,6 +154,7 @@
 
         Form5 As form:
             DataSource: ='Segment Member_1'
+            DefaultMode: =FormMode.New
             Fill: =RGBA(204, 231, 246, 1)
             Height: =525
             NumberOfColumns: =1
