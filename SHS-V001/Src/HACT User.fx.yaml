@@ -191,7 +191,7 @@
         ZIndex: =14
 
         Form4 As form:
-            DataSource: ='SHS-Users_1'
+            DataSource: ='SHS-Users_2'
             DefaultMode: =FormMode.New
             Fill: =RGBA(204, 231, 246, 1)
             Height: =525
@@ -204,10 +204,10 @@
                 DataField: ="Title"
                 Default: =ThisItem.'Display Name'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_1'],DataSourceInfo.DisplayName,"Title")
+                DisplayName: =DataSourceInfo([@'SHS-Users_2'],DataSourceInfo.DisplayName,"Title")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'SHS-Users_1'], DataSourceInfo.MaxLength, "Title")
+                MaxLength: =DataSourceInfo([@'SHS-Users_2'], DataSourceInfo.MaxLength, "Title")
                 Required: =true
                 Update: =DataCardValue11.Text
                 Width: =522
@@ -220,7 +220,7 @@
                 DataField: ="PR_x0020_Number"
                 Default: =ThisItem.'PR Number'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_1'],DataSourceInfo.DisplayName,"PR_x0020_Number")
+                DisplayName: =DataSourceInfo([@'SHS-Users_2'],DataSourceInfo.DisplayName,"PR_x0020_Number")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 Required: =true
@@ -287,10 +287,10 @@
                 DataField: ="Designation"
                 Default: =ThisItem.Designation
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_1'],DataSourceInfo.DisplayName,"Designation")
+                DisplayName: =DataSourceInfo([@'SHS-Users_2'],DataSourceInfo.DisplayName,"Designation")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'SHS-Users_1'], DataSourceInfo.MaxLength, "Designation")
+                MaxLength: =DataSourceInfo([@'SHS-Users_2'], DataSourceInfo.MaxLength, "Designation")
                 Required: =true
                 Update: =DataCardValue25.Text
                 Width: =522
@@ -355,10 +355,10 @@
                 DataField: ="Email"
                 Default: =ThisItem.Email
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_1'],DataSourceInfo.DisplayName,"Email")
+                DisplayName: =DataSourceInfo([@'SHS-Users_2'],DataSourceInfo.DisplayName,"Email")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'SHS-Users_1'], DataSourceInfo.MaxLength, "Email")
+                MaxLength: =DataSourceInfo([@'SHS-Users_2'], DataSourceInfo.MaxLength, "Email")
                 Required: =true
                 Update: =DataCardValue24.Text
                 Width: =522
@@ -423,10 +423,10 @@
                 DataField: ="NT_x0020_Login"
                 Default: =ThisItem.'NT Login'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_1'],DataSourceInfo.DisplayName,"NT_x0020_Login")
+                DisplayName: =DataSourceInfo([@'SHS-Users_2'],DataSourceInfo.DisplayName,"NT_x0020_Login")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'SHS-Users_1'], DataSourceInfo.MaxLength, "NT_x0020_Login")
+                MaxLength: =DataSourceInfo([@'SHS-Users_2'], DataSourceInfo.MaxLength, "NT_x0020_Login")
                 Required: =true
                 Update: =DataCardValue26.Text
                 Width: =522
@@ -491,10 +491,10 @@
                 DataField: ="Stakeholder"
                 Default: =ThisItem.Stakeholder
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_1'],DataSourceInfo.DisplayName,"Stakeholder")
+                DisplayName: =DataSourceInfo([@'SHS-Users_2'],DataSourceInfo.DisplayName,"Stakeholder")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'SHS-Users_1'], DataSourceInfo.MaxLength, "Stakeholder")
+                MaxLength: =DataSourceInfo([@'SHS-Users_2'], DataSourceInfo.MaxLength, "Stakeholder")
                 Required: =true
                 Update: =DataCardValue27.Text
                 Width: =522
@@ -559,7 +559,7 @@
                 DataField: ="Division"
                 Default: =ThisItem.Division
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_1'],DataSourceInfo.DisplayName,"Division")
+                DisplayName: =DataSourceInfo([@'SHS-Users_2'],DataSourceInfo.DisplayName,"Division")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 Required: =true
@@ -584,11 +584,10 @@
                     DefaultSelectedItems: =Parent.Default
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
-                    IsSearchable: =false
-                    Items: =Choices([@'SHS-Users_1'].Division)
+                    Items: =Choices([@'SHS-Users_2'].Division)
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Value"]
-                    SearchItems: =[]
+                    SearchItems: =Choices('SHS-Users_2'.Division,DataCardValue28.SearchText)
                     SelectMultiple: =false
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
@@ -626,7 +625,7 @@
                 DataField: ="User_x0020_Role"
                 Default: =ThisItem.'User Role'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_1'],DataSourceInfo.DisplayName,"User_x0020_Role")
+                DisplayName: =DataSourceInfo([@'SHS-Users_2'],DataSourceInfo.DisplayName,"User_x0020_Role")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 Required: =true
@@ -651,11 +650,10 @@
                     DefaultSelectedItems: =Parent.Default
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
-                    IsSearchable: =false
-                    Items: =Choices([@'SHS-Users_1'].User_x0020_Role)
+                    Items: =Choices([@'SHS-Users_2'].User_x0020_Role)
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Value"]
-                    SearchItems: =[]
+                    SearchItems: =Choices('SHS-Users_2'.User_x0020_Role,DataCardValue29.SearchText)
                     SelectMultiple: =false
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
