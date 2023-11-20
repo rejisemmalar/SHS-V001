@@ -279,7 +279,7 @@
                 DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"Email")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'SHS-Users_1'], DataSourceInfo.MaxLength, "Email")
+                MaxLength: =DataSourceInfo([@'SHS-Users'], DataSourceInfo.MaxLength, "Email")
                 Required: =true
                 Update: =DataCardValue29.Text
                 Width: =468
