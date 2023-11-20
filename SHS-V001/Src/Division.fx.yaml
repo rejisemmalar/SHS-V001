@@ -373,3 +373,9 @@ Division As screen:
             Y: =321
             ZIndex: =2
 
+        Button8 As button:
+            Text: ="Button"
+            X: =496
+            Y: =321
+            ZIndex: =3
+
