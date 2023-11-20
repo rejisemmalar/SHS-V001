@@ -80,7 +80,7 @@
         Width: =1029
         X: =302
         Y: =336
-        ZIndex: =10
+        ZIndex: =9
 
         Segments_Column1 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
