@@ -33,17 +33,8 @@
           "Login Details": {
             "tableName": "329e5a5f-1293-4368-a3f2-67d91be2f1bb"
           },
-          "Options_1": {
-            "tableName": "ff92d1af-76aa-4b93-b5d2-32c44708555d"
-          },
           "Profile information(admin)": {
             "tableName": "e2bd1582-5049-4706-98f6-9bf8ca6d1790"
-          },
-          "Questions_1": {
-            "tableName": "0e1ff4d4-cf16-4a4d-a9c2-72e1895e767e"
-          },
-          "Questions_2": {
-            "tableName": "0e1ff4d4-cf16-4a4d-a9c2-72e1895e767e"
           },
           "Segment Member_1": {
             "tableName": "169efd9a-a110-4b87-ab7c-1f2ae93a572f"
@@ -65,9 +56,6 @@
           },
           "Subfactors_1": {
             "tableName": "7da5b8f9-b3f5-4d8c-a9cb-1bfcd3707ba1"
-          },
-          "Subfactors_5": {
-            "tableName": "7da5b8f9-b3f5-4d8c-a9cb-1bfcd3707ba1"
           }
         }
       }
@@ -87,11 +75,7 @@
       "Factor",
       "Factor_1",
       "Factor_2",
-      "Subfactors_1",
-      "Subfactors_5",
-      "Questions_1",
-      "Questions_2",
-      "Options_1"
+      "Subfactors_1"
     ],
     "dependencies": {},
     "dependents": [],
