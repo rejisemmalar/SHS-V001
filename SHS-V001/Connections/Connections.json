@@ -21,6 +21,15 @@
           "Division_1": {
             "tableName": "31c2a3e9-f68d-48d7-8542-64b5ae49d126"
           },
+          "Factor": {
+            "tableName": "ccf22452-b069-45bd-b208-f2aa065409b8"
+          },
+          "Factor_1": {
+            "tableName": "ccf22452-b069-45bd-b208-f2aa065409b8"
+          },
+          "Factor_2": {
+            "tableName": "ccf22452-b069-45bd-b208-f2aa065409b8"
+          },
           "Login Details": {
             "tableName": "329e5a5f-1293-4368-a3f2-67d91be2f1bb"
           },
@@ -59,7 +68,10 @@
       "Division_1",
       "SHS-Users_1",
       "Segment Member_5",
-      "Segment Member_1"
+      "Segment Member_1",
+      "Factor",
+      "Factor_1",
+      "Factor_2"
     ],
     "dependencies": {},
     "dependents": [],
