@@ -45,7 +45,17 @@
         ZIndex: =5
 
     "'Add doc_Button_6' As 'Add doc_Button'":
-        X: =1170
+        X: =1058
         Y: =195
         ZIndex: =6
+
+    DataTable4 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =387
+        Width: =1039
+        X: =291
+        Y: =357
+        ZIndex: =7
 
