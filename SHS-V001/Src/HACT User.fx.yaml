@@ -123,10 +123,10 @@
                 DataField: ="Title"
                 Default: =ThisItem.'Display Name'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_2'],DataSourceInfo.DisplayName,"Title")
+                DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"Title")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'SHS-Users_2'], DataSourceInfo.MaxLength, "Title")
+                MaxLength: =DataSourceInfo([@'SHS-Users'], DataSourceInfo.MaxLength, "Title")
                 Required: =true
                 Update: =
                 Width: =522
@@ -139,7 +139,7 @@
                 DataField: ="PR_x0020_Number"
                 Default: =ThisItem.'PR Number'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_2'],DataSourceInfo.DisplayName,"PR_x0020_Number")
+                DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"PR_x0020_Number")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 Required: =true
@@ -209,7 +209,7 @@
                 DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"Designation")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'SHS-Users_2'], DataSourceInfo.MaxLength, "Designation")
+                MaxLength: =DataSourceInfo([@'SHS-Users'], DataSourceInfo.MaxLength, "Designation")
                 Required: =true
                 Update: =DataCardValue25.Text
                 Width: =522
