@@ -141,7 +141,7 @@
                 DataField: ="Title"
                 Default: =ThisItem.'Display Name'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_1'],DataSourceInfo.DisplayName,"Title")
+                DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"Title")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 MaxLength: =DataSourceInfo([@'SHS-Users_1'], DataSourceInfo.MaxLength, "Title")
