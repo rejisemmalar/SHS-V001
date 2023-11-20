@@ -27,9 +27,6 @@
           "Profile information(admin)": {
             "tableName": "e2bd1582-5049-4706-98f6-9bf8ca6d1790"
           },
-          "Segment Member_2": {
-            "tableName": "169efd9a-a110-4b87-ab7c-1f2ae93a572f"
-          },
           "Segment Member_5": {
             "tableName": "169efd9a-a110-4b87-ab7c-1f2ae93a572f"
           },
@@ -58,8 +55,7 @@
       "Segment_5",
       "Division_1",
       "SHS-Users_1",
-      "Segment Member_5",
-      "Segment Member_2"
+      "Segment Member_5"
     ],
     "dependencies": {},
     "dependents": [],

@@ -791,27 +791,3 @@ Division As screen:
         Y: =321
         ZIndex: =13
 
-    Icon17 As icon.Edit:
-        Height: =25
-        Icon: =Icon.Edit
-        Width: =21
-        X: =1133
-        Y: =416
-        ZIndex: =14
-
-    Icon17_1 As icon.Edit:
-        Height: =15
-        Icon: =Icon.Edit
-        Width: =33
-        X: =1127
-        Y: =462
-        ZIndex: =15
-
-    Icon17_2 As icon.Edit:
-        Height: =15
-        Icon: =Icon.Edit
-        Width: =33
-        X: =1121
-        Y: =498
-        ZIndex: =16
-
