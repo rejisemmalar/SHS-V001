@@ -65,12 +65,16 @@ Division As screen:
         Color: =Color.White
         Fill: =RGBA(7, 99, 33, 1)
         Height: =33
+        HoverBorderColor: =Color.DarkGreen
+        HoverFill: =Color.DarkGreen
         OnSelect: |-
             = UpdateContext({ShowPopup : true});
         PaddingLeft: =35
+        PressedColor: =Color.White
+        PressedFill: =Color.DarkGreen
         Text: ="Add"
         Width: =85
-        X: =1233
+        X: =1208
         Y: =202
         ZIndex: =8
 
@@ -79,7 +83,7 @@ Division As screen:
         Height: =25
         Icon: =Icon.Add
         Width: =35
-        X: =1233
+        X: =1208
         Y: =206
         ZIndex: =9
 
@@ -144,8 +148,9 @@ Division As screen:
             ZIndex: =7
 
     Container8 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Bold
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =428
+        Height: =536
         Visible: =ShowPopup
         Width: =1258
         X: =60
@@ -155,9 +160,10 @@ Division As screen:
         Form1 As form:
             DataSource: =Division_1
             DefaultMode: =FormMode.New
-            Height: =428
+            Height: =342
             Visible: =ShowPopup
-            Width: =971
+            Width: =1258
+            Y: =86
             ZIndex: =1
 
             Admin_DataCard1 As typedDataCard.comboBoxMultiSelectEditCard:
@@ -170,14 +176,16 @@ Division As screen:
                 Height: =50
                 Required: =true
                 Update: =DataCardValue14.SelectedItems
-                Width: =323
+                Width: =419
                 X: =2
                 Y: =0
                 ZIndex: =1
 
                 DataCardKey14 As label:
                     AutoHeight: =true
+                    FontWeight: =FontWeight.Semibold
                     Height: =34
+                    Size: =15
                     Text: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     Wrap: =false
@@ -218,6 +226,7 @@ Division As screen:
 
                 StarVisible6 As label:
                     Align: =Align.Center
+                    Color: =RGBA(255, 0, 0, 1)
                     Height: =DataCardKey14.Height
                     Text: ="*"
                     Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -236,14 +245,16 @@ Division As screen:
                 Height: =50
                 Required: =true
                 Update: =DataCardValue15.SelectedItems
-                Width: =323
+                Width: =419
                 X: =0
                 Y: =1
                 ZIndex: =1
 
                 DataCardKey15 As label:
                     AutoHeight: =true
+                    FontWeight: =FontWeight.Semibold
                     Height: =34
+                    Size: =15
                     Text: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     Wrap: =false
@@ -284,6 +295,7 @@ Division As screen:
 
                 StarVisible7 As label:
                     Align: =Align.Center
+                    Color: =RGBA(255, 0, 0, 1)
                     Height: =DataCardKey15.Height
                     Text: ="*"
                     Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -302,14 +314,17 @@ Division As screen:
                 Height: =50
                 Required: =true
                 Update: =DataCardValue16.SelectedItems
-                Width: =323
+                Width: =419
                 X: =1
                 Y: =1
                 ZIndex: =1
 
                 DataCardKey16 As label:
                     AutoHeight: =true
+                    Color: =RGBA(51, 51, 51, 1)
+                    FontWeight: =FontWeight.Semibold
                     Height: =34
+                    Size: =15
                     Text: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     Wrap: =false
@@ -350,6 +365,7 @@ Division As screen:
 
                 StarVisible8 As label:
                     Align: =Align.Center
+                    Color: =RGBA(255, 0, 0, 1)
                     Height: =DataCardKey16.Height
                     Text: ="*"
                     Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -368,14 +384,16 @@ Division As screen:
                 Height: =50
                 Required: =true
                 Update: =DataCardValue17.SelectedItems
-                Width: =323
+                Width: =419
                 X: =2
                 Y: =1
                 ZIndex: =1
 
                 DataCardKey17 As label:
                     AutoHeight: =true
+                    FontWeight: =FontWeight.Semibold
                     Height: =34
+                    Size: =15
                     Text: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     Wrap: =false
@@ -393,6 +411,7 @@ Division As screen:
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Value"]
                     SearchItems: =[]
+                    SelectionFill: =RGBA(255, 0, 0, 1)
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     X: =30
@@ -416,6 +435,7 @@ Division As screen:
 
                 StarVisible9 As label:
                     Align: =Align.Center
+                    Color: =RGBA(255, 0, 0, 1)
                     Height: =DataCardKey17.Height
                     Text: ="*"
                     Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -434,14 +454,16 @@ Division As screen:
                 Height: =50
                 Required: =false
                 Update: =DataCardValue20.SelectedItems
-                Width: =323
+                Width: =419
                 X: =0
                 Y: =2
                 ZIndex: =1
 
                 DataCardKey20 As label:
                     AutoHeight: =true
+                    FontWeight: =FontWeight.Semibold
                     Height: =34
+                    Size: =15
                     Text: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     Wrap: =false
@@ -500,14 +522,16 @@ Division As screen:
                 Height: =50
                 Required: =false
                 Update: =DataCardValue21.SelectedItems
-                Width: =323
+                Width: =419
                 X: =1
                 Y: =2
                 ZIndex: =1
 
                 DataCardKey21 As label:
                     AutoHeight: =true
+                    FontWeight: =FontWeight.Semibold
                     Height: =34
+                    Size: =15
                     Text: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     Wrap: =false
@@ -566,14 +590,16 @@ Division As screen:
                 Height: =50
                 Required: =false
                 Update: =DataCardValue22.SelectedItems
-                Width: =323
+                Width: =419
                 X: =2
                 Y: =2
                 ZIndex: =1
 
                 DataCardKey22 As label:
                     AutoHeight: =true
+                    FontWeight: =FontWeight.Semibold
                     Height: =34
+                    Size: =15
                     Text: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     Wrap: =false
@@ -633,14 +659,17 @@ Division As screen:
                 MaxLength: =DataSourceInfo([@Division_1], DataSourceInfo.MaxLength, "Title")
                 Required: =false
                 Update: =DataCardValue1.Text
-                Width: =323
+                Width: =419
                 X: =0
                 Y: =0
                 ZIndex: =2
 
                 DataCardKey1 As label:
                     AutoHeight: =true
+                    Color: =RGBA(77, 77, 77, 1)
+                    FontWeight: =FontWeight.Semibold
                     Height: =34
+                    Size: =15
                     Text: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     Wrap: =false
@@ -701,14 +730,16 @@ Division As screen:
                 MaxLength: =DataSourceInfo([@Division_1], DataSourceInfo.MaxLength, "DivisionCode")
                 Required: =false
                 Update: =DataCardValue2.Text
-                Width: =323
+                Width: =419
                 X: =1
                 Y: =0
                 ZIndex: =2
 
                 DataCardKey2 As label:
                     AutoHeight: =true
+                    FontWeight: =FontWeight.Semibold
                     Height: =34
+                    Size: =15
                     Text: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     Wrap: =false
@@ -759,18 +790,28 @@ Division As screen:
                     ZIndex: =4
 
         Button6 As button:
+            Fill: =RGBA(5, 120, 24, 1)
             OnSelect: |-
                 =SubmitForm(Form1);NewForm(Form1);UpdateContext({ShowPopup: false});
             Text: ="Save"
-            X: =192
-            Y: =321
+            X: =822
+            Y: =456
             ZIndex: =2
 
         Button8 As button:
             OnSelect: |-
                 =UpdateContext({ShowPopup:false})
             Text: ="Cancel"
-            X: =496
-            Y: =321
+            X: =1035
+            Y: =456
             ZIndex: =3
+
+        Label38 As label:
+            FontWeight: =FontWeight.Bold
+            Size: =20
+            Text: ="Add Devision"
+            Width: =322
+            X: =33
+            Y: =27
+            ZIndex: =4
 
