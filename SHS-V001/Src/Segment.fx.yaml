@@ -174,7 +174,7 @@ Segment As screen:
         Form3 As form:
             DataSource: =Segment_5
             DefaultMode: =FormMode.New
-            Height: =284
+            Height: =302
             NumberOfColumns: =1
             Width: =740
             X: =93
@@ -338,4 +338,12 @@ Segment As screen:
             X: =40
             Y: =40
             ZIndex: =4
+
+        Button7 As button:
+            OnSelect: |-
+                =UpdateContext({ShowPopup:false})
+            Text: ="Cancel"
+            X: =728
+            Y: =456
+            ZIndex: =5
 

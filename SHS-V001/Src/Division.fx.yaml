@@ -322,10 +322,11 @@ Division As screen:
                     DefaultSelectedItems: =Parent.Default
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
+                    IsSearchable: =false
                     Items: =Choices([@Division_1].'First Approver')
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Value"]
-                    SearchItems: =Choices(Division_1.'First Approver',DataCardValue16.SearchText)
+                    SearchItems: =[]
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     X: =30
@@ -453,10 +454,11 @@ Division As screen:
                     DefaultSelectedItems: =Parent.Default
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
+                    IsSearchable: =false
                     Items: =Choices([@Division_1].'Second Approver')
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Value"]
-                    SearchItems: =Choices(Division_1.'Second Approver',DataCardValue20.SearchText)
+                    SearchItems: =[]
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     X: =30
@@ -518,10 +520,11 @@ Division As screen:
                     DefaultSelectedItems: =Parent.Default
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
+                    IsSearchable: =false
                     Items: =Choices([@Division_1].'Third Approver')
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Value"]
-                    SearchItems: =Choices(Division_1.'Third Approver',DataCardValue21.SearchText)
+                    SearchItems: =[]
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     X: =30
@@ -583,10 +586,11 @@ Division As screen:
                     DefaultSelectedItems: =Parent.Default
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
+                    IsSearchable: =false
                     Items: =Choices([@Division_1].'Fourth Approver')
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Value"]
-                    SearchItems: =Choices(Division_1.'Fourth Approver',DataCardValue22.SearchText)
+                    SearchItems: =[]
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
                     X: =30
@@ -763,7 +767,8 @@ Division As screen:
             ZIndex: =2
 
         Button8 As button:
-            OnSelect: =ResetForm(Form1);
+            OnSelect: |-
+                =UpdateContext({ShowPopup:false})
             Text: ="Cancel"
             X: =496
             Y: =321
