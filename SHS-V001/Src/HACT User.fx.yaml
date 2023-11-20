@@ -483,7 +483,7 @@
                 DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"Stakeholder")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'SHS-Users_1'], DataSourceInfo.MaxLength, "Stakeholder")
+                MaxLength: =DataSourceInfo([@'SHS-Users'], DataSourceInfo.MaxLength, "Stakeholder")
                 Required: =true
                 Update: =DataCardValue32.Text
                 Width: =468
