@@ -156,10 +156,22 @@
         Height: =33
         OnSelect: |-
             = UpdateContext({ShowPopup : true});
-        PaddingLeft: =35
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
         Text: ="Add"
         Width: =85
         X: =1205
         Y: =200
         ZIndex: =11
+
+    Icon15_3 As icon.Add:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =25
+        Icon: =Icon.Add
+        Width: =35
+        X: =1205
+        Y: =206
+        ZIndex: =12
 
