@@ -38,16 +38,6 @@
         Y: =273
         ZIndex: =4
 
-    Search_12 As Search:
-        X: =887
-        Y: =180
-        ZIndex: =5
-
-    "'Add doc_Button_12' As 'Add doc_Button'":
-        X: =1168
-        Y: =177
-        ZIndex: =6
-
     Icon5_29 As icon.HorizontalLine:
         BorderColor: =RGBA(166, 166, 166, 1)
         BorderThickness: =1
@@ -145,4 +135,11 @@
             X: =0
             Y: =0
             ZIndex: =9
+
+    Search_21 As Search:
+        Height: =47
+        Width: =198
+        X: =869
+        Y: =195
+        ZIndex: =9
 
