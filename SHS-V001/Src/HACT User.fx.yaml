@@ -127,7 +127,7 @@
             ZIndex: =3
 
         Form4 As form:
-            DataSource: ='SHS-Users_1'
+            DataSource: ='SHS-Users'
             DefaultMode: =FormMode.New
             Height: =338
             NumberOfColumns: =2
