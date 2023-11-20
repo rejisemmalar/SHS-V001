@@ -144,7 +144,7 @@
                 DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"Title")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'SHS-Users_1'], DataSourceInfo.MaxLength, "Title")
+                MaxLength: =DataSourceInfo([@'SHS-Users'], DataSourceInfo.MaxLength, "Title")
                 Required: =true
                 Update: =DataCardValue27.Text
                 Width: =468
