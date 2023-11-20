@@ -6649,7 +6649,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Designation_DataCard2",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7116,7 +7116,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Email_DataCard1",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
