@@ -26,23 +26,23 @@
       "Action": "Action",
       "Author": "Created By",
       "Author#Claims": "Created By Claims",
-      "Code": "Code",
       "ComplianceAssetId": "Compliance Asset Id",
       "Created": "Created",
       "Editor": "Modified By",
       "Editor#Claims": "Modified By Claims",
       "ID": "ID",
-      "Mapdivision": "Mapdivision",
       "Modified": "Modified",
       "OData__ColorTag": "Color Tag",
-      "Subfactors": "Subfactors",
-      "Title": "Factors"
+      "QuestionCode": "Question Code",
+      "QuestionName": "Question Name",
+      "SubfactorName": "Subfactor Name",
+      "Title": "FactorName"
     },
     "DatasetName": "https://y00q1.sharepoint.com/sites/SHS-V07",
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "Subfactors_2",
+    "Name": "Questions_1",
     "Type": "ConnectedDataSourceInfo"
   }
 ]

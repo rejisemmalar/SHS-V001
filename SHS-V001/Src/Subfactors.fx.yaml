@@ -75,13 +75,13 @@ Subfactors As screen:
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
         Height: =418
-        Items: =Subfactors_4
+        Items: =Subfactors_1
         Width: =1040
         X: =300
         Y: =324
         ZIndex: =9
 
-        Factors_Column3 As dataTableColumn.textualColumn:
+        Factors_Column1 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Factors"
             FieldName: ="Title"
@@ -95,7 +95,7 @@ Subfactors As screen:
             Y: =0
             ZIndex: =5
 
-        Code_Column4 As dataTableColumn.textualColumn:
+        Code_Column2 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Code"
             FieldName: ="Code"
@@ -109,7 +109,7 @@ Subfactors As screen:
             Y: =0
             ZIndex: =6
 
-        Subfactors_Column3 As dataTableColumn.textualColumn:
+        Subfactors_Column1 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Subfactors"
             FieldName: ="Subfactors"
@@ -123,7 +123,7 @@ Subfactors As screen:
             Y: =0
             ZIndex: =7
 
-        Action_Column8 As dataTableColumn.textualColumn:
+        Action_Column6 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Action"
             FieldName: ="Action"
@@ -137,7 +137,7 @@ Subfactors As screen:
             Y: =0
             ZIndex: =8
 
-        Mapdivision_Column3 As dataTableColumn.textualColumn:
+        Mapdivision_Column1 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Mapdivision"
             FieldName: ="Mapdivision"
@@ -318,7 +318,7 @@ Subfactors As screen:
                 DataField: ="Subfactors"
                 Default: =ThisItem.Subfactors
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Subfactors_4],DataSourceInfo.DisplayName,"Subfactors")
+                DisplayName: =DataSourceInfo([@Subfactors_1],DataSourceInfo.DisplayName,"Subfactors")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 MaxLength: =DataSourceInfo([@Subfactors_4], DataSourceInfo.MaxLength, "Subfactors")
