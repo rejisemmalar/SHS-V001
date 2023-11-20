@@ -158,6 +158,7 @@
             Fill: =RGBA(204, 231, 246, 1)
             Height: =525
             NumberOfColumns: =1
+            Visible: =ShowPopup
             Width: =1052
             X: =3
             ZIndex: =1
@@ -366,19 +367,11 @@
                     Y: =DataCardKey24.Y
                     ZIndex: =4
 
-    Button11 As button:
-        OnSelect: |-
-            =SubmitForm(Form5);NewForm(Form5);UpdateContext({ShowPopup: false});
-        Text: ="Save"
-        X: =261
-        Y: =561
-        ZIndex: =12
-
-    Button11_1 As button:
-        OnSelect: |-
-            =UpdateContext({ShowPopup:false})
-        Text: ="Cancel"
-        X: =642
-        Y: =561
-        ZIndex: =13
+        Button11_2 As button:
+            OnSelect: |-
+                =SubmitForm(Form5);NewForm(Form5);UpdateContext({ShowPopup: false});
+            Text: ="Save"
+            X: =96
+            Y: =360
+            ZIndex: =2
 
