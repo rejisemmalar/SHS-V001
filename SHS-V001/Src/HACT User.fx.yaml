@@ -190,31 +190,16 @@
         Y: =161
         ZIndex: =12
 
-        Button9 As button:
-            OnSelect: |-
-                =SubmitForm(Form4);NewForm(Form4);UpdateContext({ShowPopup: false});
-            Text: ="Save"
-            X: =54
-            Y: =426
-            ZIndex: =2
-
-        Button10 As button:
-            OnSelect: |-
-                =UpdateContext({ShowPopup:false})
-            Text: ="Cancel"
-            X: =541
-            Y: =426
-            ZIndex: =3
-
         Form4 As form:
             DataSource: ='SHS-Users'
+            DefaultMode: =FormMode.New
             Fill: =RGBA(204, 231, 246, 1)
             Height: =518
             NumberOfColumns: =2
             Width: =1040
             X: =4
             Y: =4
-            ZIndex: =4
+            ZIndex: =1
 
             "'Display Name_DataCard1' As typedDataCard.textualEditCard":
                 BorderStyle: =BorderStyle.Solid
@@ -754,4 +739,20 @@
                     Wrap: =false
                     Y: =DataCardKey29.Y
                     ZIndex: =4
+
+        Button10 As button:
+            OnSelect: |-
+                =UpdateContext({ShowPopup:false})
+            Text: ="Cancel"
+            X: =541
+            Y: =426
+            ZIndex: =2
+
+        Button9 As button:
+            OnSelect: |-
+                =SubmitForm(Form4);NewForm(Form4);UpdateContext({ShowPopup: false});
+            Text: ="Save"
+            X: =54
+            Y: =426
+            ZIndex: =3
 
