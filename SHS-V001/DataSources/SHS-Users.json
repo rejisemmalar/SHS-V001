@@ -28,19 +28,27 @@
       "Author#Claims": "Created By Claims",
       "ComplianceAssetId": "Compliance Asset Id",
       "Created": "Created",
+      "Designation": "Designation",
+      "Division": "Division",
+      "Division#Id": "Division Id",
       "Editor": "Modified By",
       "Editor#Claims": "Modified By Claims",
+      "Email": "Email",
       "ID": "ID",
       "Modified": "Modified",
+      "NT_x0020_Login": "NT Login",
       "OData__ColorTag": "Color Tag",
-      "SegmentName": "Segment Name",
-      "Title": "Segment Code"
+      "PR_x0020_Number": "PR Number",
+      "Stakeholder": "Stakeholder",
+      "Title": "Display Name",
+      "User_x0020_Role": "User Role",
+      "User_x0020_Role#Id": "User Role Id"
     },
     "DatasetName": "https://y00q1.sharepoint.com/sites/SHS-V07",
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "Segment_2",
+    "Name": "SHS-Users",
     "Type": "ConnectedDataSourceInfo"
   }
 ]
