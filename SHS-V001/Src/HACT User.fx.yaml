@@ -110,7 +110,7 @@
         ZIndex: =14
 
         Form4 As form:
-            DataSource: ='SHS-Users_2'
+            DataSource: ='SHS-Users'
             DefaultMode: =FormMode.New
             Fill: =RGBA(204, 231, 246, 1)
             Height: =525
@@ -206,7 +206,7 @@
                 DataField: ="Designation"
                 Default: =ThisItem.Designation
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_2'],DataSourceInfo.DisplayName,"Designation")
+                DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"Designation")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 MaxLength: =DataSourceInfo([@'SHS-Users_2'], DataSourceInfo.MaxLength, "Designation")
@@ -274,10 +274,10 @@
                 DataField: ="Email"
                 Default: =ThisItem.Email
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_2'],DataSourceInfo.DisplayName,"Email")
+                DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"Email")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'SHS-Users_2'], DataSourceInfo.MaxLength, "Email")
+                MaxLength: =DataSourceInfo([@'SHS-Users'], DataSourceInfo.MaxLength, "Email")
                 Required: =true
                 Update: =DataCardValue24.Text
                 Width: =522
@@ -342,10 +342,10 @@
                 DataField: ="NT_x0020_Login"
                 Default: =ThisItem.'NT Login'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_2'],DataSourceInfo.DisplayName,"NT_x0020_Login")
+                DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"NT_x0020_Login")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'SHS-Users_2'], DataSourceInfo.MaxLength, "NT_x0020_Login")
+                MaxLength: =DataSourceInfo([@'SHS-Users'], DataSourceInfo.MaxLength, "NT_x0020_Login")
                 Required: =true
                 Update: =DataCardValue26.Text
                 Width: =522
@@ -410,10 +410,10 @@
                 DataField: ="Stakeholder"
                 Default: =ThisItem.Stakeholder
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_2'],DataSourceInfo.DisplayName,"Stakeholder")
+                DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"Stakeholder")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@'SHS-Users_2'], DataSourceInfo.MaxLength, "Stakeholder")
+                MaxLength: =DataSourceInfo([@'SHS-Users'], DataSourceInfo.MaxLength, "Stakeholder")
                 Required: =true
                 Update: =DataCardValue27.Text
                 Width: =522
@@ -478,7 +478,7 @@
                 DataField: ="Division"
                 Default: =ThisItem.Division
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_2'],DataSourceInfo.DisplayName,"Division")
+                DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"Division")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 Required: =true
@@ -544,7 +544,7 @@
                 DataField: ="User_x0020_Role"
                 Default: =ThisItem.'User Role'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_2'],DataSourceInfo.DisplayName,"User_x0020_Role")
+                DisplayName: =DataSourceInfo([@'SHS-Users'],DataSourceInfo.DisplayName,"User_x0020_Role")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 Required: =true
@@ -636,8 +636,79 @@
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
         Height: =435
-        Width: =1034
-        X: =332
+        Items: ='SHS-Users'
+        Width: =1060
+        X: =306
         Y: =333
         ZIndex: =15
+
+        "'Display Name_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Display Name"
+            FieldName: ="Title"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.'Display Name'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =6
+
+        Stakeholder_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Stakeholder"
+            FieldName: ="Stakeholder"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =6
+            Text: =ThisItem.Stakeholder
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =11
+
+        Division_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Division"
+            FieldName: ="Division"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =7
+            Text: =ThisItem.Division.Value
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =12
+
+        "'User Role_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="User Role"
+            FieldName: ="User_x0020_Role"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =8
+            Text: =ThisItem.'User Role'.Value
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =13
+
+        Action_Column3 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Action"
+            FieldName: ="Action"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =9
+            Text: =ThisItem.Action
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =14
 
