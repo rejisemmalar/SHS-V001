@@ -321,7 +321,7 @@ Subfactors As screen:
                 DisplayName: =DataSourceInfo([@Subfactors_1],DataSourceInfo.DisplayName,"Subfactors")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@Subfactors_4], DataSourceInfo.MaxLength, "Subfactors")
+                MaxLength: =DataSourceInfo([@Subfactors_1], DataSourceInfo.MaxLength, "Subfactors")
                 Required: =true
                 Update: =DataCardValue49.Text
                 Width: =851
