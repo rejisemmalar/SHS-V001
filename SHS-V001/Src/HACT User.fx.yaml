@@ -65,3 +65,84 @@
         Y: =317
         ZIndex: =7
 
+    DataTable3 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =428
+        Items: ='SHS-Users'
+        Width: =1024
+        X: =318
+        Y: =339
+        ZIndex: =8
+
+        "'Display Name_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Display Name"
+            FieldName: ="Title"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.'Display Name'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        Stakeholder_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Stakeholder"
+            FieldName: ="Stakeholder"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =6
+            Text: =ThisItem.Stakeholder
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =6
+
+        Division_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Division"
+            FieldName: ="Division"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =7
+            Text: =ThisItem.Division.Value
+            Width: =100
+            X: =38
+            Y: =0
+            ZIndex: =7
+
+        "'User Role_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="User Role"
+            FieldName: ="User_x0020_Role"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =8
+            Text: =ThisItem.'User Role'.Value
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =8
+
+        Action_Column3 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Action"
+            FieldName: ="Action"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =9
+            Text: =ThisItem.Action
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =9
+
