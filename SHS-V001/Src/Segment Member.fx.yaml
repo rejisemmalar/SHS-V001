@@ -49,76 +49,26 @@
         Y: =195
         ZIndex: =6
 
-    DataTable4 As dataTable.datatable:
-        BorderStyle: =BorderStyle.Solid
-        DisplayMode: =DisplayMode.Edit
-        Fill: =RGBA(0, 0, 0, 0)
-        Height: =387
-        Items: ='Segment Member_1'
-        Width: =1027
-        X: =303
-        Y: =357
+    Button4_3 As button:
+        Color: =Color.White
+        Fill: =RGBA(7, 99, 33, 1)
+        Height: =33
+        OnSelect: |-
+            =UpdateContext({ShowPopup : true});
+        PaddingLeft: =35
+        Text: ="Add"
+        Width: =85
+        X: =1233
+        Y: =202
         ZIndex: =7
 
-        Segments_Column1 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Segments"
-            FieldName: ="Title"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =1
-            Text: =ThisItem.Segments
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =1
-
-        Code_Column1 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Code"
-            FieldName: ="Code"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =2
-            Text: =ThisItem.Code
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =2
-
-        "'Segment Member_Column1' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Segment Member"
-            FieldName: ="SegmentMember"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =3
-            Text: =ThisItem.'Segment Member'
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =3
-
-        Action_Column4 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Action"
-            FieldName: ="Action"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =4
-            Text: =ThisItem.Action
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =4
-
-    Container13 As groupContainer.manualLayoutContainer:
-        Height: =768
-        Width: =1366
+    Icon15_4 As icon.Add:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =25
+        Icon: =Icon.Add
+        Width: =35
+        X: =1233
+        Y: =205
         ZIndex: =8
 
     Container15 As groupContainer.manualLayoutContainer:
@@ -129,220 +79,6 @@
         X: =232
         Y: =128
         ZIndex: =9
-
-        Form7 As form:
-            DataSource: ='Segment Member_5'
-            DefaultMode: =FormMode.New
-            Height: =314
-            NumberOfColumns: =1
-            Width: =910
-            X: =40
-            Y: =94
-            ZIndex: =1
-
-            Segments_DataCard1 As typedDataCard.textualEditCard:
-                BorderStyle: =BorderStyle.Solid
-                DataField: ="Title"
-                Default: =ThisItem.Segments
-                DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Segment Member_5'],DataSourceInfo.DisplayName,"Title")
-                Fill: =RGBA(0, 0, 0, 0)
-                Height: =50
-                MaxLength: =DataSourceInfo([@'Segment Member_5'], DataSourceInfo.MaxLength, "Title")
-                Required: =true
-                Update: =DataCardValue11.Text
-                Width: =910
-                X: =0
-                Y: =0
-                ZIndex: =2
-
-                DataCardKey11 As label:
-                    AutoHeight: =true
-                    Height: =34
-                    Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    Wrap: =false
-                    X: =30
-                    Y: =10
-                    ZIndex: =1
-
-                DataCardValue11 As text:
-                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    Default: =Parent.Default
-                    DelayOutput: =true
-                    DisplayMode: =Parent.DisplayMode
-                    MaxLength: =Parent.MaxLength
-                    PaddingLeft: =5
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Tooltip: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey11.Y + DataCardKey11.Height + 5
-                    ZIndex: =2
-
-                ErrorMessage3 As label:
-                    AutoHeight: =true
-                    Height: =10
-                    Live: =Live.Assertive
-                    PaddingBottom: =0
-                    PaddingLeft: =0
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Text: =Parent.Error
-                    Visible: =Parent.DisplayMode=DisplayMode.Edit
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardValue11.Y + DataCardValue11.Height
-                    ZIndex: =3
-
-                StarVisible3 As label:
-                    Align: =Align.Center
-                    Height: =DataCardKey11.Height
-                    Text: ="*"
-                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                    Width: =30
-                    Wrap: =false
-                    Y: =DataCardKey11.Y
-                    ZIndex: =4
-
-            Code_DataCard1 As typedDataCard.textualEditCard:
-                BorderStyle: =BorderStyle.Solid
-                DataField: ="Code"
-                Default: =ThisItem.Code
-                DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Segment Member_5'],DataSourceInfo.DisplayName,"Code")
-                Fill: =RGBA(0, 0, 0, 0)
-                Height: =50
-                MaxLength: =DataSourceInfo([@'Segment Member_5'], DataSourceInfo.MaxLength, "Code")
-                Required: =true
-                Update: =DataCardValue23.Text
-                Width: =910
-                X: =0
-                Y: =1
-                ZIndex: =2
-
-                DataCardKey23 As label:
-                    AutoHeight: =true
-                    Height: =34
-                    Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    Wrap: =false
-                    X: =30
-                    Y: =10
-                    ZIndex: =1
-
-                DataCardValue23 As text:
-                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    Default: =Parent.Default
-                    DelayOutput: =true
-                    DisplayMode: =Parent.DisplayMode
-                    MaxLength: =Parent.MaxLength
-                    PaddingLeft: =5
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Tooltip: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey23.Y + DataCardKey23.Height + 5
-                    ZIndex: =2
-
-                ErrorMessage15 As label:
-                    AutoHeight: =true
-                    Height: =10
-                    Live: =Live.Assertive
-                    PaddingBottom: =0
-                    PaddingLeft: =0
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Text: =Parent.Error
-                    Visible: =Parent.DisplayMode=DisplayMode.Edit
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardValue23.Y + DataCardValue23.Height
-                    ZIndex: =3
-
-                StarVisible15 As label:
-                    Align: =Align.Center
-                    Height: =DataCardKey23.Height
-                    Text: ="*"
-                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                    Width: =30
-                    Wrap: =false
-                    Y: =DataCardKey23.Y
-                    ZIndex: =4
-
-            "'Segment Member_DataCard1' As typedDataCard.textualEditCard":
-                BorderStyle: =BorderStyle.Solid
-                DataField: ="SegmentMember"
-                Default: =ThisItem.'Segment Member'
-                DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'Segment Member_5'],DataSourceInfo.DisplayName,"SegmentMember")
-                Fill: =RGBA(0, 0, 0, 0)
-                Height: =50
-                MaxLength: =DataSourceInfo([@'Segment Member_5'], DataSourceInfo.MaxLength, "SegmentMember")
-                Required: =true
-                Update: =DataCardValue24.Text
-                Width: =910
-                X: =0
-                Y: =2
-                ZIndex: =2
-
-                DataCardKey24 As label:
-                    AutoHeight: =true
-                    Height: =34
-                    Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    Wrap: =false
-                    X: =30
-                    Y: =10
-                    ZIndex: =1
-
-                DataCardValue24 As text:
-                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    Default: =Parent.Default
-                    DelayOutput: =true
-                    DisplayMode: =Parent.DisplayMode
-                    MaxLength: =Parent.MaxLength
-                    PaddingLeft: =5
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Tooltip: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey24.Y + DataCardKey24.Height + 5
-                    ZIndex: =2
-
-                ErrorMessage16 As label:
-                    AutoHeight: =true
-                    Height: =10
-                    Live: =Live.Assertive
-                    PaddingBottom: =0
-                    PaddingLeft: =0
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Text: =Parent.Error
-                    Visible: =Parent.DisplayMode=DisplayMode.Edit
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardValue24.Y + DataCardValue24.Height
-                    ZIndex: =3
-
-                StarVisible16 As label:
-                    Align: =Align.Center
-                    Height: =DataCardKey24.Height
-                    Text: ="*"
-                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                    Width: =30
-                    Wrap: =false
-                    Y: =DataCardKey24.Y
-                    ZIndex: =4
 
         Label34 As label:
             FontWeight: =FontWeight.Bold
@@ -356,7 +92,7 @@
 
         Button11 As button:
             OnSelect: |-
-                =SubmitForm(Form7);NewForm(Form7);UpdateContext({ShowPopup: false});
+                =SubmitForm(Form5);NewForm(Form5);UpdateContext({ShowPopup: false});
             Text: ="save"
             X: =525
             Y: =477
@@ -370,25 +106,284 @@
             Y: =477
             ZIndex: =4
 
-    Button4_3 As button:
-        Color: =Color.White
-        Fill: =RGBA(7, 99, 33, 1)
-        Height: =33
-        OnSelect: |-
-            =UpdateContext({ShowPopup : true});
-        PaddingLeft: =35
-        Text: ="Add"
-        Width: =85
-        X: =1233
-        Y: =202
+        Form5 As form:
+            DataSource: ='Segment Member_2'
+            DefaultMode: =FormMode.New
+            Height: =355
+            NumberOfColumns: =1
+            Width: =704
+            X: =96
+            Y: =108
+            ZIndex: =5
+
+            Segments_DataCard2 As typedDataCard.textualEditCard:
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="Title"
+                Default: =ThisItem.Segments
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'Segment Member_2'],DataSourceInfo.DisplayName,"Title")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                MaxLength: =DataSourceInfo([@'Segment Member_2'], DataSourceInfo.MaxLength, "Title")
+                Required: =true
+                Update: =DataCardValue35.Text
+                Width: =704
+                X: =0
+                Y: =0
+                ZIndex: =6
+
+                DataCardKey35 As label:
+                    AutoHeight: =true
+                    Height: =34
+                    Text: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    Wrap: =false
+                    X: =30
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue35 As text:
+                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    Default: =Parent.Default
+                    DelayOutput: =true
+                    DisplayMode: =Parent.DisplayMode
+                    MaxLength: =Parent.MaxLength
+                    PaddingLeft: =5
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Tooltip: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardKey35.Y + DataCardKey35.Height + 5
+                    ZIndex: =2
+
+                ErrorMessage27 As label:
+                    AutoHeight: =true
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue35.Y + DataCardValue35.Height
+                    ZIndex: =3
+
+                StarVisible27 As label:
+                    Align: =Align.Center
+                    Height: =DataCardKey35.Height
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey35.Y
+                    ZIndex: =4
+
+            Code_DataCard2 As typedDataCard.textualEditCard:
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="Code"
+                Default: =ThisItem.Code
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'Segment Member_2'],DataSourceInfo.DisplayName,"Code")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                MaxLength: =DataSourceInfo([@'Segment Member_2'], DataSourceInfo.MaxLength, "Code")
+                Required: =true
+                Update: =DataCardValue36.Text
+                Width: =704
+                X: =0
+                Y: =1
+                ZIndex: =6
+
+                DataCardKey36 As label:
+                    AutoHeight: =true
+                    Height: =34
+                    Text: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    Wrap: =false
+                    X: =30
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue36 As text:
+                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    Default: =Parent.Default
+                    DelayOutput: =true
+                    DisplayMode: =Parent.DisplayMode
+                    MaxLength: =Parent.MaxLength
+                    PaddingLeft: =5
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Tooltip: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardKey36.Y + DataCardKey36.Height + 5
+                    ZIndex: =2
+
+                ErrorMessage28 As label:
+                    AutoHeight: =true
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue36.Y + DataCardValue36.Height
+                    ZIndex: =3
+
+                StarVisible28 As label:
+                    Align: =Align.Center
+                    Height: =DataCardKey36.Height
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey36.Y
+                    ZIndex: =4
+
+            "'Segment Member_DataCard2' As typedDataCard.textualEditCard":
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="SegmentMember"
+                Default: =ThisItem.'Segment Member'
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'Segment Member_2'],DataSourceInfo.DisplayName,"SegmentMember")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                MaxLength: =DataSourceInfo([@'Segment Member_2'], DataSourceInfo.MaxLength, "SegmentMember")
+                Required: =true
+                Update: =DataCardValue37.Text
+                Width: =704
+                X: =0
+                Y: =2
+                ZIndex: =6
+
+                DataCardKey37 As label:
+                    AutoHeight: =true
+                    Height: =34
+                    Text: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    Wrap: =false
+                    X: =30
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue37 As text:
+                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    Default: =Parent.Default
+                    DelayOutput: =true
+                    DisplayMode: =Parent.DisplayMode
+                    MaxLength: =Parent.MaxLength
+                    PaddingLeft: =5
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Tooltip: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardKey37.Y + DataCardKey37.Height + 5
+                    ZIndex: =2
+
+                ErrorMessage29 As label:
+                    AutoHeight: =true
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue37.Y + DataCardValue37.Height
+                    ZIndex: =3
+
+                StarVisible29 As label:
+                    Align: =Align.Center
+                    Height: =DataCardKey37.Height
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey37.Y
+                    ZIndex: =4
+
+    DataTable4 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =402
+        Items: ='Segment Member_3'
+        Width: =1029
+        X: =302
+        Y: =336
         ZIndex: =10
 
-    Icon15_4 As icon.Add:
-        Color: =RGBA(255, 255, 255, 1)
-        Height: =25
-        Icon: =Icon.Add
-        Width: =35
-        X: =1233
-        Y: =205
-        ZIndex: =11
+        Segments_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Segments"
+            FieldName: ="Title"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.Segments
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =7
+
+        Code_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Code"
+            FieldName: ="Code"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.Code
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =8
+
+        "'Segment Member_Column1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Segment Member"
+            FieldName: ="SegmentMember"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: =ThisItem.'Segment Member'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =9
+
+        Action_Column3 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Action"
+            FieldName: ="Action"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =4
+            Text: =ThisItem.Action
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =10
 
