@@ -141,6 +141,7 @@
     Container13 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(169, 169, 169, .75)
         Height: =768
+        Visible: =ShowPopup
         Width: =1366
         ZIndex: =10
 
@@ -371,7 +372,7 @@
         ZIndex: =12
 
     Button11_1 As button:
-        Text: ="Save"
+        Text: ="Cancel"
         X: =642
         Y: =561
         ZIndex: =13
