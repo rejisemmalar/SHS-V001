@@ -828,7 +828,7 @@ Division As screen:
 
     Button23 As button:
         Height: =31
-        Text: ="Button"
+        Text: ="Delete"
         Width: =109
         X: =1096
         Y: =383
