@@ -253,7 +253,7 @@ Questions As screen:
                 DisplayName: =DataSourceInfo([@Questions_1],DataSourceInfo.DisplayName,"QuestionCode")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@Questions_2], DataSourceInfo.MaxLength, "QuestionCode")
+                MaxLength: =DataSourceInfo([@Questions_1], DataSourceInfo.MaxLength, "QuestionCode")
                 Required: =true
                 Update: =DataCardValue41.Text
                 Width: =710
