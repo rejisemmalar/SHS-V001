@@ -250,7 +250,7 @@ Subfactors As screen:
                 DataField: ="Code"
                 Default: =ThisItem.Code
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Subfactors_5],DataSourceInfo.DisplayName,"Code")
+                DisplayName: =DataSourceInfo([@Subfactors_1],DataSourceInfo.DisplayName,"Code")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 MaxLength: =DataSourceInfo([@Subfactors_5], DataSourceInfo.MaxLength, "Code")
