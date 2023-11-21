@@ -28,6 +28,10 @@
             {
                 Title: "Options",
                 TargetScreen: App.ActiveScreen
+            },
+             {
+                Title: "Study",
+                TargetScreen: App.ActiveScreen
             }
         )
     Currentscreen: ="Text"
@@ -40,7 +44,7 @@
 
     Gallery2 As gallery.galleryVertical:
         DelayItemLoading: =true
-        Height: =508
+        Height: =542
         Items: ='Administration(com)'.administration_menu
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
