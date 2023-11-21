@@ -652,9 +652,12 @@
                 DataCardValue33 As combobox:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                     DefaultSelectedItems: =Parent.Default
+                    DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
                     Items: =Choices([@'SHS-Users_1'].Division)
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    SearchFields: =["Value"]
+                    SearchItems: =Choices('SHS-Users_1'.Division,DataCardValue33.SearchText)
                     SelectMultiple: =false
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
@@ -715,9 +718,12 @@
                 DataCardValue34 As combobox:
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                     DefaultSelectedItems: =Parent.Default
+                    DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
                     Items: =Choices([@'SHS-Users_1'].User_x0020_Role)
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    SearchFields: =["Value"]
+                    SearchItems: =Choices('SHS-Users_1'.User_x0020_Role,DataCardValue34.SearchText)
                     SelectMultiple: =false
                     Tooltip: =Parent.DisplayName
                     Width: =Parent.Width - 60
@@ -748,138 +754,5 @@
                     Width: =30
                     Wrap: =false
                     Y: =DataCardKey34.Y
-                    ZIndex: =4
-
-            Action_DataCard1 As typedDataCard.textualEditCard:
-                BorderStyle: =BorderStyle.Solid
-                DataField: ="Action"
-                Default: =ThisItem.Action
-                DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_1'],DataSourceInfo.DisplayName,"Action")
-                Fill: =RGBA(0, 0, 0, 0)
-                Height: =50
-                MaxLength: =DataSourceInfo([@'SHS-Users_1'], DataSourceInfo.MaxLength, "Action")
-                Required: =false
-                Update: =DataCardValue39.Text
-                Width: =468
-                X: =0
-                Y: =4
-                ZIndex: =5
-
-                DataCardKey39 As label:
-                    AutoHeight: =true
-                    Height: =34
-                    Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    Wrap: =false
-                    X: =30
-                    Y: =10
-                    ZIndex: =1
-
-                DataCardValue39 As text:
-                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    Default: =Parent.Default
-                    DelayOutput: =true
-                    DisplayMode: =Parent.DisplayMode
-                    MaxLength: =Parent.MaxLength
-                    PaddingLeft: =5
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Tooltip: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey39.Y + DataCardKey39.Height + 5
-                    ZIndex: =2
-
-                ErrorMessage31 As label:
-                    AutoHeight: =true
-                    Height: =10
-                    Live: =Live.Assertive
-                    PaddingBottom: =0
-                    PaddingLeft: =0
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Text: =Parent.Error
-                    Visible: =Parent.DisplayMode=DisplayMode.Edit
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardValue39.Y + DataCardValue39.Height
-                    ZIndex: =3
-
-                StarVisible31 As label:
-                    Align: =Align.Center
-                    Height: =DataCardKey39.Height
-                    Text: ="*"
-                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                    Width: =30
-                    Wrap: =false
-                    Y: =DataCardKey39.Y
-                    ZIndex: =4
-
-            Attachments_DataCard1 As typedDataCard.attachmentsEditCard:
-                BorderStyle: =BorderStyle.Solid
-                DataField: ="{Attachments}"
-                Default: =ThisItem.Attachments
-                DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@'SHS-Users_1'],DataSourceInfo.DisplayName,"{Attachments}")
-                Fill: =RGBA(0, 0, 0, 0)
-                Height: =50
-                Required: =false
-                Update: =DataCardValue45.Attachments
-                Width: =468
-                X: =1
-                Y: =4
-                ZIndex: =5
-
-                DataCardKey45 As label:
-                    AutoHeight: =true
-                    Height: =34
-                    Text: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    Wrap: =false
-                    X: =30
-                    Y: =10
-                    ZIndex: =1
-
-                DataCardValue45 As attachments:
-                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                    DisplayMode: =Parent.DisplayMode
-                    IsInDataCard: =true
-                    Items: =Parent.Default
-                    PaddingBottom: =5
-                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                    PaddingRight: =5
-                    PaddingTop: =5
-                    Tooltip: =Parent.DisplayName
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardKey45.Y + DataCardKey45.Height + 5
-                    ZIndex: =2
-
-                ErrorMessage37 As label:
-                    AutoHeight: =true
-                    Height: =10
-                    Live: =Live.Assertive
-                    PaddingBottom: =0
-                    PaddingLeft: =0
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Text: =Parent.Error
-                    Visible: =Parent.DisplayMode=DisplayMode.Edit
-                    Width: =Parent.Width - 60
-                    X: =30
-                    Y: =DataCardValue45.Y + DataCardValue45.Height
-                    ZIndex: =3
-
-                StarVisible37 As label:
-                    Align: =Align.Center
-                    Height: =DataCardKey45.Height
-                    Text: ="*"
-                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                    Width: =30
-                    Wrap: =false
-                    Y: =DataCardKey45.Y
                     ZIndex: =4
 
