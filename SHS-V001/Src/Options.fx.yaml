@@ -173,7 +173,7 @@ Options As screen:
                 Height: =50
                 MaxLength: =DataSourceInfo([@Options_1], DataSourceInfo.MaxLength, "Title")
                 Required: =true
-                Update: =DataCardValue47.Text
+                Update: =
                 Width: =998
                 X: =0
                 Y: =0
