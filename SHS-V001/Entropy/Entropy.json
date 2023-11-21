@@ -776,7 +776,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/21/2023 03:30:24",
+  "HeaderLastSavedDateTimeUTC": "11/21/2023 03:31:10",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "d5d288d0-8556-4a38-a03d-f5517ce3059c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6b09e5d9e40c401a9964269a06a6ff10\""
@@ -858,6 +858,7 @@
     "ListboxSample": 6,
     "Login Details": 7,
     "Login Details_1": 8,
+    "Options_1": 18,
     "Profile information(admin)": 9,
     "Questions_1": 17,
     "Segment Member_1": 10,

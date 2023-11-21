@@ -189,7 +189,7 @@ Options As screen:
                 Height: =50
                 MaxLength: =DataSourceInfo([@Options_1], DataSourceInfo.MaxLength, "Code")
                 Required: =true
-                Update: =DataCardValue48.Text
+                Update: =
                 Width: =998
                 X: =0
                 Y: =1
@@ -205,7 +205,7 @@ Options As screen:
                 Height: =50
                 MaxLength: =DataSourceInfo([@Options_1], DataSourceInfo.MaxLength, "Options")
                 Required: =true
-                Update: =DataCardValue49.Text
+                Update: =
                 Width: =998
                 X: =0
                 Y: =2

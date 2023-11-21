@@ -33,6 +33,9 @@
           "Login Details": {
             "tableName": "329e5a5f-1293-4368-a3f2-67d91be2f1bb"
           },
+          "Options_1": {
+            "tableName": "ff92d1af-76aa-4b93-b5d2-32c44708555d"
+          },
           "Profile information(admin)": {
             "tableName": "e2bd1582-5049-4706-98f6-9bf8ca6d1790"
           },
@@ -79,7 +82,8 @@
       "Factor_1",
       "Factor_2",
       "Subfactors_1",
-      "Questions_1"
+      "Questions_1",
+      "Options_1"
     ],
     "dependencies": {},
     "dependents": [],
