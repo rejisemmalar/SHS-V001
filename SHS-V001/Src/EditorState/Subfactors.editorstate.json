@@ -4831,8 +4831,8 @@
         },
         {
           "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": true,
-          "AutoRuleBindingString": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "DataSourceInfo([@Subfactors_5], DataSourceInfo.MaxLength, \"Title\")",
           "InvariantPropertyName": "MaxLength",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
