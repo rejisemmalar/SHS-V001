@@ -185,7 +185,7 @@ Questions As screen:
                 DisplayName: =DataSourceInfo([@Questions_1],DataSourceInfo.DisplayName,"SubfactorName")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
-                MaxLength: =DataSourceInfo([@Questions_2], DataSourceInfo.MaxLength, "SubfactorName")
+                MaxLength: =DataSourceInfo([@Questions_1], DataSourceInfo.MaxLength, "SubfactorName")
                 Required: =true
                 Update: =DataCardValue40.Text
                 Width: =710
