@@ -250,7 +250,7 @@ Questions As screen:
                 DataField: ="QuestionCode"
                 Default: =ThisItem.'Question Code'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Questions_2],DataSourceInfo.DisplayName,"QuestionCode")
+                DisplayName: =DataSourceInfo([@Questions_1],DataSourceInfo.DisplayName,"QuestionCode")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 MaxLength: =DataSourceInfo([@Questions_2], DataSourceInfo.MaxLength, "QuestionCode")
