@@ -840,3 +840,18 @@ Division As screen:
         Width: =1366
         ZIndex: =14
 
+    Container26 As groupContainer.manualLayoutContainer:
+        Height: =333
+        Width: =793
+        X: =387
+        Y: =162
+        ZIndex: =15
+
+        Label39 As label:
+            Height: =85
+            Text: ="Text"
+            Width: =616
+            X: =40
+            Y: =40
+            ZIndex: =1
+
