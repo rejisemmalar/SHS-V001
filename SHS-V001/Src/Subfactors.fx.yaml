@@ -318,7 +318,7 @@ Subfactors As screen:
                 DataField: ="Subfactors"
                 Default: =ThisItem.Subfactors
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Subfactors_5],DataSourceInfo.DisplayName,"Subfactors")
+                DisplayName: =DataSourceInfo([@Subfactors_1],DataSourceInfo.DisplayName,"Subfactors")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 MaxLength: =DataSourceInfo([@Subfactors_5], DataSourceInfo.MaxLength, "Subfactors")
