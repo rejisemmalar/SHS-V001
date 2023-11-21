@@ -34,6 +34,10 @@ Administration As screen:
                 {
                     Title: "Options",
                     TargetScreen: Options
+                },
+                {
+                    Title: "Study",
+                    TargetScreen: Study
                 }
             )
         X: =309
