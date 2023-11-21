@@ -848,10 +848,16 @@ Division As screen:
         ZIndex: =15
 
         Label39 As label:
-            Height: =85
-            Text: ="Text"
-            Width: =616
+            Height: =106
+            Text: ="Textre you sure you want to delete this"
+            Width: =632
             X: =40
             Y: =40
             ZIndex: =1
+
+        Button25 As button:
+            Text: ="Button"
+            X: =40
+            Y: =230
+            ZIndex: =2
 
