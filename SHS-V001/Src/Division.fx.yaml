@@ -834,30 +834,3 @@ Division As screen:
         Y: =383
         ZIndex: =13
 
-    Container25 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(166, 166, 166, 1)
-        Height: =768
-        Width: =1366
-        ZIndex: =14
-
-    Container26 As groupContainer.manualLayoutContainer:
-        Height: =333
-        Width: =793
-        X: =387
-        Y: =162
-        ZIndex: =15
-
-        Label39 As label:
-            Height: =106
-            Text: ="Textre you sure you want to delete this"
-            Width: =632
-            X: =40
-            Y: =40
-            ZIndex: =1
-
-        Button25 As button:
-            Text: ="Button"
-            X: =40
-            Y: =230
-            ZIndex: =2
-
