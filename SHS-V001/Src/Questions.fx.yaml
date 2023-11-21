@@ -75,7 +75,7 @@ Questions As screen:
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
         Height: =404
-        Items: =Questions_2
+        Items: =Questions_1
         Width: =1038
         X: =300
         Y: =318
@@ -168,7 +168,7 @@ Questions As screen:
         ZIndex: =11
 
         Form6 As form:
-            DataSource: =Questions_2
+            DataSource: =Questions_1
             DefaultMode: =FormMode.New
             Height: =305
             NumberOfColumns: =1
