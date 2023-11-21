@@ -1,6 +1,7 @@
 Study As screen:
 
     Component1_20 As Component1:
+        CurrentScreen: ="Administration"
         Height: =768
 
     Arrow1_19 As arrow.backArrow:
