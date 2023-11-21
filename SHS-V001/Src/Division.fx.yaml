@@ -826,27 +826,11 @@ Division As screen:
             Y: =27
             ZIndex: =4
 
-    Icon19 As icon.Edit:
-        Height: =24
-        Icon: =Icon.Edit
-        Width: =27
-        X: =1130
-        Y: =372
+    Button23 As button:
+        Height: =31
+        Text: ="Button"
+        Width: =109
+        X: =1096
+        Y: =383
         ZIndex: =13
-
-    Icon19_1 As icon.Edit:
-        Height: =24
-        Icon: =Icon.Edit
-        Width: =27
-        X: =1130
-        Y: =413
-        ZIndex: =14
-
-    Icon19_2 As icon.Edit:
-        Height: =24
-        Icon: =Icon.Edit
-        Width: =27
-        X: =1130
-        Y: =451
-        ZIndex: =15
 
