@@ -318,7 +318,7 @@ Questions As screen:
                 DataField: ="QuestionName"
                 Default: =ThisItem.'Question Name'
                 DisplayMode: =Parent.DisplayMode
-                DisplayName: =DataSourceInfo([@Questions_2],DataSourceInfo.DisplayName,"QuestionName")
+                DisplayName: =DataSourceInfo([@Questions_1],DataSourceInfo.DisplayName,"QuestionName")
                 Fill: =RGBA(0, 0, 0, 0)
                 Height: =50
                 MaxLength: =DataSourceInfo([@Questions_2], DataSourceInfo.MaxLength, "QuestionName")
