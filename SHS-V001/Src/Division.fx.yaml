@@ -826,11 +826,3 @@ Division As screen:
             Y: =27
             ZIndex: =4
 
-    Button23 As button:
-        Height: =31
-        Text: ="Delete"
-        Width: =109
-        X: =1096
-        Y: =383
-        ZIndex: =13
-
