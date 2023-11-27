@@ -82,6 +82,7 @@ Screen1 As screen:
             ZIndex: =6
 
         TextInput4 As text:
+            BorderThickness: =1
             Default: ="Text input"
             OnSelect: =Select(Parent)
             Width: =218
@@ -90,6 +91,7 @@ Screen1 As screen:
             ZIndex: =7
 
         TextInput4_1 As text:
+            BorderThickness: =1
             Default: ="Text input"
             OnSelect: =Select(Parent)
             Width: =218
