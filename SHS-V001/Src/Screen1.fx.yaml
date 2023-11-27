@@ -55,6 +55,14 @@ Screen1 As screen:
         Y: =9
         ZIndex: =2
 
+    Rectangle5 As rectangle:
+        Fill: =RGBA(102, 182, 227, 1)
+        Height: =40
+        Width: =1150
+        X: =16
+        Y: =101
+        ZIndex: =3
+
     Header As group:
         Height: =5
         Width: =5
@@ -64,25 +72,29 @@ Screen1 As screen:
 
         Label41 As label:
             Text: ="Factor Code"
+            Width: =147
             X: =12
-            Y: =101
-            ZIndex: =3
-
-        Label41_1 As label:
-            Text: ="Factor Name"
-            X: =192
             Y: =101
             ZIndex: =4
 
-        Label41_2 As label:
-            Text: ="Action"
-            X: =634
+        Label41_1 As label:
+            Text: ="Factor Name"
+            Width: =147
+            X: =188
             Y: =101
             ZIndex: =5
 
-        Label41_3 As label:
-            Text: ="Map Division"
-            X: =1040
+        Label41_2 As label:
+            Text: ="Action"
+            Width: =147
+            X: =621
             Y: =101
             ZIndex: =6
+
+        Label41_3 As label:
+            Text: ="Map Division"
+            Width: =147
+            X: =1019
+            Y: =101
+            ZIndex: =7
 

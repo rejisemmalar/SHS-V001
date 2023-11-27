@@ -733,6 +733,7 @@
     "Rectangle3": 418,
     "Rectangle4": 317,
     "Rectangle4_1": 322,
+    "Rectangle5": 827,
     "Reviewer_DataCard1": 204,
     "Screen1": 812,
     "Search": 4,
@@ -849,7 +850,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/27/2023 08:17:26",
+  "HeaderLastSavedDateTimeUTC": "11/27/2023 08:18:34",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "d5d288d0-8556-4a38-a03d-f5517ce3059c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6b09e5d9e40c401a9964269a06a6ff10\""
@@ -1682,6 +1683,7 @@
     "Rectangle3": {},
     "Rectangle4": {},
     "Rectangle4_1": {},
+    "Rectangle5": {},
     "Reviewer_DataCard1": {},
     "Screen1": {},
     "Search": {},
@@ -2510,6 +2512,7 @@
     "Rectangle3": 5,
     "Rectangle4": 430,
     "Rectangle4_1": 435,
+    "Rectangle5": 0,
     "Reviewer_DataCard1": 83,
     "Screen1": 0,
     "Search": 131,
