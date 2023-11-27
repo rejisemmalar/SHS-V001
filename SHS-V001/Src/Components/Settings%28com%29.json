@@ -34,7 +34,7 @@
             "Name": "galleryTemplate5",
             "Parent": "Gallery5",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 697,
+            "PublishOrderIndex": 706,
             "Rules": [
               {
                 "Category": "Design",
@@ -165,7 +165,7 @@
             "Name": "Label14",
             "Parent": "Gallery5",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 698,
+            "PublishOrderIndex": 707,
             "Rules": [
               {
                 "Category": "Data",
@@ -501,7 +501,7 @@
             "Name": "Icon6",
             "Parent": "Gallery5",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 699,
+            "PublishOrderIndex": 708,
             "Rules": [
               {
                 "Category": "Design",
@@ -719,7 +719,7 @@
         "Name": "Gallery5",
         "Parent": "Settings(com)",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 696,
+        "PublishOrderIndex": 705,
         "Rules": [
           {
             "Category": "Data",
