@@ -2,7 +2,11 @@ Screen1 As screen:
 
     Label42 As label:
         Text: ="Text"
-        X: =15
         Y: =75
         ZIndex: =1
+
+    Rectangle6 As rectangle:
+        Height: =75
+        Width: =1366
+        ZIndex: =2
 
