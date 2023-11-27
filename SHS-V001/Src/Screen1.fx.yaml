@@ -1,0 +1,34 @@
+Screen1 As screen:
+
+    Gallery6 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =594
+        Items: =Factor
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        Width: =1366
+        Y: =141
+        ZIndex: =1
+
+        Label40 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Factor Code'
+            Y: =21
+            ZIndex: =1
+
+        TextInput1 As text:
+            Default: ="Text input"
+            OnSelect: =Select(Parent)
+            X: =170
+            Y: =21
+            ZIndex: =2
+
+        Button23 As button:
+            OnSelect: =Select(Parent)
+            Text: ="Button"
+            Width: =80
+            X: =592
+            Y: =21
+            ZIndex: =3
+
