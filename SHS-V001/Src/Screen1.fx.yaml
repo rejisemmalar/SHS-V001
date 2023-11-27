@@ -62,8 +62,14 @@ Screen1 As screen:
         ZIndex: =3
 
     Label41_1 As label:
-        Text: ="Factor Code"
+        Text: ="Factor Name"
         X: =192
         Y: =101
         ZIndex: =4
+
+    Label41_2 As label:
+        Text: ="Factor Name"
+        X: =634
+        Y: =101
+        ZIndex: =5
 
