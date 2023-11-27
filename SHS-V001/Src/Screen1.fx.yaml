@@ -21,7 +21,7 @@ Screen1 As screen:
     Action As label:
         Text: ="Text"
         Width: =Parent.Width*.2
-        X: =493
+        X: =Factor_name.X + Factor_name.Width
         Y: =87
         ZIndex: =4
 
