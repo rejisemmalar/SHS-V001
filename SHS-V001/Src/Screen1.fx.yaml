@@ -1,6 +1,6 @@
 Screen1 As screen:
 
-    Label42 As label:
+    Factor_code As label:
         Text: ="Text"
         Width: =Parent.Width*.2
         Y: =Rectangle6.Height
@@ -10,4 +10,25 @@ Screen1 As screen:
         Height: =75
         Width: =1366
         ZIndex: =2
+
+    Factor_name As label:
+        Text: ="Text"
+        Width: =Parent.Width*.2
+        X: =20
+        Y: =Rectangle6.Height
+        ZIndex: =3
+
+    Action As label:
+        Text: ="Text"
+        Width: =Parent.Width*.2
+        X: =40
+        Y: =Rectangle6.Height
+        ZIndex: =4
+
+    Map_Division As label:
+        Text: ="Text"
+        Width: =Parent.Width*.2
+        X: =60
+        Y: =Rectangle6.Height
+        ZIndex: =5
 
