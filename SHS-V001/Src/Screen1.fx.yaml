@@ -40,8 +40,15 @@ Screen1 As screen:
             Y: =21
             ZIndex: =4
 
+        Icon19 As icon.ArrowRight:
+            Icon: =Icon.ArrowRight
+            OnSelect: =Select(Parent)
+            X: =1044
+            Y: =9
+            ZIndex: =5
+
     Button24 As button:
-        Text: ="Button"
+        Text: ="Add Row"
         X: =12
         Y: =9
         ZIndex: =2

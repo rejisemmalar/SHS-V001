@@ -481,6 +481,7 @@
     "Icon18_1": 717,
     "Icon18_2": 608,
     "Icon18_3": 573,
+    "Icon19": 821,
     "Icon2": 116,
     "Icon2_1": 64,
     "Icon2_2": 36,
@@ -843,7 +844,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/27/2023 08:09:11",
+  "HeaderLastSavedDateTimeUTC": "11/27/2023 08:09:35",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "d5d288d0-8556-4a38-a03d-f5517ce3059c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6b09e5d9e40c401a9964269a06a6ff10\""
@@ -1417,6 +1418,7 @@
     "Icon18_1": {},
     "Icon18_2": {},
     "Icon18_3": {},
+    "Icon19": {},
     "Icon2": {},
     "Icon2_1": {},
     "Icon2_2": {},
@@ -2239,6 +2241,7 @@
     "Icon18_1": 233,
     "Icon18_2": 268,
     "Icon18_3": 303,
+    "Icon19": 0,
     "Icon2": 645,
     "Icon2_1": 714,
     "Icon2_2": 727,
