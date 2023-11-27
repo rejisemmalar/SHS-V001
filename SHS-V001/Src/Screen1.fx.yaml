@@ -34,9 +34,15 @@ Screen1 As screen:
 
         Button23_1 As button:
             OnSelect: =Select(Parent)
-            Text: ="Delete"
+            Text: ="Edit"
             Width: =80
             X: =700
             Y: =21
             ZIndex: =4
+
+    Button24 As button:
+        Text: ="Button"
+        X: =12
+        Y: =9
+        ZIndex: =2
 
