@@ -105,3 +105,11 @@ Screen1 As screen:
             Y: =21
             ZIndex: =9
 
+        Button25_1 As button:
+            OnSelect: =Select(Parent)
+            Text: ="Delete"
+            Width: =118
+            X: =704
+            Y: =21
+            ZIndex: =10
+
