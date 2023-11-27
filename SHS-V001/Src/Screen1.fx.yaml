@@ -1,6 +1,8 @@
 Screen1 As screen:
 
     Factor_code As label:
+        Align: =Align.Center
+        BorderThickness: =1
         Text: ="Text"
         Width: =Parent.Width*.2
         Y: =87
@@ -12,6 +14,8 @@ Screen1 As screen:
         ZIndex: =2
 
     Factor_name As label:
+        Align: =Align.Center
+        BorderThickness: =1
         Text: ="Text"
         Width: =Parent.Width*.2
         X: =Factor_code.X + Factor_name.Width
@@ -19,6 +23,8 @@ Screen1 As screen:
         ZIndex: =3
 
     Action As label:
+        Align: =Align.Center
+        BorderThickness: =1
         Text: ="Text"
         Width: =Parent.Width*.2
         X: =Factor_name.X + Factor_name.Width
@@ -26,6 +32,8 @@ Screen1 As screen:
         ZIndex: =4
 
     Map_Division As label:
+        Align: =Align.Center
+        BorderThickness: =1
         Text: ="Text"
         Width: =Parent.Width*.2
         X: =Action.X + Action.Width
