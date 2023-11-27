@@ -3,7 +3,7 @@ Screen1 As screen:
     Factor_code As label:
         Text: ="Text"
         Width: =Parent.Width*.2
-        Y: =Rectangle6.Height
+        Y: =87
         ZIndex: =1
 
     Rectangle6 As rectangle:
@@ -28,7 +28,7 @@ Screen1 As screen:
     Map_Division As label:
         Text: ="Text"
         Width: =Parent.Width*.2
-        X: =862
+        X: =Action.X + Action.Width
         Y: =87
         ZIndex: =5
 
