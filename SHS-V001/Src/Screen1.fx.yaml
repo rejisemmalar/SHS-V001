@@ -48,6 +48,8 @@ Screen1 As screen:
             ZIndex: =5
 
     Button24 As button:
+        OnSelect: |-
+            =Patch(Factor,Defaults(Factor),{'Factor Code':""},{'Factor Name':""})
         Text: ="Add Row"
         X: =12
         Y: =9
