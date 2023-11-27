@@ -21,7 +21,7 @@ Screen1 As screen:
             ZIndex: =1
 
         TextInput1 As text:
-            Default: ="Text input"
+            Default: =ThisItem.'Factor Name'
             OnSelect: =Select(Parent)
             X: =170
             Y: =21
