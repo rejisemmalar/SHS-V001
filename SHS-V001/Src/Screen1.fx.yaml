@@ -14,8 +14,8 @@ Screen1 As screen:
     Factor_name As label:
         Text: ="Text"
         Width: =Parent.Width*.2
-        X: =220
-        Y: =75
+        X: =Factor_code.X + Factor_name.Width
+        Y: =87
         ZIndex: =3
 
     Action As label:
