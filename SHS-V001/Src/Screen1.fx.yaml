@@ -25,7 +25,7 @@ Screen1 As screen:
     Action As label:
         Align: =Align.Center
         BorderThickness: =1
-        Text: ="Text"
+        Text: ="Action"
         Width: =Parent.Width*.2
         X: =Factor_name.X + Factor_name.Width
         Y: =87
