@@ -107,9 +107,16 @@ Screen1 As screen:
 
         Button25_1 As button:
             OnSelect: =Select(Parent)
-            Text: ="Delete"
+            Text: ="Edit"
             Width: =118
             X: =704
             Y: =21
             ZIndex: =10
+
+        Icon21 As icon.ArrowRight:
+            Icon: =Icon.ArrowRight
+            OnSelect: =Select(Parent)
+            X: =940
+            Y: =16
+            ZIndex: =11
 
