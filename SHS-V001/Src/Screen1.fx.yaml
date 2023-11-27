@@ -1,7 +1,10 @@
 Screen1 As screen:
 
     Gallery6 As gallery.galleryVertical:
+        BorderColor: =RGBA(118, 0, 0, 1)
+        BorderThickness: =1
         DelayItemLoading: =true
+        Fill: =RGBA(255, 255, 255, 1)
         Height: =594
         Items: =Factor
         Layout: =Layout.Vertical
@@ -58,8 +61,7 @@ Screen1 As screen:
     Rectangle5 As rectangle:
         Fill: =RGBA(102, 182, 227, 1)
         Height: =40
-        Width: =1150
-        X: =16
+        Width: =1366
         Y: =101
         ZIndex: =3
 
@@ -71,30 +73,34 @@ Screen1 As screen:
         ZIndex: =7
 
         Label41 As label:
+            Height: =39
             Text: ="Factor Code"
-            Width: =147
+            Width: =182
             X: =12
             Y: =101
             ZIndex: =4
 
         Label41_1 As label:
+            Height: =39
             Text: ="Factor Name"
-            Width: =147
-            X: =188
+            Width: =182
+            X: =230
             Y: =101
             ZIndex: =5
 
         Label41_2 As label:
+            Height: =39
             Text: ="Action"
-            Width: =147
-            X: =621
+            Width: =182
+            X: =767
             Y: =101
             ZIndex: =6
 
         Label41_3 As label:
+            Height: =39
             Text: ="Map Division"
-            Width: =147
-            X: =1019
+            Width: =172
+            X: =1194
             Y: =101
             ZIndex: =7
 
