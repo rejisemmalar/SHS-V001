@@ -3,7 +3,7 @@ Screen1 As screen:
     Factor_code As label:
         Align: =Align.Center
         BorderThickness: =1
-        Text: ="Text"
+        Text: ="Factor Code"
         Width: =Parent.Width*.2
         Y: =87
         ZIndex: =1
