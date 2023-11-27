@@ -2,7 +2,8 @@ Screen1 As screen:
 
     Label42 As label:
         Text: ="Text"
-        Y: =75
+        Width: =Parent.Width*.2
+        Y: =Rectangle6.Height
         ZIndex: =1
 
     Rectangle6 As rectangle:
