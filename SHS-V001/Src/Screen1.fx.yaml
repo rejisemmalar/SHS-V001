@@ -86,8 +86,8 @@ Screen1 As screen:
             Default: ="Text input"
             OnSelect: =Select(Parent)
             Width: =218
-            X: =30
-            Y: =21
+            X: =16
+            Y: =28
             ZIndex: =7
 
         TextInput4_1 As text:
@@ -95,8 +95,8 @@ Screen1 As screen:
             Default: ="Text input"
             OnSelect: =Select(Parent)
             Width: =218
-            X: =318
-            Y: =21
+            X: =234
+            Y: =28
             ZIndex: =8
 
         Button25 As button:
