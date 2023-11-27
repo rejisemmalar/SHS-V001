@@ -6,7 +6,7 @@ Screen1 As screen:
         Items: =Factor
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        TemplateSize: =118
         Width: =1366
         Y: =141
         ZIndex: =1
@@ -54,4 +54,10 @@ Screen1 As screen:
         X: =12
         Y: =9
         ZIndex: =2
+
+    Label41 As label:
+        Text: ="Text"
+        X: =12
+        Y: =101
+        ZIndex: =3
 
