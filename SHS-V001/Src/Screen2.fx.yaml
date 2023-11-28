@@ -2,14 +2,55 @@ Screen2 As screen:
 
     Gallery9 As gallery.galleryVertical:
         DelayItemLoading: =true
-        Height: =563
+        Height: =Parent.Height - (Rectangle_Header_background.Height-Label_Gallery_header_divisionname.Height)
         Items: =Division_1
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        TemplateSize: =82
         Width: =1366
-        Y: =178
+        Y: =Label_Gallery_header_divisionname.Y + Label_Gallery_header_divisionname.Height
         ZIndex: =1
+
+        Label41 As label:
+            Align: =Align.Center
+            Height: =54
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Division Name'
+            Width: =542
+            ZIndex: =1
+
+        Label41_1 As label:
+            Align: =Align.Center
+            Height: =68
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Division Code'
+            Width: =384
+            X: =542
+            ZIndex: =2
+
+        Label41_2 As label:
+            Align: =Align.Center
+            Height: =68
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Action
+            Width: =430
+            X: =926
+            ZIndex: =3
+
+        Button23 As button:
+            OnSelect: =Select(Parent)
+            Text: ="Edit"
+            Width: =128
+            X: =976
+            Y: =14
+            ZIndex: =4
+
+        Button24 As button:
+            OnSelect: =Select(Parent)
+            Text: ="Delete"
+            X: =1158
+            Y: =14
+            ZIndex: =5
 
     Rectangle_Header_background As rectangle:
         Width: =1366
@@ -28,30 +69,36 @@ Screen2 As screen:
 
     Label_Gallery_header_divisionname As label:
         Align: =Align.Center
+        BorderThickness: =2
+        Fill: =Color.AliceBlue
         Height: =60
         Size: =20
         Text: ="Division Name"
-        Width: =Parent.Width * .2
+        Width: =546
         Y: =Rectangle_Header_background.Height
         ZIndex: =4
 
     Label_Gallery_header_divisioncode As label:
         Align: =Align.Center
+        BorderThickness: =2
+        Fill: =Color.AliceBlue
         Height: =60
         Size: =20
         Text: ="Division Code"
-        Width: =Parent.Width * .2
-        X: =Label_Gallery_header_divisionname.X + Label_Gallery_header_divisionname.Width
+        Width: =387
+        X: =546
         Y: =Rectangle_Header_background.Height
         ZIndex: =5
 
     Label_Gallery_header_Action As label:
         Align: =Align.Center
+        BorderThickness: =2
+        Fill: =Color.AliceBlue
         Height: =60
         Size: =20
         Text: ="Action"
-        Width: =Parent.Width * .2
-        X: =Label_Gallery_header_divisioncode.X + Label_Gallery_header_divisioncode.Width
+        Width: =433
+        X: =933
         Y: =100
         ZIndex: =6
 
