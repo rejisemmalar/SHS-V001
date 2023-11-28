@@ -1,0 +1,54 @@
+Screen2 As screen:
+
+    Gallery9 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =563
+        Items: =Division_1
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        Width: =1366
+        Y: =178
+        ZIndex: =1
+
+    Rectangle_Header_background As rectangle:
+        Width: =1366
+        ZIndex: =2
+
+    Label_Header As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =56
+        Size: =30
+        Text: ="Division"
+        Width: =390
+        X: =501
+        Y: =22
+        ZIndex: =3
+
+    Label_Gallery_header_divisionname As label:
+        Height: =60
+        Size: =20
+        Text: ="Division Name"
+        Width: =Parent.Width * .2
+        Y: =Rectangle_Header_background.Height
+        ZIndex: =4
+
+    Label_Gallery_header_divisioncode As label:
+        Height: =60
+        Size: =20
+        Text: ="Division Code"
+        Width: =Parent.Width * .2
+        X: =Label_Gallery_header_divisionname.X + Label_Gallery_header_divisionname.Width
+        Y: =Rectangle_Header_background.Height
+        ZIndex: =5
+
+    Label_Gallery_header_Action As label:
+        Height: =60
+        Size: =20
+        Text: ="Action"
+        Width: =Parent.Width * .2
+        X: =Label_Gallery_header_Action.X + Label_Gallery_header_Action.Width
+        Y: =Rectangle_Header_background.Height
+        ZIndex: =6
+
