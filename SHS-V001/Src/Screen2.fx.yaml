@@ -27,6 +27,7 @@ Screen2 As screen:
         ZIndex: =3
 
     Label_Gallery_header_divisionname As label:
+        Align: =Align.Center
         Height: =60
         Size: =20
         Text: ="Division Name"
@@ -35,6 +36,7 @@ Screen2 As screen:
         ZIndex: =4
 
     Label_Gallery_header_divisioncode As label:
+        Align: =Align.Center
         Height: =60
         Size: =20
         Text: ="Division Code"
@@ -44,11 +46,12 @@ Screen2 As screen:
         ZIndex: =5
 
     Label_Gallery_header_Action As label:
+        Align: =Align.Center
         Height: =60
         Size: =20
         Text: ="Action"
         Width: =Parent.Width * .2
-        X: =Label_Gallery_header_Action.X + Label_Gallery_header_Action.Width
-        Y: =Rectangle_Header_background.Height
+        X: =Label_Gallery_header_divisioncode.X + Label_Gallery_header_divisioncode.Width
+        Y: =100
         ZIndex: =6
 
