@@ -205,3 +205,16 @@
         Width: =1366
         ZIndex: =25
 
+    Container31 As groupContainer.manualLayoutContainer:
+        Height: =547
+        Width: =975
+        X: =285
+        Y: =218
+        ZIndex: =26
+
+        Label51 As label:
+            Text: ="Text"
+            X: =21
+            Y: =24
+            ZIndex: =1
+
