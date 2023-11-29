@@ -115,8 +115,14 @@
         ZIndex: =15
 
     Label47_3 As label:
-        Text: ="Factor"
+        Text: ="SubFactor"
         X: =635
         Y: =364
         ZIndex: =16
+
+    Label47_4 As label:
+        Text: ="SubFactor"
+        X: =785
+        Y: =364
+        ZIndex: =17
 
