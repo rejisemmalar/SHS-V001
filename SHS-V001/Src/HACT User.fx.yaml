@@ -661,14 +661,30 @@
     Gallery8 As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =421
-        Items: =CustomGallerySample
+        Items: ='SHS-Users_1'
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        TemplateSize: =111
         Width: =1090
         X: =276
         Y: =345
         ZIndex: =13
+
+        Label45 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Display Name'
+            Width: =130
+            X: =21
+            Y: =18
+            ZIndex: =1
+
+        Label45_1 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Designation
+            Width: =130
+            X: =223
+            Y: =18
+            ZIndex: =2
 
     "'Display Name' As label":
         Text: ="Display Name"
@@ -691,7 +707,7 @@
         Y: =305
         ZIndex: =16
 
-    Action1 As label:
+    Action_HACTUser As label:
         Text: ="Action"
         Width: =166
         X: =920

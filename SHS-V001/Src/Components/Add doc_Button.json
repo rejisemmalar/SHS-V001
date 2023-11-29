@@ -66,7 +66,7 @@
         "Name": "Icon8",
         "Parent": "Add doc_Button",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 714,
+        "PublishOrderIndex": 717,
         "Rules": [
           {
             "Category": "Design",
@@ -361,7 +361,7 @@
         "Name": "Button2",
         "Parent": "Add doc_Button",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 715,
+        "PublishOrderIndex": 718,
         "Rules": [
           {
             "Category": "Data",
