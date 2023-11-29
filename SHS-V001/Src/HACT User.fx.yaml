@@ -1,4 +1,6 @@
 "'HACT User' As screen":
+    OnVisible: |-
+        =UpdateContext({varshowdeletescreen:false})
 
     Component1_16 As Component1:
         CurrentScreen: ="Settings"
@@ -129,7 +131,8 @@
             ZIndex: =4
 
         Button27_1 As button:
-            OnSelect: =Select(Parent)
+            OnSelect: |-
+                =UpdateContext({varshowdeletescreen:true})
             Text: ="Delete"
             Width: =86
             X: =755
@@ -147,6 +150,7 @@
             ZIndex: =6
 
     "'Display Name' As label":
+        Align: =Align.Center
         Text: ="Display Name"
         Width: =190
         X: =306
@@ -154,6 +158,7 @@
         ZIndex: =11
 
     Designation As label:
+        Align: =Align.Center
         Text: ="Designation"
         Width: =193
         X: =504
@@ -161,6 +166,7 @@
         ZIndex: =12
 
     "'User Role' As label":
+        Align: =Align.Center
         Text: ="User Role"
         Width: =223
         X: =697
@@ -168,8 +174,9 @@
         ZIndex: =13
 
     Action_HACTUser As label:
+        Align: =Align.Center
         Text: ="Action"
-        Width: =166
+        Width: =216
         X: =920
         Y: =305
         ZIndex: =14
@@ -757,4 +764,64 @@
                     Wrap: =false
                     Y: =DataCardKey34.Y
                     ZIndex: =4
+
+    Deletepopup As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =19
+
+        Container25 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(169, 169, 169, .75)
+            Height: =768
+            Visible: =varshowdeletescreen
+            Width: =1366
+            ZIndex: =17
+
+        Container26 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(220, 153, 153, 1)
+            Height: =250
+            Visible: =varshowdeletescreen
+            Width: =568
+            X: =376
+            Y: =323
+            ZIndex: =18
+
+            Label39 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Bold
+                Height: =45
+                Size: =20
+                Text: ="Confirmation"
+                Width: =343
+                X: =117
+                Y: =12
+                ZIndex: =1
+
+            Label43 As label:
+                Align: =Align.Center
+                Height: =41
+                Size: =18
+                Text: ="Are you sure you want to delete?"
+                Width: =470
+                X: =51
+                Y: =81
+                ZIndex: =3
+
+            Button28 As button:
+                OnSelect: |-
+                    =Remove('SHS-Users_1',Gallery8.Selected);UpdateContext({varshowdeletescreen:false})
+                Text: ="Yes"
+                X: =24
+                Y: =147
+                ZIndex: =4
+
+            Button28_1 As button:
+                OnSelect: |-
+                    =UpdateContext({varshowdeletescreen:false})
+                Text: ="No"
+                X: =275
+                Y: =147
+                ZIndex: =5
 
