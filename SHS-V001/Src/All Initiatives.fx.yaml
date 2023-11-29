@@ -103,8 +103,14 @@
         ZIndex: =13
 
     Label47_1 As label:
-        Text: ="Initiatiave"
+        Text: ="Study"
         X: =409
         Y: =364
         ZIndex: =14
+
+    Label47_2 As label:
+        Text: ="Study"
+        X: =497
+        Y: =364
+        ZIndex: =15
 
