@@ -41,7 +41,7 @@
             "Name": "galleryTemplate2",
             "Parent": "Gallery2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 729,
+            "PublishOrderIndex": 9,
             "Rules": [
               {
                 "Category": "Design",
@@ -179,7 +179,7 @@
             "Name": "Label9",
             "Parent": "Gallery2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 730,
+            "PublishOrderIndex": 10,
             "Rules": [
               {
                 "Category": "Data",
@@ -503,7 +503,7 @@
             "Name": "Icon4",
             "Parent": "Gallery2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 731,
+            "PublishOrderIndex": 11,
             "Rules": [
               {
                 "Category": "Design",
@@ -747,7 +747,7 @@
         "Name": "Gallery2",
         "Parent": "Administration(com)",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 728,
+        "PublishOrderIndex": 8,
         "Rules": [
           {
             "Category": "Data",
@@ -948,7 +948,7 @@
       },
       "Currentscreen"
     ],
-    "LastModifiedTimestamp": "638368364708893800",
+    "LastModifiedTimestamp": "638368404343947264",
     "Name": "Administration(com)",
     "Rules": [
       {
@@ -1038,7 +1038,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638368364708893800",
+  "LastModifiedTimestamp": "638368404343947264",
   "Name": "4c6f5c0f1fbe40e187c5de76865a8dbb",
   "OverridableProperties": {},
   "Version": "638330413982537511"
