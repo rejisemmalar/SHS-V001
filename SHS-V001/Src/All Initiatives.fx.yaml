@@ -96,28 +96,28 @@
         Y: =346
         ZIndex: =12
 
-    Label47 As label:
+    Initiative_name As label:
         Text: ="Initiatiave"
         Width: =95
         X: =291
         Y: =364
         ZIndex: =13
 
-    Label47_1 As label:
+    Study_name As label:
         Text: ="Study"
         Width: =88
         X: =409
         Y: =364
         ZIndex: =14
 
-    Label47_2 As label:
+    Factor_name As label:
         Text: ="Factor"
         Width: =90
         X: =497
         Y: =364
         ZIndex: =15
 
-    Label47_3 As label:
+    SubFactor_name As label:
         Text: ="SubFactor"
         X: =635
         Y: =364
@@ -204,21 +204,4 @@
         Height: =768
         Width: =1366
         ZIndex: =25
-
-    Container30 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(251, 188, 159, 1)
-        Height: =406
-        Width: =881
-        X: =343
-        Y: =238
-        ZIndex: =26
-
-        Label50 As label:
-            Align: =Align.Center
-            Height: =48
-            Text: ="Create Initiative"
-            Width: =335
-            X: =27
-            Y: =12
-            ZIndex: =1
 
