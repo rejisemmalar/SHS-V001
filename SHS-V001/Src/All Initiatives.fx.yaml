@@ -1167,13 +1167,15 @@
                 ZIndex: =2
 
             Button33 As button:
+                OnSelect: |-
+                    =Remove(Initiative,Gallery10.Selected);UpdateContext({showdeletescreen:false})
                 Text: ="Delete"
                 X: =210
                 Y: =309
                 ZIndex: =3
 
             Button34 As button:
-                Text: ="Button"
+                Text: ="Cancel"
                 X: =440
                 Y: =309
                 ZIndex: =4
