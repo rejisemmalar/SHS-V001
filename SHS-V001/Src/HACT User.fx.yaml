@@ -764,59 +764,66 @@
                     Y: =DataCardKey34.Y
                     ZIndex: =4
 
-    Container25 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(169, 169, 169, .75)
-        Height: =768
-        Width: =1366
-        ZIndex: =17
+    Deletepopup As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =19
 
-    Container26 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(220, 153, 153, 1)
-        Height: =250
-        Width: =568
-        X: =376
-        Y: =323
-        ZIndex: =18
+        Container25 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(169, 169, 169, .75)
+            Height: =768
+            Width: =1366
+            ZIndex: =17
 
-        Label39 As label:
-            Align: =Align.Center
-            FontWeight: =FontWeight.Bold
-            Height: =45
-            Size: =20
-            Text: ="Confirmation"
-            Width: =343
-            X: =117
-            Y: =12
-            ZIndex: =1
+        Container26 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(220, 153, 153, 1)
+            Height: =250
+            Width: =568
+            X: =376
+            Y: =323
+            ZIndex: =18
 
-        Icon21 As icon.HorizontalLine:
-            BorderThickness: =1
-            Height: =0
-            Icon: =Icon.HorizontalLine
-            Width: =502
-            X: =37
-            Y: =57
-            ZIndex: =2
+            Label39 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Bold
+                Height: =45
+                Size: =20
+                Text: ="Confirmation"
+                Width: =343
+                X: =117
+                Y: =12
+                ZIndex: =1
 
-        Label43 As label:
-            Align: =Align.Center
-            Height: =41
-            Size: =18
-            Text: ="Are you sure you want to delete?"
-            Width: =470
-            X: =51
-            Y: =81
-            ZIndex: =3
+            Icon21 As icon.HorizontalLine:
+                BorderThickness: =1
+                Height: =0
+                Icon: =Icon.HorizontalLine
+                Width: =502
+                X: =37
+                Y: =57
+                ZIndex: =2
 
-        Button28 As button:
-            Text: ="Yes"
-            X: =24
-            Y: =147
-            ZIndex: =4
+            Label43 As label:
+                Align: =Align.Center
+                Height: =41
+                Size: =18
+                Text: ="Are you sure you want to delete?"
+                Width: =470
+                X: =51
+                Y: =81
+                ZIndex: =3
 
-        Button28_1 As button:
-            Text: ="No"
-            X: =275
-            Y: =147
-            ZIndex: =5
+            Button28 As button:
+                Text: ="Yes"
+                X: =24
+                Y: =147
+                ZIndex: =4
+
+            Button28_1 As button:
+                Text: ="No"
+                X: =275
+                Y: =147
+                ZIndex: =5
 

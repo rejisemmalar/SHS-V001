@@ -326,6 +326,7 @@
     "DataTable7": 622,
     "DataTable8": 587,
     "DataTable9": 754,
+    "Deletepopup": 844,
     "Designation": 390,
     "Designation_DataCard1": 480,
     "Designation_DataCard2": 356,
@@ -866,7 +867,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/29/2023 07:10:30",
+  "HeaderLastSavedDateTimeUTC": "11/29/2023 07:12:55",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "d5d288d0-8556-4a38-a03d-f5517ce3059c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6b09e5d9e40c401a9964269a06a6ff10\""
@@ -961,7 +962,12 @@
     "Study(Administration)_1": 19,
     "Subfactors_1": 20
   },
-  "OrderGroupControls": {},
+  "OrderGroupControls": {
+    "Deletepopup": {
+      "Container25": 0,
+      "Container26": 1
+    }
+  },
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
@@ -1286,6 +1292,7 @@
     "DataTable7": {},
     "DataTable8": {},
     "DataTable9": {},
+    "Deletepopup": {},
     "Designation": {},
     "Designation_DataCard1": {},
     "Designation_DataCard2": {},
@@ -2132,6 +2139,7 @@
     "DataTable7": 276,
     "DataTable8": 311,
     "DataTable9": 354,
+    "Deletepopup": 0,
     "Designation": 417,
     "Designation_DataCard1": 488,
     "Designation_DataCard2": 383,
