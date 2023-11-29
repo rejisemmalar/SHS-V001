@@ -765,12 +765,6 @@
                     Y: =DataCardKey34.Y
                     ZIndex: =4
 
-    Container27 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(169, 169, 169, .75)
-        Height: =768
-        Width: =1366
-        ZIndex: =19
-
     Deletepopup As group:
         Height: =5
         Width: =5
@@ -830,6 +824,12 @@
                 X: =275
                 Y: =147
                 ZIndex: =5
+
+    Container27 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(169, 169, 169, .75)
+        Height: =768
+        Width: =1366
+        ZIndex: =19
 
     Container28 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(250, 155, 112, 1)
