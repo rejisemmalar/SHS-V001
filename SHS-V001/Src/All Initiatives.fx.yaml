@@ -898,8 +898,14 @@
                     ZIndex: =4
 
         Button31 As button:
-            Text: ="Button"
+            Text: ="Save"
             X: =60
             Y: =498
             ZIndex: =3
+
+        Button31_1 As button:
+            Text: ="Save"
+            X: =516
+            Y: =498
+            ZIndex: =4
 
