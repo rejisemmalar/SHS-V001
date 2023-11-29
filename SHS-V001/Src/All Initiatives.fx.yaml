@@ -139,30 +139,23 @@
 
     Year As label:
         Text: ="Year"
-        X: =990
+        X: =1012
         Y: =364
         ZIndex: =19
 
     Progress As label:
         Text: ="Progress"
         Width: =90
-        X: =1052
+        X: =1078
         Y: =361
         ZIndex: =20
 
     Action_initiative As label:
         Text: ="Action"
         Width: =90
-        X: =1170
-        Y: =364
+        X: =1205
+        Y: =361
         ZIndex: =21
-
-    Detail_initiative As label:
-        Text: ="Detail"
-        Width: =90
-        X: =1276
-        Y: =364
-        ZIndex: =22
 
     Icon5_30 As icon.HorizontalLine:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -262,6 +255,24 @@
             Y: =39
             ZIndex: =8
 
+        Icon22 As icon.Edit:
+            Height: =38
+            Icon: =Icon.Edit
+            OnSelect: =Select(Parent)
+            Width: =40
+            X: =908
+            Y: =18
+            ZIndex: =9
+
+        Icon23 As icon.Trash:
+            Height: =42
+            Icon: =Icon.Trash
+            OnSelect: =Select(Parent)
+            Width: =42
+            X: =963
+            Y: =18
+            ZIndex: =10
+
     Container29 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(169, 169, 169, .75)
         Height: =768
@@ -304,6 +315,7 @@
 
         Form14 As form:
             DataSource: =Initiative
+            DefaultMode: =FormMode.New
             Height: =370
             Width: =975
             Y: =96
