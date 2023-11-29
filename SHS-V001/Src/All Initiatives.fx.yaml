@@ -213,7 +213,9 @@
         ZIndex: =26
 
         Label51 As label:
-            Text: ="Text"
+            Height: =45
+            Text: ="Craete Initiative"
+            Width: =285
             X: =21
             Y: =24
             ZIndex: =1
