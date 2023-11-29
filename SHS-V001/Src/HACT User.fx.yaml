@@ -43,14 +43,14 @@
         Width: =198
         X: =869
         Y: =195
-        ZIndex: =6
+        ZIndex: =5
 
     "'Add doc_Button_21' As 'Add doc_Button'":
         Height: =47
         Width: =161
         X: =1044
         Y: =195
-        ZIndex: =7
+        ZIndex: =6
 
     Button4_2 As button:
         Color: =Color.White
@@ -66,7 +66,7 @@
         Width: =85
         X: =1205
         Y: =200
-        ZIndex: =8
+        ZIndex: =7
 
     Icon15_3 As icon.Add:
         Color: =RGBA(255, 255, 255, 1)
@@ -75,14 +75,94 @@
         Width: =35
         X: =1205
         Y: =206
-        ZIndex: =9
+        ZIndex: =8
 
     Container11 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(169, 169, 169, .75)
         Height: =767
         Visible: =ShowPopup
         Width: =1366
+        ZIndex: =9
+
+    Gallery8 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =421
+        Items: ='SHS-Users_1'
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =111
+        Width: =1090
+        X: =276
+        Y: =345
         ZIndex: =10
+
+        Label45 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Display Name'
+            Width: =130
+            X: =21
+            Y: =18
+            ZIndex: =1
+
+        Label45_1 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Designation
+            Width: =130
+            X: =223
+            Y: =18
+            ZIndex: =2
+
+        Label45_2 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'User Role'.Value
+            Width: =163
+            X: =406
+            Y: =18
+            ZIndex: =3
+
+        Button27 As button:
+            OnSelect: =Select(Parent)
+            Text: ="Edit"
+            Width: =86
+            X: =628
+            Y: =18
+            ZIndex: =4
+
+        Button27_1 As button:
+            OnSelect: =Select(Parent)
+            Text: ="Delete"
+            Width: =86
+            X: =755
+            Y: =18
+            ZIndex: =5
+
+    "'Display Name' As label":
+        Text: ="Display Name"
+        Width: =190
+        X: =306
+        Y: =305
+        ZIndex: =11
+
+    Designation As label:
+        Text: ="Designation"
+        Width: =193
+        X: =504
+        Y: =305
+        ZIndex: =12
+
+    "'User Role' As label":
+        Text: ="User Role"
+        Width: =223
+        X: =697
+        Y: =305
+        ZIndex: =13
+
+    Action_HACTUser As label:
+        Text: ="Action"
+        Width: =166
+        X: =920
+        Y: =305
+        ZIndex: =14
 
     Container12 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(167, 182, 203, 1)
@@ -91,7 +171,7 @@
         Width: =1044
         X: =213
         Y: =161
-        ZIndex: =12
+        ZIndex: =15
 
         Button10 As button:
             OnSelect: |-
@@ -657,84 +737,4 @@
                     Wrap: =false
                     Y: =DataCardKey34.Y
                     ZIndex: =4
-
-    Gallery8 As gallery.galleryVertical:
-        DelayItemLoading: =true
-        Height: =421
-        Items: ='SHS-Users_1'
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =111
-        Width: =1090
-        X: =276
-        Y: =345
-        ZIndex: =13
-
-        Label45 As label:
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.'Display Name'
-            Width: =130
-            X: =21
-            Y: =18
-            ZIndex: =1
-
-        Label45_1 As label:
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.Designation
-            Width: =130
-            X: =223
-            Y: =18
-            ZIndex: =2
-
-        Label45_2 As label:
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.'User Role'.Value
-            Width: =163
-            X: =406
-            Y: =18
-            ZIndex: =3
-
-        Button27 As button:
-            OnSelect: =Select(Parent)
-            Text: ="Edit"
-            Width: =86
-            X: =628
-            Y: =18
-            ZIndex: =4
-
-        Button27_1 As button:
-            OnSelect: =Select(Parent)
-            Text: ="Edit"
-            Width: =86
-            X: =755
-            Y: =18
-            ZIndex: =5
-
-    "'Display Name' As label":
-        Text: ="Display Name"
-        Width: =190
-        X: =306
-        Y: =305
-        ZIndex: =14
-
-    Designation As label:
-        Text: ="Designation"
-        Width: =193
-        X: =504
-        Y: =305
-        ZIndex: =15
-
-    "'User Role' As label":
-        Text: ="User Role"
-        Width: =223
-        X: =697
-        Y: =305
-        ZIndex: =16
-
-    Action_HACTUser As label:
-        Text: ="Action"
-        Width: =166
-        X: =920
-        Y: =305
-        ZIndex: =17
 
