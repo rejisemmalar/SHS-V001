@@ -142,7 +142,7 @@
     Year As label:
         Text: ="Year"
         X: =957
-        Y: =371
+        Y: =361
         ZIndex: =19
 
     Progress As label:
