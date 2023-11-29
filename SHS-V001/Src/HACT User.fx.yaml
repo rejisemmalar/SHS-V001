@@ -841,7 +841,9 @@
 
         Label44 As label:
             Align: =Align.Center
+            FontWeight: =FontWeight.Bold
             Height: =51
+            Size: =20
             Text: ="Edit Division"
             Width: =202
             X: =4
