@@ -888,27 +888,3 @@ Division As screen:
             Y: =27
             ZIndex: =4
 
-    Container34 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(203, 102, 102, 0.66)
-        Height: =768
-        Visible: =ShowPopup_delete
-        Width: =1366
-        ZIndex: =17
-
-    Container35 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(251, 188, 159, 1)
-        Height: =327
-        Visible: =ShowPopup_delete
-        Width: =751
-        X: =416
-        Y: =273
-        ZIndex: =18
-
-        Button32 As button:
-            OnSelect: |-
-                =UpdateContext({ShowPopup_delete:false})
-            Text: ="No"
-            X: =528
-            Y: =238
-            ZIndex: =1
-
