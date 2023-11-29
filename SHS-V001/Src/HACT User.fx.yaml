@@ -665,8 +665,36 @@
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
-        Width: =1078
-        X: =288
+        Width: =1090
+        X: =276
         Y: =345
         ZIndex: =13
+
+    "'Display Name' As label":
+        Text: ="Display Name"
+        Width: =190
+        X: =306
+        Y: =305
+        ZIndex: =14
+
+    Designation As label:
+        Text: ="Text"
+        Width: =193
+        X: =504
+        Y: =305
+        ZIndex: =15
+
+    "'User Role' As label":
+        Text: ="Text"
+        Width: =223
+        X: =697
+        Y: =305
+        ZIndex: =16
+
+    Action1 As label:
+        Text: ="Text"
+        Width: =166
+        X: =920
+        Y: =305
+        ZIndex: =17
 
