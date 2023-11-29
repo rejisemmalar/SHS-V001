@@ -121,7 +121,7 @@
         ZIndex: =16
 
     Label47_4 As label:
-        Text: ="SubFactor"
+        Text: ="StartDate"
         X: =785
         Y: =364
         ZIndex: =17
