@@ -210,6 +210,7 @@
 
     Container31 As groupContainer.manualLayoutContainer:
         Height: =547
+        Visible: =showpopup
         Width: =975
         X: =285
         Y: =218
