@@ -109,8 +109,14 @@
         ZIndex: =14
 
     Label47_2 As label:
-        Text: ="Study"
+        Text: ="Factor"
         X: =497
         Y: =364
         ZIndex: =15
+
+    Label47_3 As label:
+        Text: ="Factor"
+        X: =635
+        Y: =364
+        ZIndex: =16
 
