@@ -1172,9 +1172,9 @@
                 Y: =309
                 ZIndex: =3
 
-            Button33_1 As button:
-                Text: ="Cancel"
-                X: =476
+            Button34 As button:
+                Text: ="Button"
+                X: =440
                 Y: =309
                 ZIndex: =4
 
