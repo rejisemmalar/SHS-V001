@@ -7,14 +7,44 @@ Division As screen:
     Gallery6 As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =414
-        Items: =CustomGallerySample
+        Items: =Division_1
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        TemplateSize: =82
         Width: =1075
         X: =291
         Y: =352
         ZIndex: =1
+
+        Label40 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Division Code'
+            X: =42
+            Y: =18
+            ZIndex: =1
+
+        Label42 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Division Name'
+            X: =444
+            Y: =18
+            ZIndex: =2
+
+        Button25 As button:
+            OnSelect: =Select(Parent)
+            Text: ="Edit"
+            Width: =118
+            X: =758
+            Y: =18
+            ZIndex: =4
+
+        Button26 As button:
+            OnSelect: =Select(Parent)
+            Text: ="Delete"
+            Width: =112
+            X: =905
+            Y: =18
+            ZIndex: =5
 
     Arrow1_4 As arrow.backArrow:
         Fill: =RGBA(0, 18, 107, 1)
@@ -781,4 +811,31 @@ Division As screen:
             X: =33
             Y: =27
             ZIndex: =4
+
+    "'Division name' As label":
+        Align: =Align.Center
+        Height: =48
+        Text: ="Division Code"
+        Width: =250
+        X: =291
+        Y: =293
+        ZIndex: =13
+
+    "'Division Code' As label":
+        Align: =Align.Center
+        Height: =48
+        Text: ="Division Name"
+        Width: =250
+        X: =667
+        Y: =293
+        ZIndex: =14
+
+    Action As label:
+        Align: =Align.Center
+        Height: =48
+        Text: ="Action"
+        Width: =250
+        X: =1044
+        Y: =293
+        ZIndex: =15
 
