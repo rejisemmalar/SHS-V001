@@ -269,7 +269,7 @@
             ZIndex: =10
 
         TextInput3 As text:
-            Default: ="Text input"
+            Default: =""
             Height: =50
             OnSelect: =Select(Parent)
             Width: =95
