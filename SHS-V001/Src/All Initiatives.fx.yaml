@@ -212,14 +212,14 @@
         Height: =547
         Visible: =showpopup
         Width: =975
-        X: =285
-        Y: =218
+        X: =253
+        Y: =73
         ZIndex: =26
 
         Label51 As label:
             Height: =45
             Size: =20
-            Text: ="Craete Initiative"
+            Text: ="Create Initiative"
             Width: =285
             X: =21
             Y: =24
@@ -902,6 +902,8 @@
                     ZIndex: =4
 
         Button31 As button:
+            OnSelect: |-
+                =SubmitForm(Form13);NewForm(Form13);UpdateContext({showpopup:false})
             Text: ="Save"
             X: =60
             Y: =498
