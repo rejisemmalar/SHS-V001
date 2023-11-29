@@ -48,7 +48,8 @@
       "SubFactor#Id": "SubFactor Id",
       "Target_x0020_Audience": "Target Audience",
       "Title": "Initiative",
-      "Year": "Year"
+      "Year": "Year",
+      "Year#Id": "Year Id"
     },
     "DatasetName": "https://y00q1.sharepoint.com/sites/SHS-V07",
     "EncodeDataset": true,
