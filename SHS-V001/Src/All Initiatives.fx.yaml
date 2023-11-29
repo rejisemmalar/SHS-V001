@@ -123,26 +123,26 @@
 
     SubFactor_name As label:
         Text: ="SubFactor"
-        X: =635
-        Y: =364
+        X: =592
+        Y: =362
         ZIndex: =16
 
     StartDate As label:
         Text: ="Start Date"
-        X: =785
+        X: =724
         Y: =364
         ZIndex: =17
 
     EndDate As label:
         Text: ="End Date"
-        X: =891
-        Y: =364
+        X: =862
+        Y: =365
         ZIndex: =18
 
     Year As label:
         Text: ="Year"
-        X: =1012
-        Y: =364
+        X: =957
+        Y: =371
         ZIndex: =19
 
     Progress As label:
@@ -228,8 +228,8 @@
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Start Date'
             Width: =125
-            X: =513
-            Y: =39
+            X: =452
+            Y: =29
             ZIndex: =5
 
         Label56 As label:
@@ -237,16 +237,16 @@
             OnSelect: =Select(Parent)
             Text: =ThisItem.'End Date'
             Width: =121
-            X: =618
-            Y: =39
+            X: =584
+            Y: =29
             ZIndex: =6
 
         Label57 As label:
             OnSelect: =Select(Parent)
             Text: =ThisItem.Year.Value
             Width: =101
-            X: =723
-            Y: =39
+            X: =703
+            Y: =23
             ZIndex: =7
 
         Icon22 As icon.Edit:
@@ -271,10 +271,11 @@
         TextInput3 As text:
             Default: =""
             Height: =50
+            HintText: ="progress"
             OnSelect: =Select(Parent)
             Width: =95
-            X: =789
-            Y: =32
+            X: =782
+            Y: =22
             ZIndex: =11
 
     Container29 As groupContainer.manualLayoutContainer:
