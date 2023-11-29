@@ -1136,7 +1136,11 @@
         ZIndex: =28
 
         Label60 As label:
+            Align: =Align.Center
+            Height: =43
+            Size: =20
             Text: ="Confirmation"
+            Width: =276
             X: =51
             Y: =21
             ZIndex: =1
