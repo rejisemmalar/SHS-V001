@@ -1151,8 +1151,15 @@
             Default: =""
             Height: =205
             HintText: ="Comments Required"
+            Size: =20
             Width: =655
-            X: =21
-            Y: =117
+            X: =30
+            Y: =93
             ZIndex: =2
+
+        Button33 As button:
+            Text: ="Button"
+            X: =210
+            Y: =309
+            ZIndex: =3
 
