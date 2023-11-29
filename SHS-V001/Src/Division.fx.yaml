@@ -1,9 +1,5 @@
 Division As screen:
 
-    Component1_9 As Component1:
-        CurrentScreen: ="Administration"
-        Height: =768
-
     Gallery6 As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =414
@@ -46,6 +42,11 @@ Division As screen:
             Y: =18
             ZIndex: =5
 
+    Component1_9 As Component1:
+        CurrentScreen: ="Administration"
+        Height: =768
+        ZIndex: =2
+
     Arrow1_4 As arrow.backArrow:
         Fill: =RGBA(0, 18, 107, 1)
         Height: =34
@@ -53,7 +54,7 @@ Division As screen:
         Width: =32
         X: =291
         Y: =147
-        ZIndex: =2
+        ZIndex: =3
 
     Label12 As label:
         FontWeight: =FontWeight.Bold
@@ -61,7 +62,7 @@ Division As screen:
         Text: ="Division"
         X: =291
         Y: =202
-        ZIndex: =3
+        ZIndex: =4
 
     Icon5_3 As icon.HorizontalLine:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -78,21 +79,21 @@ Division As screen:
         Width: =1050
         X: =291
         Y: =273
-        ZIndex: =4
+        ZIndex: =5
 
     Search_20 As Search:
         Height: =47
         Width: =198
         X: =869
         Y: =195
-        ZIndex: =5
+        ZIndex: =6
 
     "'Add doc_Button_20' As 'Add doc_Button'":
         Height: =47
         Width: =161
         X: =1044
         Y: =195
-        ZIndex: =6
+        ZIndex: =7
 
     Icon15_1 As icon.Add:
         Color: =RGBA(255, 255, 255, 1)
@@ -101,7 +102,7 @@ Division As screen:
         Width: =35
         X: =1221
         Y: =206
-        ZIndex: =7
+        ZIndex: =8
 
     Button4_1 As button:
         Color: =Color.White
@@ -118,7 +119,7 @@ Division As screen:
         Width: =85
         X: =1208
         Y: =202
-        ZIndex: =8
+        ZIndex: =9
 
     Icon15_2 As icon.Add:
         Color: =RGBA(255, 255, 255, 1)
@@ -127,7 +128,7 @@ Division As screen:
         Width: =35
         X: =1208
         Y: =206
-        ZIndex: =9
+        ZIndex: =10
 
     Container7 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Regular
@@ -135,7 +136,34 @@ Division As screen:
         Height: =768
         Visible: =ShowPopup
         Width: =1366
-        ZIndex: =10
+        ZIndex: =11
+
+    "'Division name' As label":
+        Align: =Align.Center
+        Height: =48
+        Text: ="Division Code"
+        Width: =250
+        X: =291
+        Y: =293
+        ZIndex: =12
+
+    "'Division Code' As label":
+        Align: =Align.Center
+        Height: =48
+        Text: ="Division Name"
+        Width: =250
+        X: =667
+        Y: =293
+        ZIndex: =13
+
+    Action As label:
+        Align: =Align.Center
+        Height: =48
+        Text: ="Action"
+        Width: =250
+        X: =1044
+        Y: =293
+        ZIndex: =14
 
     Container8 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Bold
@@ -145,7 +173,7 @@ Division As screen:
         Width: =1258
         X: =60
         Y: =30
-        ZIndex: =12
+        ZIndex: =15
 
         Form1 As form:
             DataSource: =Division_1
@@ -811,31 +839,4 @@ Division As screen:
             X: =33
             Y: =27
             ZIndex: =4
-
-    "'Division name' As label":
-        Align: =Align.Center
-        Height: =48
-        Text: ="Division Code"
-        Width: =250
-        X: =291
-        Y: =293
-        ZIndex: =13
-
-    "'Division Code' As label":
-        Align: =Align.Center
-        Height: =48
-        Text: ="Division Name"
-        Width: =250
-        X: =667
-        Y: =293
-        ZIndex: =14
-
-    Action As label:
-        Align: =Align.Center
-        Height: =48
-        Text: ="Action"
-        Width: =250
-        X: =1044
-        Y: =293
-        ZIndex: =15
 
