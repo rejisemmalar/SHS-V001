@@ -1150,6 +1150,7 @@
         TextInput1 As text:
             Default: =""
             Height: =205
+            HintText: ="Comments Required"
             Width: =655
             X: =21
             Y: =117
