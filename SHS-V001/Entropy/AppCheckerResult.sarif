@@ -5653,6 +5653,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'All Initiatives'.Gallery10.Icon23.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Initiatives'.Gallery10.Icon23.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "All Initiatives",
+                "type": "'All Initiatives'.Gallery10.Icon23"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'All Initiatives'.Container34.TextInput1.AccessibleLabel"
                 }
               ],
@@ -5677,6 +5707,36 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'All Initiatives'.Gallery10.Icon23.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Initiatives'.Gallery10.Icon23.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "All Initiatives",
+                "type": "'All Initiatives'.Gallery10.Icon23"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -5863,17 +5923,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'All Initiatives'.showdeletescreen"
+                  "fullyQualifiedName": "'All Initiatives'.varshowdeletescreen"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'All Initiatives'.showdeletescreen",
+                  "fullyQualifiedName": "'All Initiatives'.varshowdeletescreen",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "showdeletescreen",
+                "member": "varshowdeletescreen",
                 "module": "All Initiatives",
                 "type": "'All Initiatives'"
               }

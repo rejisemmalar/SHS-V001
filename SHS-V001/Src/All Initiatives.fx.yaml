@@ -269,7 +269,8 @@
         Icon23 As icon.Trash:
             Height: =42
             Icon: =Icon.Trash
-            OnSelect: =Select(Parent)
+            OnSelect: |-
+                =UpdateContext({showdeletescreen:true})
             Width: =42
             X: =963
             Y: =18
@@ -1134,12 +1135,14 @@
         Container33 As groupContainer.manualLayoutContainer:
             Fill: =RGBA(169, 169, 169, .75)
             Height: =765
+            Visible: =showdeletescreen
             Width: =1366
             ZIndex: =27
 
         Container34 As groupContainer.manualLayoutContainer:
             Fill: =RGBA(204, 231, 246, 1)
             Height: =355
+            Visible: =showdeletescreen
             Width: =698
             X: =373
             Y: =208
@@ -1175,6 +1178,8 @@
                 ZIndex: =3
 
             Button34 As button:
+                OnSelect: |-
+                    =UpdateContext({varshowdeletescreen:false})
                 Text: ="Cancel"
                 X: =440
                 Y: =309
