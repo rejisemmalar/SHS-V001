@@ -694,6 +694,14 @@
             Y: =18
             ZIndex: =3
 
+        Button27 As button:
+            OnSelect: =Select(Parent)
+            Text: ="Button"
+            Width: =86
+            X: =628
+            Y: =18
+            ZIndex: =4
+
     "'Display Name' As label":
         Text: ="Display Name"
         Width: =190
