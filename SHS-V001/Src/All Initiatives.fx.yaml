@@ -133,8 +133,14 @@
         ZIndex: =18
 
     Label47_6 As label:
-        Text: ="End Date"
+        Text: ="Year"
         X: =990
         Y: =364
         ZIndex: =19
+
+    Label47_7 As label:
+        Text: ="Year"
+        X: =1115
+        Y: =364
+        ZIndex: =20
 
