@@ -985,6 +985,7 @@
     "Subfactors_Column1": 849,
     "Subfactors_DataCard1": 833,
     "Target Audience_DataCard3": 1101,
+    "TextInput1": 1157,
     "TextInput2": 124,
     "Third Approver_DataCard1": 214,
     "Title_Parent": 56,
@@ -1007,7 +1008,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/29/2023 10:37:26",
+  "HeaderLastSavedDateTimeUTC": "11/29/2023 10:38:08",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "d5d288d0-8556-4a38-a03d-f5517ce3059c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6b09e5d9e40c401a9964269a06a6ff10\""
@@ -2093,6 +2094,7 @@
     "Subfactors_Column1": {},
     "Subfactors_DataCard1": {},
     "Target Audience_DataCard3": {},
+    "TextInput1": {},
     "TextInput2": {},
     "Third Approver_DataCard1": {},
     "Title_Parent": {},
@@ -3080,6 +3082,7 @@
     "Subfactors_Column1": 339,
     "Subfactors_DataCard1": 323,
     "Target Audience_DataCard3": 76,
+    "TextInput1": 0,
     "TextInput2": 865,
     "Third Approver_DataCard1": 186,
     "Title_Parent": 820,
