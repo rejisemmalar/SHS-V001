@@ -214,7 +214,10 @@
         ZIndex: =26
 
         Label50 As label:
-            Text: ="Text"
+            Align: =Align.Center
+            Height: =48
+            Text: ="Create Initiative"
+            Width: =335
             X: =27
             Y: =12
             ZIndex: =1
