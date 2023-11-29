@@ -780,6 +780,7 @@
             Align: =Align.Center
             FontWeight: =FontWeight.Bold
             Height: =45
+            Size: =0
             Text: ="Confirmation"
             Width: =343
             X: =117
