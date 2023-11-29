@@ -1,4 +1,6 @@
 "'All Initiatives' As screen":
+    OnVisible: |-
+        =UpdateContext({showdeletescreen:false})
 
     Component1_7 As Component1:
         CurrentScreen: ="Inbox"
@@ -1164,7 +1166,7 @@
             ZIndex: =3
 
         Button33_1 As button:
-            Text: ="Delete"
+            Text: ="Cancel"
             X: =476
             Y: =309
             ZIndex: =4

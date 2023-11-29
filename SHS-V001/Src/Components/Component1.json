@@ -61,7 +61,7 @@
             "Name": "Image7",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 812,
+            "PublishOrderIndex": 815,
             "Rules": [
               {
                 "Category": "Data",
@@ -301,7 +301,7 @@
             "Name": "Circle1_1",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 813,
+            "PublishOrderIndex": 816,
             "Rules": [
               {
                 "Category": "Design",
@@ -503,7 +503,7 @@
             "Name": "Label6",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 814,
+            "PublishOrderIndex": 817,
             "Rules": [
               {
                 "Category": "Data",
@@ -818,7 +818,7 @@
             "Name": "Icon1",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 815,
+            "PublishOrderIndex": 818,
             "Rules": [
               {
                 "Category": "Design",
@@ -1059,7 +1059,7 @@
             "Name": "Label4",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 816,
+            "PublishOrderIndex": 819,
             "Rules": [
               {
                 "Category": "Data",
@@ -1353,7 +1353,7 @@
             "Name": "Icon2",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 817,
+            "PublishOrderIndex": 820,
             "Rules": [
               {
                 "Category": "Design",
@@ -1555,7 +1555,7 @@
         "Name": "Container1",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 811,
+        "PublishOrderIndex": 814,
         "Rules": [
           {
             "Category": "Design",
@@ -1743,7 +1743,7 @@
             "Name": "galleryTemplate3",
             "Parent": "Gallery3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 819,
+            "PublishOrderIndex": 822,
             "Rules": [
               {
                 "Category": "Design",
@@ -1881,7 +1881,7 @@
             "Name": "Title_Parent",
             "Parent": "Gallery3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 820,
+            "PublishOrderIndex": 823,
             "Rules": [
               {
                 "Category": "Data",
@@ -2232,7 +2232,7 @@
         "Name": "Gallery3",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 818,
+        "PublishOrderIndex": 821,
         "Rules": [
           {
             "Category": "Data",
@@ -2450,7 +2450,7 @@
             "Name": "galleryTemplate7",
             "Parent": "Gallery7",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 822,
+            "PublishOrderIndex": 825,
             "Rules": [
               {
                 "Category": "Design",
@@ -2539,7 +2539,7 @@
             "Name": "Label17",
             "Parent": "Gallery7",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 823,
+            "PublishOrderIndex": 826,
             "Rules": [
               {
                 "Category": "Data",
@@ -2847,7 +2847,7 @@
         "Name": "Gallery7",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 821,
+        "PublishOrderIndex": 824,
         "Rules": [
           {
             "Category": "Data",
