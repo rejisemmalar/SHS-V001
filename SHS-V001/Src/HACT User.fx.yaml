@@ -696,11 +696,19 @@
 
         Button27 As button:
             OnSelect: =Select(Parent)
-            Text: ="Button"
+            Text: ="Edit"
             Width: =86
             X: =628
             Y: =18
             ZIndex: =4
+
+        Button27_1 As button:
+            OnSelect: =Select(Parent)
+            Text: ="Edit"
+            Width: =86
+            X: =755
+            Y: =18
+            ZIndex: =5
 
     "'Display Name' As label":
         Text: ="Display Name"
