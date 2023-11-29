@@ -1136,6 +1136,7 @@
         ZIndex: =28
 
         Label61 As label:
+            Size: =0
             Text: ="Delete Initiative"
             X: =40
             Y: =40
