@@ -819,6 +819,7 @@
                 ZIndex: =3
 
             Button28 As button:
+                OnSelect: =Remove('SHS-Users_1',Gallery8.Selected
                 Text: ="Yes"
                 X: =24
                 Y: =147
