@@ -123,25 +123,25 @@
         Y: =364
         ZIndex: =16
 
-    Label47_4 As label:
+    StartDate As label:
         Text: ="Start Date"
         X: =785
         Y: =364
         ZIndex: =17
 
-    Label47_5 As label:
+    EndDate As label:
         Text: ="End Date"
         X: =891
         Y: =364
         ZIndex: =18
 
-    Label47_6 As label:
+    Year As label:
         Text: ="Year"
         X: =990
         Y: =364
         ZIndex: =19
 
-    Label47_7 As label:
+    Progress As label:
         Text: ="Progress"
         Width: =90
         X: =1052
