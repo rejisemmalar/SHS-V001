@@ -692,7 +692,7 @@
         ZIndex: =16
 
     Action1 As label:
-        Text: ="Text"
+        Text: ="Action"
         Width: =166
         X: =920
         Y: =305
