@@ -1158,8 +1158,14 @@
             ZIndex: =2
 
         Button33 As button:
-            Text: ="Button"
+            Text: ="Delete"
             X: =210
             Y: =309
             ZIndex: =3
+
+        Button33_1 As button:
+            Text: ="Delete"
+            X: =476
+            Y: =309
+            ZIndex: =4
 
