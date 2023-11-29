@@ -97,8 +97,14 @@
         ZIndex: =12
 
     Label47 As label:
-        Text: ="Text"
+        Text: ="Initiatiave"
         X: =291
         Y: =364
         ZIndex: =13
+
+    Label47_1 As label:
+        Text: ="Initiatiave"
+        X: =409
+        Y: =364
+        ZIndex: =14
 
