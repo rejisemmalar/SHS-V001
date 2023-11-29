@@ -1402,7 +1402,7 @@
             ZIndex: =3
 
         Button29_1 As button:
-            Text: ="Save"
+            Text: ="Cancel"
             X: =372
             Y: =375
             ZIndex: =4
