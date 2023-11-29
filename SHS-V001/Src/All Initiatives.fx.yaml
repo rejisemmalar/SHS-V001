@@ -1136,7 +1136,7 @@
         ZIndex: =28
 
         Label60 As label:
-            Text: ="Text"
+            Text: ="Confirmation"
             X: =51
             Y: =21
             ZIndex: =1
