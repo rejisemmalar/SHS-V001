@@ -806,3 +806,9 @@
             Y: =81
             ZIndex: =3
 
+        Button28 As button:
+            Text: ="Button"
+            X: =24
+            Y: =147
+            ZIndex: =4
+
