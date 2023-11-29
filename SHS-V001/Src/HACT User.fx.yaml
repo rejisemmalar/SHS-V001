@@ -1,4 +1,6 @@
 "'HACT User' As screen":
+    OnVisible: |-
+        =UpdateContext({varshowdeletescreen:false})
 
     Component1_16 As Component1:
         CurrentScreen: ="Settings"
