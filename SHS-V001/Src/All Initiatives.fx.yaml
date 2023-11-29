@@ -146,9 +146,16 @@
         ZIndex: =20
 
     Label47_8 As label:
-        Text: ="Progress"
+        Text: ="Action"
         Width: =90
         X: =1170
         Y: =364
         ZIndex: =21
+
+    Label47_9 As label:
+        Text: ="Action"
+        Width: =90
+        X: =1276
+        Y: =364
+        ZIndex: =22
 
