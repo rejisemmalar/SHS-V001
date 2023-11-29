@@ -780,10 +780,18 @@
             Align: =Align.Center
             FontWeight: =FontWeight.Bold
             Height: =45
-            Size: =0
+            Size: =20
             Text: ="Confirmation"
             Width: =343
             X: =117
             Y: =12
             ZIndex: =1
+
+        Icon21 As icon.HorizontalLine:
+            Height: =0
+            Icon: =Icon.HorizontalLine
+            Width: =502
+            X: =37
+            Y: =57
+            ZIndex: =2
 
