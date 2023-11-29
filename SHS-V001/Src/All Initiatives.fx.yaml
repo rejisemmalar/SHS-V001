@@ -148,14 +148,14 @@
         Y: =361
         ZIndex: =20
 
-    Label47_8 As label:
+    Action_initiative As label:
         Text: ="Action"
         Width: =90
         X: =1170
         Y: =364
         ZIndex: =21
 
-    Label47_9 As label:
+    Detail_initiative As label:
         Text: ="Detail"
         Width: =90
         X: =1276
