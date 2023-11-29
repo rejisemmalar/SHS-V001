@@ -688,8 +688,8 @@
 
         Label45_2 As label:
             OnSelect: =Select(Parent)
-            Text: =ThisItem.'User Role'
-            Width: =130
+            Text: =ThisItem.'User Role'.Value
+            Width: =163
             X: =406
             Y: =18
             ZIndex: =3
