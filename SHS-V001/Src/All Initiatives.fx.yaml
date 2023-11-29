@@ -204,6 +204,7 @@
     Container29 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(169, 169, 169, .75)
         Height: =768
+        Visible: =showpopup
         Width: =1366
         ZIndex: =25
 
