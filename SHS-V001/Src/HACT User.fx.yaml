@@ -765,12 +765,6 @@
                     Y: =DataCardKey34.Y
                     ZIndex: =4
 
-    Container27 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(169, 169, 169, .75)
-        Height: =768
-        Width: =1366
-        ZIndex: =19
-
     Deletepopup As group:
         Height: =5
         Width: =5
@@ -805,15 +799,6 @@
                 Y: =12
                 ZIndex: =1
 
-            Icon21 As icon.HorizontalLine:
-                BorderThickness: =1
-                Height: =0
-                Icon: =Icon.HorizontalLine
-                Width: =502
-                X: =37
-                Y: =57
-                ZIndex: =2
-
             Label43 As label:
                 Align: =Align.Center
                 Height: =41
@@ -839,4 +824,10 @@
                 X: =275
                 Y: =147
                 ZIndex: =5
+
+    Container27 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(169, 169, 169, .75)
+        Height: =768
+        Width: =1366
+        ZIndex: =19
 

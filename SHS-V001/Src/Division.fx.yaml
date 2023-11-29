@@ -2,18 +2,19 @@ Division As screen:
 
     Gallery6 As gallery.galleryVertical:
         DelayItemLoading: =true
-        Height: =414
+        Height: =392
         Items: =Division_1
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =82
         Width: =1075
         X: =291
-        Y: =352
+        Y: =374
         ZIndex: =1
 
         Label40 As label:
             OnSelect: =Select(Parent)
+            Size: =15
             Text: =ThisItem.'Division Code'
             X: =42
             Y: =18
@@ -140,7 +141,9 @@ Division As screen:
 
     "'Division name' As label":
         Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
         Height: =48
+        Size: =17
         Text: ="Division Code"
         Width: =250
         X: =291
@@ -149,7 +152,9 @@ Division As screen:
 
     "'Division Code' As label":
         Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
         Height: =48
+        Size: =17
         Text: ="Division Name"
         Width: =250
         X: =667
@@ -158,7 +163,9 @@ Division As screen:
 
     Action As label:
         Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
         Height: =48
+        Size: =17
         Text: ="Action"
         Width: =250
         X: =1044
@@ -839,4 +846,15 @@ Division As screen:
             X: =33
             Y: =27
             ZIndex: =4
+
+    Icon21 As icon.HorizontalLine:
+        BorderColor: =RGBA(105, 121, 201, 1)
+        BorderThickness: =1
+        Color: =RGBA(217, 223, 250, 1)
+        Height: =1
+        Icon: =Icon.HorizontalLine
+        Width: =1063
+        X: =291
+        Y: =357
+        ZIndex: =16
 
