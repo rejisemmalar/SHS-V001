@@ -825,6 +825,8 @@
                 ZIndex: =4
 
             Button28_1 As button:
+                OnSelect: |-
+                    =UpdateContext({varshowdeletescreen:false})
                 Text: ="No"
                 X: =275
                 Y: =147
