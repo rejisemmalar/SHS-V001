@@ -5767,6 +5767,36 @@
           },
           "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'All Initiatives'.showpopup"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Initiatives'.showpopup",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "showpopup",
+                "module": "All Initiatives",
+                "type": "'All Initiatives'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 5
         }
       ],
       "tool": {
@@ -5857,6 +5887,23 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
+              }
+            },
+            {
+              "id": "app-UnusedVariables",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unused variable"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove the unused variable."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
               }
             }
           ],
