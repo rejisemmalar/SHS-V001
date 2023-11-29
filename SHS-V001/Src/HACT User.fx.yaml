@@ -777,10 +777,12 @@
         ZIndex: =18
 
         Label39 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Bold
             Height: =45
-            Text: ="Text"
+            Text: ="Confirmation"
             Width: =343
-            X: =54
-            Y: =18
+            X: =117
+            Y: =12
             ZIndex: =1
 
