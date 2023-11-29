@@ -139,8 +139,16 @@
         ZIndex: =19
 
     Label47_7 As label:
-        Text: ="Year"
-        X: =1115
+        Text: ="Progress"
+        Width: =90
+        X: =1080
         Y: =364
         ZIndex: =20
+
+    Label47_8 As label:
+        Text: ="Progress"
+        Width: =90
+        X: =1170
+        Y: =364
+        ZIndex: =21
 
