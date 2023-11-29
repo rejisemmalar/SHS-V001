@@ -1,6 +1,7 @@
 Screen2 As screen:
 
     Gallery9 As gallery.galleryVertical:
+        BorderThickness: =2
         DelayItemLoading: =true
         Height: =Parent.Height - (Rectangle_Header_background.Height-Label_Gallery_header_divisionname.Height)
         Items: =Division_1
@@ -17,6 +18,7 @@ Screen2 As screen:
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Division Name'
             Width: =542
+            Y: =14
             ZIndex: =1
 
         Label41_1 As label:
@@ -51,6 +53,14 @@ Screen2 As screen:
             X: =1158
             Y: =14
             ZIndex: =5
+
+        Icon20 As icon.HorizontalLine:
+            BorderThickness: =2
+            Height: =1
+            Icon: =Icon.HorizontalLine
+            Width: =1356
+            Y: =80
+            ZIndex: =6
 
     Rectangle_Header_background As rectangle:
         Width: =1366
