@@ -176,3 +176,15 @@
         Y: =417
         ZIndex: =23
 
+    Gallery10 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =329
+        Items: =Initiative
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =99
+        Width: =1063
+        X: =303
+        Y: =436
+        ZIndex: =24
+
