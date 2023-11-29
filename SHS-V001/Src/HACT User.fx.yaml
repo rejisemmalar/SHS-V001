@@ -129,7 +129,7 @@
             ZIndex: =4
 
         Button27_1 As button:
-            OnSelect: =Select(Parent)
+            OnSelect: =
             Text: ="Delete"
             Width: =86
             X: =755
@@ -813,7 +813,7 @@
             ZIndex: =4
 
         Button28_1 As button:
-            Text: ="Yes"
+            Text: ="No"
             X: =275
             Y: =147
             ZIndex: =5
