@@ -853,6 +853,7 @@
         Form11 As form:
             DataSource: ='SHS-Users_1'
             Height: =291
+            Item: =Gallery8.Selected
             Width: =851
             X: =4
             Y: =55
