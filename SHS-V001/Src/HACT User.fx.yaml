@@ -164,6 +164,16 @@
         Y: =305
         ZIndex: =14
 
+    Icon19 As icon.HorizontalLine:
+        BorderColor: =RGBA(118, 0, 0, 1)
+        BorderThickness: =1
+        Height: =0
+        Icon: =Icon.HorizontalLine
+        Width: =1029
+        X: =313
+        Y: =356
+        ZIndex: =15
+
     Container12 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(167, 182, 203, 1)
         Height: =525
@@ -171,7 +181,7 @@
         Width: =1044
         X: =213
         Y: =161
-        ZIndex: =15
+        ZIndex: =16
 
         Button10 As button:
             OnSelect: |-
