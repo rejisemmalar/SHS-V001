@@ -7,7 +7,9 @@ Screen1 As screen:
 
     Label46 As label:
         Align: =Align.Center
+        FontWeight: =FontWeight.Bold
         Height: =136
+        Size: =50
         Text: ="Initiatives"
         Width: =1366
         ZIndex: =2
