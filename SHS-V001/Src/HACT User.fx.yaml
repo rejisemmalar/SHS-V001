@@ -129,7 +129,7 @@
             ZIndex: =4
 
         Button27_1 As button:
-            OnSelect: =
+            OnSelect: =Remove('SHS-Users_1',ThisItem)
             Text: ="Delete"
             Width: =86
             X: =755
