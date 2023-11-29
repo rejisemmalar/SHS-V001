@@ -662,6 +662,7 @@
     "Inbox(Comp)_1": 471,
     "Initiative Code_DataCard3": 1071,
     "Initiative_DataCard3": 1066,
+    "Initiative_delete": 1160,
     "Initiative_name": 898,
     "Label_Gallery_header_Action": 695,
     "Label_Gallery_header_divisioncode": 694,
@@ -1010,7 +1011,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/29/2023 10:40:28",
+  "HeaderLastSavedDateTimeUTC": "11/29/2023 10:41:03",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "d5d288d0-8556-4a38-a03d-f5517ce3059c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6b09e5d9e40c401a9964269a06a6ff10\""
@@ -1110,6 +1111,10 @@
     "Deletepopup": {
       "Container25": 0,
       "Container26": 1
+    },
+    "Initiative_delete": {
+      "Container33": 0,
+      "Container34": 1
     }
   },
   "OrderPcfTemplate": {},
@@ -1773,6 +1778,7 @@
     "Inbox(Comp)_1": {},
     "Initiative Code_DataCard3": {},
     "Initiative_DataCard3": {},
+    "Initiative_delete": {},
     "Initiative_name": {},
     "Label_Gallery_header_Action": {},
     "Label_Gallery_header_divisioncode": {},
@@ -2763,6 +2769,7 @@
     "Inbox(Comp)_1": 657,
     "Initiative Code_DataCard3": 46,
     "Initiative_DataCard3": 41,
+    "Initiative_delete": 0,
     "Initiative_name": 119,
     "Label_Gallery_header_Action": 792,
     "Label_Gallery_header_divisioncode": 791,
