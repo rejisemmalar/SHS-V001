@@ -678,14 +678,14 @@
         ZIndex: =14
 
     Designation As label:
-        Text: ="Text"
+        Text: ="Designation"
         Width: =193
         X: =504
         Y: =305
         ZIndex: =15
 
     "'User Role' As label":
-        Text: ="Text"
+        Text: ="User Role"
         Width: =223
         X: =697
         Y: =305
