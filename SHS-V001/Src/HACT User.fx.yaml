@@ -686,6 +686,14 @@
             Y: =18
             ZIndex: =2
 
+        Label45_2 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'User Role'
+            Width: =130
+            X: =406
+            Y: =18
+            ZIndex: =3
+
     "'Display Name' As label":
         Text: ="Display Name"
         Width: =190
