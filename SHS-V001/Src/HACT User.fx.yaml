@@ -131,7 +131,8 @@
             ZIndex: =4
 
         Button27_1 As button:
-            OnSelect: =Remove('SHS-Users_1',ThisItem)
+            OnSelect: |-
+                =UpdateContext({varshowdeletescreen:true})
             Text: ="Delete"
             Width: =86
             X: =755
