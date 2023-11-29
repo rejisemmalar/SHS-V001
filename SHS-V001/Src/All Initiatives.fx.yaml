@@ -1136,8 +1136,12 @@
         ZIndex: =28
 
         Label61 As label:
-            Size: =0
+            Align: =Align.Center
+            FontWeight: =FontWeight.Bold
+            Height: =36
+            Size: =20
             Text: ="Delete Initiative"
+            Width: =241
             X: =40
             Y: =40
             ZIndex: =1
