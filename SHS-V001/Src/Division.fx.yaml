@@ -885,9 +885,3 @@ Division As screen:
                     Y: =DataCardKey57.Y
                     ZIndex: =4
 
-        Button8 As button:
-            Text: ="Save"
-            X: =56
-            Y: =452
-            ZIndex: =3
-
