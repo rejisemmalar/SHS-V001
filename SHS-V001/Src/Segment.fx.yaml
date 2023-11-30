@@ -10,22 +10,37 @@ Segment As screen:
 
     Gallery12 As gallery.galleryVertical:
         DelayItemLoading: =true
-        Height: =414
+        Height: =415
         Items: =Segment_5
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =100
-        Width: =1050
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        Width: =1027
         X: =291
-        Y: =354
+        Y: =353
         ZIndex: =1
 
-        Label48_1 As label:
+        Label47 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Segment Code'
+            X: =40
+            Y: =40
+            ZIndex: =1
+
+        Label48 As label:
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Segment Name'
-            X: =380
-            Y: =60
+            X: =362
+            Y: =40
             ZIndex: =2
+
+        Button25 As button:
+            OnSelect: |-
+                =UpdateContext({ShowPopup_delete:true})
+            Text: ="delete"
+            X: =787
+            Y: =40
+            ZIndex: =3
 
     "'Segment code' As label":
         Height: =54
@@ -42,11 +57,6 @@ Segment As screen:
         X: =659
         Y: =275
         ZIndex: =3
-
-    Component1_10 As Component1:
-        CurrentScreen: ="Administration"
-        Height: =768
-        ZIndex: =5
 
     Arrow1_5 As arrow.backArrow:
         Fill: =RGBA(0, 18, 107, 1)
@@ -334,32 +344,25 @@ Segment As screen:
             Y: =441
             ZIndex: =5
 
-    Group1 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =19
+    Container30 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(167, 182, 203, 0.63)
+        Height: =768
+        Visible: =ShowPopup_delete
+        Width: =1366
+        ZIndex: =15
 
-        Container30 As groupContainer.manualLayoutContainer:
-            Fill: =RGBA(167, 182, 203, 0.63)
-            Height: =768
-            Visible: =ShowPopup_delete
-            Width: =1366
-            ZIndex: =15
+    Container32 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(250, 155, 112, 1)
+        Visible: =ShowPopup_delete
+        X: =441
+        Y: =296
+        ZIndex: =16
 
-        Container32 As groupContainer.manualLayoutContainer:
-            Fill: =RGBA(250, 155, 112, 1)
-            Visible: =ShowPopup_delete
-            X: =441
-            Y: =296
-            ZIndex: =16
-
-            Button33 As button:
-                OnSelect: |-
-                    =UpdateContext({ShowPopup_delete:false})
-                Text: ="No"
-                X: =177
-                Y: =96
-                ZIndex: =1
+        Button33 As button:
+            OnSelect: |-
+                =UpdateContext({ShowPopup_delete:false})
+            Text: ="No"
+            X: =177
+            Y: =96
+            ZIndex: =1
 
