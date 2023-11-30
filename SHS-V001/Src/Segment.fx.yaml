@@ -39,7 +39,8 @@ Segment As screen:
             ZIndex: =6
 
         Button26 As button:
-            OnSelect: =Select(Parent)
+            OnSelect: |-
+                =UpdateContext({ShowPopupedit:true})
             Text: ="Edit"
             X: =579
             Y: =33
@@ -361,4 +362,19 @@ Segment As screen:
         Visible: =ShowPopup_delete
         Width: =1366
         ZIndex: =15
+
+    Container36 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(250, 155, 112, 1)
+        Visible: =ShowPopup_delete
+        X: =470
+        Y: =260
+        ZIndex: =16
+
+        Button8 As button:
+            OnSelect: |-
+                =UpdateContext({ShowPopup_delete:false})
+            Text: ="No"
+            X: =147
+            Y: =75
+            ZIndex: =1
 
