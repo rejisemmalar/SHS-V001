@@ -1,5 +1,6 @@
 Division As screen:
-    OnVisible: =
+    OnVisible: |-
+        =UpdateContext({varshowdeletescreen:false})
 
     Arrow1_4 As arrow.backArrow:
         Fill: =RGBA(0, 18, 107, 1)
