@@ -205,7 +205,12 @@ Division As screen:
         ZIndex: =19
 
         Label38 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Bold
+            Height: =45
+            Size: =20
             Text: ="Add Division"
+            Width: =262
             X: =20
             Y: =20
             ZIndex: =1
