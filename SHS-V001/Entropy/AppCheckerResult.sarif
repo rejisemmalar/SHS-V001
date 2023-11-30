@@ -5827,6 +5827,36 @@
           },
           "ruleId": "app-UnusedVariables",
           "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Segment.ShowPopup_delete"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Segment.ShowPopup_delete",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "ShowPopup_delete",
+                "module": "Segment",
+                "type": "Segment"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 5
         }
       ],
       "tool": {

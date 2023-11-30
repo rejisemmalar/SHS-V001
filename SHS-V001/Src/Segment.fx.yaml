@@ -20,8 +20,8 @@ Segment As screen:
             OnSelect: |-
                 =UpdateContext({ShowPopup_delete:true})
             Text: ="delete"
-            X: =781
-            Y: =20
+            X: =782
+            Y: =60
             ZIndex: =3
 
         Label40 As label:
@@ -37,6 +37,13 @@ Segment As screen:
             X: =21
             Y: =60
             ZIndex: =6
+
+        Button26 As button:
+            OnSelect: =Select(Parent)
+            Text: ="Edit"
+            X: =591
+            Y: =60
+            ZIndex: =7
 
     "'Segment Name' As label":
         Height: =54
