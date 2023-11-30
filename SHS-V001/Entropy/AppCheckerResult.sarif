@@ -2384,19 +2384,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Division.Gallery6.TabIndex"
+                  "fullyQualifiedName": "Division.Arrow1_4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Division.Gallery6.TabIndex",
+                  "fullyQualifiedName": "Division.Arrow1_4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Division",
+                "type": "Division.Arrow1_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Division.Arrow1_4.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Division.Arrow1_4.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Division",
-                "type": "Division.Gallery6"
+                "type": "Division.Arrow1_4"
               }
             }
           ],
@@ -2444,49 +2474,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Division.Arrow1_4.AccessibleLabel"
+                  "fullyQualifiedName": "Division.Gallery6.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Division.Arrow1_4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Division",
-                "type": "Division.Arrow1_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Division.Arrow1_4.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Division.Arrow1_4.TabIndex",
+                  "fullyQualifiedName": "Division.Gallery6.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Division",
-                "type": "Division.Arrow1_4"
+                "type": "Division.Gallery6"
               }
             }
           ],
@@ -2978,6 +2978,96 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'HACT Configuration_1'.'Edit Config_Container'.'Crrent YR form'.'Current Year_DataCard1'.DataCardValue59.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'HACT Configuration_1'.'Edit Config_Container'.'Crrent YR form'.'Current Year_DataCard1'.DataCardValue59.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "HACT Configuration_1",
+                "type": "'HACT Configuration_1'.'Edit Config_Container'.'Crrent YR form'.'Current Year_DataCard1'.DataCardValue59"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'HACT Configuration_1'.'Edit Config_Container'.'Crrent Quarter form'.'Current Quarter_DataCard2'.DataCardValue63.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'HACT Configuration_1'.'Edit Config_Container'.'Crrent Quarter form'.'Current Quarter_DataCard2'.DataCardValue63.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "HACT Configuration_1",
+                "type": "'HACT Configuration_1'.'Edit Config_Container'.'Crrent Quarter form'.'Current Quarter_DataCard2'.DataCardValue63"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'HACT Configuration_1'.'Edit Config_Container'.'Crrent Quarter form_1'.'New Performance Year_DataCard3'.DataCardValue65.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'HACT Configuration_1'.'Edit Config_Container'.'Crrent Quarter form_1'.'New Performance Year_DataCard3'.DataCardValue65.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "HACT Configuration_1",
+                "type": "'HACT Configuration_1'.'Edit Config_Container'.'Crrent Quarter form_1'.'New Performance Year_DataCard3'.DataCardValue65"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -5726,6 +5816,36 @@
                 "member": "ShowPopup",
                 "module": "Division",
                 "type": "Division"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Segment.ShowPopup_delete"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Segment.ShowPopup_delete",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "ShowPopup_delete",
+                "module": "Segment",
+                "type": "Segment"
               }
             }
           ],
