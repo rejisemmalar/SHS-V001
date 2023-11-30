@@ -823,13 +823,15 @@ Division As screen:
                     ZIndex: =4
 
         Button6 As button:
+            OnSelect: |-
+                =SubmitForm(Form1);NewForm(Form1);UpdateContext({ShowPopup:true})
             Text: ="Save"
             X: =120
             Y: =476
             ZIndex: =3
 
         Button6_1 As button:
-            Text: ="Save"
+            Text: ="Cancel"
             X: =442
             Y: =476
             ZIndex: =4
