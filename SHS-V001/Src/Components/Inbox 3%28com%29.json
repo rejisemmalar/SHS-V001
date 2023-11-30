@@ -42,7 +42,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 99,
+            "PublishOrderIndex": 870,
             "Rules": [
               {
                 "Category": "Design",
@@ -181,7 +181,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 100,
+            "PublishOrderIndex": 871,
             "Rules": [
               {
                 "Category": "Data",
@@ -518,7 +518,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery1_1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 101,
+            "PublishOrderIndex": 872,
             "Rules": [
               {
                 "Category": "Design",
@@ -737,7 +737,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Inbox 3(com)",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 98,
+        "PublishOrderIndex": 869,
         "Rules": [
           {
             "Category": "Data",
@@ -938,7 +938,7 @@
       },
       "Currentscreen"
     ],
-    "LastModifiedTimestamp": "638369246012700325",
+    "LastModifiedTimestamp": "638369308357807347",
     "Name": "Inbox 3(com)",
     "Rules": [
       {
@@ -1028,7 +1028,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638369246012700325",
+  "LastModifiedTimestamp": "638369308357807347",
   "Name": "77cddce64a2a4e5c8f79a0102c5d366a",
   "OverridableProperties": {},
   "TemplateOriginalName": "8b438f14fdb84c63a01573e81f8df64c",

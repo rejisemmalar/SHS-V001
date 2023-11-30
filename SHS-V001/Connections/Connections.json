@@ -30,6 +30,9 @@
           "Factor_2": {
             "tableName": "ccf22452-b069-45bd-b208-f2aa065409b8"
           },
+          "HACT Config": {
+            "tableName": "9ad76def-8225-4d10-b26c-5f26e0dea15b"
+          },
           "Initiative": {
             "tableName": "878bbd6d-3016-498c-a2ac-1d7b4ba44d05"
           },
@@ -95,7 +98,8 @@
       "Options_1",
       "Study(Administration)",
       "Study(Administration)_1",
-      "Initiative"
+      "Initiative",
+      "HACT Config"
     ],
     "dependencies": {},
     "dependents": [],

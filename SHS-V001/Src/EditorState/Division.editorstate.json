@@ -2247,7 +2247,7 @@
       "MetaDataIDKey": "",
       "Name": "Component1_9",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2378,7 +2378,7 @@
       "MetaDataIDKey": "",
       "Name": "Container7",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12475,7 +12475,7 @@
       "MetaDataIDKey": "",
       "Name": "Gallery6",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 14,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -13070,7 +13070,7 @@
       "MetaDataIDKey": "",
       "Name": "Icon21",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 15,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
