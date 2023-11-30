@@ -154,7 +154,8 @@ Division As screen:
 
         Button8_3 As button:
             Height: =45
-            OnSelect: =Select(Parent)
+            OnSelect: |-
+                =UpdateContext({varshowdeletescreen:true})
             Text: ="Delete"
             Width: =121
             X: =945
@@ -291,7 +292,7 @@ Division As screen:
             ZIndex: =4
 
         Button8_1 As button:
-            Text: ="Yes"
+            Text: ="No"
             X: =285
             Y: =225
             ZIndex: =5
