@@ -861,3 +861,11 @@ Division As screen:
                 Y: =225
                 ZIndex: =6
 
+            Label47 As label:
+                Height: =45
+                Text: ="Text"
+                Width: =222
+                X: =24
+                Y: =16
+                ZIndex: =7
+
