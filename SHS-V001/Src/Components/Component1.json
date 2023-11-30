@@ -62,7 +62,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 820,
+            "PublishOrderIndex": 72,
             "Rules": [
               {
                 "Category": "Data",
@@ -303,7 +303,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 821,
+            "PublishOrderIndex": 73,
             "Rules": [
               {
                 "Category": "Design",
@@ -506,7 +506,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 822,
+            "PublishOrderIndex": 74,
             "Rules": [
               {
                 "Category": "Data",
@@ -822,7 +822,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 823,
+            "PublishOrderIndex": 75,
             "Rules": [
               {
                 "Category": "Design",
@@ -1064,7 +1064,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 824,
+            "PublishOrderIndex": 76,
             "Rules": [
               {
                 "Category": "Data",
@@ -1359,7 +1359,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 825,
+            "PublishOrderIndex": 77,
             "Rules": [
               {
                 "Category": "Design",
@@ -1562,7 +1562,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 819,
+        "PublishOrderIndex": 69,
         "Rules": [
           {
             "Category": "Design",
@@ -1751,7 +1751,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 827,
+            "PublishOrderIndex": 78,
             "Rules": [
               {
                 "Category": "Design",
@@ -1890,7 +1890,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 828,
+            "PublishOrderIndex": 79,
             "Rules": [
               {
                 "Category": "Data",
@@ -2242,7 +2242,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 826,
+        "PublishOrderIndex": 70,
         "Rules": [
           {
             "Category": "Data",
@@ -2461,7 +2461,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery7",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 830,
+            "PublishOrderIndex": 80,
             "Rules": [
               {
                 "Category": "Design",
@@ -2551,7 +2551,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery7",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 831,
+            "PublishOrderIndex": 81,
             "Rules": [
               {
                 "Category": "Data",
@@ -2860,7 +2860,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 829,
+        "PublishOrderIndex": 71,
         "Rules": [
           {
             "Category": "Data",
@@ -3086,7 +3086,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638369386963223865",
+    "LastModifiedTimestamp": "638369394161870473",
     "Name": "Component1",
     "Rules": [
       {
@@ -3251,7 +3251,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638369386963223865",
+  "LastModifiedTimestamp": "638369394161870473",
   "Name": "415e1786c3c94354acf26afaf63ccb82",
   "OverridableProperties": {},
   "Version": "638327128456687156"

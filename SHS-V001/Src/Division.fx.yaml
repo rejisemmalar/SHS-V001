@@ -279,6 +279,8 @@ Division As screen:
         ZIndex: =23
 
         Label50 As label:
+            FontWeight: =FontWeight.Bold
+            Size: =20
             Text: ="Edit Division"
             Width: =300
             X: =24
