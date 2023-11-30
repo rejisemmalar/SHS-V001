@@ -274,7 +274,10 @@ Division As screen:
             ZIndex: =2
 
         Label48 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Bold
             Height: =58
+            Size: =20
             Text: ="Are you sure you want to delete?"
             Width: =568
             X: =120
