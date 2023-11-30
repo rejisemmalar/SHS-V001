@@ -886,7 +886,7 @@ Division As screen:
                     ZIndex: =4
 
         Button8 As button:
-            Text: ="Button"
+            Text: ="Save"
             X: =56
             Y: =452
             ZIndex: =3
