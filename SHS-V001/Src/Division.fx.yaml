@@ -233,6 +233,12 @@ Division As screen:
             Y: =480
             ZIndex: =4
 
+    Container35 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(169, 169, 169, .75)
+        Height: =768
+        Width: =1366
+        ZIndex: =22
+
     divisiondeletepopup As group:
         Height: =5
         Width: =5
