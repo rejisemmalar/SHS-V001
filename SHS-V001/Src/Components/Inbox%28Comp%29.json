@@ -925,7 +925,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638369374358418174",
+    "LastModifiedTimestamp": "638369383518904983",
     "Name": "Inbox(Comp)",
     "Rules": [
       {
@@ -1030,7 +1030,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638369374358418174",
+  "LastModifiedTimestamp": "638369383518904983",
   "Name": "a999995d2e8d47be8072720a8b565b18",
   "OverridableProperties": {},
   "TemplateOriginalName": "8b438f14fdb84c63a01573e81f8df64c",
