@@ -286,6 +286,8 @@ Division As screen:
             ZIndex: =3
 
         Button8_1 As button:
+            OnSelect: |-
+                =UpdateContext({varshowdeletescreen:false})
             Text: ="No"
             X: =285
             Y: =225
