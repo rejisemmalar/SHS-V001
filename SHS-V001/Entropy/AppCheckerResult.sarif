@@ -4633,19 +4633,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Segment.Gallery11.AccessibleLabel"
+                  "fullyQualifiedName": "Segment.Gallery12.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Segment.Gallery11.AccessibleLabel",
+                  "fullyQualifiedName": "Segment.Gallery12.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Segment",
-                "type": "Segment.Gallery11"
+                "type": "Segment.Gallery12"
               }
             }
           ],
@@ -4663,19 +4663,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Segment.Gallery11.TabIndex"
+                  "fullyQualifiedName": "Segment.Gallery12.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Segment.Gallery11.TabIndex",
+                  "fullyQualifiedName": "Segment.Gallery12.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Segment",
-                "type": "Segment.Gallery11"
+                "type": "Segment.Gallery12"
               }
             }
           ],
