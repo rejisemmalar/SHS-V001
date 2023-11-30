@@ -1,6 +1,7 @@
 Segment As screen:
 
     Component1_10 As Component1:
+        CurrentScreen: ="Administration"
         Height: =768
 
     Gallery12 As gallery.galleryVertical:
@@ -19,8 +20,8 @@ Segment As screen:
             OnSelect: |-
                 =UpdateContext({ShowPopup_delete:true})
             Text: ="delete"
-            X: =787
-            Y: =40
+            X: =781
+            Y: =20
             ZIndex: =3
 
         Label40 As label:
