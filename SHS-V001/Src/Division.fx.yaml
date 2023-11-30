@@ -145,7 +145,8 @@ Division As screen:
 
         Button8_2 As button:
             Height: =45
-            OnSelect: =Select(Parent)
+            OnSelect: |-
+                = UpdateContext({ShowPopup:true})
             Text: ="Edit"
             Width: =121
             X: =791
