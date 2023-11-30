@@ -876,9 +876,18 @@ Division As screen:
                 Align: =Align.Center
                 FontWeight: =FontWeight.Bold
                 Height: =72
+                Size: =20
                 Text: ="Are you sure you want to delete?"
                 Width: =532
                 X: =74
                 Y: =97
                 ZIndex: =8
+
+            Button8_5 As button:
+                OnSelect: |-
+                    =Remove(Division_1,Gallery6.Selected);UpdateContext({varshowdeletescreen:false})
+                Text: ="Yes"
+                X: =298
+                Y: =225
+                ZIndex: =9
 
