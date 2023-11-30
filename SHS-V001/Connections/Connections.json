@@ -30,6 +30,9 @@
           "Factor_2": {
             "tableName": "ccf22452-b069-45bd-b208-f2aa065409b8"
           },
+          "Initiative": {
+            "tableName": "878bbd6d-3016-498c-a2ac-1d7b4ba44d05"
+          },
           "Login Details": {
             "tableName": "329e5a5f-1293-4368-a3f2-67d91be2f1bb"
           },
@@ -91,7 +94,8 @@
       "Questions_1",
       "Options_1",
       "Study(Administration)",
-      "Study(Administration)_1"
+      "Study(Administration)_1",
+      "Initiative"
     ],
     "dependencies": {},
     "dependents": [],
