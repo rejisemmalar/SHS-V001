@@ -814,7 +814,7 @@ Division As screen:
 
         Button6_1 As button:
             OnSelect: |-
-                =UpdateContext({ShowPopup:false})
+                =UpdateContext({ShowPopup:true})
             Text: ="Cancel"
             X: =491
             Y: =480
