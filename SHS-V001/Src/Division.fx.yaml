@@ -217,7 +217,7 @@ Division As screen:
 
         Button6 As button:
             OnSelect: |-
-                =SubmitForm(Form13);UpdateContext({ShowPopup:true})
+                =SubmitForm(Form13);UpdateContext({ShowPopup:false})
             Text: ="Save"
             X: =64
             Y: =480
