@@ -247,7 +247,7 @@ Division As screen:
         ZIndex: =21
 
         Label47 As label:
-            Text: ="Text"
+            Text: ="Confirmation"
             X: =112
             Y: =36
             ZIndex: =1
