@@ -151,6 +151,15 @@ Division As screen:
             Y: =24
             ZIndex: =3
 
+        Button8_3 As button:
+            Height: =45
+            OnSelect: =Select(Parent)
+            Text: ="Delete"
+            Width: =121
+            X: =945
+            Y: =19
+            ZIndex: =4
+
     Button4_1 As button:
         Color: =Color.White
         Fill: =RGBA(7, 99, 33, 1)
