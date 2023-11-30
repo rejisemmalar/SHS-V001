@@ -20,20 +20,6 @@ Segment As screen:
         Y: =353
         ZIndex: =1
 
-        Label47 As label:
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.'Segment Code'
-            X: =40
-            Y: =40
-            ZIndex: =1
-
-        Label48 As label:
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.'Segment Name'
-            X: =362
-            Y: =40
-            ZIndex: =2
-
         Button25 As button:
             OnSelect: |-
                 =UpdateContext({ShowPopup_delete:true})
@@ -343,26 +329,4 @@ Segment As screen:
             X: =1023
             Y: =441
             ZIndex: =5
-
-    Container30 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(167, 182, 203, 0.63)
-        Height: =768
-        Visible: =ShowPopup_delete
-        Width: =1366
-        ZIndex: =15
-
-    Container32 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(250, 155, 112, 1)
-        Visible: =ShowPopup_delete
-        X: =441
-        Y: =296
-        ZIndex: =16
-
-        Button33 As button:
-            OnSelect: |-
-                =UpdateContext({ShowPopup_delete:false})
-            Text: ="No"
-            X: =177
-            Y: =96
-            ZIndex: =1
 
