@@ -42,7 +42,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 846,
+            "PublishOrderIndex": 109,
             "Rules": [
               {
                 "Category": "Design",
@@ -181,7 +181,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 847,
+            "PublishOrderIndex": 110,
             "Rules": [
               {
                 "Category": "Data",
@@ -497,7 +497,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 848,
+            "PublishOrderIndex": 111,
             "Rules": [
               {
                 "Category": "Design",
@@ -716,7 +716,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Inbox(com)",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 845,
+        "PublishOrderIndex": 108,
         "Rules": [
           {
             "Category": "Data",
@@ -917,7 +917,7 @@
       },
       "Currentscreen"
     ],
-    "LastModifiedTimestamp": "638369376384825129",
+    "LastModifiedTimestamp": "638369394630641454",
     "Name": "Inbox(com)",
     "Rules": [
       {
@@ -1007,7 +1007,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638369376384825129",
+  "LastModifiedTimestamp": "638369394630641454",
   "Name": "8b438f14fdb84c63a01573e81f8df64c",
   "OverridableProperties": {},
   "Version": "638330324404731066"
