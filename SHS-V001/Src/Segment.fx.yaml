@@ -6,43 +6,43 @@ Segment As screen:
 
     Gallery12 As gallery.galleryVertical:
         DelayItemLoading: =true
-        Height: =415
+        Height: =385
         Items: =Segment_5
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =168
+        TemplateSize: =94
         Width: =1027
         X: =291
-        Y: =353
+        Y: =343
         ZIndex: =2
 
         Button25 As button:
             OnSelect: |-
                 =UpdateContext({ShowPopup_delete:true})
             Text: ="delete"
-            X: =782
-            Y: =60
+            X: =780
+            Y: =33
             ZIndex: =3
 
         Label40 As label:
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Segment Name'
-            X: =390
-            Y: =60
+            X: =386
+            Y: =33
             ZIndex: =5
 
         Label42 As label:
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Segment Code'
-            X: =21
-            Y: =60
+            X: =18
+            Y: =33
             ZIndex: =6
 
         Button26 As button:
             OnSelect: =Select(Parent)
             Text: ="Edit"
-            X: =591
-            Y: =60
+            X: =579
+            Y: =33
             ZIndex: =7
 
     "'Segment Name' As label":
