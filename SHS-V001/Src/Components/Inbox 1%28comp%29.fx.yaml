@@ -22,6 +22,7 @@
     ZIndex: =1
 
     Gallery1_4 As gallery.galleryVertical:
+        BorderColor: =RGBA(0, 18, 107, 1)
         DelayItemLoading: =true
         Height: =481
         Items: ='Inbox 1(comp)'.inbox1_menu
@@ -37,6 +38,9 @@
         ZIndex: =1
 
         Label11_4 As label:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             Fill: =RGBA(255, 255, 255, 1)
             Height: =49
             HoverColor: =RGBA(0, 0, 0, 1)
@@ -51,7 +55,9 @@
             ZIndex: =1
 
         Icon12_2 As icon.CheckBadge:
-            Color: =RGBA(0, 0, 0, 1)
+            BorderColor: =RGBA(0, 18, 107, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =32
             Icon: =Icon.CheckBadge
             OnSelect: =Select(Parent)

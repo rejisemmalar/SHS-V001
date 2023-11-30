@@ -1,4 +1,5 @@
 "'Inbox 4' As screen":
+    LoadingSpinnerColor: =RGBA(105, 121, 126, 1)
 
     "'Approver 4_2' As 'Approver 4'":
         CurrentScreen: ="Inbox 4"

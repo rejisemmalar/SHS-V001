@@ -1,4 +1,5 @@
 Settings As screen:
+    LoadingSpinnerColor: =RGBA(105, 121, 126, 1)
 
     Component1_4 As Component1:
         CurrentScreen: ="Settings"

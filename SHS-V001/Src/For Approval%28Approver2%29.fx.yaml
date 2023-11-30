@@ -1,4 +1,5 @@
 "'For Approval(Approver2)' As screen":
+    LoadingSpinnerColor: =RGBA(105, 121, 126, 1)
 
     Approver2_3 As Approver2:
         CurrentScreen: ="Inbox"
@@ -8,13 +9,22 @@
         BorderColor: =RGBA(166, 166, 166, 1)
         BorderThickness: =1
         Color: =RGBA(214, 223, 238, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =1
         Height: =1
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(105, 121, 126, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
         Icon: =Icon.HorizontalLine
         PaddingBottom: =10
         PaddingLeft: =10
         PaddingRight: =10
         PaddingTop: =10
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(105, 121, 126, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
         Rotation: =1
         Width: =1050
         X: =291
@@ -22,6 +32,8 @@
         ZIndex: =2
 
     Arrow1_18 As arrow.backArrow:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
         Fill: =RGBA(0, 18, 107, 1)
         Height: =34
         OnSelect: =Navigate(Inbox)
@@ -31,6 +43,14 @@
         ZIndex: =3
 
     Label8_10 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
         Height: =50
         Size: =17

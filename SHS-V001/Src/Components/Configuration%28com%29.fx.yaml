@@ -19,6 +19,7 @@
     ZIndex: =1
 
     Gallery4 As gallery.galleryVertical:
+        BorderColor: =RGBA(0, 18, 107, 1)
         DelayItemLoading: =true
         Height: =452
         Items: ='Configuration(com)'.Configurationcom_menu
@@ -32,6 +33,9 @@
         ZIndex: =1
 
         Label10 As label:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =49
             HoverFill: =Color.LightBlue
             OnSelect: =Select(Parent)
@@ -44,7 +48,9 @@
             ZIndex: =1
 
         Icon7 As icon.OptionsList:
-            Color: =RGBA(0, 0, 0, 1)
+            BorderColor: =RGBA(0, 18, 107, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =32
             Icon: =Icon.OptionsList
             OnSelect: =Select(Parent)

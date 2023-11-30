@@ -1,17 +1,31 @@
 "'Dashboard(Approver1)' As screen":
+    LoadingSpinnerColor: =RGBA(105, 121, 126, 1)
 
     Approver1_1 As Approver1:
         CurrentScreen: ="Dashboard"
         Height: =768
 
     Container2_4 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
         Height: =234
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
         Width: =540
         X: =297
         Y: =150
         ZIndex: =2
 
         Label5_4 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Bold
             Height: =56
             Size: =20
@@ -22,7 +36,14 @@
             ZIndex: =1
 
         Label7_4 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
             Color: =RGBA(102, 102, 102, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Semibold
             Size: =15
             Text: ="HACT Summation"
@@ -32,6 +53,7 @@
             ZIndex: =2
 
         Star1_5 As star:
+            BorderColor: =RGBA(0, 0, 0, 0)
             Fill: =RGBA(255, 191, 0, 1)
             Height: =34
             Width: =42

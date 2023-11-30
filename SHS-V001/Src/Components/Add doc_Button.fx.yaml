@@ -7,10 +7,16 @@
     ZIndex: =1
 
     Button2 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(7, 99, 33, 1)
+        FontWeight: =FontWeight.Semibold
         Height: =33
+        HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =RGBA(2, 48, 2, 1)
         PaddingLeft: =45
+        Size: =15
         Text: ="Export"
         Width: =122
         X: =24
@@ -18,7 +24,10 @@
         ZIndex: =1
 
     Icon8 As icon.AddDocument:
+        BorderColor: =RGBA(0, 18, 107, 1)
         Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =35
         Icon: =Icon.AddDocument
         Width: =30

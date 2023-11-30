@@ -52,12 +52,19 @@ Component1 As CanvasComponent:
     ZIndex: =1
 
     Container1 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
         Height: =123
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
         Width: =1366
         ZIndex: =1
 
         Icon1 As icon.Hamburger:
-            Color: =RGBA(0, 0, 0, 1)
+            BorderColor: =RGBA(0, 18, 107, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =52
             Icon: =Icon.Hamburger
             OnSelect: =Set(ShowMenu, !ShowMenu)
@@ -67,12 +74,18 @@ Component1 As CanvasComponent:
             ZIndex: =1
 
         Image7 As image:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
             Image: =logo
             X: =132
             Y: =9
             ZIndex: =2
 
         Label4 As label:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Bold
             Height: =52
             Size: =25
@@ -83,6 +96,10 @@ Component1 As CanvasComponent:
             ZIndex: =3
 
         Icon2 As icon.Bell:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(0, 18, 107, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =52
             Icon: =Icon.Bell
             Width: =38
@@ -91,6 +108,7 @@ Component1 As CanvasComponent:
             ZIndex: =4
 
         Circle1_1 As circle:
+            BorderColor: =RGBA(0, 18, 107, 1)
             Fill: =RGBA(237, 5, 136, 1)
             Height: =62
             OnSelect: =Set(Showdropdown, !Showdropdown)
@@ -100,7 +118,9 @@ Component1 As CanvasComponent:
             ZIndex: =5
 
         Label6 As label:
+            BorderColor: =RGBA(0, 18, 107, 1)
             Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
             Height: =52
             OnSelect: =Set(Showdropdown, !Showdropdown)
@@ -135,6 +155,9 @@ Component1 As CanvasComponent:
         ZIndex: =2
 
         Title_Parent As label:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =84
             HoverBorderColor: =
             HoverColor: =
@@ -147,6 +170,7 @@ Component1 As CanvasComponent:
             ZIndex: =2
 
     Gallery7 As gallery.galleryVertical:
+        BorderColor: =RGBA(0, 18, 107, 1)
         DelayItemLoading: =true
         Height: =228
         Items: =Component1.dropdownmenuAdmin
@@ -168,8 +192,12 @@ Component1 As CanvasComponent:
 
         Label17 As label:
             Align: =Align.Center
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Bold
             OnSelect: =Select(Parent)
+            Size: =13
             Text: =ThisItem.Title
             X: =132
             Y: =38

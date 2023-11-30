@@ -1,17 +1,31 @@
 Dashboard As screen:
+    LoadingSpinnerColor: =RGBA(105, 121, 126, 1)
 
     Component1_1 As Component1:
         CurrentScreen: ="Dashboard"
         Height: =768
 
     Container2 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
         Height: =234
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
         Width: =540
         X: =318
         Y: =150
         ZIndex: =2
 
         Label5 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Bold
             Height: =56
             Size: =20
@@ -22,7 +36,14 @@ Dashboard As screen:
             ZIndex: =1
 
         Label7 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
             Color: =RGBA(102, 102, 102, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Semibold
             Size: =15
             Text: ="HACT Summation"
@@ -32,6 +53,7 @@ Dashboard As screen:
             ZIndex: =2
 
         Star1_1 As star:
+            BorderColor: =RGBA(0, 0, 0, 0)
             Fill: =RGBA(255, 191, 0, 1)
             Height: =34
             Width: =42

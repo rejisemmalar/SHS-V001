@@ -1,6 +1,8 @@
 Screen2 As screen:
+    LoadingSpinnerColor: =RGBA(105, 121, 126, 1)
 
     Gallery9 As gallery.galleryVertical:
+        BorderColor: =RGBA(166, 166, 166, 1)
         BorderThickness: =2
         DelayItemLoading: =true
         Height: =Parent.Height - (Rectangle_Header_background.Height-Label_Gallery_header_divisionname.Height)
@@ -14,8 +16,16 @@ Screen2 As screen:
 
         Label41 As label:
             Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
             Height: =54
             OnSelect: =Select(Parent)
+            Size: =13
             Text: =ThisItem.'Division Name'
             Width: =542
             Y: =14
@@ -23,8 +33,17 @@ Screen2 As screen:
 
         Label41_1 As label:
             Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
             Height: =68
             OnSelect: =Select(Parent)
+            Size: =13
             Text: =ThisItem.'Division Code'
             Width: =384
             X: =542
@@ -32,15 +51,43 @@ Screen2 As screen:
 
         Label41_2 As label:
             Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
             Height: =68
             OnSelect: =Select(Parent)
+            Size: =13
             Text: =ThisItem.Action
             Width: =430
             X: =926
             ZIndex: =3
 
         Button23 As button:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(105, 121, 126, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
             OnSelect: =Select(Parent)
+            PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =15
             Text: ="Edit"
             Width: =128
             X: =976
@@ -48,27 +95,73 @@ Screen2 As screen:
             ZIndex: =4
 
         Button24 As button:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(105, 121, 126, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
             OnSelect: =Select(Parent)
+            PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =15
             Text: ="Delete"
             X: =1158
             Y: =14
             ZIndex: =5
 
         Icon20 As icon.HorizontalLine:
+            BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
+            Color: =RGBA(105, 121, 126, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
             Height: =1
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(105, 121, 126, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.HorizontalLine
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(105, 121, 126, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
             Width: =1356
             Y: =80
             ZIndex: =6
 
     Rectangle_Header_background As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(105, 121, 126, 1)
+        FocusedBorderThickness: =4
+        HoverFill: =RGBA(105, 121, 126, 1)
+        PressedFill: =RGBA(105, 121, 126, 1)
         Width: =1366
         ZIndex: =2
 
     Label_Header As label:
         Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
         Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
         Height: =56
         Size: =30
         Text: ="Division"
@@ -79,8 +172,15 @@ Screen2 As screen:
 
     Label_Gallery_header_divisionname As label:
         Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
         BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Fill: =Color.AliceBlue
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
         Height: =60
         Size: =20
         Text: ="Division Name"
@@ -90,8 +190,15 @@ Screen2 As screen:
 
     Label_Gallery_header_divisioncode As label:
         Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
         BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Fill: =Color.AliceBlue
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
         Height: =60
         Size: =20
         Text: ="Division Code"
@@ -102,8 +209,15 @@ Screen2 As screen:
 
     Label_Gallery_header_Action As label:
         Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
         BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Fill: =Color.AliceBlue
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
         Height: =60
         Size: =20
         Text: ="Action"
