@@ -42,7 +42,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 9,
+            "PublishOrderIndex": 885,
             "Rules": [
               {
                 "Category": "Design",
@@ -181,7 +181,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 10,
+            "PublishOrderIndex": 886,
             "Rules": [
               {
                 "Category": "Data",
@@ -506,7 +506,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Gallery2",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 11,
+            "PublishOrderIndex": 887,
             "Rules": [
               {
                 "Category": "Design",
@@ -751,7 +751,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "Administration(com)",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 8,
+        "PublishOrderIndex": 884,
         "Rules": [
           {
             "Category": "Data",
@@ -952,7 +952,7 @@
       },
       "Currentscreen"
     ],
-    "LastModifiedTimestamp": "638369394161854482",
+    "LastModifiedTimestamp": "638369386963208176",
     "Name": "Administration(com)",
     "Rules": [
       {
@@ -1042,7 +1042,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638369394161854482",
+  "LastModifiedTimestamp": "638369386963208176",
   "Name": "4c6f5c0f1fbe40e187c5de76865a8dbb",
   "OverridableProperties": {},
   "Version": "638330413982537511"
