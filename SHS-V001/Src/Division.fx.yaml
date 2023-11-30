@@ -299,7 +299,6 @@ Division As screen:
 
             Form12 As form:
                 DataSource: =Division_1
-                DefaultMode: =FormMode.New
                 Height: =329
                 Item: =Gallery6.Selected
                 Width: =986
