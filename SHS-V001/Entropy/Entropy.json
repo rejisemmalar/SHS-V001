@@ -404,6 +404,7 @@
     "Division_DataCard2": 460,
     "divisiondeletepopup": 252,
     "Edit Config_Container": 349,
+    "Editdivisionpopup": 1030,
     "Email Id_DataCard1": 568,
     "Email_DataCard1": 391,
     "Email_DataCard2": 440,
@@ -1033,7 +1034,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/30/2023 11:20:05",
+  "HeaderLastSavedDateTimeUTC": "11/30/2023 11:20:32",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "d5d288d0-8556-4a38-a03d-f5517ce3059c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6b09e5d9e40c401a9964269a06a6ff10\""
@@ -1138,6 +1139,10 @@
     "divisiondeletepopup": {
       "Container32": 0,
       "Container34": 1
+    },
+    "Editdivisionpopup": {
+      "Container35": 0,
+      "Container36": 1
     },
     "Initiative_delete": {
       "Container33": 0
@@ -1565,6 +1570,7 @@
     "Division_DataCard2": {},
     "divisiondeletepopup": {},
     "Edit Config_Container": {},
+    "Editdivisionpopup": {},
     "Email Id_DataCard1": {},
     "Email_DataCard1": {},
     "Email_DataCard2": {},
@@ -2597,6 +2603,7 @@
     "Division_DataCard2": 582,
     "divisiondeletepopup": 329,
     "Edit Config_Container": 483,
+    "Editdivisionpopup": 0,
     "Email Id_DataCard1": 693,
     "Email_DataCard1": 534,
     "Email_DataCard2": 578,
