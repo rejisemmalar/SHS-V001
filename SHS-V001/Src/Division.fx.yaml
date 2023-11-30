@@ -839,3 +839,12 @@ Division As screen:
         Y: =198
         ZIndex: =21
 
+    Icon15_5 As icon.Add:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =25
+        Icon: =Icon.Add
+        Width: =35
+        X: =1243
+        Y: =206
+        ZIndex: =22
+
