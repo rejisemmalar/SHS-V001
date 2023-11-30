@@ -1,6 +1,5 @@
 Division As screen:
-    OnVisible: |-
-        =UpdateContext({ShowPopup_delete:true})
+    OnVisible: =
 
     Gallery6 As gallery.galleryVertical:
         DelayItemLoading: =true
