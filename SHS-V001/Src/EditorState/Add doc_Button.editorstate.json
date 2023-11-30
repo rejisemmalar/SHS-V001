@@ -40,6 +40,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Add doc_Button",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -211,6 +212,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button2",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -456,6 +458,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon8",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
