@@ -232,12 +232,6 @@ Division As screen:
             Y: =480
             ZIndex: =4
 
-    Container30 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(169, 169, 169, .75)
-        Height: =768
-        Width: =1366
-        ZIndex: =20
-
     Container32 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(238, 204, 204, 1)
         Height: =292

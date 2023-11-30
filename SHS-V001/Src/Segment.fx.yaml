@@ -348,3 +348,10 @@ Segment As screen:
             Y: =441
             ZIndex: =5
 
+    Container30 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(153, 207, 236, 0.43)
+        Height: =768
+        Visible: =ShowPopup_delete
+        Width: =1366
+        ZIndex: =15
+
