@@ -363,18 +363,3 @@ Segment As screen:
         Width: =1366
         ZIndex: =15
 
-    Container36 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(250, 155, 112, 1)
-        Visible: =ShowPopup_delete
-        X: =470
-        Y: =260
-        ZIndex: =16
-
-        Button8 As button:
-            OnSelect: |-
-                =UpdateContext({ShowPopup_delete:false})
-            Text: ="No"
-            X: =40
-            Y: =40
-            ZIndex: =1
-
