@@ -6073,6 +6073,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Division.varshowdeletescreen"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Division.varshowdeletescreen",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "varshowdeletescreen",
+                "module": "Division",
+                "type": "Division"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Segment.ShowPopup_delete"
                 }
               ],

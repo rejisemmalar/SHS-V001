@@ -1,5 +1,6 @@
 Division As screen:
-    OnVisible: =
+    OnVisible: |-
+        =UpdateContext({varshowdeletescreen:false})
 
     Arrow1_4 As arrow.backArrow:
         Fill: =RGBA(0, 18, 107, 1)
@@ -821,4 +822,9 @@ Division As screen:
             X: =491
             Y: =480
             ZIndex: =4
+
+    Container30 As groupContainer.manualLayoutContainer:
+        Height: =768
+        Width: =1366
+        ZIndex: =20
 
