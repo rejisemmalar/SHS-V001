@@ -311,14 +311,6 @@
                     Y: =DataCardKey65.Y
                     ZIndex: =4
 
-    Button32 As button:
-        Fill: =RGBA(9, 135, 51, 1)
-        Text: ="Update"
-        Width: =138
-        X: =633
-        Y: =339
-        ZIndex: =5
-
     Button32_1 As button:
         Fill: =RGBA(9, 135, 51, 1)
         Text: ="Update"
