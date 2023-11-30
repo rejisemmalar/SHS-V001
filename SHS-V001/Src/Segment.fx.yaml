@@ -1,6 +1,7 @@
 Segment As screen:
 
     Component1_10 As Component1:
+        CurrentScreen: ="Administration"
         Height: =768
 
     Gallery12 As gallery.galleryVertical:
@@ -9,7 +10,7 @@ Segment As screen:
         Items: =Segment_5
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        TemplateSize: =168
         Width: =1027
         X: =291
         Y: =353
@@ -19,8 +20,8 @@ Segment As screen:
             OnSelect: |-
                 =UpdateContext({ShowPopup_delete:true})
             Text: ="delete"
-            X: =787
-            Y: =40
+            X: =781
+            Y: =20
             ZIndex: =3
 
         Label40 As label:
@@ -29,6 +30,13 @@ Segment As screen:
             X: =390
             Y: =60
             ZIndex: =5
+
+        Label42 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Segment Code'
+            X: =21
+            Y: =60
+            ZIndex: =6
 
     "'Segment Name' As label":
         Height: =54

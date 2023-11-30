@@ -1,0 +1,323 @@
+"'HACT Configuration_1' As screen":
+
+    Component1_21 As Component1:
+        Height: =768
+
+    "'Heading Text' As label":
+        Color: =RGBA(0, 16, 96, 1)
+        Font: =Font.Arial
+        FontWeight: =FontWeight.Bold
+        Height: =30
+        Size: =15
+        Text: ="Supplier Happiness Survey Settings"
+        Width: =651
+        X: =297
+        Y: =138
+        ZIndex: =2
+
+    "'HR line' As icon.HorizontalLine":
+        Color: =RGBA(219, 219, 219, 1)
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =3
+        Icon: =Icon.HorizontalLine
+        Width: =1041
+        X: =297
+        Y: =168
+        ZIndex: =3
+
+    "'Edit Config_Container' As groupContainer.manualLayoutContainer":
+        DropShadow: =DropShadow.Semilight
+        Height: =528
+        RadiusBottomLeft: =6
+        RadiusBottomRight: =6
+        RadiusTopLeft: =6
+        RadiusTopRight: =6
+        Width: =596
+        X: =309
+        Y: =183
+        ZIndex: =4
+
+        Rectangle4_2 As rectangle:
+            Fill: =RGBA(237, 237, 237, 1)
+            Height: =56
+            Width: =596
+            ZIndex: =1
+
+        Label15_1 As label:
+            FontWeight: =FontWeight.Semibold
+            Height: =34
+            Size: =17
+            Text: ="Edit Configuration"
+            Width: =538
+            X: =24
+            Y: =11
+            ZIndex: =2
+
+        Label16_3 As label:
+            Text: |-
+                ="Stakeholder:Supplier"
+            Width: =191
+            X: =24
+            Y: =66
+            ZIndex: =3
+
+        Icon14_4 As icon.HorizontalLine:
+            BorderColor: =RGBA(202, 202, 202, 1)
+            BorderThickness: =1
+            Color: =RGBA(219, 219, 219, 1)
+            Fill: =RGBA(219, 219, 219, 1)
+            Height: =2
+            Icon: =Icon.HorizontalLine
+            Width: =567
+            X: =14
+            Y: =106
+            ZIndex: =4
+
+        "'Crrent YR form' As form":
+            DataSource: ='HACT Config'
+            Height: =99
+            NumberOfColumns: =2
+            Width: =596
+            Y: =108
+            ZIndex: =5
+
+            "'Current Year_DataCard1' As typedDataCard.comboBoxEditCard":
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="CurrentYear"
+                Default: =ThisItem.'Current Year'
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'HACT Config'],DataSourceInfo.DisplayName,"CurrentYear")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =86
+                Required: =false
+                Update: =DataCardValue59.Selected
+                Width: =298
+                X: =0
+                Y: =0
+                ZIndex: =6
+
+                DataCardKey59 As label:
+                    AutoHeight: =true
+                    Color: =RGBA(0, 0, 0, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =34
+                    Text: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    Wrap: =false
+                    X: =30
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue59 As combobox:
+                    BorderColor: =Color.Gray
+                    ChevronBackground: =RGBA(255, 255, 255, 1)
+                    ChevronFill: =RGBA(149, 149, 149, 1)
+                    DefaultSelectedItems: =Parent.Default
+                    DisplayFields: =["Value"]
+                    DisplayMode: =Parent.DisplayMode
+                    IsSearchable: =false
+                    Items: =Choices([@'HACT Config'].CurrentYear)
+                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    PressedFill: =RGBA(202, 202, 202, 1)
+                    SearchFields: =["Value"]
+                    SearchItems: =[]
+                    SelectionFill: =RGBA(202, 202, 202, 1)
+                    SelectMultiple: =false
+                    Tooltip: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardKey59.Y + DataCardKey59.Height + 5
+                    ZIndex: =2
+
+                ErrorMessage51 As label:
+                    AutoHeight: =true
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue59.Y + DataCardValue59.Height
+                    ZIndex: =3
+
+                StarVisible51 As label:
+                    Align: =Align.Center
+                    Fill: =RGBA(168, 0, 0, 1)
+                    Height: =DataCardKey59.Height
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey59.Y
+                    ZIndex: =4
+
+        "'Crrent Quarter form' As form":
+            DataSource: ='HACT Config'
+            Height: =99
+            NumberOfColumns: =2
+            Width: =596
+            Y: =203
+            ZIndex: =6
+
+            "'Current Quarter_DataCard2' As typedDataCard.comboBoxEditCard":
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="CurrentQuarter"
+                Default: =ThisItem.'Current Quarter'
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'HACT Config'],DataSourceInfo.DisplayName,"CurrentQuarter")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                Required: =false
+                Update: =DataCardValue63.Selected
+                Width: =298
+                X: =0
+                Y: =0
+                ZIndex: =1
+
+                DataCardKey63 As label:
+                    AutoHeight: =true
+                    Color: =RGBA(0, 0, 0, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =34
+                    Text: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    Wrap: =false
+                    X: =30
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue63 As combobox:
+                    BorderColor: =Color.Gray
+                    ChevronBackground: =RGBA(255, 255, 255, 1)
+                    ChevronFill: =RGBA(149, 149, 149, 1)
+                    DefaultSelectedItems: =Parent.Default
+                    DisplayFields: =["Value"]
+                    DisplayMode: =Parent.DisplayMode
+                    IsSearchable: =false
+                    Items: =Choices([@'HACT Config'].CurrentQuarter)
+                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    PressedFill: =RGBA(0, 0, 0, 1)
+                    SearchFields: =["Value"]
+                    SearchItems: =[]
+                    SelectionFill: =RGBA(202, 202, 202, 1)
+                    SelectMultiple: =false
+                    Tooltip: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardKey63.Y + DataCardKey63.Height + 5
+                    ZIndex: =2
+
+                ErrorMessage55 As label:
+                    AutoHeight: =true
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue63.Y + DataCardValue63.Height
+                    ZIndex: =3
+
+                StarVisible55 As label:
+                    Align: =Align.Center
+                    Height: =DataCardKey63.Height
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey63.Y
+                    ZIndex: =4
+
+        "'Crrent Quarter form_1' As form":
+            DataSource: ='HACT Config'
+            Height: =99
+            NumberOfColumns: =2
+            Width: =596
+            Y: =302
+            ZIndex: =7
+
+            "'New Performance Year_DataCard3' As typedDataCard.numberEditCard":
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="NewPerformanceYear"
+                Default: =ThisItem.'New Performance Year'
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'HACT Config'],DataSourceInfo.DisplayName,"NewPerformanceYear")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                Required: =false
+                Update: =Value(DataCardValue65.Text)
+                Width: =298
+                X: =0
+                Y: =0
+                ZIndex: =1
+
+                DataCardKey65 As label:
+                    AutoHeight: =true
+                    Color: =RGBA(0, 0, 0, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =34
+                    Text: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    Wrap: =false
+                    X: =30
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue65 As text:
+                    BorderColor: =Color.Black
+                    Default: =Parent.Default
+                    DelayOutput: =true
+                    DisplayMode: =Parent.DisplayMode
+                    Format: =TextFormat.Number
+                    PaddingLeft: =5
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Tooltip: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardKey65.Y + DataCardKey65.Height + 5
+                    ZIndex: =2
+
+                ErrorMessage57 As label:
+                    AutoHeight: =true
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue65.Y + DataCardValue65.Height
+                    ZIndex: =3
+
+                StarVisible57 As label:
+                    Align: =Align.Center
+                    Height: =DataCardKey65.Height
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey65.Y
+                    ZIndex: =4
+
+    Button32_1 As button:
+        Fill: =RGBA(9, 135, 51, 1)
+        Text: ="Update"
+        Width: =138
+        X: =633
+        Y: =427
+        ZIndex: =7
+

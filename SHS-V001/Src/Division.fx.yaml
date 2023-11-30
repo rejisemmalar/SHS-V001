@@ -188,20 +188,46 @@ Division As screen:
     Container7 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(169, 169, 169, .75)
         Height: =768
+        Visible: =ShowPopup
         Width: =1366
         ZIndex: =18
 
     Container8 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(253, 222, 207, 1)
-        Height: =532
+        Height: =551
+        Visible: =ShowPopup
         Width: =1018
         X: =276
         Y: =217
         ZIndex: =19
 
         Label38 As label:
-            Text: ="Text"
+            Text: ="Add Division"
             X: =20
             Y: =20
             ZIndex: =1
+
+        Form1 As form:
+            DataSource: =Division_1
+            DefaultMode: =FormMode.New
+            Height: =322
+            Width: =1018
+            Y: =84
+            ZIndex: =2
+
+        Button6 As button:
+            OnSelect: |-
+                =SubmitForm(Form1);NewForm(Form1);UpdateContext({ShowPopup:true})
+            Text: ="Save"
+            X: =64
+            Y: =480
+            ZIndex: =3
+
+        Button6_1 As button:
+            OnSelect: |-
+                =UpdateContext({ShowPopup:false})
+            Text: ="Cancel"
+            X: =491
+            Y: =480
+            ZIndex: =4
 
