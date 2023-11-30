@@ -233,6 +233,7 @@ Division As screen:
 
         Form13 As form:
             DataSource: =Division_1
+            DefaultMode: =FormMode.New
             Height: =307
             Width: =1018
             Y: =84
