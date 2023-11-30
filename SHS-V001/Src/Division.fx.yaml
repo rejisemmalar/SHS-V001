@@ -1,6 +1,5 @@
 Division As screen:
-    OnVisible: |-
-        =UpdateContext({ShowPopup_delete:false})
+    OnVisible: =
 
     Gallery6 As gallery.galleryVertical:
         DelayItemLoading: =true
@@ -42,20 +41,6 @@ Division As screen:
             X: =811
             ZIndex: =4
 
-        Button26 As button:
-            Height: =28
-            OnSelect: |-
-                =UpdateContext({ShowPopup_delete:true});
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Size: =13
-            Text: ="Delete"
-            Width: =77
-            X: =905
-            ZIndex: =5
-
         Icon5_28 As icon.HorizontalLine:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =1
@@ -73,10 +58,14 @@ Division As screen:
             Y: =50
             ZIndex: =6
 
-    Component1_9 As Component1:
-        CurrentScreen: ="Administration"
-        Height: =768
-        ZIndex: =2
+        Button35 As button:
+            Height: =28
+            OnSelect: |-
+                =UpdateContext({ShowPopup_delete:true})
+            Text: ="Delete"
+            Width: =81
+            X: =900
+            ZIndex: =7
 
     Arrow1_4 As arrow.backArrow:
         Fill: =RGBA(0, 18, 107, 1)
@@ -85,7 +74,7 @@ Division As screen:
         Width: =32
         X: =291
         Y: =147
-        ZIndex: =3
+        ZIndex: =2
 
     Label12 As label:
         FontWeight: =FontWeight.Bold
@@ -93,7 +82,7 @@ Division As screen:
         Text: ="Division"
         X: =291
         Y: =202
-        ZIndex: =4
+        ZIndex: =3
 
     Icon5_3 As icon.HorizontalLine:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -110,21 +99,21 @@ Division As screen:
         Width: =1050
         X: =291
         Y: =273
-        ZIndex: =5
+        ZIndex: =4
 
     Search_20 As Search:
         Height: =47
         Width: =198
         X: =869
         Y: =195
-        ZIndex: =6
+        ZIndex: =5
 
     "'Add doc_Button_20' As 'Add doc_Button'":
         Height: =47
         Width: =161
         X: =1044
         Y: =195
-        ZIndex: =7
+        ZIndex: =6
 
     Icon15_1 As icon.Add:
         Color: =RGBA(255, 255, 255, 1)
@@ -133,7 +122,7 @@ Division As screen:
         Width: =35
         X: =1221
         Y: =206
-        ZIndex: =8
+        ZIndex: =7
 
     Button4_1 As button:
         Color: =Color.White
@@ -150,7 +139,7 @@ Division As screen:
         Width: =85
         X: =1208
         Y: =202
-        ZIndex: =9
+        ZIndex: =8
 
     Icon15_2 As icon.Add:
         Color: =RGBA(255, 255, 255, 1)
@@ -159,7 +148,7 @@ Division As screen:
         Width: =35
         X: =1208
         Y: =206
-        ZIndex: =10
+        ZIndex: =9
 
     Container7 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Regular
@@ -167,7 +156,7 @@ Division As screen:
         Height: =768
         Visible: =ShowPopup
         Width: =1366
-        ZIndex: =11
+        ZIndex: =10
 
     "'Division name' As label":
         Align: =Align.Center
@@ -178,7 +167,7 @@ Division As screen:
         Width: =250
         X: =291
         Y: =293
-        ZIndex: =12
+        ZIndex: =11
 
     "'Division Code' As label":
         Align: =Align.Center
@@ -189,7 +178,7 @@ Division As screen:
         Width: =250
         X: =667
         Y: =293
-        ZIndex: =13
+        ZIndex: =12
 
     Action As label:
         Align: =Align.Center
@@ -200,7 +189,7 @@ Division As screen:
         Width: =250
         X: =1044
         Y: =293
-        ZIndex: =14
+        ZIndex: =13
 
     Icon21 As icon.HorizontalLine:
         BorderColor: =RGBA(105, 121, 201, 1)
@@ -211,7 +200,7 @@ Division As screen:
         Width: =1063
         X: =291
         Y: =357
-        ZIndex: =15
+        ZIndex: =14
 
     Container8 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Bold
@@ -221,7 +210,7 @@ Division As screen:
         Width: =1258
         X: =60
         Y: =30
-        ZIndex: =16
+        ZIndex: =15
 
         Form1 As form:
             DataSource: =Division_1
@@ -887,4 +876,9 @@ Division As screen:
             X: =33
             Y: =27
             ZIndex: =4
+
+    Component1_9 As Component1:
+        CurrentScreen: ="Administration"
+        Height: =768
+        ZIndex: =18
 

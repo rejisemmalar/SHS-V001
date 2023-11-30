@@ -53,7 +53,6 @@
       },
       "MetaDataIDKey": "",
       "Name": "Component1_1",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -162,7 +161,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container2",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -301,7 +299,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Dashboard",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -423,7 +420,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label5",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -707,7 +703,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label7",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -958,7 +953,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Star1_1",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [

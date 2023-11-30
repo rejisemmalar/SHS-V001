@@ -4,6 +4,40 @@ Segment As screen:
         CurrentScreen: ="Administration"
         Height: =768
 
+    Gallery11 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =409
+        Items: =Segment_5
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =88
+        Width: =1050
+        X: =285
+        Y: =331
+        ZIndex: =1
+
+        Label47 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Segment Code'
+            X: =15
+            Y: =18
+            ZIndex: =1
+
+        Label48 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Segment Name'
+            X: =370
+            Y: =18
+            ZIndex: =2
+
+        Button26 As button:
+            OnSelect: =Select(Parent)
+            Text: ="Edit"
+            Width: =90
+            X: =660
+            Y: =18
+            ZIndex: =3
+
     Arrow1_5 As arrow.backArrow:
         Fill: =RGBA(0, 18, 107, 1)
         Height: =34
@@ -51,63 +85,6 @@ Segment As screen:
         X: =1056
         Y: =195
         ZIndex: =6
-
-    DataTable1 As dataTable.datatable:
-        BorderStyle: =BorderStyle.Solid
-        DisplayMode: =DisplayMode.Edit
-        Fill: =RGBA(0, 0, 0, 0)
-        HeadingFill: =RGBA(77, 77, 77, 1)
-        HeadingFontWeight: =FontWeight.Bold
-        HeadingSize: =15
-        Height: =455
-        Items: =Segment_3
-        SelectedFill: =RGBA(255, 255, 255, 1)
-        Width: =1050
-        X: =291
-        Y: =298
-        ZIndex: =8
-
-        "'Segment Code_Column1' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Segment Code"
-            FieldName: ="Title"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =1
-            Text: =ThisItem.'Segment Code'
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =5
-
-        "'Segment Name_Column1' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Segment Name"
-            FieldName: ="SegmentName"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =2
-            Text: =ThisItem.'Segment Name'
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =6
-
-        Action_Column1 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Action"
-            FieldName: ="Action"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =3
-            Text: =ThisItem.Action
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =7
 
     Button4 As button:
         Color: =Color.White
@@ -346,4 +323,57 @@ Segment As screen:
             X: =1023
             Y: =441
             ZIndex: =5
+
+    "'Segment code' As label":
+        Height: =54
+        Text: ="Segment Code"
+        Width: =272
+        X: =291
+        Y: =275
+        ZIndex: =14
+
+    "'Segment Name' As label":
+        Height: =54
+        Text: ="Action"
+        Width: =272
+        X: =1000
+        Y: =273
+        ZIndex: =15
+
+    Action_segment As label:
+        Height: =54
+        Text: ="Segment Name"
+        Width: =272
+        X: =659
+        Y: =275
+        ZIndex: =16
+
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =19
+
+        Container30 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(167, 182, 203, 0.63)
+            Height: =768
+            Visible: =ShowPopup_delete
+            Width: =1366
+            ZIndex: =17
+
+        Container32 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(250, 155, 112, 1)
+            Visible: =ShowPopup_delete
+            X: =441
+            Y: =296
+            ZIndex: =18
+
+            Button33 As button:
+                OnSelect: |-
+                    =UpdateContext({ShowPopup_delete:false})
+                Text: ="No"
+                X: =177
+                Y: =96
+                ZIndex: =1
 

@@ -26,7 +26,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Action_Column8",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -140,7 +139,6 @@
       },
       "MetaDataIDKey": "",
       "Name": "Add doc_Button_9",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -223,7 +221,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Arrow1_9",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -380,7 +377,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button17",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -632,7 +628,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button18",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -934,7 +929,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button4_6",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1187,7 +1181,6 @@
       },
       "MetaDataIDKey": "",
       "Name": "Component1_14",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1311,7 +1304,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container18",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1485,7 +1477,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container20",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1670,7 +1661,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey40",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1945,7 +1935,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey41",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2220,7 +2209,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey42",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2526,7 +2514,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue40",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -2847,7 +2834,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue41",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -3168,7 +3154,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue42",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -3447,7 +3432,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataTable7",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -3674,7 +3658,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage32",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -3956,7 +3939,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage33",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -4238,7 +4220,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage34",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -4477,7 +4458,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "FactorName_Column2",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -4592,7 +4572,6 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Form6",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -4732,7 +4711,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon18_2",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -4988,7 +4966,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon5_8",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -5210,7 +5187,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label12_5",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -5487,7 +5463,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label36",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -5716,7 +5691,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Question Code_Column2",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -5862,7 +5836,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Question Code_DataCard1",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -5971,7 +5944,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Question Name_Column2",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -6117,7 +6089,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Question Name_DataCard1",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -6221,7 +6192,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Questions",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -6308,7 +6278,6 @@
       },
       "MetaDataIDKey": "",
       "Name": "Search_9",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -6415,7 +6384,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible32",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -6697,7 +6665,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible33",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -6979,7 +6946,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible34",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -7218,7 +7184,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Subfactor Name_Column2",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -7364,7 +7329,6 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Subfactor Name_DataCard1",
-      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
