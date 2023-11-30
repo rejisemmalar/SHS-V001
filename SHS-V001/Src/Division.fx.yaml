@@ -862,9 +862,9 @@ Division As screen:
                 ZIndex: =6
 
             Label47 As label:
-                Height: =45
-                Text: ="Text"
-                Width: =222
+                Height: =57
+                Text: ="Confirmation"
+                Width: =274
                 X: =24
                 Y: =16
                 ZIndex: =7
