@@ -275,9 +275,9 @@ Division As screen:
 
         Label48 As label:
             Height: =58
-            Text: ="Text"
+            Text: ="Are you sure you want to delete?"
             Width: =568
-            X: =124
-            Y: =131
+            X: =120
+            Y: =100
             ZIndex: =3
 
