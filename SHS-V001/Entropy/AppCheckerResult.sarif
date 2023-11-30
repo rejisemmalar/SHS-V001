@@ -5983,36 +5983,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Division.ShowPopup"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Division.ShowPopup",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "ShowPopup",
-                "module": "Division",
-                "type": "Division"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Division.ShowPopup_delete"
                 }
               ],
