@@ -325,7 +325,7 @@ Division As screen:
         ZIndex: =23
 
         Label50 As label:
-            Text: ="Text"
+            Text: ="Edit Division"
             Width: =300
             X: =24
             Y: =21
