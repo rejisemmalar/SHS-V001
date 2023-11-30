@@ -215,7 +215,7 @@ Division As screen:
 
         Label38 As label:
             Height: =50
-            Text: ="Text"
+            Text: ="Add Division"
             Width: =231
             X: =8
             Y: =16
