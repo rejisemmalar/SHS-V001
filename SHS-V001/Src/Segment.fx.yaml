@@ -370,11 +370,3 @@ Segment As screen:
         Y: =260
         ZIndex: =16
 
-        Button8 As button:
-            OnSelect: |-
-                =UpdateContext({ShowPopup_delete:false})
-            Text: ="No"
-            X: =147
-            Y: =75
-            ZIndex: =1
-
