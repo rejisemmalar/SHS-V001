@@ -233,16 +233,8 @@ Division As screen:
             ZIndex: =4
 
     Container32 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(238, 204, 204, 1)
-        Height: =292
-        Width: =670
-        X: =323
-        Y: =231
-        ZIndex: =21
-
-        Label47 As label:
-            Text: ="Confirmation"
-            X: =112
-            Y: =36
-            ZIndex: =1
+        Fill: =RGBA(169, 169, 169, .75)
+        Height: =768
+        Width: =1366
+        ZIndex: =20
 
