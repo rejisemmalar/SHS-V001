@@ -28,6 +28,20 @@ Segment As screen:
             Y: =40
             ZIndex: =3
 
+        Label38 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Segment Code'
+            X: =60
+            Y: =60
+            ZIndex: =4
+
+        Label40 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Segment Name'
+            X: =390
+            Y: =60
+            ZIndex: =5
+
     "'Segment code' As label":
         Height: =54
         Text: ="Segment Code"
