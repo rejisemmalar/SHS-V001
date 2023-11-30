@@ -131,6 +131,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
+    "Division_2",
     "Login Page",
     "Dashboard",
     "Inbox",
