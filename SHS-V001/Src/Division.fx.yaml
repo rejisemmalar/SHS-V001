@@ -885,8 +885,8 @@ Division As screen:
 
             Button8_5 As button:
                 OnSelect: |-
-                    =Remove(Division_1,Gallery6.Selected);UpdateContext({varshowdeletescreen:false})
-                Text: ="Yes"
+                    =UpdateContext({varshowdeletescreen:false})
+                Text: ="No"
                 X: =298
                 Y: =225
                 ZIndex: =9
