@@ -356,25 +356,32 @@ Segment As screen:
         Y: =275
         ZIndex: =16
 
-    Container30 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(167, 182, 203, 0.63)
-        Height: =768
-        Visible: =ShowPopup_delete
-        Width: =1366
-        ZIndex: =17
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =19
 
-    Container32 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(250, 155, 112, 1)
-        Visible: =ShowPopup_delete
-        X: =441
-        Y: =296
-        ZIndex: =18
+        Container30 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(167, 182, 203, 0.63)
+            Height: =768
+            Visible: =ShowPopup_delete
+            Width: =1366
+            ZIndex: =17
 
-        Button33 As button:
-            OnSelect: |-
-                =UpdateContext({ShowPopup_delete:false})
-            Text: ="No"
-            X: =177
-            Y: =96
-            ZIndex: =1
+        Container32 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(250, 155, 112, 1)
+            Visible: =ShowPopup_delete
+            X: =441
+            Y: =296
+            ZIndex: =18
+
+            Button33 As button:
+                OnSelect: |-
+                    =UpdateContext({ShowPopup_delete:false})
+                Text: ="No"
+                X: =177
+                Y: =96
+                ZIndex: =1
 
