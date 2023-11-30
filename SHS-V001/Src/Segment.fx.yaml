@@ -39,7 +39,8 @@ Segment As screen:
             ZIndex: =6
 
         Button26 As button:
-            OnSelect: =Select(Parent)
+            OnSelect: |-
+                =UpdateContext({ShowPopupedit:true})
             Text: ="Edit"
             X: =579
             Y: =33
