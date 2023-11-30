@@ -1,12 +1,7 @@
 Segment As screen:
 
-    "'Segment Name' As label":
-        Height: =54
-        Text: ="Action"
-        Width: =272
-        X: =1000
-        Y: =273
-        ZIndex: =1
+    Component1_10 As Component1:
+        Height: =768
 
     Gallery12 As gallery.galleryVertical:
         DelayItemLoading: =true
@@ -18,7 +13,7 @@ Segment As screen:
         Width: =1027
         X: =291
         Y: =353
-        ZIndex: =1
+        ZIndex: =2
 
         Button25 As button:
             OnSelect: |-
@@ -35,13 +30,21 @@ Segment As screen:
             Y: =60
             ZIndex: =5
 
+    "'Segment Name' As label":
+        Height: =54
+        Text: ="Action"
+        Width: =272
+        X: =1000
+        Y: =273
+        ZIndex: =3
+
     "'Segment code' As label":
         Height: =54
         Text: ="Segment Code"
         Width: =272
         X: =291
         Y: =275
-        ZIndex: =2
+        ZIndex: =4
 
     Action_segment As label:
         Height: =54
@@ -49,7 +52,7 @@ Segment As screen:
         Width: =272
         X: =659
         Y: =275
-        ZIndex: =3
+        ZIndex: =5
 
     Arrow1_5 As arrow.backArrow:
         Fill: =RGBA(0, 18, 107, 1)
