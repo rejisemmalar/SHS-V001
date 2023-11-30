@@ -209,6 +209,7 @@ Division As screen:
     Container8 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(253, 222, 207, 1)
         Height: =564
+        Visible: =ShowPopup
         Width: =910
         X: =212
         Y: =171
