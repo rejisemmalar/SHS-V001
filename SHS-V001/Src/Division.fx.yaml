@@ -292,6 +292,8 @@ Division As screen:
             ZIndex: =5
 
         Button8_4 As button:
+            OnSelect: |-
+                =Remove(Division_1,Gallery6.Selected);UpdateContext({varshowdeletescreen:false})
             Text: ="Yes"
             X: =64
             Y: =225
