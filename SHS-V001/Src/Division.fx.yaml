@@ -285,8 +285,14 @@ Division As screen:
             ZIndex: =3
 
         Button8 As button:
-            Text: ="Button"
+            Text: ="Yes"
             X: =64
             Y: =225
             ZIndex: =4
+
+        Button8_1 As button:
+            Text: ="Yes"
+            X: =285
+            Y: =225
+            ZIndex: =5
 
