@@ -1403,7 +1403,7 @@
 
         Button29 As button:
             OnSelect: |-
-                =SubmitForm(Form11);NewForm(Form11);UpdateContext({ShowPopup: false});
+                =SubmitForm(Form11);UpdateContext({ShowPopup: false});
             Text: ="Save"
             X: =46
             Y: =375
