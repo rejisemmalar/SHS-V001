@@ -199,3 +199,9 @@ Division As screen:
         Y: =217
         ZIndex: =19
 
+        Label38 As label:
+            Text: ="Text"
+            X: =20
+            Y: =20
+            ZIndex: =1
+
