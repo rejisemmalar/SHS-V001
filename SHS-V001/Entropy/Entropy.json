@@ -126,6 +126,7 @@
     "Button6": 188,
     "Button6_1": 189,
     "Button7": 739,
+    "Button8": 978,
     "Button8_2": 200,
     "Button8_3": 197,
     "Button9": 369,
@@ -981,7 +982,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/30/2023 10:56:10",
+  "HeaderLastSavedDateTimeUTC": "11/30/2023 10:56:29",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "d5d288d0-8556-4a38-a03d-f5517ce3059c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6b09e5d9e40c401a9964269a06a6ff10\""
@@ -1090,8 +1091,8 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "arrow": 7,
-    "button": 9,
+    "arrow": 8,
+    "button": 7,
     "circle": 2,
     "combobox": 12,
     "datepicker": 14,
@@ -1104,7 +1105,7 @@
     "label": 3,
     "rectangle": 11,
     "star": 6,
-    "text": 8
+    "text": 9
   },
   "OverridablePropertiesEntry": {
     "Action": {},
@@ -1231,6 +1232,7 @@
     "Button6": {},
     "Button6_1": {},
     "Button7": {},
+    "Button8": {},
     "Button8_2": {},
     "Button8_3": {},
     "Button9": {},
@@ -2211,6 +2213,7 @@
     "Button6": 328,
     "Button6_1": 329,
     "Button7": 865,
+    "Button8": 0,
     "Button8_2": 334,
     "Button8_3": 331,
     "Button9": 478,
