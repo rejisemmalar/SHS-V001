@@ -8,6 +8,32 @@ Segment As screen:
         Y: =273
         ZIndex: =1
 
+    Gallery12 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =414
+        Items: =Segment_5
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =100
+        Width: =1050
+        X: =291
+        Y: =354
+        ZIndex: =1
+
+        Label48 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Segment Code'
+            X: =40
+            Y: =40
+            ZIndex: =1
+
+        Label48_1 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.'Segment Name'
+            X: =380
+            Y: =60
+            ZIndex: =2
+
     "'Segment code' As label":
         Height: =54
         Text: ="Segment Code"
@@ -23,48 +49,6 @@ Segment As screen:
         X: =659
         Y: =275
         ZIndex: =3
-
-    Gallery11 As gallery.galleryVertical:
-        DelayItemLoading: =true
-        Height: =409
-        Items: =Segment_5
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =88
-        Width: =1050
-        X: =285
-        Y: =331
-        ZIndex: =4
-
-        Label47 As label:
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.'Segment Code'
-            X: =15
-            Y: =18
-            ZIndex: =1
-
-        Label48 As label:
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.'Segment Name'
-            X: =370
-            Y: =18
-            ZIndex: =2
-
-        Button26 As button:
-            OnSelect: =Select(Parent)
-            Text: ="Edit"
-            Width: =90
-            X: =660
-            Y: =18
-            ZIndex: =3
-
-        Button32 As button:
-            OnSelect: |-
-                =UpdateContext({ShowPopup_delete:true})
-            Text: ="Delete"
-            X: =802
-            Y: =18
-            ZIndex: =4
 
     Component1_10 As Component1:
         CurrentScreen: ="Administration"
