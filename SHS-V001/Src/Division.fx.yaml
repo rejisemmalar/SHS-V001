@@ -200,7 +200,7 @@ Division As screen:
         ZIndex: =19
 
         Label38 As label:
-            Text: ="Text"
+            Text: ="Add Division"
             X: =20
             Y: =20
             ZIndex: =1
