@@ -1548,6 +1548,7 @@ Division As screen:
             BorderColor: =RGBA(166, 166, 166, 1)
             DataSource: =Division_1
             Height: =319
+            Item: =Gallery6.Selected
             Width: =1114
             Y: =102
             ZIndex: =2
