@@ -1555,3 +1555,11 @@ Division As screen:
             Y: =16
             ZIndex: =1
 
+        Form1 As form:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Height: =283
+            Width: =1029
+            X: =8
+            Y: =94
+            ZIndex: =2
+

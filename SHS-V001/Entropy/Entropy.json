@@ -472,6 +472,7 @@
     "For Approval(Approver1)": 305,
     "For Approval(Approver2)": 312,
     "For Champion Action(C)": 319,
+    "Form1": 1028,
     "Form10": 811,
     "Form11": 422,
     "Form13": 187,
@@ -1022,7 +1023,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/01/2023 06:04:29",
+  "HeaderLastSavedDateTimeUTC": "12/01/2023 06:05:29",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "d5d288d0-8556-4a38-a03d-f5517ce3059c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/6b09e5d9e40c401a9964269a06a6ff10\""
@@ -1133,13 +1134,13 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "arrow": 7,
-    "button": 9,
+    "arrow": 8,
+    "button": 10,
     "circle": 2,
     "combobox": 11,
     "datepicker": 15,
     "dropdown": 13,
-    "form": 10,
+    "form": 7,
     "formViewer": 14,
     "gallery": 5,
     "groupContainer": 0,
@@ -1148,7 +1149,7 @@
     "label": 3,
     "rectangle": 12,
     "star": 6,
-    "text": 8
+    "text": 9
   },
   "OverridablePropertiesEntry": {
     "Action": {},
@@ -1621,6 +1622,7 @@
     "For Approval(Approver1)": {},
     "For Approval(Approver2)": {},
     "For Champion Action(C)": {},
+    "Form1": {},
     "Form10": {},
     "Form11": {},
     "Form13": {},
@@ -2642,6 +2644,7 @@
     "For Approval(Approver1)": 439,
     "For Approval(Approver2)": 446,
     "For Champion Action(C)": 453,
+    "Form1": 0,
     "Form10": 423,
     "Form11": 524,
     "Form13": 159,
