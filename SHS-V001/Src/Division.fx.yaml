@@ -1547,7 +1547,7 @@ Division As screen:
             Font: =Font.'Segoe UI'
             Height: =64
             Size: =13
-            Text: ="Text"
+            Text: ="Edit Division"
             Width: =285
             X: =8
             Y: =16
