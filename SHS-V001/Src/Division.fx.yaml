@@ -383,7 +383,7 @@ Division As screen:
             FontWeight: =FontWeight.Bold
             Height: =45
             Size: =20
-            Text: ="Edit Division"
+            Text: ="Ad Division"
             Width: =262
             X: =20
             Y: =20
@@ -402,7 +402,7 @@ Division As screen:
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
             OnSelect: |-
-                =SubmitForm(Form13);NewForm(Form13)UpdateContext({ShowPopup:false})
+                =SubmitForm(Form13);NewForm(Form13);UpdateContext({ShowPopup:false})
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
