@@ -6413,17 +6413,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Division.ShowPopup"
+                  "fullyQualifiedName": "Division.vardiveditShowPopup"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Division.ShowPopup",
+                  "fullyQualifiedName": "Division.vardiveditShowPopup",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "ShowPopup",
+                "member": "vardiveditShowPopup",
                 "module": "Division",
                 "type": "Division"
               }

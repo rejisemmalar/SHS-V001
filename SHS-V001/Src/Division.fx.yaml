@@ -249,7 +249,7 @@ Division As screen:
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
             OnSelect: |-
-                = UpdateContext({ShowPopup:true})
+                = UpdateContext({vardiveditShowPopup:true})
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
@@ -2658,7 +2658,7 @@ Division As screen:
             RadiusTopLeft: =0
             RadiusTopRight: =0
             Size: =15
-            Text: ="Save"
+            Text: ="Cancel"
             X: =325
             Y: =436
             ZIndex: =4
