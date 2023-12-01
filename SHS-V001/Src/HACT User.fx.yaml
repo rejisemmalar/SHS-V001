@@ -1384,7 +1384,7 @@
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
             Size: =13
-            Text: ="Edit SHS-Use"
+            Text: ="Edit SHS-Users"
             X: =40
             ZIndex: =5
 
