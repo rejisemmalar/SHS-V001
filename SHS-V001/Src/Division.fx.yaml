@@ -1501,3 +1501,13 @@ Division As screen:
                     Y: =DataCardKey57.Y
                     ZIndex: =4
 
+    Container4 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Height: =768
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1366
+        ZIndex: =18
+

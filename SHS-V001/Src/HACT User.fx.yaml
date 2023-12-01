@@ -89,7 +89,7 @@
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
         OnSelect: |-
-            = UpdateContext({ShowPopup : true});
+            = UpdateContext({varaddShowPopup : true});
         PaddingBottom: =0
         PaddingLeft: =0
         PaddingRight: =0
