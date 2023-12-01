@@ -1537,7 +1537,7 @@
             FontWeight: =FontWeight.Bold
             Height: =51
             Size: =20
-            Text: ="Edit Division"
+            Text: ="Add Division"
             Width: =202
             X: =4
             Y: =4
