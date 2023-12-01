@@ -23,47 +23,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 1,
-                  "charOffset": 47,
+                  "charLength": 13,
+                  "charOffset": 34,
                   "snippet": {
-                    "text": ":"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Division",
-                "type": "Division.Container8.Button6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadToken",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Division.Container8.Button6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Division.Container8.Button6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 48,
-                  "snippet": {
-                    "text": "false"
+                    "text": "UpdateContext"
                   }
                 }
               },
@@ -81,43 +44,6 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Division.Container8.Button6.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Division.Container8.Button6.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 53,
-                  "snippet": {
-                    "text": "}"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Division",
-                "type": "Division.Container8.Button6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadToken",
           "ruleIndex": 0
         },
         {
@@ -134,10 +60,9 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 1,
-                  "charOffset": 54,
+                  "charOffset": 69,
                   "snippet": {
-                    "text": ")"
+                    "text": ""
                   }
                 }
               },
@@ -150,8 +75,8 @@
           ],
           "message": {
             "arguments": [
-              "ParenClose",
-              "CurlyClose"
+              "Eof",
+              "ParenClose"
             ],
             "id": "issue"
           },
@@ -159,7 +84,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -175,10 +100,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 5,
-                  "charOffset": 48,
+                  "charLength": 13,
+                  "charOffset": 34,
                   "snippet": {
-                    "text": "false"
+                    "text": "UpdateContext"
                   }
                 }
               },
@@ -196,7 +121,44 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 1
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Division.Container8.Button6.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Division.Container8.Button6.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 34,
+                  "snippet": {
+                    "text": "UpdateContext"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Division",
+                "type": "Division.Container8.Button6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -6394,23 +6356,6 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "app-ErrBadToken",
-              "messageStrings": {
-                "issue": {
-                  "text": "Unexpected characters. Characters are used in the formula in an unexpected way."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or replace the unexpected characters."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-ErrOperatorExpected",
               "messageStrings": {
                 "issue": {
@@ -6439,6 +6384,20 @@
                 "howToFix": [
                   "Remove or replace the unexpected characters with an expected character."
                 ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrBadType",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid argument type."
+                }
+              },
+              "properties": {
+                "componentType": "app",
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
