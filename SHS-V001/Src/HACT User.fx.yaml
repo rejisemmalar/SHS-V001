@@ -1546,6 +1546,7 @@
         Form11 As form:
             BorderColor: =RGBA(166, 166, 166, 1)
             DataSource: ='SHS-Users_1'
+            DefaultMode: =FormMode.New
             Height: =291
             Item: =Gallery8.Selected
             Width: =851
@@ -2491,7 +2492,7 @@
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
             OnSelect: |-
-                =SubmitForm(Form11);UpdateContext({ShowPopup: false});
+                =SubmitForm(Form11);NewForm(Form11 UpdateContext({ShowPopup: false});
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
