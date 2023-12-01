@@ -8,7 +8,7 @@
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        Color: =RGBA(0, 16, 96, 1)
+        Color: =RGBA(0, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FocusedBorderThickness: =4
@@ -46,10 +46,10 @@
     "'Edit Config_Container' As groupContainer.manualLayoutContainer":
         DropShadow: =DropShadow.Semilight
         Height: =528
-        RadiusBottomLeft: =6
-        RadiusBottomRight: =6
-        RadiusTopLeft: =6
-        RadiusTopRight: =6
+        RadiusBottomLeft: =7
+        RadiusBottomRight: =7
+        RadiusTopLeft: =7
+        RadiusTopRight: =7
         Width: =596
         X: =309
         Y: =183
@@ -95,6 +95,7 @@
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
             Size: =13
             Text: |-
                 ="Stakeholder:Supplier"
@@ -385,15 +386,20 @@
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
-            OnSelect: |-
-                =Patch(
+            OnSelect: |
+                =Set(
+                    VarCrntYr,
+                    'Dropdown1Year Drpdn'.SelectedText
+                );
+                Patch(
                     'HACT Config',
                     LookUp(
                         'HACT Config',
                         'New Performance Year' = VarPrfmnceYr
                     ),
                     {'Current Quarter': 'Dropdown1Year Drpdn'.SelectedText}
-                );Notify(
+                );
+                Notify(
                     "Current Year Has Been Updated Successfully",
                     NotificationType.Success,
                     2000
@@ -423,8 +429,12 @@
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
-            OnSelect: |-
-                =Patch(
+            OnSelect: |
+                =Set(
+                    VarCrntQrtr,
+                    'Qurtr Drpdn'.SelectedText
+                );
+                Patch(
                     'HACT Config',
                     LookUp(
                         'HACT Config',
@@ -527,4 +537,164 @@
             X: =402
             Y: =446
             ZIndex: =20
+
+    Container4_1 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Semilight
+        Height: =250
+        RadiusBottomLeft: =7
+        RadiusBottomRight: =7
+        RadiusTopLeft: =7
+        RadiusTopRight: =7
+        Width: =350
+        X: =963
+        Y: =183
+        ZIndex: =5
+
+        Rectangle4_3 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(237, 237, 237, 1)
+            FocusedBorderThickness: =4
+            Height: =56
+            HoverFill: =RGBA(105, 121, 126, 1)
+            PressedFill: =RGBA(105, 121, 126, 1)
+            Width: =355
+            ZIndex: =1
+
+        Label18_1 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =48
+            Size: =17
+            Text: ="Existing Cofiguration"
+            Width: =275
+            X: =13
+            Y: =8
+            ZIndex: =2
+
+        Label16_4 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Size: =13
+            Text: |-
+                ="Stakeholder:Supplier"
+            Width: =191
+            X: =13
+            Y: =56
+            ZIndex: =3
+
+        Icon14_8 As icon.HorizontalLine:
+            BorderColor: =RGBA(202, 202, 202, 1)
+            BorderThickness: =1
+            Color: =RGBA(202, 202, 202, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =0
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(105, 121, 126, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.HorizontalLine
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(105, 121, 126, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =328
+            X: =13
+            Y: =107
+            ZIndex: =4
+
+        Label16_5 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Size: =13
+            Text: |-
+                ="Current Year:"
+            Width: =112
+            X: =13
+            Y: =114
+            ZIndex: =5
+
+        Icon14_9 As icon.HorizontalLine:
+            BorderColor: =RGBA(202, 202, 202, 1)
+            BorderThickness: =1
+            Color: =RGBA(202, 202, 202, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =0
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(105, 121, 126, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.HorizontalLine
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(105, 121, 126, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =328
+            X: =13
+            Y: =162
+            ZIndex: =6
+
+        Label19_1 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Size: =13
+            Text: |-
+                ="Current Quarter:"
+            Width: =140
+            X: =13
+            Y: =171
+            ZIndex: =7
+
+        Icon14_10 As icon.HorizontalLine:
+            BorderColor: =RGBA(202, 202, 202, 1)
+            BorderThickness: =1
+            Color: =RGBA(202, 202, 202, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =0
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(105, 121, 126, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.HorizontalLine
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(105, 121, 126, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =328
+            X: =13
+            Y: =220
+            ZIndex: =8
 
