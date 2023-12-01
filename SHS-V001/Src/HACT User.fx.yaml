@@ -1518,7 +1518,7 @@
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
-        Visible: =ShowPopup
+        Visible: =varaddShowPopup
         Width: =890
         X: =350
         Y: =206
