@@ -186,7 +186,7 @@
             FontWeight: =FontWeight.Bold
             Size: =13
             Text: ="Current Quarter"
-            Width: =141
+            Width: =173
             X: =24
             Y: =213
             ZIndex: =8
@@ -553,6 +553,44 @@
             Y: =446
             ZIndex: =20
 
+        Label60_2 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(255, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =33
+            PaddingBottom: =7
+            PaddingLeft: =13
+            Size: =13
+            Text: ="*"
+            Width: =35
+            X: =197
+            Y: =315
+            ZIndex: =21
+
+        Label60_3 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(255, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =33
+            Size: =13
+            Text: ="*"
+            Width: =35
+            X: =162
+            Y: =404
+            ZIndex: =22
+
     Container4_1 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Semilight
         Height: =250
@@ -742,4 +780,43 @@
             X: =153
             Y: =171
             ZIndex: =10
+
+    Label60 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =33
+        Size: =13
+        Text: ="*"
+        Width: =35
+        X: =436
+        Y: =304
+        ZIndex: =6
+
+    Label60_1 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =33
+        PaddingBottom: =8
+        PaddingLeft: =9
+        PaddingTop: =4
+        Size: =13
+        Text: ="*"
+        Width: =35
+        X: =460
+        Y: =400
+        ZIndex: =7
 
