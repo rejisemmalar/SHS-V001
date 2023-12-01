@@ -1511,3 +1511,15 @@ Division As screen:
         Width: =1366
         ZIndex: =18
 
+    Container32 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Fill: =RGBA(169, 169, 169, .75)
+        Height: =766
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1366
+        Y: =2
+        ZIndex: =19
+
