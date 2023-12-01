@@ -2745,7 +2745,7 @@ Division As screen:
             Font: =Font.'Segoe UI'
             Height: =84
             Size: =30
-            Text: ="TextAre you sure you want to delete?"
+            Text: ="Are you sure you want to delete?"
             Width: =636
             X: =93
             Y: =141
@@ -2763,6 +2763,8 @@ Division As screen:
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
+            OnSelect: |-
+                =Remove(Division_1,Gallery.Selected);UpdateContext({varshowdeletescreen:false})
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
