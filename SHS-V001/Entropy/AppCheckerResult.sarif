@@ -54,16 +54,16 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Division.Container34.Button8.OnSelect"
+                  "fullyQualifiedName": "Division.Container34.Button8_1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Division.Container34.Button8.OnSelect",
+                  "fullyQualifiedName": "Division.Container34.Button8_1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charOffset": 59,
+                  "charOffset": 39,
                   "snippet": {
                     "text": ""
                   }
@@ -72,7 +72,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "Division",
-                "type": "Division.Container34.Button8"
+                "type": "Division.Container34.Button8_1"
               }
             }
           ],
@@ -94,16 +94,16 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Division.Container34.Button8.OnSelect"
+                  "fullyQualifiedName": "Division.Container34.Button8_1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Division.Container34.Button8.OnSelect",
+                  "fullyQualifiedName": "Division.Container34.Button8_1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charOffset": 59,
+                  "charOffset": 39,
                   "snippet": {
                     "text": ""
                   }
@@ -112,7 +112,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "Division",
-                "type": "Division.Container34.Button8"
+                "type": "Division.Container34.Button8_1"
               }
             }
           ],
@@ -128,6 +128,46 @@
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Division.Container34.Button8_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Division.Container34.Button8_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 4,
+                  "charOffset": 35,
+                  "snippet": {
+                    "text": "fals"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Division",
+                "type": "Division.Container34.Button8_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "fals"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
         },
         {
           "locations": [
