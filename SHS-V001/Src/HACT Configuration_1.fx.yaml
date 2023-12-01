@@ -138,6 +138,7 @@
             FontWeight: =FontWeight.Bold
             Size: =13
             Text: ="Current Year"
+            Width: =113
             X: =24
             Y: =120
             ZIndex: =6
@@ -185,6 +186,7 @@
             FontWeight: =FontWeight.Bold
             Size: =13
             Text: ="Current Quarter"
+            Width: =141
             X: =24
             Y: =213
             ZIndex: =8
@@ -277,7 +279,7 @@
             FontWeight: =FontWeight.Bold
             Size: =13
             Text: ="New Perfomance Year"
-            Width: =226
+            Width: =191
             X: =24
             Y: =312
             ZIndex: =12
@@ -293,6 +295,7 @@
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
             Format: =TextFormat.Number
+            HintText: ="Enter New Performance Year"
             HoverBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -30%)
             HoverColor: =RGBA(51, 51, 51, 1)
             HoverFill: =RGBA(255, 255, 255, 1)
@@ -343,7 +346,7 @@
             FontWeight: =FontWeight.Bold
             Size: =13
             Text: ="Trigger Test Mail"
-            Width: =226
+            Width: =156
             X: =24
             Y: =406
             ZIndex: =15
@@ -358,6 +361,7 @@
             DisabledFill: =RGBA(244, 244, 244, 1)
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
+            HintText: ="Enter Trigger Test Email"
             HoverBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -30%)
             HoverColor: =RGBA(51, 51, 51, 1)
             HoverFill: =RGBA(255, 255, 255, 1)
@@ -473,22 +477,30 @@
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
-            OnSelect: |
-                =Set(
-                    VarPrfmnceYr,
-                    'New prfmnc text'.Text
+            OnSelect: |+
+                =If(
+                    'New prfmnc text'.Text = "",
+                    Notify("Please Enter the New Performance Year"),
+                    NotificationType.Error,
+                    2000,
+                    Set(
+                        VarPrfmnceYr,
+                        'New prfmnc text'.Text
+                    );
+                    Patch(
+                        'HACT Config',
+                        Defaults('HACT Config'),
+                        {'New Performance Year': Value('New prfmnc text'.Text)}
+                    );
+                    Notify(
+                        "New Performance Has Been Added Successfully",
+                        NotificationType.Success,
+                        2000
+                    );
+                    'New prfmnc text'.Clear;
+                    
                 );
-                Patch(
-                    'HACT Config',
-                    Defaults('HACT Config'),
-                    {'New Performance Year': Value('New prfmnc text'.Text)}
-                );
-                Notify(
-                    "New Performance Has Been Added Successfully",
-                    NotificationType.Success,
-                    2000
-                );
-                'New prfmnc text'.Clear;
+                
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
