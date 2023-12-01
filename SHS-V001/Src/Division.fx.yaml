@@ -402,7 +402,7 @@ Division As screen:
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
             OnSelect: |-
-                =SubmitForm(Form13);NewForm(Form13);UpdateContext({ShowPopup:false})
+                =SubmitForm(Form13);UpdateContext({ShowPopup:false})
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
@@ -446,8 +446,8 @@ Division As screen:
         Form13 As form:
             BorderColor: =RGBA(166, 166, 166, 1)
             DataSource: =Division_1
-            DefaultMode: =FormMode.New
             Height: =307
+            Item: =Gallery6.Selected
             Width: =1018
             Y: =84
             ZIndex: =5
