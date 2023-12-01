@@ -2680,6 +2680,7 @@ Division As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
+            Visible: =varshowdeletescreen
             Width: =1366
             ZIndex: =20
 
@@ -2691,6 +2692,7 @@ Division As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
+            Visible: =varshowdeletescreen
             Width: =845
             X: =398
             Y: =231
