@@ -278,7 +278,7 @@ Division As screen:
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
             OnSelect: |-
-                =UpdateContext({varshowdeletescreen:true})
+                =UpdateContext({varshowdeletedivscreen:true})
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)

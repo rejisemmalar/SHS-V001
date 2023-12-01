@@ -6413,6 +6413,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Division.varshowdeletedivscreen"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Division.varshowdeletedivscreen",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "varshowdeletedivscreen",
+                "module": "Division",
+                "type": "Division"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Segment.ShowPopupedit"
                 }
               ],
