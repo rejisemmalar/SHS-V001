@@ -378,7 +378,7 @@
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
-        Visible: =ShowPopup
+        Visible: =vareditShowPopup
         Width: =1044
         X: =213
         Y: =161
