@@ -144,6 +144,7 @@
             ZIndex: =6
 
         "'Dropdown1Year Drpdn' As dropdown":
+            AllowEmptySelection: =true
             BorderColor: =RGBA(166, 166, 166, 1)
             ChevronBackground: =RGBA(0, 0, 0, 0)
             ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
@@ -215,6 +216,7 @@
             ZIndex: =9
 
         "'Qurtr Drpdn' As dropdown":
+            AllowEmptySelection: =true
             BorderColor: =RGBA(166, 166, 166, 1)
             ChevronBackground: =RGBA(0, 0, 0, 0)
             ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
@@ -396,6 +398,7 @@
                     VarCrntYr,
                     'Dropdown1Year Drpdn'.SelectedText.Value
                 );
+                
                 Patch(
                     'HACT Config',
                     LookUp(
