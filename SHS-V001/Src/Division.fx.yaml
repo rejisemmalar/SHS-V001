@@ -364,6 +364,7 @@ Division As screen:
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
+        Visible: =varShowPopup
         Width: =1064
         X: =247
         Y: =147
@@ -391,6 +392,7 @@ Division As screen:
         Form12 As form:
             BorderColor: =RGBA(166, 166, 166, 1)
             DataSource: =Division_1
+            DefaultMode: =FormMode.New
             Height: =328
             Width: =1064
             Y: =104
@@ -1498,4 +1500,15 @@ Division As screen:
             X: =353
             Y: =471
             ZIndex: =4
+
+    Container38 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Fill: =RGBA(169, 169, 169, .75)
+        Height: =768
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1366
+        ZIndex: =18
 
