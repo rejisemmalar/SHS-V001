@@ -378,7 +378,7 @@ Division As screen:
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
             Size: =13
-            Text: ="Text"
+            Text: ="Add Division"
             X: =39
             Y: =27
             ZIndex: =1
