@@ -3,12 +3,6 @@ Division As screen:
     OnVisible: |-
         =UpdateContext({varshowdeletescreen:false})
 
-    "'Add doc_Button_20' As 'Add doc_Button'":
-        Height: =47
-        Width: =161
-        X: =1044
-        Y: =195
-
     Arrow1_4 As arrow.backArrow:
         BorderColor: =RGBA(0, 0, 0, 0)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -18,6 +12,13 @@ Division As screen:
         Width: =32
         X: =291
         Y: =147
+        ZIndex: =1
+
+    "'Add doc_Button_20' As 'Add doc_Button'":
+        Height: =47
+        Width: =161
+        X: =1044
+        Y: =195
         ZIndex: =2
 
     Label12 As label:
@@ -401,7 +402,7 @@ Division As screen:
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
             OnSelect: |-
-                =SubmitForm(Form13);UpdateContext({ShowPopup:false})
+                =SubmitForm(Form13);NewForm(Form13)UpdateContext({ShowPopup:false})
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
