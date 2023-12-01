@@ -14,7 +14,7 @@ Component1 As CanvasComponent:
             }
         )
     Fill: =RGBA(0, 0, 0, 0)
-    Height: =900
+    Height: =
     IsSubMenuVisible: =true
     MaxSubMenu: =100
     Menu: |-
@@ -42,6 +42,7 @@ Component1 As CanvasComponent:
                 TargetScreen: Configuration
             }
         )
+    MenuWidth: =100
     NavType: |-
         =1//1:Left, 2:Top, 3:Bottom
     submenu_inbox: |-
@@ -135,7 +136,7 @@ Component1 As CanvasComponent:
         BorderColor: =RGBA(204, 231, 246, 1)
         BorderThickness: =1
         DelayItemLoading: =true
-        Height: =777
+        Height: =App.Height-Container1.Height
         Items: =Component1.Menu
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -150,7 +151,7 @@ Component1 As CanvasComponent:
         TemplateSize: =84
         Transition: =Transition.Pop
         Visible: =ShowMenu
-        Width: =282
+        Width: =Max(App.Width,App.DesignWidth)/5
         Y: =123
         ZIndex: =2
 

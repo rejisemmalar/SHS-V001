@@ -1,0 +1,41 @@
+LeftNavigation_Component_1 As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =App.Height
+    MenuWidth: =If(VarShowExpandMenu,Max(App.Width,App.DesignWidth)/5,70)
+    Width: =Max(App.Width,App.DesignWidth)/5
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Icon13 As icon.Hamburger:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(105, 121, 126, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =46
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(105, 121, 126, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Hamburger
+        OnSelect: =Set(VarShowExpandMenu,!VarShowExpandMenu);
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(105, 121, 126, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =49
+        X: =15
+        Y: =15
+        ZIndex: =1
+
+    menu As gallery.variableTemplateHeightGallery:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        DelayItemLoading: =true
+        Height: =App.Height-menu.Y
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =280
+        Y: =Icon13.Height+15
+        ZIndex: =2
+

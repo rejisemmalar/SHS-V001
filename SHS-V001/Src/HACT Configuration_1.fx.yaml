@@ -423,8 +423,14 @@
                             'HACT Config',
                             LookUp(
                                 'HACT Config',
-                                'New Performance Year' = VarCrntYr
-                            )
+                                'New Performance Year' = VarPrfmnceYr
+                            ),
+                            {
+                                'Current Year': {
+                                    Id: 'Dropdown1Year Drpdn'.Selected.ID,
+                                    Value: 'Dropdown1Year Drpdn'.Selected.Title
+                                }
+                            }
                         );
                         Notify(
                             "Current Year Has Been Updated Successfully",
@@ -890,4 +896,8 @@
         X: =1041
         Y: =582
         ZIndex: =8
+
+    LeftNavigation_Component_2 As LeftNavigation_Component_1:
+        Y: =128
+        ZIndex: =9
 
