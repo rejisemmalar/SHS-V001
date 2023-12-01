@@ -2624,7 +2624,7 @@ Division As screen:
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
                 OnSelect: |-
-                    =SubmitForm(Form13);UpdateContext({vardiveditShowPopup:false});Notify("The division is updated successfully",NotificationType.Success
+                    =SubmitForm(Form13);UpdateContext({vardiveditShowPopup:false});Notify("The division is updated successfully",NotificationType.Success)
                 PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
