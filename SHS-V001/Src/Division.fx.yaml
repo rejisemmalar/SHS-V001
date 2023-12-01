@@ -2699,7 +2699,7 @@ Division As screen:
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
             Size: =13
-            Text: ="Text"
+            Text: ="Confirmation"
             X: =135
             Y: =33
             ZIndex: =1
