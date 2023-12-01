@@ -227,6 +227,7 @@
             HoverBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -30%)
             HoverColor: =RGBA(51, 51, 51, 1)
             HoverFill: =RGBA(212, 212, 212, 1)
+            Items: =Choices([@'HACT Config'].CurrentQuarter)
             PaddingBottom: =5
             PaddingLeft: =12
             PaddingRight: =5
@@ -410,15 +411,7 @@
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
-            OnSelect: |-
-                =Patch(
-                    'HACT Config',
-                    LookUp(
-                        'HACT Config',
-                        'New Performance Year' = VarPrfmnceYr
-                    ),
-                    {}
-                )
+            OnSelect: =
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
@@ -447,7 +440,7 @@
             OnSelect: |-
                 =Set(
                     VarPrfmnceYr,
-                    Value('New prfmnc text'.Text)
+                    'New prfmnc text'.Text
                 );
                 Patch(
                     'HACT Config',
