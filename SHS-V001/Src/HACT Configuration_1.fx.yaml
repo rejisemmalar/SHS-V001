@@ -389,7 +389,7 @@
             OnSelect: |
                 =Set(
                     VarCrntYr,
-                    'Dropdown1Year Drpdn'.SelectedText
+                    'Dropdown1Year Drpdn'.SelectedText.Value
                 );
                 Patch(
                     'HACT Config',
@@ -432,7 +432,7 @@
             OnSelect: |
                 =Set(
                     VarCrntQrtr,
-                    'Qurtr Drpdn'.SelectedText
+                    'Qurtr Drpdn'.SelectedText.Value
                 );
                 Patch(
                     'HACT Config',
@@ -697,4 +697,34 @@
             X: =13
             Y: =220
             ZIndex: =8
+
+        Label50 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Size: =13
+            Text: =VarCrntYr
+            X: =125
+            Y: =113
+            ZIndex: =9
+
+        Label59 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Size: =13
+            Text: =VarCrntQrtr
+            X: =153
+            Y: =171
+            ZIndex: =10
 
