@@ -1382,7 +1382,7 @@
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
-        Visible: =ShowPopup
+        Visible: =varaddShowPopup
         Width: =1366
         ZIndex: =19
 
@@ -1537,7 +1537,7 @@
             FontWeight: =FontWeight.Bold
             Height: =51
             Size: =20
-            Text: ="Add SHS "
+            Text: ="Add SHS User"
             Width: =202
             X: =4
             Y: =4
