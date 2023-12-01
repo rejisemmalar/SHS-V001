@@ -1383,9 +1383,13 @@
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
-            Size: =13
+            FontWeight: =FontWeight.Bold
+            Height: =55
+            Size: =20
             Text: ="Edit SHS-Users"
+            Width: =268
             X: =40
+            Y: =17
             ZIndex: =5
 
     Container27 As groupContainer.manualLayoutContainer:
