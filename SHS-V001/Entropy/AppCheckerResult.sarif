@@ -6413,36 +6413,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Division.vardiveditShowPopup"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Division.vardiveditShowPopup",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "vardiveditShowPopup",
-                "module": "Division",
-                "type": "Division"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Division.varshowdeletescreen"
                 }
               ],

@@ -1526,6 +1526,7 @@ Division As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
+            Visible: =vardiveditShowPopup
             Width: =1366
             Y: =2
             ZIndex: =19
@@ -1538,6 +1539,7 @@ Division As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
+            Visible: =vardiveditShowPopup
             Width: =1037
             X: =304
             Y: =202
