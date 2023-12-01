@@ -429,7 +429,7 @@
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
-            OnSelect: |
+            OnSelect: |+
                 =Set(
                     VarCrntQrtr,
                     'Qurtr Drpdn'.SelectedText.Value
@@ -447,6 +447,7 @@
                     NotificationType.Success,
                     2000
                 );
+                
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
@@ -487,6 +488,7 @@
                     NotificationType.Success,
                     2000
                 );
+                'New prfmnc text'.Clear;
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
@@ -525,6 +527,7 @@
                     NotificationType.Success,
                     2000
                 );
+                mailtext.Clear;
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
