@@ -393,7 +393,11 @@
                         'New Performance Year' = VarPrfmnceYr
                     ),
                     {'Current Quarter': 'Dropdown1Year Drpdn'.SelectedText}
-                )
+                );Notify(
+                    "Current Year Has Been Updated Successfully",
+                    NotificationType.Success,
+                    2000
+                );
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
@@ -427,7 +431,12 @@
                         'New Performance Year' = VarPrfmnceYr
                     ),
                     {'Current Quarter': 'Qurtr Drpdn'.SelectedText}
-                )
+                );
+                Notify(
+                    "Current Quarter Has Been Updated Successfully",
+                    NotificationType.Success,
+                    2000
+                );
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
@@ -453,7 +462,7 @@
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
-            OnSelect: |-
+            OnSelect: |
                 =Set(
                     VarPrfmnceYr,
                     'New prfmnc text'.Text
@@ -462,7 +471,12 @@
                     'HACT Config',
                     Defaults('HACT Config'),
                     {'New Performance Year': Value('New prfmnc text'.Text)}
-                )
+                );
+                Notify(
+                    "New Performance Has Been Added Successfully",
+                    NotificationType.Success,
+                    2000
+                );
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
@@ -496,7 +510,11 @@
                         'New Performance Year' = VarPrfmnceYr
                     ),
                     {'Trigger Mail': mailtext.Text}
-                )
+                );Notify(
+                    "Trigger Mail Has Been Added Successfully",
+                    NotificationType.Success,
+                    2000
+                );
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
