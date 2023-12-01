@@ -308,7 +308,7 @@ Division As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =Color.Green
         OnSelect: |-
-            =UpdateContext({ShowPopup : true});
+            =UpdateContext({varShowPopup : true});
         PaddingLeft: =35
         PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
         PressedColor: =Color.White
@@ -352,7 +352,7 @@ Division As screen:
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
-        Visible: =ShowPopup
+        Visible: =varShowPopup
         Width: =1366
         ZIndex: =16
 
@@ -364,7 +364,7 @@ Division As screen:
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
-        Visible: =ShowPopup
+        Visible: =varShowPopup
         Width: =1018
         X: =276
         Y: =217
