@@ -442,11 +442,11 @@
             BorderColor: =RGBA(166, 166, 166, 1)
             DataSource: ='SHS-Users_1'
             DefaultMode: =FormMode.New
-            Height: =338
+            Height: =325
             NumberOfColumns: =2
             Width: =937
             X: =40
-            Y: =25
+            Y: =72
             ZIndex: =4
 
             "'Display Name_DataCard1' As typedDataCard.textualEditCard":
@@ -1373,6 +1373,20 @@
                     Wrap: =false
                     Y: =DataCardKey34.Y
                     ZIndex: =4
+
+        Label15 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Size: =13
+            Text: ="Edit SHS-Use"
+            X: =40
+            ZIndex: =5
 
     Container27 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Light
