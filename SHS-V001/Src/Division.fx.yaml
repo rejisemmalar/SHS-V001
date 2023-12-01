@@ -1489,8 +1489,8 @@ Division As screen:
             RadiusTopLeft: =0
             RadiusTopRight: =0
             Size: =15
-            Text: ="Save"
-            X: =345
-            Y: =486
+            Text: ="Cancel"
+            X: =353
+            Y: =471
             ZIndex: =4
 
