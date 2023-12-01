@@ -2744,7 +2744,7 @@ Division As screen:
             Font: =Font.'Segoe UI'
             Height: =84
             Size: =13
-            Text: ="Text"
+            Text: ="TextAre you sure you want to delete?"
             Width: =636
             X: =93
             Y: =141
