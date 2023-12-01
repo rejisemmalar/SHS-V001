@@ -2771,7 +2771,7 @@ Division As screen:
             RadiusTopLeft: =0
             RadiusTopRight: =0
             Size: =15
-            Text: ="Button"
+            Text: ="Buttons"
             X: =45
             Y: =288
             ZIndex: =4
