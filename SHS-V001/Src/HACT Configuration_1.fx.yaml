@@ -404,20 +404,28 @@
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
             OnSelect: |
-                =
-                Patch(
-                    'HACT Config',
-                    LookUp(
-                        'HACT Config',
-                        'New Performance Year' = VarPrfmnceYr
+                =If(
+                    IsBlank(VarCrntYr),
+                    Notify(
+                        "Please Select Current Year",
+                        NotificationType.Error,
+                        2000
                     ),
-                    {'Current Quarter': 'Dropdown1Year Drpdn'.SelectedText}
-                );
-                Notify(
-                    "Current Year Has Been Updated Successfully",
-                    NotificationType.Success,
-                    2000
-                );
+                    Patch(
+                        'HACT Config',
+                        LookUp(
+                            'HACT Config',
+                            'New Performance Year' = VarPrfmnceYr
+                        ),
+                        {'Current Quarter': 'Dropdown1Year Drpdn'.SelectedText}
+                    );
+                    Notify(
+                        "Current Year Has Been Updated Successfully",
+                        NotificationType.Success,
+                        2000
+                    )
+                    
+                )
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
@@ -445,7 +453,7 @@
             HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
             OnSelect: |-
                 =If(
-                    VarCrntQrtr = "",
+                    IsBlank(VarCrntQrtr),
                     Notify(
                         "Please Select current Quarter",
                         NotificationType.Error,
@@ -853,7 +861,7 @@
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
-        OnSelect: =VarCrntQrtr="";VarCrntYr="";VarPrfmnceYr="";
+        OnSelect: =VarCrntQrtr=" ";VarCrntYr=" ";VarPrfmnceYr=" ";
         PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
