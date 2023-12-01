@@ -1501,6 +1501,16 @@ Division As screen:
             Y: =471
             ZIndex: =4
 
+    Container40 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Height: =768
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1366
+        ZIndex: =20
+
     Editpopupdiv As group:
         Height: =5
         Width: =5
