@@ -2690,6 +2690,7 @@ Division As screen:
         ZIndex: =21
 
         Label38 As label:
+            Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -2698,8 +2699,11 @@ Division As screen:
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
-            Size: =13
+            FontWeight: =FontWeight.Bold
+            Height: =72
+            Size: =30
             Text: ="Confirmation"
+            Width: =398
             X: =135
             Y: =33
             ZIndex: =1
