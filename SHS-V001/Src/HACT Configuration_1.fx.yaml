@@ -422,9 +422,8 @@
                             'HACT Config',
                             LookUp(
                                 'HACT Config',
-                                'New Performance Year' = VarPrfmnceYr
-                            ),
-                            {'Current Quarter': 'Dropdown1Year Drpdn'.SelectedText}
+                                'New Performance Year' = VarCrntYr
+                            )
                         );
                         Notify(
                             "Current Year Has Been Updated Successfully",
