@@ -403,7 +403,7 @@
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
-            OnSelect: |
+            OnSelect: |-
                 =If(
                     IsBlank(VarCrntYr),
                     Notify(
@@ -411,19 +411,27 @@
                         NotificationType.Error,
                         2000
                     ),
-                    Patch(
-                        'HACT Config',
-                        LookUp(
-                            'HACT Config',
-                            'New Performance Year' = VarPrfmnceYr
+                    If(
+                        IsBlank(VarPrfmnceYr),
+                        Notify(
+                            "Please Enter New Performance Year",
+                            NotificationType.Error,
+                            2000
                         ),
-                        {'Current Quarter': 'Dropdown1Year Drpdn'.SelectedText}
+                        Patch(
+                            'HACT Config',
+                            LookUp(
+                                'HACT Config',
+                                'New Performance Year' = VarPrfmnceYr
+                            ),
+                            {'Current Quarter': 'Dropdown1Year Drpdn'.SelectedText}
+                        );
+                        Notify(
+                            "Current Year Has Been Updated Successfully",
+                            NotificationType.Success,
+                            2000
+                        )
                     );
-                    Notify(
-                        "Current Year Has Been Updated Successfully",
-                        NotificationType.Success,
-                        2000
-                    )
                     
                 )
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
@@ -459,18 +467,26 @@
                         NotificationType.Error,
                         2000
                     ),
-                    Patch(
-                        'HACT Config',
-                        LookUp(
-                            'HACT Config',
-                            'New Performance Year' = VarPrfmnceYr
+                    If(
+                        IsBlank(VarPrfmnceYr),
+                        Notify(
+                            "Please Enter New Performance Year",
+                            NotificationType.Error,
+                            2000
                         ),
-                        {'Current Quarter': 'Qurtr Drpdn'.SelectedText}
-                    );
-                    Notify(
-                        "Current Quarter Has Been Updated Successfully",
-                        NotificationType.Success,
-                        2000
+                        Patch(
+                            'HACT Config',
+                            LookUp(
+                                'HACT Config',
+                                'New Performance Year' = VarPrfmnceYr
+                            ),
+                            {'Current Quarter': 'Qurtr Drpdn'.SelectedText}
+                        );
+                        Notify(
+                            "Current Quarter Has Been Updated Successfully",
+                            NotificationType.Success,
+                            2000
+                        );
                     );
                     
                 )
