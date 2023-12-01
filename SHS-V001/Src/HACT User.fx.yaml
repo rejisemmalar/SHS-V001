@@ -441,9 +441,8 @@
         Form4 As form:
             BorderColor: =RGBA(166, 166, 166, 1)
             DataSource: ='SHS-Users_1'
-            DefaultMode: =FormMode.New
             Height: =325
-            Item: =Gallery6.Selected
+            Item: =Gallery8.Selected
             NumberOfColumns: =2
             Width: =937
             X: =40
