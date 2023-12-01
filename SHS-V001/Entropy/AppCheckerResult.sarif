@@ -14,46 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'HACT User'.Container11.Visible"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'HACT User'.Container11.Visible",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ShowPopup"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Visible",
-                "module": "HACT User",
-                "type": "'HACT User'.Container11"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ShowPopup"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Configuration.'Configuration(com)_1'.Configurationcom_menu"
                 }
               ],
