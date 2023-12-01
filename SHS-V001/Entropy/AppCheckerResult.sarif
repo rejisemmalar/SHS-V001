@@ -14,16 +14,16 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'HACT User'.Container12.Button9.OnSelect"
+                  "fullyQualifiedName": "'HACT User'.Container26.Button28.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'HACT User'.Container12.Button9.OnSelect",
+                  "fullyQualifiedName": "'HACT User'.Container26.Button28.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charOffset": 136,
+                  "charOffset": 160,
                   "snippet": {
                     "text": ""
                   }
@@ -32,7 +32,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "HACT User",
-                "type": "'HACT User'.Container12.Button9"
+                "type": "'HACT User'.Container26.Button28"
               }
             }
           ],

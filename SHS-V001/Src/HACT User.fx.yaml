@@ -424,7 +424,7 @@
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
             OnSelect: |-
-                =SubmitForm(Form4);UpdateContext({vareditShowPopup: false});Notify("The SHS users has been updated successfully",NotificationType.Success
+                =SubmitForm(Form4);UpdateContext({vareditShowPopup: false});Notify("The SHS users has been updated successfully",NotificationType.Success)
             PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
@@ -1488,7 +1488,7 @@
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =ColorFade(RGBA(105, 121, 126, 1), -10%)
                 OnSelect: |-
-                    =Remove('SHS-Users_1',Gallery8.Selected);UpdateContext({varshowdeletescreen:false})
+                    =Remove('SHS-Users_1',Gallery8.Selected);UpdateContext({varshowdeletescreen:false});Notify("The SHS users has been deleted successfully",NotificationType.Success
                 PressedBorderColor: =ColorFade(RGBA(105, 121, 126, 1), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =ColorFade(RGBA(105, 121, 126, 1), -30%)
