@@ -1,7 +1,5 @@
 {
   "dataSources": {},
   "environmentVariableName": "",
-  "instanceUrl": "https://orga8cbfd09.crm5.dynamics.com/",
-  "state": "Configured",
-  "webApiVersion": "v9.0"
+  "state": "NotConfigured"
 }
