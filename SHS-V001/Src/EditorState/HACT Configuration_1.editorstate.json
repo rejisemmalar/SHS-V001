@@ -283,14 +283,7 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "\"Text\"",
-          "InvariantPropertyName": "CurrentScreen",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "CurrentScreen",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -338,7 +331,7 @@
         {
           "Category": "Data",
           "PropertyName": "CurrentScreen",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "System"
         },
         {
           "Category": "Data",
