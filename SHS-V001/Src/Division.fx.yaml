@@ -1526,6 +1526,7 @@ Division As screen:
         ZIndex: =19
 
         Label19 As label:
+            Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -1534,8 +1535,11 @@ Division As screen:
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
-            Size: =13
+            FontWeight: =FontWeight.Bold
+            Height: =52
+            Size: =20
             Text: ="Edit division"
+            Width: =248
             X: =21
             Y: =24
             ZIndex: =1
