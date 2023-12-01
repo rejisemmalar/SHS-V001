@@ -6143,36 +6143,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Division.varShowPopup"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Division.varShowPopup",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "varShowPopup",
-                "module": "Division",
-                "type": "Division"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Segment.ShowPopupedit"
                 }
               ],
