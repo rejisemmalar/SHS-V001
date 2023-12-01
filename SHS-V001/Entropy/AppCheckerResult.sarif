@@ -6203,6 +6203,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'HACT User'.vareditShowPopup"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'HACT User'.vareditShowPopup",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "vareditShowPopup",
+                "module": "HACT User",
+                "type": "'HACT User'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Segment.ShowPopupedit"
                 }
               ],
