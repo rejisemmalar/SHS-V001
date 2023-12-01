@@ -346,6 +346,7 @@ Division As screen:
 
     Container35 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Light
+        Fill: =RGBA(169, 169, 169, .75)
         Height: =768
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
@@ -353,4 +354,32 @@ Division As screen:
         RadiusTopRight: =4
         Width: =1366
         ZIndex: =16
+
+    Container36 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Fill: =RGBA(253, 222, 207, 1)
+        Height: =582
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1064
+        X: =247
+        Y: =147
+        ZIndex: =17
+
+        Label18 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Size: =13
+            Text: ="Text"
+            X: =39
+            Y: =27
+            ZIndex: =1
 
