@@ -2,6 +2,7 @@
     LoadingSpinnerColor: =RGBA(105, 121, 126, 1)
 
     Component1_21 As Component1:
+        CurrentScreen: ="Configuration"
         Height: =768
 
     "'Heading Text' As label":
